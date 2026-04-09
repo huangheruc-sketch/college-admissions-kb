@@ -1,129 +1,146 @@
 # Yale Admission Data
 
-> 本页数据覆盖 Class of 2025–2029（最近 5 个申请周期）。CDS 数据来自 2024-25 版（Class of 2028）、2023-24 版（Class of 2027）和 2021-22 版（Class of 2025）。
+> 本页优先使用 Yale 官方来源：OIR Common Data Set、Yale News、Yale Admissions、Yale College 官方页面。最近 5 个周期按 Class of 2025–2029 展示；缺失字段标记为「—」。
 
 ---
 
 ## Section 1：录取核心数据大表
 
-### 表 1-A：标化成绩与 GPA
+### 表 1-A：申请量、录取量、入学量、录取率
 
 | 指标 | Class of 2029 | Class of 2028 | Class of 2027 | Class of 2026 | Class of 2025 |
 |---|---|---|---|---|---|
-| **SAT/ACT 政策** | Test-Flexible（Required: SAT/ACT/AP/IB 至少一项） | Test-Optional | Test-Optional | Test-Optional | Test-Optional |
-| **SAT 阅读写作 25th / 50th / 75th** | — | 730 / 760 / 780 | 740 / 760 / 780 | — | 730 / — / 780 |
-| **SAT 数学 25th / 50th / 75th** | — | 740 / 780 / 790 | 760 / 780 / 800 | — | 750 / — / 800 |
-| **ACT 综合 25th / 50th / 75th** | — | 33 / 34 / 35 | 33 / 34 / 35 | — | 33 / — / 35 |
-| **SAT 提交率** | — | 61% | 56% | — | 54% |
-| **ACT 提交率** | — | 25% | 26% | — | 35% |
-| **Top 10% 占比** | — | 96% | 96% | — | — |
-| **Top 25% 占比** | — | 99% | 99% | — | — |
-| **班级排名提交率** | — | 33% | 28% | — | — |
+| 申请人数 | 50,228 | 57,517 | 52,000+ | 50,060 | 49,000+（官方新闻稿为 all admissions programs 总量口径） |
+| 录取人数 | 2,308 | 2,227 | — | 2,289 | 2,169 |
+| 入学人数 | 1,650（计划扩招目标） | 1,554 | 1,647 | 1,554 | 1,789 |
+| 录取率 | 4.6% | 3.9% | 4.5% | 4.57% | — |
+| Yield | — | — | 72% | — | — |
+| Waitlist 录取 | — | 23 | 0 | 9 | — |
 
-> **注：** Class of 2029 的 CDS 2025-26 尚未发布。Yale 从 Class of 2029 起要求提交 SAT/ACT/AP/IB 中至少一项（test-flexible），结束了 4 年的 test-optional 政策。
+> 注：
+> 1. Class of 2029 新闻稿给出申请人数与录取人数，并宣布 Yale College first-year class size 将扩至 **1,650**。但 2025-26 CDS 尚未发布，最终入学人数与 yield 暂记为「— / 规划值」。
+> 2. Class of 2027 存在官方新闻稿“52,000+ applicants”与 2023-24 CDS“57,517 applied”口径差异；本页在趋势分析中优先注明口径差异，不强行合并。
 
-### 表 1-B：录取因素重要性（CDS C7）
+### 表 1-B：标化与学术背景（CDS）
 
-| 因素 | Class of 2028（CDS 2024-25） |
-|---|---|
-| **课程难度（Rigor）** | Very Important |
-| **班级排名（Class Rank）** | Very Important |
-| **文书（Essay）** | Very Important |
-| **推荐信** | Very Important |
-| **课外活动** | Very Important |
-| **才能/能力（Talent）** | Very Important |
-| **品格/个人特质** | Very Important |
-| **标化成绩** | Considered |
-| **面试（Interview）** | Considered |
-| **校友关系（Legacy）** | Considered |
-| **地理来源** | Considered |
-| **州居民身份** | Considered |
-| **工作经验** | Considered |
-| **宗教** | Not Considered |
-| **兴趣展示（Demonstrated Interest）** | — |
+| 指标 | Class of 2029 | Class of 2028 | Class of 2027 | Class of 2026 | Class of 2025 |
+|---|---|---|---|---|---|
+| 标化政策 | Required（test-flexible） | Test-optional | Test-optional | Test-optional | Test-optional |
+| SAT 提交率 | — | 61% | 56% | 59% | — |
+| ACT 提交率 | — | 25% | 26% | 29% | — |
+| SAT Composite 25th / 50th / 75th | — | 1480 / 1530 / 1560 | 1500 / 1540 / 1560 | 1470 / 1540 / 1560 | — |
+| SAT ERW 25th / 50th / 75th | — | 730 / 760 / 780 | 740 / 760 / 780 | 740 / 760 / 780 | — |
+| SAT Math 25th / 50th / 75th | — | 740 / 780 / 790 | 760 / 780 / 800 | 760 / 780 / 800 | — |
+| ACT Composite 25th / 50th / 75th | — | 33 / 34 / 35 | 33 / 34 / 35 | 33 / 35 / 35 | — |
+| Top 10% 占比 | — | 96% | 96% | 97% | — |
+| Top 25% 占比 | — | 99% | 99% | 99% | — |
+| Class rank 提交率 | — | 33% | 28% | 28.05% | — |
+| GPA 数据 | — | — | — | — | — |
 
-> **注：** Yale CDS 2024-25 中 GPA 未单独列为 Very Important 因素，课程难度和班级排名承担了学术评估功能。First-generation 在部分分析中被标注为 Important。
+> Yale CDS 连续多年未公开 GPA 分布，因此 GPA 统一标「—」。
 
-### 表 1-C：学生构成（Class of 2028 入学队列，CDS 2024-25）
+### 表 1-C：录取因素重要性（CDS C7）
 
-| 指标 | 数值 |
-|---|---|
-| **International 比例** | 10.9% |
-| **Hispanic/Latino** | 18.6% |
-| **Black / African American** | 9.6% |
-| **Asian** | 20.6% |
-| **White** | 29.8% |
-| **Two or More Races** | 6.4% |
-| **American Indian / Alaska Native** | 0.5% |
-| **Native Hawaiian / Pacific Islander** | 0.1% |
-| **Race/Ethnicity Unknown** | 3.5% |
-| **女性比例** | ~50%（772 women / 1,554 total） |
+| 因素 | Class of 2028（2024-25 CDS） | Class of 2027（2023-24 CDS） | Class of 2026（2022-23 CDS） |
+|---|---|---|---|
+| 课程难度（Rigor） | Very Important | Very Important | Very Important |
+| 班级排名（Class Rank） | Very Important | Very Important | Very Important |
+| Academic GPA | Very Important | Very Important | Very Important |
+| 标化考试 | Considered | Considered | Considered |
+| 文书 | Very Important | Very Important | Very Important |
+| 推荐信 | Very Important | Very Important | Very Important |
+| 课外活动 | Very Important | Very Important | Very Important |
+| Talent / Ability | Very Important | Very Important | Very Important |
+| Character / Personal Qualities | Very Important | Very Important | Very Important |
+| 面试 | Considered | Not Considered | Considered |
+| First-generation | Considered | Considered | Considered |
+| Legacy | Considered | Considered | Considered |
+| Geographic Residence | Considered | Considered | Considered |
+| State Residency | Considered | Considered | Considered |
+| Volunteer Work | Considered | Considered | Considered |
+| Work Experience | Considered | Considered | Considered |
+| Religious Affiliation | Not Considered | Not Considered | Not Considered |
+| Demonstrated Interest | Not Considered | Not Considered | Not Considered |
+| Racial / Ethnic Status | — | — | Considered |
+
+### 表 1-D：新生构成与社会经济背景
+
+| 指标 | Class of 2029 | Class of 2028 | Class of 2027 | Class of 2026 | Class of 2025 |
+|---|---|---|---|---|---|
+| Pell Grant 比例 | — | 25%（385+ 人） | 22%（360+ 人） | — | — |
+| First-generation 比例 | — | 21% | 21% | — | — |
+| Need-based aid 覆盖 | — | 58%+ | 多数（majority） | — | 50%+ |
+| 平均 Yale Scholarship | — | $74,000+ | $71,663 | — | $61,500 |
+| 高中数量 | 1,575+ | 1,100+ | 1,200+ | — | 1,221 |
+| 国家数 | 65 | 55 | 68 | — | 67 |
+| 美国州 / 领地覆盖 | 50 州 + DC + 4 个领地 | 52 个州 / 领地 | 53 个州 / 领地 | — | 48 州 + DC + PR + USVI |
+| 申请学术项目数 / majors | 83 | 83 | 83 | — | 79 |
 
 ---
 
-## Section 2：5 年申请趋势
+## Section 2：最近 5 年趋势
 
-### 表 2-A：申请量 / 录取率 / Yield
+### 表 2-A：申请热度与班级规模趋势
 
-| Class of | 申请人数 | 录取人数 | 录取率 | 入学人数 |
-|---|---|---|---|---|
-| 2029 | 50,228 | 2,308 | 4.6% | — |
-| 2028 | 57,517 | 2,227 | 3.9% | 1,554 |
-| 2027 | 51,803 | 2,332 | 4.5% | 1,641 |
-| 2026 | 50,015 | 2,234 | 4.5% | ~1,560 |
-| 2025 | 47,240 | 2,509 | 5.3% | 1,786 |
+| Class of | 申请 / 规模趋势 |
+|---|---|
+| 2025 | 疫情周期，最终入学班级异常偏大，达到 1,789 人，其中含 335 名上一届 defer 学生 |
+| 2026 | CDS 显示 50,060 申请、2,289 录取、1,554 入学；test-optional 延续 |
+| 2027 | 新生入学人数升至 1,647，官方新闻稿称 yield 达历史高位 72% |
+| 2028 | 申请量再创新高；CDS 显示 57,517 申请、录取率 3.9%、waitlist 录取 23 人 |
+| 2029 | 50,228 申请、2,308 录取；同时 Yale 宣布首年班级规模扩至 1,650 |
 
-> **数据来源：** Yale OIR CDS 各年版本 + Yale Daily News / Crimson Education 报道。
->
-> **趋势说明：**
-> - 申请量在 Class of 2028 达峰值 57,517（COVID 时代 test-optional 推高），Class of 2029 降至 50,228（恢复 test-flexible）。
-> - 录取率在 Class of 2028 达历史最低 3.9%，Class of 2029 回升至 4.6%。
-> - Class of 2025 入学人数偏高（1,786），因当年增发 offer。
+### 趋势解读
 
-### 表 2-B：Waitlist 数据
+- **申请量高位波动**：Class of 2026–2028 都处于超高申请量区间，Class of 2028 在 Yale CDS 中达到 57,517。  
+- **录取率长期处于 3.9%–4.6% 超低区间**：Yale 仍稳定位于极低录取率学校。  
+- **班级规模存在制度性变化**：Class of 2025 因 defer 叠加异常大；Class of 2027 因 yield 异常高而扩大；Class of 2029 则是 Yale 主动扩招。  
+- **Waitlist 利用率波动大**：Class of 2027 从 1,145 人 waitlist 中 0 人录取；Class of 2028 则录取 23 人，说明 Yale waitlist 高度取决于当年 yield。  
 
-| 指标 | Class of 2028（CDS 2024-25） | Class of 2027（CDS 2023-24） | Class of 2025（CDS 2021-22） |
+### 表 2-B：学术兴趣趋势（官方新闻稿口径）
+
+| 指标 | Class of 2028 | Class of 2027 | Class of 2025 |
 |---|---|---|---|
-| Offered Waitlist | 773 | 1,145 | 1,030 |
-| Accepted Waitlist | 565 | 899 | 774 |
-| Admitted from Waitlist | 23 | 0 | 4 |
-| Waitlist Ranked | No | No | No |
+| Arts & Humanities 首兴趣 | 23% | 23% | 26% |
+| Social Sciences 首兴趣 | 28% | 29% | 32% |
+| Physical Sciences / Engineering 首兴趣 | 33% | 32% | 25% |
+| Life Sciences 首兴趣 | 17% | 17% | 17% |
+| 列多个 major 兴趣 | 98%+ | 98%+ | 96%+ |
+| 跨两个及以上学科类别 | 87% | 81% | 84% |
 
-### 表 2-C：Early Action 数据
+### 趋势要点
 
-| Class of | SCEA 申请人数 | SCEA 录取人数 | SCEA 录取率 |
-|---|---|---|---|
-| 2029 | 6,729 | 728 | 10.8% |
-| 2028 | — | — | — |
-| 2027 | — | — | — |
+- **STEM 首兴趣明显抬升**：Class of 2025 的 physical sciences / engineering 首兴趣为 25%，到 Class of 2028 升至 33%。  
+- **Life sciences 稳定**：近三届都约为 17%。  
+- **Yale 的“exploration before major”定位真实反映在数据里**：几乎所有新生都列出多个兴趣方向，且大量跨学科。  
 
 ---
 
-## Section 3：STEM / Engineering 专项
+## Section 3：STEM / Engineering
 
-### Yale STEM 概况
+### 表 3-A：STEM 兴趣与工程相关信号
 
-Yale 不设独立的工程学院本科录取。所有学生通过统一的 Yale College 录取，入学后自由选择专业。
+| 指标 | Class of 2028 | Class of 2027 | Class of 2025 |
+|---|---|---|---|
+| STEM 首兴趣总占比 | 50%（33% physical sciences / engineering + 17% life sciences） | 49%（32% + 17%） | 42%（25% + 17%） |
+| Physical Sciences / Engineering | 33% | 32% | 25% |
+| Life Sciences | 17% | 17% | 17% |
+| 最常见 incoming majors（新闻 / profile 公开样例） | Biomedical Engineering、Computer Science、Economics、English、Environmental Studies、EP&E、Global Affairs、History、Molecular Biophysics & Biochemistry、MCDB 等 | — | Biomedical Engineering、Chemistry、Computer Science、Economics、English、EP&E、Global Affairs 等 |
 
-STEM 相关专业包括：
-- Computer Science
-- Electrical Engineering
-- Mechanical Engineering & Materials Science
-- Biomedical Engineering
-- Chemical & Environmental Engineering
-- Applied Mathematics
-- Applied Physics
-- Statistics & Data Science
+### Yale STEM 读法
 
-> Yale 本科不按专业录取（与 Harvard 类似）。申请阶段填写的 intended major 仅为参考。
+1. **Yale 的 STEM 吸引力近年上升明显**：官方新闻稿显示，physical sciences / engineering 作为第一兴趣方向，已从 Class of 2025 的 25% 升到 Class of 2028 的 33%。  
+2. **并非按专业直接录取**：Yale 在申请时只要求学生填写最多 3 个感兴趣学科领域，后续仍允许在校内探索和调整。  
+3. **工程 / 计算机科学已成为可见热门方向**：官方公开的 incoming major 样例中，多次点名 Biomedical Engineering 与 Computer Science。  
 
-### STEM 兴趣趋势
+### 补充：专业结果端官方数据
 
-| 指标 | 数值 | 来源 |
+| 项目 | 数据 | 来源 |
 |---|---|---|
-| CS 专业声明人数（2023 届） | ~200 | Yale Daily News |
-| Engineering 本科生总数 | ~600（所有 engineering majors 合计） | Yale SEAS |
-| STEM 整体占比趋势 | 持续增长，CS 是 Yale 最大专业之一 | — |
+| Bachelor’s Degrees Awarded by Major | OIR 提供官方表 W014 | 可用于后续继续细化 CS / engineering 毕业人数趋势 |
+| Junior and Senior Majors by Gender | OIR 提供官方表 W045 | 可用于后续继续细化当前在读 major 结构 |
+
+> 本轮未直接抽到 W014 / W045 的逐年数字，因此具体 major 毕业人数暂标「—」，但官方数据入口已明确存在。
 
 ---
 
@@ -131,37 +148,58 @@ STEM 相关专业包括：
 
 ### 关键人物
 
-**Jeremiah Quinlan — Dean of Undergraduate Admissions**
-- 2013 年起担任 Dean
-- Yale College 校友
-- 主导了 test-optional → test-flexible 政策转变
+**Jeremiah Quinlan — Dean of Undergraduate Admissions and Financial Aid**  
+- Yale 官方新闻稿与 admissions 官方页面多次以该头衔引用。  
+- 2023 年获 Yale 续任，Dean Lewis 在官方公告中评价其前两任期具有“historic”意义。  
+- 在 Class of 2027、2028、2029 相关官方新闻稿中，Quinlan 持续作为招生政策、yield、扩招与多元化回应的主要发言人。  
+- Yale News 2023 文中明确写到：Quinlan 为 **Yale College Class of 2003**。  
 
-### 近年重大政策变化
+**Hannah Mendlowitz — Admissions Office Leader in First-Year Process / Recruitment**  
+- Yale Admissions 官方博客历史页面写明其曾任 **Senior Assistant Director of Admissions and Director of Recruitment**。  
+- 在 Class of 2029 录取新闻稿中，官方引用其对新 test-flexible policy 下申请人送分选择的说明。  
 
-**1. Test-Optional → Test-Flexible 转变**
-- Class of 2025–2028：因 COVID-19 实施 test-optional
-- Class of 2029 起：恢复要求提交 SAT/ACT/AP/IB 中至少一项（test-flexible）
-- 影响：申请量从 57,517（Class of 2028）降至 50,228（Class of 2029）
+**Mark Dunn — Senior Associate Director for Outreach and Recruitment**  
+- 在 Class of 2029 录取新闻稿中，以 **senior associate director for outreach and recruitment** 身份出面介绍 Bulldog Days 与 admitted student outreach。  
+- 与 Hannah 一同主持 Yale Admissions 官方播客 *Inside the Yale Admissions Office*。  
 
-**2. Single-Choice Early Action（SCEA）**
-- Yale 采用非绑定的限制性提前行动，申请者不可同时申请其他学校的 EA/ED（公立大学、海外大学、1 月后放榜的 Round 2 除外）
-- Yale 官方表示 SCEA 不给予录取优势
+**Pericles Lewis — Dean of Yale College**  
+- 并非招生办主任，但在 Yale College 层面参与招生政策回应、扩招与 Supreme Court ruling 后的制度沟通。  
+- Yale College 官方页面明确其为 Yale College Dean。  
 
-**3. SFFA 裁决后族裔变化**
-- Class of 2028 是 post-SFFA 首个完整周期
-- Asian 占比从历年 ~26-28% 变化中的具体数据待 Class of 2029 profile 公布后更新
+### 招办制度与政策信号
 
-**4. Legacy 政策**
-- CDS C7 中 alumni/ae relation 标注为 "Considered"
-- Yale 尚未宣布取消 legacy 考量
+| 主题 | 官方信息 |
+|---|---|
+| 对 demonstrated interest 的态度 | Yale admissions contact 页面明确写明：不追踪活动报名或与招生办联系记录来评估申请 |
+| 对面试的态度 | 面试是 evaluative，但不是人人都有，也不是必需 |
+| 对 Supreme Court ruling 的响应 | Class of 2028 新闻稿明确：申请审阅者不再看到自报 race/ethnicity 数据；招生相关人员接受了新的合规培训 |
+| 对班级规模的态度 | Class of 2029 周期，Yale 官方宣布 first-year class size 增加 100 人至 1,650 |
+| 对标化的态度 | 从“完全 test-optional”回到“test-flexible required”，要求 ACT / SAT / AP / IB 四类考试之一 |
+
+### 当前可确认、不可确认字段
+
+| 字段 | 状态 |
+|---|---|
+| 招办负责人姓名与头衔 | ✅ 可确认 |
+| 招办公开政策取向 | ✅ 可确认 |
+| 招办人员薪酬 | — |
+| 招办组织架构完整表 | — |
 
 ---
 
 ## Sources
-- [Yale OIR: Common Data Set](https://oir.yale.edu/common-data-set) — CDS 2024-25 / 2023-24 / 2021-22
-- [Yale Admissions: Profile of the First-Year Class](https://admissions.yale.edu/profile)
-- [Yale Admissions: IPEDS Data](https://admissions.yale.edu/ipeds)
-- [Yale Daily News: Class of 2029 Admissions](https://yaledailynews.com/blog/2025/03/27/yale-admits-4-59-percent-of-applicants-marking-slight-uptick-in-acceptance-rate/)
-- [Yale News: Class of 2029 Matriculation](https://news.yale.edu/2025/09/03/new-first-year-transfer-and-adult-students-begin-their-yale-college-journey)
-- [Crimson Education: Yale Acceptance Rate](https://www.crimsoneducation.org/us/blog/yale-acceptance-rate)
-- [Cosmic College: Yale CDS 2024-25 Analysis](https://www.cosmic.nyc/blog/yale-admissions-2024-2025)
+
+- https://oir.yale.edu/sites/default/files/yale_cds_2024-25_rmd_20250612.pdf
+- https://oir.yale.edu/sites/default/files/cds_yale_2023-24_vf_20240320.pdf
+- https://oir.yale.edu/sites/default/files/cds_yale_2022-2023_vf_10062023.pdf
+- https://news.yale.edu/2025/03/27/yale-admits-2308-applicants-class-2029
+- https://news.yale.edu/2024/09/04/new-undergraduates-begin-their-yale-college-journey
+- https://news.yale.edu/2023/08/20/record-setting-group-new-students-arrives-yale
+- https://news.yale.edu/2021/08/27/class-2025-sets-new-marks-achievement-and-diversity
+- https://admissions.yale.edu/requirements
+- https://admissions.yale.edu/standardized-testing
+- https://admissions.yale.edu/interviews
+- https://admissions.yale.edu/contact
+- https://yalecollege.yale.edu/pericles-lewis-dean-yale-college
+- https://oir.yale.edu/data-browser/student-data/degrees/bachelors-degrees-awarded-major-w014
+- https://oir.yale.edu/data-browser/student-data/degrees/junior-and-senior-majors-gender-w045
