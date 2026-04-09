@@ -1,9 +1,8 @@
 # Stanford Case Study
 
-## 本页用途
-这里将汇集 Stanford 的公开案例与样本摘要，帮助用户结合背景信息建立更直观的理解。
+| Case ID | Class of | 专业 | GPA | ACT | STEM | 完整度 | 可信度 |
+|---|---|---|---|---|---|---|---|
+| [alishaz](./cases/alishaz.md) | 年份未知 | B.S., Political Science | 4.5 | 33 | 否 | Complete | Medium |
 
-## 建议阅读顺序
-- 先看 [Stanford Admission Data](./admission-data.md)
-- 再看本页理解公开样本
-- 如需回看依据，请返回 [Stanford Sources](./sources.md)
+## Sources
+- 当前案例来源：唯尚留学 × AdmitSee 电子书（HYPS Real Essays & EC List）
