@@ -1,0 +1,466 @@
+{
+  "school": "harvard",
+  "updatedAt": "2026-04-09",
+  "hubSummary": {
+    "admissionMetricCount": 6,
+    "caseCount": 2,
+    "sourceCount": 8
+  },
+  "admissionHighlights": [
+    {
+      "label": "Applicants",
+      "value": 47893,
+      "sourceId": "source-harvard-2026-007",
+      "roomLink": "./sources.md"
+    },
+    {
+      "label": "Admitted",
+      "value": 2003,
+      "sourceId": "source-harvard-2026-007",
+      "roomLink": "./sources.md"
+    },
+    {
+      "label": "Engineering Share",
+      "value": "25%",
+      "sourceId": "source-harvard-2026-007",
+      "roomLink": "./sources.md"
+    },
+    {
+      "label": "REA Deadline",
+      "value": "November 1",
+      "sourceId": "source-harvard-2026-005",
+      "roomLink": "./sources.md"
+    },
+    {
+      "label": "RD Deadline",
+      "value": "January 1",
+      "sourceId": "source-harvard-2026-005",
+      "roomLink": "./sources.md"
+    },
+    {
+      "label": "Testing Policy",
+      "value": "SAT or ACT required; exceptional alternatives listed when tests are inaccessible.",
+      "sourceId": "source-harvard-2026-006",
+      "roomLink": "./sources.md"
+    }
+  ],
+  "relatedCases": [
+    {
+      "caseId": "2026001-Claire",
+      "sampleTitle": "Claire's Essay",
+      "sourceId": "source-harvard-2026-008",
+      "sourceType": "public_media",
+      "signals": [
+        "Personal essay centered on family, language, and poetry.",
+        "Editorial review on page emphasizes reflective voice and identity formation."
+      ],
+      "casePath": "cases/2026001-claire.md"
+    },
+    {
+      "caseId": "2026002-Anonymous",
+      "sampleTitle": "Shemmassian Example #1 (Harvard admit)",
+      "sourceId": "source-harvard-2026-004",
+      "sourceType": "consulting_public",
+      "signals": [
+        "方向信号：science / research-oriented",
+        "Essay describes a Notre Dame REU research experience in biological sciences.",
+        "Source frames it as a Harvard-admit example and notes identifying details were changed."
+      ],
+      "casePath": "cases/2026002-anonymous.md"
+    }
+  ],
+  "caseStudyExplorer": {
+    "records": [
+      {
+        "case_id": "2026001-Claire",
+        "school": "Harvard",
+        "application_cycle": "2026",
+        "source_id": "source-harvard-2026-008",
+        "source_type": "public_media",
+        "sample_title": "Claire",
+        "result": "admitted_to_harvard",
+        "confidence_level": "medium",
+        "completeness_score": "medium",
+        "public_signals": [
+          "Personal essay centered on family, language, and poetry.",
+          "Editorial review on page emphasizes reflective voice and identity formation."
+        ]
+      },
+      {
+        "case_id": "2026002-Anonymous",
+        "school": "Harvard",
+        "application_cycle": "2026",
+        "source_id": "source-harvard-2026-004",
+        "source_type": "consulting_public",
+        "sample_title": "Anonymous",
+        "result": "admitted_to_harvard",
+        "confidence_level": "medium",
+        "completeness_score": "medium",
+        "public_signals": [
+          "方向信号：science / research-oriented",
+          "Essay describes a Notre Dame REU research experience in biological sciences.",
+          "Source frames it as a Harvard-admit example and notes identifying details were changed."
+        ]
+      }
+    ]
+  },
+  "admissionDataExplorer": {
+    "records": [
+      {
+        "record_id": "harvard-admission-2026-applicants",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "statistics",
+        "metric_group": "application_volume",
+        "track": "all_applicants",
+        "label": "Applicants",
+        "value": "47893",
+        "source_id": "source-harvard-2026-007",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Class of 2029 official admissions statistics.",
+          "Useful as the top-line demand baseline for the current cycle."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-admitted",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "statistics",
+        "metric_group": "application_volume",
+        "track": "all_applicants",
+        "label": "Admitted",
+        "value": "2003",
+        "source_id": "source-harvard-2026-007",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Official admitted count for the cycle.",
+          "Can be paired with applicants to understand selectivity context."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-enrolling",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "statistics",
+        "metric_group": "enrollment_outcome",
+        "track": "all_applicants",
+        "label": "Enrolling",
+        "value": "1675",
+        "source_id": "source-harvard-2026-007",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Official enrolling count captured in the same statistics page.",
+          "Helps distinguish admits from final enrolled cohort size."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-engineering-share",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "statistics",
+        "metric_group": "academic_interest_share",
+        "track": "stem_engineering",
+        "label": "Engineering Share",
+        "value": "25%",
+        "source_id": "source-harvard-2026-007",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Share of enrolled students intending engineering.",
+          "This is the current Harvard STEM-facing track signal in the MVP."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-rea-deadline",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "timeline",
+        "metric_group": "deadline",
+        "track": "rea",
+        "label": "REA Deadline",
+        "value": "November 1",
+        "source_id": "source-harvard-2026-005",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Restrictive Early Action application deadline.",
+          "Represents timeline-type admission data rather than numeric statistics."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-rd-deadline",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "timeline",
+        "metric_group": "deadline",
+        "track": "regular_decision",
+        "label": "RD Deadline",
+        "value": "January 1",
+        "source_id": "source-harvard-2026-005",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Regular Decision application deadline.",
+          "Lets users isolate timeline-specific items in the explorer."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-testing-policy",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "requirements",
+        "metric_group": "policy_requirement",
+        "track": "application_requirements",
+        "label": "Testing Policy",
+        "value": "SAT or ACT required; exceptional alternatives listed when tests are inaccessible.",
+        "source_id": "source-harvard-2026-006",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Requirement-style policy information from the official application requirements page.",
+          "Useful for separating policy signals from statistics and deadlines."
+        ]
+      },
+      {
+        "record_id": "harvard-admission-2026-recommendations",
+        "school": "Harvard",
+        "cycle_year": "2026",
+        "source_role": "requirements",
+        "metric_group": "policy_requirement",
+        "track": "application_requirements",
+        "label": "Teacher Recommendations",
+        "value": "Two teacher recommendations in different academic subjects.",
+        "source_id": "source-harvard-2026-006",
+        "room_link": "../schools/harvard/admission-data.md",
+        "notes": [
+          "Official recommendation requirement.",
+          "Keeps the MVP grounded in actual requirements data, not only numbers."
+        ]
+      }
+    ]
+  },
+  "admissionSources": [
+    {
+      "sourceId": "source-harvard-2026-007",
+      "title": "Harvard Admissions Statistics (Class of 2029)",
+      "url": "https://college.harvard.edu/admissions/admissions-statistics",
+      "module": "admission_data.statistics",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Admission Data",
+          "link": "admission-data.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-006",
+      "title": "Harvard Application Requirements",
+      "url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "module": "admission_data.requirements",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Admission Data",
+          "link": "admission-data.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-005",
+      "title": "Harvard Application Timeline",
+      "url": "https://college.harvard.edu/admissions/apply/application-timeline",
+      "module": "admission_data.timeline",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Admission Data",
+          "link": "admission-data.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    }
+  ],
+  "caseSources": [
+    {
+      "sourceId": "source-harvard-2026-008",
+      "title": "10 Successful Harvard Essays | 2025",
+      "url": "https://business.thecrimson.com/10-successful-harvard-essays-2025",
+      "module": "case_study.public_media",
+      "sourceType": "public_media",
+      "usedIn": [
+        {
+          "label": "Case Study",
+          "link": "case-study.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-004",
+      "title": "Shemmassian College Essay Examples (Harvard examples included)",
+      "url": "https://www.shemmassianconsulting.com/blog/college-essay-examples",
+      "module": "case_study.consulting_public",
+      "sourceType": "consulting_public",
+      "usedIn": [
+        {
+          "label": "Case Study",
+          "link": "case-study.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    }
+  ],
+  "allSourceUsage": [
+    {
+      "sourceId": "source-harvard-2026-001",
+      "title": "Harvard First-Year Applicants",
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+      "module": "fact_sheet.timeline",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Fact Sheet",
+          "link": "fact-sheet.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-002",
+      "title": "Harvard Application Requirements",
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants/application-requirements",
+      "module": "fact_sheet.requirements",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Fact Sheet",
+          "link": "fact-sheet.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-003",
+      "title": "Harvard Application Timeline",
+      "url": "https://college.harvard.edu/admissions/apply/application-timeline",
+      "module": "fact_sheet.timeline_reference",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Fact Sheet",
+          "link": "fact-sheet.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-004",
+      "title": "Shemmassian College Essay Examples (Harvard examples included)",
+      "url": "https://www.shemmassianconsulting.com/blog/college-essay-examples",
+      "module": "case_study.consulting_public",
+      "sourceType": "consulting_public",
+      "usedIn": [
+        {
+          "label": "Case Study",
+          "link": "case-study.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-005",
+      "title": "Harvard Application Timeline",
+      "url": "https://college.harvard.edu/admissions/apply/application-timeline",
+      "module": "admission_data.timeline",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Admission Data",
+          "link": "admission-data.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-006",
+      "title": "Harvard Application Requirements",
+      "url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "module": "admission_data.requirements",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Admission Data",
+          "link": "admission-data.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-007",
+      "title": "Harvard Admissions Statistics (Class of 2029)",
+      "url": "https://college.harvard.edu/admissions/admissions-statistics",
+      "module": "admission_data.statistics",
+      "sourceType": "official",
+      "usedIn": [
+        {
+          "label": "Admission Data",
+          "link": "admission-data.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-harvard-2026-008",
+      "title": "10 Successful Harvard Essays | 2025",
+      "url": "https://business.thecrimson.com/10-successful-harvard-essays-2025",
+      "module": "case_study.public_media",
+      "sourceType": "public_media",
+      "usedIn": [
+        {
+          "label": "Case Study",
+          "link": "case-study.md"
+        },
+        {
+          "label": "Sources",
+          "link": "sources.md"
+        }
+      ]
+    }
+  ]
+}
