@@ -10,12 +10,12 @@ Caltech 是一所规模极小但极为精英的理工科研究型大学，由 **
 
 | Division | 缩写 | 本科生可选? | 官网 |
 |---|---|---|---|
-| **Biology and Biological Engineering** | BBE | ✅ | [bbe.caltech.edu](https://www.bbe.caltech.edu) |
-| **Chemistry and Chemical Engineering** | CCE | ✅ | [cce.caltech.edu](https://www.cce.caltech.edu) |
-| **Engineering and Applied Science** | EAS | ✅ | [eas.caltech.edu](https://www.eas.caltech.edu) |
-| **Geological and Planetary Sciences** | GPS | ✅ | [gps.caltech.edu](https://www.gps.caltech.edu) |
-| **Humanities and Social Sciences** | HSS | ✅ | [hss.caltech.edu](https://www.hss.caltech.edu) |
-| **Physics, Mathematics and Astronomy** | PMA | ✅ | [pma.caltech.edu](https://www.pma.caltech.edu) |
+| [**Biology and Biological Engineering**](#option-list) | BBE | ✅ | [bbe.caltech.edu](https://www.bbe.caltech.edu) |
+| [**Chemistry and Chemical Engineering**](#option-list) | CCE | ✅ | [cce.caltech.edu](https://www.cce.caltech.edu) |
+| [**Engineering and Applied Science**](#option-list) | EAS | ✅ | [eas.caltech.edu](https://www.eas.caltech.edu) |
+| [**Geological and Planetary Sciences**](#option-list) | GPS | ✅ | [gps.caltech.edu](https://www.gps.caltech.edu) |
+| [**Humanities and Social Sciences**](#option-list) | HSS | ✅ | [hss.caltech.edu](https://www.hss.caltech.edu) |
+| [**Physics, Mathematics and Astronomy**](#option-list) | PMA | ✅ | [pma.caltech.edu](https://www.pma.caltech.edu) |
 
 > **说明：** Caltech 本科生总数仅约 **1,000 人**，是所有顶尖研究型大学中最小的。6 个 division 均向本科生开放 major 选择。
 
@@ -25,6 +25,7 @@ Caltech 是一所规模极小但极为精英的理工科研究型大学，由 **
 
 Caltech 使用 **"Option"** 而非 "Major"。提供约 **28 个 Option**，全部授予 **B.S.** 学位。
 
+<a id="option-list"></a>
 ### 表 2-A：完整 Option 列表
 
 | Option | Division | 学位 |

@@ -256,8 +256,31 @@
     `).join('');
   }
 
-  function renderExplorerPagination(page, totalPages) {
+  function renderExplorerPagination(page, totalPages, mode = 'simple') {
     if (totalPages <= 1) return '';
+
+    if (mode === 'numbered') {
+      const windowSize = 7;
+      let start = Math.max(1, page - Math.floor(windowSize / 2));
+      let end = Math.min(totalPages, start + windowSize - 1);
+      start = Math.max(1, end - windowSize + 1);
+
+      const pageButtons = [];
+      for (let current = start; current <= end; current += 1) {
+        pageButtons.push(`<button type="button" class="explorer-page-btn ${current === page ? 'is-active' : ''}" data-page-number="${current}">${current}</button>`);
+      }
+
+      return `
+        <div class="explorer-pagination">
+          <button type="button" class="explorer-page-btn" data-page-action="prev" ${page <= 1 ? 'disabled' : ''}>上一页</button>
+          ${start > 1 ? `<button type="button" class="explorer-page-btn" data-page-number="1">1</button>${start > 2 ? '<span class="explorer-page-ellipsis">...</span>' : ''}` : ''}
+          ${pageButtons.join('')}
+          ${end < totalPages ? `${end < totalPages - 1 ? '<span class="explorer-page-ellipsis">...</span>' : ''}<button type="button" class="explorer-page-btn" data-page-number="${totalPages}">${totalPages}</button>` : ''}
+          <button type="button" class="explorer-page-btn" data-page-action="next" ${page >= totalPages ? 'disabled' : ''}>下一页</button>
+        </div>
+      `;
+    }
+
     return `
       <div class="explorer-pagination">
         <button type="button" class="explorer-page-btn" data-page-action="prev" ${page <= 1 ? 'disabled' : ''}>上一页</button>
@@ -273,6 +296,16 @@
         if (button.dataset.pageAction === 'prev' && pageState.page > 1) pageState.page -= 1;
         if (button.dataset.pageAction === 'next' && pageState.page < pageState.totalPages) pageState.page += 1;
         rerender();
+      });
+    });
+
+    node.querySelectorAll('[data-page-number]').forEach(button => {
+      button.addEventListener('click', () => {
+        const nextPage = Number(button.dataset.pageNumber || 1);
+        if (!Number.isNaN(nextPage) && nextPage >= 1 && nextPage <= pageState.totalPages) {
+          pageState.page = nextPage;
+          rerender();
+        }
       });
     });
   }
@@ -595,6 +628,15 @@
     `;
   }
 
+  function buildProgramFilterOptions(records) {
+    return uniq(records.map(item => item.program_name).filter(Boolean)).sort();
+  }
+
+  function buildDisciplineAreaOptions(records) {
+    const options = uniq(records.map(item => item.discipline_area).filter(value => value !== undefined && value !== null)).sort();
+    return options.includes('') ? options.map(value => value || 'Not specified') : [...options, 'Not specified'];
+  }
+
   function renderAcademicProgramsExplorer(node, payload) {
     const records = extractRecords(payload, ['records', 'programs']).map(normalizeAcademicProgramRecord);
     if (!records.length) {
@@ -612,6 +654,7 @@
       division: node.dataset.division || '',
       degree_category: node.dataset.degreeCategory || '',
       discipline_area: node.dataset.disciplineArea || '',
+      program_name: '',
       search: ''
     };
     const pageState = { page: 1, pageSize: 50, totalPages: 1 };
@@ -622,7 +665,12 @@
         if (filters.school && item.school !== filters.school) return false;
         if (filters.division && item.division !== filters.division) return false;
         if (filters.degree_category && item.degree_category !== filters.degree_category) return false;
-        if (filters.discipline_area && item.discipline_area !== filters.discipline_area) return false;
+        if (filters.discipline_area) {
+          if (filters.discipline_area === 'Not specified') {
+            if (item.discipline_area) return false;
+          } else if (item.discipline_area !== filters.discipline_area) return false;
+        }
+        if (filters.program_name && item.program_name !== filters.program_name) return false;
         if (searchLower && !item.program_name.toLowerCase().includes(searchLower)) return false;
         return true;
       });
@@ -640,6 +688,7 @@
       if (filters.division) summaryBits.push(`Division: ${filters.division}`);
       if (filters.degree_category) summaryBits.push(`Degree: ${filters.degree_category}`);
       if (filters.discipline_area) summaryBits.push(`Area: ${filters.discipline_area}`);
+      if (filters.program_name) summaryBits.push(`Program: ${filters.program_name}`);
       if (filters.search) summaryBits.push(`Search: ${filters.search}`);
 
       node.innerHTML = `
@@ -655,7 +704,8 @@
             ${renderExplorerFilter('School', 'school', getCoverageOptions(payload, 'school').length ? getCoverageOptions(payload, 'school') : getUniqueOptions(records, 'school'), filters.school)}
             ${renderExplorerFilter('College / Division', 'division', divisionOptions, filters.division)}
             ${renderExplorerFilter('Degree Type', 'degree_category', getUniqueOptions(records, 'degree_category'), filters.degree_category)}
-            ${renderExplorerFilter('Discipline Area', 'discipline_area', getUniqueOptions(records, 'discipline_area').filter(Boolean), filters.discipline_area)}
+            ${renderExplorerFilter('Discipline Area', 'discipline_area', buildDisciplineAreaOptions(records), filters.discipline_area)}
+            ${renderExplorerFilter('Program', 'program_name', buildProgramFilterOptions(records), filters.program_name)}
             <label class="explorer-filter">
               <span>Search Program</span>
               <input type="text" data-filter-key="search" placeholder="e.g. Computer Science" value="${escapeHtml(filters.search)}">
@@ -667,7 +717,7 @@
           </div>
           <div class="linked-note explorer-data-note">数据来自各校 academic-data 页面，仅包含本科可选专业。不同学校可能称之为 major / concentration / option。</div>
           <div class="explorer-results explorer-results-table">${renderAcademicProgramsExplorerResults(display)}</div>
-          ${renderExplorerPagination(pageState.page, pageState.totalPages)}
+          ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
         </section>
       `;
       bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });

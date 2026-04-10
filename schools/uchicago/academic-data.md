@@ -11,11 +11,11 @@ University of Chicago 本科教育通过 **The College** 进行，另有 **5 所
 | 学院 | 本科生可选? | 说明 |
 |---|---|---|
 | **The College** | ✅ 本科主体 | 文理科统一本科教育 |
-| **Division of the Biological Sciences / Pritzker School of Medicine** | ✅ major 可选 | 生物科学 + 医学院 |
-| **Division of the Humanities** | ✅ major 可选 | 人文学科 |
-| **Division of the Physical Sciences** | ✅ major 可选 | 物理/数学/计算机 |
-| **Division of the Social Sciences** | ✅ major 可选 | 社会科学 |
-| **Pritzker School of Molecular Engineering** | ✅ major 可选 | 分子工程（2019 年成立） |
+| [**Division of the Biological Sciences / Pritzker School of Medicine**](#biological-sciences) | ✅ major 可选 | 生物科学 + 医学院 |
+| [**Division of the Humanities**](#humanities) | ✅ major 可选 | 人文学科 |
+| [**Division of the Physical Sciences**](#physical-sciences) | ✅ major 可选 | 物理/数学/计算机 |
+| [**Division of the Social Sciences**](#social-sciences) | ✅ major 可选 | 社会科学 |
+| [**Pritzker School of Molecular Engineering**](#molecular-engineering) | ✅ major 可选 | 分子工程（2019 年成立） |
 | Booth School of Business | ❌ 仅研究生 | MBA/PhD |
 | Law School | ❌ | J.D./LL.M. |
 | Harris School of Public Policy | ❌ | M.P.P. |
@@ -30,6 +30,7 @@ University of Chicago 本科教育通过 **The College** 进行，另有 **5 所
 
 The College 提供约 **55 个 major** 和 **40+ 个 minor**。学生入学后自由选择，**不按专业录取**。
 
+<a id="humanities"></a>
 ### 表 2-A：Humanities
 
 | Major | 学位 |
@@ -56,6 +57,7 @@ The College 提供约 **55 个 major** 和 **40+ 个 minor**。学生入学后�
 | Theater and Performance Studies | B.A. |
 | Visual Arts | B.A. |
 
+<a id="social-sciences"></a>
 ### 表 2-B：Social Sciences
 
 | Major | 学位 |
@@ -76,6 +78,7 @@ The College 提供约 **55 个 major** 和 **40+ 个 minor**。学生入学后�
 | Public Policy Studies | B.A. |
 | Sociology | B.A. |
 
+<a id="physical-sciences"></a>
 ### 表 2-C：Physical Sciences & Mathematics
 
 | Major | 学位 |
@@ -91,6 +94,7 @@ The College 提供约 **55 个 major** 和 **40+ 个 minor**。学生入学后�
 | Physics | B.A./B.S. |
 | Statistics | B.A./B.S. |
 
+<a id="biological-sciences"></a>
 ### 表 2-D：Biological Sciences
 
 | Major | 学位 |
@@ -99,6 +103,7 @@ The College 提供约 **55 个 major** 和 **40+ 个 minor**。学生入学后�
 | Biological Sciences | B.A./B.S. |
 | Neuroscience | B.A./B.S. |
 
+<a id="molecular-engineering"></a>
 ### 表 2-E：Molecular Engineering (PME)
 
 | Major | 学位 |

@@ -10,12 +10,12 @@ UCLA 本科教育通过 **5 所本科学院/学校** 提供。
 
 | 学院 | 本科生可选? | 录取方式 | 说明 |
 |---|---|---|---|
-| **College of Letters and Science** | ✅ 最大（~75% 本科生） | 按学院录取 | 文理科综合 |
-| **Henry Samueli School of Engineering and Applied Science** | ✅ | 按学院录取 | 工程 |
-| **School of the Arts and Architecture** | ✅ | 按学院录取 | 艺术/建筑/设计/音乐 |
-| **Herb Alpert School of Music** | ✅ | 按学院录取（2016 年独立） | 音乐表演与学术 |
-| **School of Nursing** | ✅ | 按学院录取 | 护理学 B.S. |
-| School of Theater, Film and Television | ✅ | 按学院录取 | 影视/戏剧 |
+| [**College of Letters and Science**](#college-of-letters-and-science) | ✅ 最大（~75% 本科生） | 按学院录取 | 文理科综合 |
+| [**Henry Samueli School of Engineering and Applied Science**](#school-of-engineering) | ✅ | 按学院录取 | 工程 |
+| [**School of the Arts and Architecture**](#arts-and-architecture) | ✅ | 按学院录取 | 艺术/建筑/设计/音乐 |
+| [**Herb Alpert School of Music**](#arts-and-architecture) | ✅ | 按学院录取（2016 年独立） | 音乐表演与学术 |
+| [**School of Nursing**](#arts-and-architecture) | ✅ | 按学院录取 | 护理学 B.S. |
+| [School of Theater, Film and Television](#arts-and-architecture) | ✅ | 按学院录取 | 影视/戏剧 |
 | Anderson School of Management | ❌ 仅研究生 | — | MBA |
 | School of Law | ❌ | — | J.D. |
 | David Geffen School of Medicine | ❌ | — | M.D. |
@@ -32,6 +32,7 @@ UCLA 本科教育通过 **5 所本科学院/学校** 提供。
 
 UCLA 提供约 **130+ 个本科 major**，选择极为丰富。
 
+<a id="college-of-letters-and-science"></a>
 ### 表 2-A：College of Letters and Science — 热门 Major（部分）
 
 **Humanities**
@@ -95,6 +96,7 @@ UCLA 提供约 **130+ 个本科 major**，选择极为丰富。
 | Physics | B.S. |
 | Statistics and Data Science | B.S. |
 
+<a id="school-of-engineering"></a>
 ### 表 2-B：Henry Samueli School of Engineering — Major
 
 | Major | 学位 |
@@ -109,6 +111,7 @@ UCLA 提供约 **130+ 个本科 major**，选择极为丰富。
 | Materials Engineering | B.S. |
 | Mechanical Engineering | B.S. |
 
+<a id="arts-and-architecture"></a>
 ### 表 2-C：Arts & Architecture / Music / Theater, Film & Television / Nursing
 
 | Major | 学院 | 学位 |

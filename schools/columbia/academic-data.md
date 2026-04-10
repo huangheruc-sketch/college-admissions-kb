@@ -10,8 +10,8 @@ Columbia 本科教育通过 **3 所本科学院** 提供（另有 Barnard Colleg
 
 | 学院 | 缩写 | 录取方式 | 说明 |
 |---|---|---|---|
-| **Columbia College** | CC | 统一录取 | 文理科本科主体（Core Curriculum） |
-| **Fu Foundation School of Engineering and Applied Science** | SEAS | 单独录取 | 工程与应用科学 |
+| [**Columbia College**](#columbia-college) | CC | 统一录取 | 文理科本科主体（Core Curriculum） |
+| [**Fu Foundation School of Engineering and Applied Science**](#seas) | SEAS | 单独录取 | 工程与应用科学 |
 | **School of General Studies** | GS | 单独录取 | 非传统学生（转学/成人/退伍军人） |
 | *Barnard College* | BC | 独立录取 | 附属女子学院，可选 Columbia 课程 |
 
@@ -41,6 +41,7 @@ Columbia 本科教育通过 **3 所本科学院** 提供（另有 Barnard Colleg
 
 ## Section 2：本科 Major 列表
 
+<a id="columbia-college"></a>
 ### 表 2-A：Columbia College — 主要 Major（约 80+ 个）
 
 **Humanities & Arts**
@@ -110,6 +111,7 @@ Columbia 本科教育通过 **3 所本科学院** 提供（另有 Barnard Colleg
 | Physics | B.A. |
 | Statistics | B.A. |
 
+<a id="seas"></a>
 ### 表 2-B：SEAS — 本科 Major
 
 | Major | 学位 |

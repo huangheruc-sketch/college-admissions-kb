@@ -10,11 +10,11 @@ UC Berkeley 本科教育通过 **5 个 College/School** 提供，学生在申请
 
 | 学院 | 缩写 | 本科生可选? | 说明 |
 |---|---|---|---|
-| **College of Letters & Science** | L&S | ✅ 最大学院（~70% 本科生） | 文理科综合 |
-| **College of Engineering** | CoE | ✅ 按学院录取 | 工程与 EECS |
-| **College of Chemistry** | CoC | ✅ 按学院录取 | Chemistry & Chemical Engineering |
-| **Rausser College of Natural Resources** | CNR | ✅ | 环境/农业/营养科学 |
-| **College of Environmental Design** | CED | ✅ | 建筑/城市规划/景观 |
+| [**College of Letters & Science**](#college-of-letters-and-science) | L&S | ✅ 最大学院（~70% 本科生） | 文理科综合 |
+| [**College of Engineering**](#college-of-engineering) | CoE | ✅ 按学院录取 | 工程与 EECS |
+| [**College of Chemistry**](#other-colleges) | CoC | ✅ 按学院录取 | Chemistry & Chemical Engineering |
+| [**Rausser College of Natural Resources**](#other-colleges) | CNR | ✅ | 环境/农业/营养科学 |
+| [**College of Environmental Design**](#other-colleges) | CED | ✅ | 建筑/城市规划/景观 |
 | Haas School of Business | Haas | ⚠️ 大二申请转入 | 本科商科 |
 | School of Education | — | ❌ 仅研究生 | — |
 | School of Law | — | ❌ | — |
@@ -33,6 +33,7 @@ UC Berkeley 本科教育通过 **5 个 College/School** 提供，学生在申请
 
 UC Berkeley 提供约 **150+ 个本科 major**，是美国提供 major 数量最多的大学之一。
 
+<a id="college-of-letters-and-science"></a>
 ### 表 2-A：College of Letters & Science — 热门 Major（部分）
 
 | Major | 学位 | 分类 |
@@ -58,6 +59,7 @@ UC Berkeley 提供约 **150+ 个本科 major**，是美国提供 major 数量最
 | Rhetoric | B.A. | Arts & Humanities |
 | Philosophy | B.A. | Arts & Humanities |
 
+<a id="college-of-engineering"></a>
 ### 表 2-B：College of Engineering — Major
 
 | Major | 学位 |
@@ -73,6 +75,7 @@ UC Berkeley 提供约 **150+ 个本科 major**，是美国提供 major 数量最
 | Mechanical Engineering | B.S. |
 | Nuclear Engineering | B.S. |
 
+<a id="other-colleges"></a>
 ### 表 2-C：其他学院
 
 | Major | 学院 | 学位 |
