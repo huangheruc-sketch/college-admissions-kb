@@ -17,6 +17,15 @@
 | source-harvard-2026-006 | testing policy / recommendation policy | Harvard Application Requirements | [Open](https://college.harvard.edu/admissions/apply/application-requirements) |
 | source-harvard-2026-005 | deadline / notification windows | Harvard Application Timeline | [Open](https://college.harvard.edu/admissions/apply/application-timeline) |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-harvard-2026-009 | school structure / degree trends / concentration list | OIRA Fact Book: Degrees Awarded | [Open](https://oira.harvard.edu/factbook/fact-book-degrees/) |
+| source-harvard-2026-010 | school list / founding years | Harvard University Schools | [Open](https://www.harvard.edu/academics/schools/) |
+| source-harvard-2026-011 | undergraduate academics overview | Harvard College: Liberal Arts & Sciences | [Open](https://college.harvard.edu/academics/liberal-arts-sciences) |
+| source-harvard-2026-012 | SEAS undergraduate concentrations | SEAS Undergraduate Concentrations | [Open](https://seas.harvard.edu/prospective-students/prospective-undergraduate-students/what-concentrations-majors-are-part-seas) |
+
 ## Case Study Sources
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |

@@ -2,6 +2,7 @@
     - [Harvard](/schools/harvard/index.md)
         - [Fact Sheet](/schools/harvard/fact-sheet.md)
         - [Admission Data](/schools/harvard/admission-data.md)
+        - [Academic Data](/schools/harvard/academic-data.md)
         - [Case Study](/schools/harvard/case-study.md)
         - [Sources](/schools/harvard/sources.md)
     - [Stanford](/schools/stanford/index.md)
