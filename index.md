@@ -80,12 +80,24 @@
 
 ## Sources
 
-<div class="product-route-grid">
+<div class="product-route-grid product-route-grid-3">
   <div class="product-route-card">
     <div class="product-route-step">Sources</div>
     <h3>Sources Index</h3>
     <p>查看全站来源索引，按学校回溯数据和案例所引用的公开材料。</p>
     <p><a href="/indexes/sources-index.md">进入 Sources</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">School Sources</div>
+    <h3>Harvard Sources</h3>
+    <p>查看 Harvard 的 Fact Sheet、Admission Data 和 Case Study 来源页。</p>
+    <p><a href="/schools/harvard/sources.md">打开 Harvard Sources</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">School Sources</div>
+    <h3>Stanford Sources</h3>
+    <p>查看 Stanford 的来源页与对应分栏入口。</p>
+    <p><a href="/schools/stanford/sources.md">打开 Stanford Sources</a></p>
   </div>
 </div>
 
