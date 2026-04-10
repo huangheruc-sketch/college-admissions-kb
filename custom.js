@@ -515,23 +515,37 @@
     if (!records.length) {
       return renderExplorerEmpty('当前条件下没有匹配的专业/项目', '请放宽筛选条件，或回到学校页查看完整列表。');
     }
-    return records.map(item => {
-      const schoolLink = item.source_page ? `<a href="${escapeHtml(item.source_page)}">${escapeHtml(item.school)}</a>` : escapeHtml(item.school);
-      return `
-        <article class="linked-card explorer-result-card explorer-result-card-compact">
-          <div class="explorer-result-topline">
-            <span class="linked-eyebrow">${schoolLink}</span>
-            <span class="explorer-badge">${escapeHtml(item.degree || item.degree_category || 'N/A')}</span>
-          </div>
-          <h4>${escapeHtml(item.program_name)}</h4>
-          <div class="explorer-chip-row">
-            ${item.division ? `<span class="explorer-chip">${escapeHtml(item.division)}</span>` : ''}
-            ${item.discipline_area ? `<span class="explorer-chip">${escapeHtml(item.discipline_area)}</span>` : ''}
-            ${item.original_label && item.original_label !== 'major' ? `<span class="explorer-chip">${escapeHtml(labelize(item.original_label))}</span>` : ''}
-          </div>
-        </article>
-      `;
-    }).join('');
+    return `
+      <div class="explorer-table-wrap">
+        <table class="explorer-table explorer-table-programs">
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Program</th>
+              <th>College / Division</th>
+              <th>Degree</th>
+              <th>Area</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${records.map(item => {
+              const schoolLink = item.source_page ? `<a href="${escapeHtml(item.source_page)}">${escapeHtml(item.school)}</a>` : escapeHtml(item.school);
+              return `
+                <tr>
+                  <td>${schoolLink}</td>
+                  <td>${escapeHtml(item.program_name)}</td>
+                  <td>${escapeHtml(item.division || '—')}</td>
+                  <td>${escapeHtml(item.degree || item.degree_category || '—')}</td>
+                  <td>${escapeHtml(item.discipline_area || '—')}</td>
+                  <td>${escapeHtml(item.original_label && item.original_label !== 'major' ? labelize(item.original_label) : 'Major')}</td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
   }
 
   function renderAcademicProgramsExplorer(node, payload) {
@@ -604,7 +618,7 @@
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
           <div class="linked-note explorer-data-note">数据来自各校 academic-data 页面，仅包含本科可选专业。不同学校可能称之为 major / concentration / option。</div>
-          <div class="linked-grid linked-grid-2 explorer-results">${renderAcademicProgramsExplorerResults(display)}</div>
+          <div class="explorer-results explorer-results-table">${renderAcademicProgramsExplorerResults(display)}</div>
         </section>
       `;
       bindExplorerControls(node, filters, applyFilters);
