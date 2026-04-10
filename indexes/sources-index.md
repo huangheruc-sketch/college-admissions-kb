@@ -16,17 +16,17 @@ updated_at: 2026-04-09
 ## 来源概览
 | School | Source Coverage | Coverage Notes |
 |--------|-----------------|----------------|
-| [Harvard](../schools/harvard/sources.md) | active | fact sheet / admission data / case study sources available |
-| [Stanford](../schools/stanford/sources.md) | scaffolded | source tables ready for population |
-| [Caltech](../schools/caltech/sources.md) | scaffolded | source tables ready for population |
-| [Columbia](../schools/columbia/sources.md) | scaffolded | source tables ready for population |
-| [Cornell](../schools/cornell/sources.md) | scaffolded | source tables ready for population |
-| [MIT](../schools/mit/sources.md) | scaffolded | source tables ready for population |
-| [Princeton](../schools/princeton/sources.md) | scaffolded | source tables ready for population |
-| [UC Berkeley](../schools/uc-berkeley/sources.md) | scaffolded | source tables ready for population |
-| [UChicago](../schools/uchicago/sources.md) | scaffolded | source tables ready for population |
-| [UCLA](../schools/ucla/sources.md) | scaffolded | source tables ready for population |
-| [Yale](../schools/yale/sources.md) | scaffolded | source tables ready for population |
+| [Harvard](../schools/harvard/sources.md) | populated | 已补充 Fact Sheet、Admission Data 与 Case Study 来源 |
+| [Stanford](../schools/stanford/sources.md) | populated | 已补充 Fact Sheet、Admission Data 与 Case Study 来源 |
+| [Caltech](../schools/caltech/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [Columbia](../schools/columbia/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [Cornell](../schools/cornell/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [MIT](../schools/mit/sources.md) | populated | 已补充 Fact Sheet、Admission Data 与 Case Study 来源 |
+| [Princeton](../schools/princeton/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [UC Berkeley](../schools/uc-berkeley/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [UChicago](../schools/uchicago/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [UCLA](../schools/ucla/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
+| [Yale](../schools/yale/sources.md) | populated | 已补充 Fact Sheet 与 Admission Data 来源；Case Study 暂无案例 |
 
 ## 来源页的作用
 - 回看学校页面主要依据了哪些公开来源

@@ -36,5 +36,3 @@
 - [Generated Admission Data](./admission-data.generated.md)
 - [Generated Case Study](./case-study.generated.md)
 
-## 来源反向链接区
-<div data-linked-view="sources">加载来源反向链接区...</div>
