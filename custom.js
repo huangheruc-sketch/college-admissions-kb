@@ -256,38 +256,65 @@
     `).join('');
   }
 
+  function renderExplorerPagination(page, totalPages) {
+    if (totalPages <= 1) return '';
+    return `
+      <div class="explorer-pagination">
+        <button type="button" class="explorer-page-btn" data-page-action="prev" ${page <= 1 ? 'disabled' : ''}>上一页</button>
+        <span class="explorer-page-status">第 ${page} / ${totalPages} 页</span>
+        <button type="button" class="explorer-page-btn" data-page-action="next" ${page >= totalPages ? 'disabled' : ''}>下一页</button>
+      </div>
+    `;
+  }
+
+  function bindExplorerPagination(node, pageState, rerender) {
+    node.querySelectorAll('[data-page-action]').forEach(button => {
+      button.addEventListener('click', () => {
+        if (button.dataset.pageAction === 'prev' && pageState.page > 1) pageState.page -= 1;
+        if (button.dataset.pageAction === 'next' && pageState.page < pageState.totalPages) pageState.page += 1;
+        rerender();
+      });
+    });
+  }
+
   function renderCaseStudyExplorerResults(records) {
     if (!records.length) {
       return renderExplorerEmpty('当前条件下没有案例', '这通常表示当前聚合数据尚未覆盖该组合；请放宽筛选，或回到学校页查看原始内容。');
     }
 
-    return records.map(item => {
-      const caseLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['case_page_path'], labelKeys: ['case_id'] });
-      const schoolLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['school_page_path'], labelKeys: ['school'] });
-      const sourceLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['source_page_path'], labelKeys: ['source_id'] });
-      return `
-        <article class="linked-card explorer-result-card">
-          <div class="explorer-result-topline">
-            <span class="linked-eyebrow">${escapeHtml(item.school || 'Unknown school')} · ${escapeHtml(item.application_cycle || 'Cycle n/a')}</span>
-            <span class="explorer-badge">${escapeHtml(labelize(item.result || 'result_n/a'))}</span>
-          </div>
-          <h4>${escapeHtml(item.sample_title)}</h4>
-          <div class="explorer-chip-row">
-            ${item.track ? `<span class="explorer-chip">${escapeHtml(labelize(item.track))}</span>` : ''}
-            ${item.major ? `<span class="explorer-chip">${escapeHtml(item.major)}</span>` : ''}
-            ${item.source_type ? `<span class="explorer-chip">${escapeHtml(labelize(item.source_type))}</span>` : ''}
-            ${item.completeness ? `<span class="explorer-chip">${escapeHtml(labelize(item.completeness))}</span>` : ''}
-            ${item.confidence ? `<span class="explorer-chip">${escapeHtml(labelize(item.confidence))}</span>` : ''}
-          </div>
-          ${item.public_signals.length ? `<ul>${item.public_signals.slice(0, 4).map(signal => `<li>${escapeHtml(signal)}</li>`).join('')}</ul>` : ''}
-          <div class="explorer-result-meta">
-            <div><strong>Case</strong> ${caseLink.route ? `<a href="${escapeHtml(caseLink.route)}">${escapeHtml(caseLink.label || item.case_id || 'Open case')}</a>` : escapeHtml(item.case_id || 'n/a')}</div>
-            <div><strong>School</strong> ${schoolLink.route ? `<a href="${escapeHtml(schoolLink.route)}">${escapeHtml(schoolLink.label || item.school || 'Open school')}</a>` : escapeHtml(item.school || 'n/a')}</div>
-            <div><strong>Source</strong> ${sourceLink.route ? `<a href="${escapeHtml(sourceLink.route)}">${escapeHtml(sourceLink.label || item.source_id || 'Open source')}</a>` : escapeHtml(item.source_id || 'n/a')}</div>
-          </div>
-        </article>
-      `;
-    }).join('');
+    return `
+      <div class="explorer-table-wrap">
+        <table class="explorer-table explorer-table-cases">
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Cycle</th>
+              <th>Case</th>
+              <th>Result</th>
+              <th>Track / Major</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${records.map(item => {
+              const caseLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['case_page_path'], labelKeys: ['case_id'] });
+              const schoolLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['school_page_path'], labelKeys: ['school'] });
+              const sourceLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['source_page_path'], labelKeys: ['source_id'] });
+              return `
+                <tr>
+                  <td>${schoolLink.route ? `<a href="${escapeHtml(schoolLink.route)}">${escapeHtml(schoolLink.label || item.school || 'Open school')}</a>` : escapeHtml(item.school || '—')}</td>
+                  <td>${escapeHtml(item.application_cycle || '—')}</td>
+                  <td>${caseLink.route ? `<a href="${escapeHtml(caseLink.route)}">${escapeHtml(item.sample_title)}</a>` : escapeHtml(item.sample_title)}</td>
+                  <td>${escapeHtml(labelize(item.result || '—'))}</td>
+                  <td>${escapeHtml(item.major || item.track || '—')}</td>
+                  <td>${sourceLink.route ? `<a href="${escapeHtml(sourceLink.route)}">${escapeHtml(item.source_id || 'Open source')}</a>` : escapeHtml(item.source_id || '—')}</td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
   }
 
   function renderAdmissionDataExplorerResults(records) {
@@ -295,33 +322,39 @@
       return renderExplorerEmpty('当前条件下没有招生数据', '这表示当前聚合数据中没有可直接比较的记录；请修改筛选，或进入学校页查看完整上下文。');
     }
 
-    return records.map(item => {
-      const detailLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['room_link', 'school_page_path'], labelKeys: ['label'] });
-      const schoolLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['school_page_path'], labelKeys: ['school'] });
-      const sourceLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['source_page_path'], labelKeys: ['source_id'] });
-      return `
-        <article class="linked-card explorer-result-card explorer-result-card-compact">
-          <div class="explorer-result-topline">
-            <span class="linked-eyebrow">${escapeHtml(item.school || 'Unknown school')} · ${escapeHtml(item.cycle_year || 'Cycle n/a')}</span>
-            <span class="explorer-badge">${escapeHtml(labelize(item.metric_type || 'metric'))}</span>
-          </div>
-          <h4>${detailLink.route ? `<a href="${escapeHtml(detailLink.route)}">${escapeHtml(item.label)}</a>` : escapeHtml(item.label)}</h4>
-          <div class="linked-metric explorer-inline-metric">${escapeHtml(item.value)}</div>
-          <div class="explorer-chip-row">
-            ${item.track ? `<span class="explorer-chip">${escapeHtml(labelize(item.track))}</span>` : ''}
-            ${item.source_tier ? `<span class="explorer-chip">${escapeHtml(labelize(item.source_tier))}</span>` : ''}
-            ${item.comparable_only ? '<span class="explorer-chip explorer-chip-strong">Comparable</span>' : ''}
-            ${item.statistic_scope ? `<span class="explorer-chip">${escapeHtml(labelize(item.statistic_scope))}</span>` : ''}
-          </div>
-          ${item.notes.length ? `<ul>${item.notes.slice(0, 3).map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul>` : ''}
-          <div class="explorer-result-meta">
-            <div><strong>School</strong> ${schoolLink.route ? `<a href="${escapeHtml(schoolLink.route)}">${escapeHtml(schoolLink.label || item.school || 'Open school')}</a>` : escapeHtml(item.school || 'n/a')}</div>
-            <div><strong>Source</strong> ${sourceLink.route ? `<a href="${escapeHtml(sourceLink.route)}">${escapeHtml(sourceLink.label || item.source_id || 'Open source')}</a>` : escapeHtml(item.source_id || 'n/a')}</div>
-            <div><strong>Detail</strong> ${detailLink.route ? `<a href="${escapeHtml(detailLink.route)}">Open metric context</a>` : 'n/a'}</div>
-          </div>
-        </article>
-      `;
-    }).join('');
+    return `
+      <div class="explorer-table-wrap">
+        <table class="explorer-table explorer-table-admission">
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Cycle</th>
+              <th>Metric</th>
+              <th>Value</th>
+              <th>Track</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${records.map(item => {
+              const detailLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['room_link', 'school_page_path'], labelKeys: ['label'] });
+              const schoolLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['school_page_path'], labelKeys: ['school'] });
+              const sourceLink = getLinkInfo(item, { schoolKeys: ['school_slug'], pathKeys: ['source_page_path'], labelKeys: ['source_id'] });
+              return `
+                <tr>
+                  <td>${schoolLink.route ? `<a href="${escapeHtml(schoolLink.route)}">${escapeHtml(schoolLink.label || item.school || 'Open school')}</a>` : escapeHtml(item.school || '—')}</td>
+                  <td>${escapeHtml(item.cycle_year || '—')}</td>
+                  <td>${detailLink.route ? `<a href="${escapeHtml(detailLink.route)}">${escapeHtml(item.label)}</a>` : escapeHtml(item.label)}</td>
+                  <td>${escapeHtml(item.value || '—')}</td>
+                  <td>${escapeHtml(item.track || '—')}</td>
+                  <td>${sourceLink.route ? `<a href="${escapeHtml(sourceLink.route)}">${escapeHtml(item.source_id || 'Open source')}</a>` : escapeHtml(item.source_id || '—')}</td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
   }
 
   function bindExplorerControls(node, filters, rerender) {
@@ -377,6 +410,7 @@
       completeness: node.dataset.completeness || '',
       confidence: node.dataset.confidence || ''
     };
+    const pageState = { page: 1, pageSize: 50, totalPages: 1 };
 
     function applyFilters() {
       const filtered = records.filter(item => Object.entries(filters).every(([key, value]) => {
@@ -384,6 +418,10 @@
         if (typeof value === 'boolean') return item[key] === value;
         return item[key] === value;
       }));
+      pageState.totalPages = Math.max(1, Math.ceil(filtered.length / pageState.pageSize));
+      if (pageState.page > pageState.totalPages) pageState.page = pageState.totalPages;
+      const start = (pageState.page - 1) * pageState.pageSize;
+      const display = filtered.slice(start, start + pageState.pageSize);
 
       const summaryBits = [];
       if (filters.school) summaryBits.push(`School: ${labelize(filters.school)}`);
@@ -415,14 +453,16 @@
             ${renderExplorerFilter('Confidence', 'confidence', getUniqueOptions(records, 'confidence'), filters.confidence)}
           </div>
           <div class="explorer-summary-bar">
-            <div><strong>${filtered.length}</strong> / ${records.length} 条案例匹配当前条件</div>
+            <div><strong>${filtered.length}</strong> / ${records.length} 条案例匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
           <div class="linked-note explorer-data-note">仅展示聚合数据中实际存在的学校与字段，不推断缺失学校/案例。</div>
-          <div class="linked-grid linked-grid-2 explorer-results">${renderCaseStudyExplorerResults(filtered)}</div>
+          <div class="explorer-results explorer-results-table">${renderCaseStudyExplorerResults(display)}</div>
+          ${renderExplorerPagination(pageState.page, pageState.totalPages)}
         </section>
       `;
-      bindExplorerControls(node, filters, applyFilters);
+      bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });
+      bindExplorerPagination(node, pageState, applyFilters);
     }
 
     applyFilters();
@@ -448,6 +488,7 @@
       source_tier: node.dataset.sourceTier || '',
       comparable_only: isTruthyLike(node.dataset.comparableOnly || false)
     };
+    const pageState = { page: 1, pageSize: 50, totalPages: 1 };
 
     function applyFilters() {
       const filtered = records.filter(item => Object.entries(filters).every(([key, value]) => {
@@ -455,6 +496,10 @@
         if (typeof value === 'boolean') return item[key] === value;
         return item[key] === value;
       }));
+      pageState.totalPages = Math.max(1, Math.ceil(filtered.length / pageState.pageSize));
+      if (pageState.page > pageState.totalPages) pageState.page = pageState.totalPages;
+      const start = (pageState.page - 1) * pageState.pageSize;
+      const display = filtered.slice(start, start + pageState.pageSize);
 
       const summaryBits = [];
       if (filters.school) summaryBits.push(`School: ${labelize(filters.school)}`);
@@ -482,14 +527,16 @@
             ${renderExplorerToggle('Comparable only', 'comparable_only', Boolean(filters.comparable_only))}
           </div>
           <div class="explorer-summary-bar">
-            <div><strong>${filtered.length}</strong> / ${records.length} 条记录匹配当前条件</div>
+            <div><strong>${filtered.length}</strong> / ${records.length} 条记录匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
           <div class="linked-note explorer-data-note">结果仅来自已聚合字段；若某学校缺席，表示数据层尚未供给，不在前端“补齐”。</div>
-          <div class="linked-grid linked-grid-2 explorer-results">${renderAdmissionDataExplorerResults(filtered)}</div>
+          <div class="explorer-results explorer-results-table">${renderAdmissionDataExplorerResults(display)}</div>
+          ${renderExplorerPagination(pageState.page, pageState.totalPages)}
         </section>
       `;
-      bindExplorerControls(node, filters, applyFilters);
+      bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });
+      bindExplorerPagination(node, pageState, applyFilters);
     }
 
     applyFilters();
@@ -567,6 +614,7 @@
       discipline_area: node.dataset.disciplineArea || '',
       search: ''
     };
+    const pageState = { page: 1, pageSize: 50, totalPages: 1 };
 
     function applyFilters() {
       const searchLower = filters.search.toLowerCase().trim();
@@ -582,6 +630,10 @@
       // Dynamically compute division options based on current school filter
       const divisionPool = filters.school ? records.filter(r => r.school === filters.school) : records;
       const divisionOptions = uniq(divisionPool.map(r => r.division).filter(Boolean)).sort();
+      pageState.totalPages = Math.max(1, Math.ceil(filtered.length / pageState.pageSize));
+      if (pageState.page > pageState.totalPages) pageState.page = pageState.totalPages;
+      const start = (pageState.page - 1) * pageState.pageSize;
+      const display = filtered.slice(start, start + pageState.pageSize);
 
       const summaryBits = [];
       if (filters.school) summaryBits.push(`School: ${filters.school}`);
@@ -589,10 +641,6 @@
       if (filters.degree_category) summaryBits.push(`Degree: ${filters.degree_category}`);
       if (filters.discipline_area) summaryBits.push(`Area: ${filters.discipline_area}`);
       if (filters.search) summaryBits.push(`Search: ${filters.search}`);
-
-      const PAGE_SIZE = 50;
-      const display = filtered.slice(0, PAGE_SIZE);
-      const hasMore = filtered.length > PAGE_SIZE;
 
       node.innerHTML = `
         <section class="linked-section explorer-shell">
@@ -614,23 +662,16 @@
             </label>
           </div>
           <div class="explorer-summary-bar">
-            <div><strong>${filtered.length}</strong> / ${records.length} 个专业匹配当前条件${hasMore ? `（显示前 ${PAGE_SIZE} 条）` : ''}</div>
+            <div><strong>${filtered.length}</strong> / ${records.length} 个专业匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
           <div class="linked-note explorer-data-note">数据来自各校 academic-data 页面，仅包含本科可选专业。不同学校可能称之为 major / concentration / option。</div>
           <div class="explorer-results explorer-results-table">${renderAcademicProgramsExplorerResults(display)}</div>
+          ${renderExplorerPagination(pageState.page, pageState.totalPages)}
         </section>
       `;
-      bindExplorerControls(node, filters, applyFilters);
-
-      // Also bind the text input for search
-      const searchInput = node.querySelector('input[data-filter-key="search"]');
-      if (searchInput) {
-        searchInput.addEventListener('input', event => {
-          filters.search = event.target.value;
-          applyFilters();
-        });
-      }
+      bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });
+      bindExplorerPagination(node, pageState, applyFilters);
     }
 
     applyFilters();

@@ -20,6 +20,9 @@
 
 ## Explorers
 - [Explorers](explorers/index.md)
+  - [Admission Data Explorer](explorers/admission-data-explorer.md)
+  - [Academic Programs Explorer](explorers/academic-programs-explorer.md)
+  - [Case Study Explorer](explorers/case-study-explorer.md)
 
 ## Sources
 - [Sources](indexes/sources-index.generated.md)
