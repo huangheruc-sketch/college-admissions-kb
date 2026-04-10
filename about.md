@@ -35,6 +35,6 @@
 当前 Harvard 内容最完整，Stanford 已建立标准页面入口，后续会继续扩展更多学校与内容层次。
 
 ## 使用建议
-- 想从学校入手：先看 [Universities](./indexes/universities-index.md)
+- 想从学校入手：先看 [Schools](./navigation.md)
 - 想看完整示范：先看 [Harvard](./schools/harvard/index.md)
 - 想按条件查找：进入 [Explorers](./explorers/index.md)

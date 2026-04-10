@@ -31,7 +31,7 @@
   <div class="product-route-card">
     <div class="product-route-step">Route 3</div>
     <h3>先看整体说明</h3>
-    <p>如果你是第一次使用，建议先看 About 和 Universities 索引建立整体认知。</p>
+    <p>如果你是第一次使用，建议先看 About 和 Schools 总览建立整体认知。</p>
     <p><a href="/about.md">查看 About</a></p>
   </div>
 </div>
@@ -78,9 +78,9 @@
   </div>
   <div class="product-route-card">
     <div class="product-route-step">Indexes</div>
-    <h3>Universities & Sources</h3>
-    <p>查看学校索引和来源索引，适合建立整体结构认知。</p>
-    <p><a href="/indexes/universities-index.generated.md">进入 Universities</a></p>
+    <h3>Schools & Sources</h3>
+    <p>查看学校总览和来源索引，适合建立整体结构认知。</p>
+    <p><a href="/navigation.md">进入 Schools</a></p>
   </div>
 </div>
 

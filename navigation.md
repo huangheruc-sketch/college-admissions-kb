@@ -1,11 +1,5 @@
 # Schools
 
-<div class="product-hero product-hero-soft product-hero-compact">
-  <div class="product-hero-eyebrow">Schools</div>
-  <h2>从学校总览进入，再按学校深入查看 Fact Sheet、Admission Data、Case Study 和 Sources。</h2>
-  <p>这里是学校层的统一入口，不再展示某一所学校的旧版目录内容。你可以先按学校浏览，也可以再进入 Explorer 做横向筛选。</p>
-</div>
-
 ## Available Schools
 
 <div class="product-entry-grid product-entry-grid-4">
