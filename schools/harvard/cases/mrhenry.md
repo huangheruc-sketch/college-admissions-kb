@@ -1,19 +1,5 @@
 # Harvard Case Study — mrhenry
 
-## 案例元数据（Meta）
-
-| 字段 | 内容 |
-|---|---|
-| Case ID | mrhenry |
-| 录取学校 | Harvard |
-| Class of | 年份未知 |
-| 申请轮次 | Not specified |
-| 来源类型 | 第三方案例集（唯尚留学 × AdmitSee 电子书） |
-| 来源链接 | Offline source / not linked |
-| 可信度 | Medium |
-| 完整度 | Complete |
-| STEM / Engineering | 否 |
-
 ## 申请人画像（Profile）
 
 | 字段 | 内容 |

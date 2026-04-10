@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "admission-data-explorer",
-  "generated_at": "2026-04-10T09:35:22.379961+00:00",
+  "generated_at": "2026-04-10T10:39:09.667280+00:00",
   "generated_from": [
     "wiki/schools/harvard/admission-data.md",
     "wiki/schools/stanford/admission-data.md",

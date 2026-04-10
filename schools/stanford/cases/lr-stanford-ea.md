@@ -1,19 +1,5 @@
 # Stanford Case Study — lr-stanford-ea
 
-## 案例元数据（Meta）
-
-| 字段 | 内容 |
-|---|---|
-| Case ID | lr-stanford-ea |
-| 录取学校 | Stanford |
-| Class of | 年份未知 |
-| 申请轮次 | EA（Early Action） |
-| 来源类型 | 咨询机构案例（InGenius Prep / 引知） |
-| 来源链接 | Offline source / not linked |
-| 可信度 | Medium |
-| 完整度 | Partial |
-| STEM / Engineering | 是 |
-
 ## 申请人画像（Profile）
 
 | 字段 | 内容 |

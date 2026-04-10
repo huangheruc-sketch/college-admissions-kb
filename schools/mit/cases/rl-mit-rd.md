@@ -1,19 +1,5 @@
 # MIT Case Study — rl-mit-rd
 
-## 案例元数据（Meta）
-
-| 字段 | 内容 |
-|---|---|
-| Case ID | rl-mit-rd |
-| 录取学校 | MIT |
-| Class of | Class of 2025（推测，基于 2021 案例） |
-| 申请轮次 | RD（Regular Decision） |
-| 来源类型 | 咨询机构案例（InGenius Prep / 引知） |
-| 来源链接 | Offline source / not linked |
-| 可信度 | Medium-High |
-| 完整度 | Partial |
-| STEM / Engineering | 是 |
-
 ## 申请人画像（Profile）
 
 | 字段 | 内容 |

@@ -1,13 +1,15 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-10T09:35:22.382265+00:00",
+  "generated_at": "2026-04-10T10:39:09.670222+00:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
     "wiki/schools/stanford/case-study.md",
     "wiki/schools/stanford/cases/alishaz.md",
-    "wiki/schools/mit/case-study.md"
+    "wiki/schools/stanford/cases/lr-stanford-ea.md",
+    "wiki/schools/mit/case-study.md",
+    "wiki/schools/mit/cases/rl-mit-rd.md"
   ],
   "coverage": [
     {
@@ -17,26 +19,28 @@
       "listed_case_count": 1,
       "extracted_record_count": 1,
       "source_page": "#/schools/harvard/case-study",
-      "note": "Extracted from the current Harvard summary table and linked case page."
+      "note": "Extracted from the current Harvard summary table and linked case page.",
+      "evidence_excerpt": "| [mrhenry](./cases/mrhenry.md) | 年份未知 | B.A., Social Sciences | 4.0 | SAT 1570 | 否 | Complete | Medium |"
     },
     {
       "school_slug": "stanford",
       "school": "Stanford",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 2,
+      "extracted_record_count": 2,
       "source_page": "#/schools/stanford/case-study",
-      "note": "Extracted from the current Stanford summary table and linked case page."
+      "note": "Extracted from the current Stanford summary table and linked case page.",
+      "evidence_excerpt": "| [alishaz](./cases/alishaz.md) | 年份未知 | B.S., Political Science | 4.5 | ACT 33 | 否 | Complete | Medium |"
     },
     {
       "school_slug": "mit",
       "school": "MIT",
-      "status": "no_public_cases_listed",
-      "listed_case_count": 0,
-      "extracted_record_count": 0,
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
       "source_page": "#/schools/mit/case-study",
-      "note": "Current MIT case-study page explicitly says 暂无案例; kept as coverage metadata instead of inventing a case.",
-      "evidence_excerpt": "| *暂无案例* | — | — | — | — | — | — | — "
+      "note": "Extracted from the current MIT summary table and linked case page.",
+      "evidence_excerpt": "| [rl-mit-rd](./cases/rl-mit-rd.md) | ~2025 | Engineering / Materials Sci. | 98/100 | SAT 1540 / ACT 36 | 是 | Partial | Medium-High |"
     }
   ],
   "records": [
@@ -100,6 +104,68 @@
         "summary_page": "wiki/schools/stanford/case-study.md",
         "detail_page": "wiki/schools/stanford/cases/alishaz.md",
         "case_row": "alishaz"
+      }
+    },
+    {
+      "case_id": "stanford-lr-stanford-ea",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "application_cycle": "unknown",
+      "sample_title": "lr-stanford-ea",
+      "intended_major": "Bioinformatics / Comp. Bio.",
+      "gpa": "100/100 W",
+      "test_score": "SAT: 1570",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium",
+      "source_page": "#/schools/stanford/case-study",
+      "school_page_path": "#/schools/stanford/case-study",
+      "source_page_path": "#/schools/stanford/case-study",
+      "case_page_path": "#/schools/stanford/cases/lr-stanford-ea",
+      "profile_path": "#/schools/stanford/cases/lr-stanford-ea",
+      "public_signals": [
+        "Region: East Coast（美国东海岸）",
+        "Other admits: Not specified",
+        "Awards: Overall Individual Top 50 — 某知名高中数学竞赛（具体赛事名称未披露）",
+        "Extracurricular: 在 UCLA 教授 Ramin Ramezani 指导下开展生物信息学/AI 医疗方向研究；论文以第一作者发表于 Nature Scientific Reports，被 PhD 研究者引用。"
+      ],
+      "extraction": {
+        "summary_page": "wiki/schools/stanford/case-study.md",
+        "detail_page": "wiki/schools/stanford/cases/lr-stanford-ea.md",
+        "case_row": "lr-stanford-ea"
+      }
+    },
+    {
+      "case_id": "mit-rl-mit-rd",
+      "school_slug": "mit",
+      "school": "MIT",
+      "application_cycle": "unknown",
+      "sample_title": "rl-mit-rd",
+      "intended_major": "Engineering / Materials Sci.",
+      "gpa": "98/100",
+      "test_score": "SAT: 1540",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium-High",
+      "source_page": "#/schools/mit/case-study",
+      "school_page_path": "#/schools/mit/case-study",
+      "source_page_path": "#/schools/mit/case-study",
+      "case_page_path": "#/schools/mit/cases/rl-mit-rd",
+      "profile_path": "#/schools/mit/cases/rl-mit-rd",
+      "public_signals": [
+        "Region: New York, USA",
+        "Other admits: Johns Hopkins, UC Berkeley 等",
+        "Awards: 美国 A 级击剑学生运动员",
+        "Extracurricular: 结合编程能力与击剑兴趣，开发击剑数据追踪 APP 并上架 Apple App Store。"
+      ],
+      "extraction": {
+        "summary_page": "wiki/schools/mit/case-study.md",
+        "detail_page": "wiki/schools/mit/cases/rl-mit-rd.md",
+        "case_row": "rl-mit-rd"
       }
     }
   ]
