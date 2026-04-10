@@ -1,15 +1,29 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-10T10:39:09.670222+00:00",
+  "generated_at": "2026-04-10T19:45:00.000000+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
     "wiki/schools/stanford/case-study.md",
     "wiki/schools/stanford/cases/alishaz.md",
     "wiki/schools/stanford/cases/lr-stanford-ea.md",
+    "wiki/schools/stanford/cases/jerry-wei.md",
+    "wiki/schools/stanford/cases/luo-spark.md",
     "wiki/schools/mit/case-study.md",
-    "wiki/schools/mit/cases/rl-mit-rd.md"
+    "wiki/schools/mit/cases/rl-mit-rd.md",
+    "wiki/schools/yale/case-study.md",
+    "wiki/schools/yale/cases/brian-zhang.md",
+    "wiki/schools/yale/cases/xiong-shenzhen.md",
+    "wiki/schools/yale/cases/geng-keystone.md",
+    "wiki/schools/yale/cases/hu-swfl.md",
+    "wiki/schools/yale/cases/li-swimmer.md",
+    "wiki/schools/yale/cases/wang-pinghe.md",
+    "wiki/schools/uc-berkeley/case-study.md",
+    "wiki/schools/uc-berkeley/cases/shanghai-robotics.md",
+    "wiki/schools/uc-berkeley/cases/shenzhen-bilibili.md",
+    "wiki/schools/uchicago/case-study.md",
+    "wiki/schools/uchicago/cases/admit-ai-econ.md"
   ],
   "coverage": [
     {
@@ -19,18 +33,16 @@
       "listed_case_count": 1,
       "extracted_record_count": 1,
       "source_page": "#/schools/harvard/case-study",
-      "note": "Extracted from the current Harvard summary table and linked case page.",
-      "evidence_excerpt": "| [mrhenry](./cases/mrhenry.md) | 年份未知 | B.A., Social Sciences | 4.0 | SAT 1570 | 否 | Complete | Medium |"
+      "note": "Unchanged from prior build."
     },
     {
       "school_slug": "stanford",
       "school": "Stanford",
       "status": "records_available",
-      "listed_case_count": 2,
-      "extracted_record_count": 2,
+      "listed_case_count": 4,
+      "extracted_record_count": 4,
       "source_page": "#/schools/stanford/case-study",
-      "note": "Extracted from the current Stanford summary table and linked case page.",
-      "evidence_excerpt": "| [alishaz](./cases/alishaz.md) | 年份未知 | B.S., Political Science | 4.5 | ACT 33 | 否 | Complete | Medium |"
+      "note": "Added jerry-wei (Complete/High) and luo-spark (Partial/High)."
     },
     {
       "school_slug": "mit",
@@ -39,8 +51,34 @@
       "listed_case_count": 1,
       "extracted_record_count": 1,
       "source_page": "#/schools/mit/case-study",
-      "note": "Extracted from the current MIT summary table and linked case page.",
-      "evidence_excerpt": "| [rl-mit-rd](./cases/rl-mit-rd.md) | ~2025 | Engineering / Materials Sci. | 98/100 | SAT 1540 / ACT 36 | 是 | Partial | Medium-High |"
+      "note": "Unchanged from prior build."
+    },
+    {
+      "school_slug": "yale",
+      "school": "Yale",
+      "status": "records_available",
+      "listed_case_count": 6,
+      "extracted_record_count": 6,
+      "source_page": "#/schools/yale/case-study",
+      "note": "New school. 6 cases from Business Insider and Tencent News."
+    },
+    {
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "status": "records_available",
+      "listed_case_count": 2,
+      "extracted_record_count": 2,
+      "source_page": "#/schools/uc-berkeley/case-study",
+      "note": "New school. 2 cases from 163.com and liuxue315.cn."
+    },
+    {
+      "school_slug": "uchicago",
+      "school": "UChicago",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/uchicago/case-study",
+      "note": "New school. 1 essay-only case from Admit AI."
     }
   ],
   "records": [
@@ -58,22 +96,13 @@
       "source_type": "public_case_page",
       "completeness_score": "Complete",
       "confidence_level": "Medium",
-      "source_page": "#/schools/harvard/case-study",
-      "school_page_path": "#/schools/harvard/case-study",
-      "source_page_path": "#/schools/harvard/case-study",
       "case_page_path": "#/schools/harvard/cases/mrhenry",
-      "profile_path": "#/schools/harvard/cases/mrhenry",
       "public_signals": [
         "Region: Vermont",
         "Other admits: Yale, Brown, Dartmouth, Williams, Swarthmore, Middlebury",
         "Awards: Vermont Presidential Scholar",
-        "Extracurricular: Principal Cellist of VYO and New England Music Festival; Assistant Principal and scholarship winner of All-State; Soloist with VYO (cello) and VT Philharmonic (piano)."
-      ],
-      "extraction": {
-        "summary_page": "wiki/schools/harvard/case-study.md",
-        "detail_page": "wiki/schools/harvard/cases/mrhenry.md",
-        "case_row": "mrhenry"
-      }
+        "Extracurricular: Principal Cellist of VYO and New England Music Festival"
+      ]
     },
     {
       "case_id": "stanford-alishaz",
@@ -89,22 +118,13 @@
       "source_type": "public_case_page",
       "completeness_score": "Complete",
       "confidence_level": "Medium",
-      "source_page": "#/schools/stanford/case-study",
-      "school_page_path": "#/schools/stanford/case-study",
-      "source_page_path": "#/schools/stanford/case-study",
       "case_page_path": "#/schools/stanford/cases/alishaz",
-      "profile_path": "#/schools/stanford/cases/alishaz",
       "public_signals": [
         "Region: Portland",
         "Other admits: Yale, Penn, Georgetown, UC Berkeley, USC, UCLA, BC",
         "Awards: Prudential Community Spirit Award — One of 5 National Winners",
-        "Extracurricular: Founded a national 501(c)(3) nonprofit organization that brings educational and recreational programs to youth experiencing homelessness in shelters; led over 400 volunteers."
-      ],
-      "extraction": {
-        "summary_page": "wiki/schools/stanford/case-study.md",
-        "detail_page": "wiki/schools/stanford/cases/alishaz.md",
-        "case_row": "alishaz"
-      }
+        "Extracurricular: Founded a national 501(c)(3) nonprofit for youth experiencing homelessness"
+      ]
     },
     {
       "case_id": "stanford-lr-stanford-ea",
@@ -120,22 +140,58 @@
       "source_type": "public_case_page",
       "completeness_score": "Partial",
       "confidence_level": "Medium",
-      "source_page": "#/schools/stanford/case-study",
-      "school_page_path": "#/schools/stanford/case-study",
-      "source_page_path": "#/schools/stanford/case-study",
       "case_page_path": "#/schools/stanford/cases/lr-stanford-ea",
-      "profile_path": "#/schools/stanford/cases/lr-stanford-ea",
       "public_signals": [
-        "Region: East Coast（美国东海岸）",
-        "Other admits: Not specified",
-        "Awards: Overall Individual Top 50 — 某知名高中数学竞赛（具体赛事名称未披露）",
-        "Extracurricular: 在 UCLA 教授 Ramin Ramezani 指导下开展生物信息学/AI 医疗方向研究；论文以第一作者发表于 Nature Scientific Reports，被 PhD 研究者引用。"
-      ],
-      "extraction": {
-        "summary_page": "wiki/schools/stanford/case-study.md",
-        "detail_page": "wiki/schools/stanford/cases/lr-stanford-ea.md",
-        "case_row": "lr-stanford-ea"
-      }
+        "Region: East Coast",
+        "Awards: Overall Individual Top 50 — math competition",
+        "Extracurricular: Bioinformatics/AI research under UCLA professor; first-author in Nature Scientific Reports"
+      ]
+    },
+    {
+      "case_id": "stanford-jerry-wei",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "application_cycle": "2025",
+      "sample_title": "jerry-wei",
+      "intended_major": "CS / Computational Linguistics",
+      "gpa": "4.826 W",
+      "test_score": "SAT: 1560",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Complete",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/stanford/cases/jerry-wei",
+      "public_signals": [
+        "Region: Vienna, VA",
+        "Round: REA",
+        "Awards: Intel ISEF 4th place; Medium AI Top 50 Bloggers",
+        "Extracurricular: Dartmouth ML research (2 papers); Computational linguistics political bias detection; Popeyes cashier",
+        "Admissions officer: 'One of the best in the REA pool this year'"
+      ]
+    },
+    {
+      "case_id": "stanford-luo-spark",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "application_cycle": "2025",
+      "sample_title": "luo-spark",
+      "intended_major": "Political Science",
+      "gpa": "—",
+      "test_score": "None (test-optional); TOEFL 112",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/stanford/cases/luo-spark",
+      "public_signals": [
+        "Region: 成都 (Chengdu public high school, non-international track)",
+        "Round: RD with scholarship",
+        "Awards: NSDA National 3rd place; Chengdu regional champion ×2",
+        "Extracurricular: Debate only — self-described single activity; dual-track gaokao + US application",
+        "Notable: No standardized test scores submitted; full scholarship"
+      ]
     },
     {
       "case_id": "mit-rl-mit-rd",
@@ -151,22 +207,207 @@
       "source_type": "public_case_page",
       "completeness_score": "Partial",
       "confidence_level": "Medium-High",
-      "source_page": "#/schools/mit/case-study",
-      "school_page_path": "#/schools/mit/case-study",
-      "source_page_path": "#/schools/mit/case-study",
       "case_page_path": "#/schools/mit/cases/rl-mit-rd",
-      "profile_path": "#/schools/mit/cases/rl-mit-rd",
       "public_signals": [
         "Region: New York, USA",
-        "Other admits: Johns Hopkins, UC Berkeley 等",
-        "Awards: 美国 A 级击剑学生运动员",
-        "Extracurricular: 结合编程能力与击剑兴趣，开发击剑数据追踪 APP 并上架 Apple App Store。"
-      ],
-      "extraction": {
-        "summary_page": "wiki/schools/mit/case-study.md",
-        "detail_page": "wiki/schools/mit/cases/rl-mit-rd.md",
-        "case_row": "rl-mit-rd"
-      }
+        "Other admits: Johns Hopkins, UC Berkeley",
+        "Awards: A-rated fencer student-athlete",
+        "Extracurricular: Fencing data tracking app on Apple App Store"
+      ]
+    },
+    {
+      "case_id": "yale-brian-zhang",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "~2027",
+      "sample_title": "brian-zhang",
+      "intended_major": "— (CS interest)",
+      "gpa": "98.23/100",
+      "test_score": "SAT: 1590",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Complete",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/brian-zhang",
+      "public_signals": [
+        "Region: Brooklyn, NY (Sunset Park)",
+        "Background: Financially underprivileged, Chinese-American",
+        "Awards: —",
+        "Extracurricular: Founded 'Spanish Meets You' community language program; human visual perception research; spoken word poetry",
+        "Essay: Chinese New Year celebration with non-blood-related neighbors in small Brooklyn apartment",
+        "Rec letter: 'Second highest score in 20-year teaching career' (Pre-Calculus teacher)"
+      ]
+    },
+    {
+      "case_id": "yale-xiong-shenzhen",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "2029",
+      "sample_title": "xiong-shenzhen",
+      "intended_major": "—",
+      "gpa": "满分",
+      "test_score": "ACT: 36",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/xiong-shenzhen",
+      "public_signals": [
+        "Region: 深圳中学",
+        "Round: EA (only EA admit in Guangdong-Shenzhen region)",
+        "12 AP courses; ACT 36",
+        "Extracurricular: MUN; philosophy research with Yale professor; Microsoft Imagine Cup (Braille camera for blind); Penn social equity summer program"
+      ]
+    },
+    {
+      "case_id": "yale-geng-keystone",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "2029",
+      "sample_title": "geng-keystone",
+      "intended_major": "—",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/geng-keystone",
+      "public_signals": [
+        "Region: 北京鼎石 (Keystone Academy)",
+        "Awards: Keystone Founder's Scholarship + Scholar's Scholarship; John Locke Essay Competition finalist",
+        "Extracurricular: Student media editor-in-chief; Beijing Central Axis cultural project; Stanford Humanities summer school; Pioneer research on music & social movements"
+      ]
+    },
+    {
+      "case_id": "yale-hu-swfl",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "2029",
+      "sample_title": "hu-swfl",
+      "intended_major": "化学 (Chemistry)",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/hu-swfl",
+      "public_signals": [
+        "Region: 上海世外 IB (SWFL)",
+        "Extracurricular: Fudan Yingcai Plan silk protein research; SIP summer school zinc battery; Iowa SSTP polymer research; diaper recycling environmental project; viola in orchestra; soccer captain; chemistry club president"
+      ]
+    },
+    {
+      "case_id": "yale-li-swimmer",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "2029",
+      "sample_title": "li-swimmer",
+      "intended_major": "—",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/li-swimmer",
+      "public_signals": [
+        "Region: 北京101中学",
+        "Recruited Athlete: Yes (swimming)",
+        "Awards: National-level swimmer; U-series national record holder; World School Games double gold; National Scholarship; Soong Ching-ling Scholarship",
+        "Notable: First student from a Beijing public high school to 'swim into Yale'"
+      ]
+    },
+    {
+      "case_id": "yale-wang-pinghe",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "2029",
+      "sample_title": "wang-pinghe",
+      "intended_major": "— (STEM)",
+      "gpa": "—",
+      "test_score": "SAT: 1550; TOEFL: 110+",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/wang-pinghe",
+      "public_signals": [
+        "Region: 上海平和 IB",
+        "Other admits: Caltech",
+        "Awards: ISEF Grand Award 1st place + Craig Barrett Innovation Award (biomimetic pole-climbing robot)",
+        "Extracurricular: ISEF research; control theory → math extended essay; band guitarist; ping-pong club president; math club president"
+      ]
+    },
+    {
+      "case_id": "ucb-shanghai-robotics",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "application_cycle": "unknown",
+      "sample_title": "shanghai-robotics",
+      "intended_major": "CS / Engineering",
+      "gpa": "3.92",
+      "test_score": "SAT: 1530; TOEFL: 112",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/uc-berkeley/cases/shanghai-robotics",
+      "public_signals": [
+        "Region: 上海某中学本部",
+        "Awards: FRC Engineering Inspiration Award; China Robotics Challenge Champion; AMC12 Top 5%; UK Chemistry Olympiad Silver",
+        "Extracurricular: FRC robotics captain; Penn ESAP; student council VP; insect museum docent",
+        "Essay: Transformation from reluctant to lead dancer — showing multidimensionality"
+      ]
+    },
+    {
+      "case_id": "ucb-shenzhen-bilibili",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "application_cycle": "unknown",
+      "sample_title": "shenzhen-bilibili",
+      "intended_major": "—",
+      "gpa": "3.95 UW",
+      "test_score": "SAT: 1530; TOEFL: 114",
+      "stem": "—",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium-High",
+      "case_page_path": "#/schools/uc-berkeley/cases/shenzhen-bilibili",
+      "public_signals": [
+        "Region: 深圳中学国际体系",
+        "Extracurricular: Bilibili tech UP (180K followers); rooftop weather station in urban village (citizen science)",
+        "Essay: Weather station as citizen science + community impact"
+      ]
+    },
+    {
+      "case_id": "uchicago-admit-ai-econ",
+      "school_slug": "uchicago",
+      "school": "UChicago",
+      "application_cycle": "unknown",
+      "sample_title": "admit-ai-econ",
+      "intended_major": "Economics / Behavioral Economics",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Minimal",
+      "confidence_level": "Medium-High",
+      "case_page_path": "#/schools/uchicago/cases/admit-ai-econ",
+      "public_signals": [
+        "Extracurricular: Speech & Debate (cited Cass Sunstein); nuclear physics history interest",
+        "Essay: Why UChicago supplement connecting nuclear history → debate → behavioral economics → Fermi/Sunstein/Thaler at UChicago"
+      ]
     }
   ]
 }

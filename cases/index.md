@@ -17,6 +17,9 @@ updated_at: 2026-04-09
 ### 按学校进入
 - [Harvard Case Study](../schools/harvard/case-study.md)
 - [Stanford Case Study](../schools/stanford/case-study.md)
+- [Yale Case Study](../schools/yale/case-study.md)
+- [UC Berkeley Case Study](../schools/uc-berkeley/case-study.md)
+- [UChicago Case Study](../schools/uchicago/case-study.md)
 
 ### 按筛选进入
 - [Case Study Explorer](../explorers/case-study-explorer.md)
