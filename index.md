@@ -102,29 +102,101 @@
 ## Sources
 
 <div class="product-route-grid product-route-grid-4">
-  <div class="product-route-card">
+  <div class="product-route-card product-route-card-accent">
     <div class="product-route-step">All Sources</div>
     <h3>Sources Index</h3>
-    <p>全站来源索引，回溯学校和竞赛页面所引用的公开材料。</p>
+    <p>全站来源索引，回溯所有学校和竞赛页面所引用的公开材料。</p>
     <p><a href="/indexes/sources-index.md">进入 Sources Index</a></p>
   </div>
-  <div class="product-route-card">
-    <div class="product-route-step">School</div>
-    <h3>Harvard Sources</h3>
-    <p>Harvard 的 Fact Sheet、Admission Data 和 Case Study 来源。</p>
-    <p><a href="/schools/harvard/sources.md">打开 Harvard Sources</a></p>
-  </div>
-  <div class="product-route-card">
-    <div class="product-route-step">School</div>
-    <h3>Stanford Sources</h3>
-    <p>Stanford 的来源页与对应分栏入口。</p>
-    <p><a href="/schools/stanford/sources.md">打开 Stanford Sources</a></p>
-  </div>
-  <div class="product-route-card">
-    <div class="product-route-step">Competition</div>
-    <h3>ISEF Sources</h3>
-    <p>ISEF 赛事数据、获奖信息和参赛路径的来源依据。</p>
-    <p><a href="/competitions/isef/sources.md">打开 ISEF Sources</a></p>
-  </div>
+</div>
+
+### Schools 来源
+
+<div class="product-entry-grid product-entry-grid-4">
+  <a class="product-entry-card" href="/schools/harvard/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Harvard</strong>
+    <p>Fact Sheet、Admission Data 与 Case Study 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/stanford/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Stanford</strong>
+    <p>Fact Sheet、Admission Data 与 Case Study 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/mit/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>MIT</strong>
+    <p>Fact Sheet、Admission Data 与 Case Study 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/caltech/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Caltech</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/columbia/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Columbia</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/cornell/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Cornell</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/princeton/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Princeton</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/yale/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>Yale</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/uc-berkeley/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>UC Berkeley</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/ucla/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>UCLA</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+  <a class="product-entry-card" href="/schools/uchicago/sources.md">
+    <div class="product-entry-label">School</div>
+    <strong>UChicago</strong>
+    <p>Fact Sheet 与 Admission Data 来源。</p>
+  </a>
+</div>
+
+### Competitions 来源
+
+<div class="product-entry-grid product-entry-grid-4">
+  <a class="product-entry-card" href="/competitions/isef/sources.md">
+    <div class="product-entry-label">Competition</div>
+    <strong>ISEF</strong>
+    <p>赛事数据、获奖信息和参赛路径来源。</p>
+  </a>
+  <a class="product-entry-card" href="/competitions/regeneron-sts/sources.md">
+    <div class="product-entry-label">Competition</div>
+    <strong>Regeneron STS</strong>
+    <p>官方来源与参考资料。</p>
+  </a>
+  <a class="product-entry-card" href="/competitions/jshs/sources.md">
+    <div class="product-entry-label">Competition</div>
+    <strong>JSHS</strong>
+    <p>官方来源与参考资料。</p>
+  </a>
+  <a class="product-entry-card" href="/competitions/first-robotics/sources.md">
+    <div class="product-entry-label">Competition</div>
+    <strong>FIRST Robotics</strong>
+    <p>官方来源与参考资料。</p>
+  </a>
+  <a class="product-entry-card" href="/competitions/conrad-challenge/sources.md">
+    <div class="product-entry-label">Competition</div>
+    <strong>Conrad Challenge</strong>
+    <p>官方来源与参考资料。</p>
+  </a>
 </div>
 
