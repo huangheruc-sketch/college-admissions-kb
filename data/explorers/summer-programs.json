@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "summer-programs-explorer",
+  "generated_at": "2026-04-10T15:22:34.566056+00:00",
+  "generated_from": [
+    "raw/anndave-portal/2026-04-10/db-summer-programs-p1.md",
+    "raw/anndave-portal/2026-04-10/db-summer-programs-full.md"
+  ],
+  "coverage": {
+    "total_in_source": 330,
+    "captured_structured": 25,
+    "note": "Only page 1 (25/330) was captured in structured table format. Pages 2-4 (305 programs) need re-scraping."
+  },
+  "fields": [
+    "name",
+    "location",
+    "state",
+    "deadline",
+    "rec_letters",
+    "grade",
+    "grade_min",
+    "format",
+    "updated_for"
+  ],
+  "filterable_fields": [
+    "grade",
+    "format",
+    "rec_letters",
+    "state",
+    "updated_for",
+    "deadline"
+  ],
+  "records": [
+    {
+      "name": "AAJA: Asian American Journalists Association",
+      "location": "Minneapolis, MN",
+      "deadline": "Passed",
+      "rec_letters": 1,
+      "grade": "10th+",
+      "updated_for": "2026",
+      "format": "In-Person",
+      "state": "MN",
+      "grade_min": 10
+    },
+    {
+      "name": "AEOP: Army Education Outreach Program",
+      "location": "Various",
+      "deadline": "",
+      "rec_letters": 0,
+      "grade": "9th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "",
+      "grade_min": 9
+    },
+    {
+      "name": "AlphaStar Academy",
+      "location": "Santa Clara, CA",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "7th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "CA",
+      "grade_min": 7
+    },
+    {
+      "name": "AMDA Summer Conservatory",
+      "location": "Various",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "8th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "",
+      "grade_min": 8
+    },
+    {
+      "name": "AMP Global Youth",
+      "location": "Washington DC/Atlanta/Online",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "8th+",
+      "updated_for": "",
+      "format": "Hybrid",
+      "state": "",
+      "grade_min": 8
+    },
+    {
+      "name": "Apple Maker Academy",
+      "location": "Silicon Valley, CA",
+      "deadline": "",
+      "rec_letters": 0,
+      "grade": "10th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "CA",
+      "grade_min": 10
+    },
+    {
+      "name": "ASU Camp Cronkite Journalism",
+      "location": "Phoenix, AZ",
+      "deadline": "",
+      "rec_letters": 0,
+      "grade": "9th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "AZ",
+      "grade_min": 9
+    },
+    {
+      "name": "ASU JBMSHP",
+      "location": "Tempe, AZ",
+      "deadline": "",
+      "rec_letters": 1,
+      "grade": "11th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "AZ",
+      "grade_min": 11
+    },
+    {
+      "name": "Art Institute of Chicago Teen Council",
+      "location": "Chicago, IL",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "10th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "IL",
+      "grade_min": 10
+    },
+    {
+      "name": "ASDRP",
+      "location": "Fremont, CA",
+      "deadline": "02/01/2026",
+      "rec_letters": 0,
+      "grade": "9th+",
+      "updated_for": "2026",
+      "format": "In-Person",
+      "state": "CA",
+      "grade_min": 9
+    },
+    {
+      "name": "AstroCamp",
+      "location": "Idyllwild, CA",
+      "deadline": "",
+      "rec_letters": 0,
+      "grade": "7th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "CA",
+      "grade_min": 7
+    },
+    {
+      "name": "AwesomeMath",
+      "location": "Online",
+      "deadline": "",
+      "rec_letters": 1,
+      "grade": "7th+",
+      "updated_for": "",
+      "format": "Online",
+      "state": "",
+      "grade_min": 7
+    },
+    {
+      "name": "Babson Summer Study",
+      "location": "Babson Park, MA",
+      "deadline": "Passed",
+      "rec_letters": 0,
+      "grade": "11th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "MA",
+      "grade_min": 11
+    },
+    {
+      "name": "Bank of America Student Leaders",
+      "location": "Varies",
+      "deadline": "03/09/2026",
+      "rec_letters": 2,
+      "grade": "12th+",
+      "updated_for": "2026",
+      "format": "In-Person",
+      "state": "",
+      "grade_min": 12
+    },
+    {
+      "name": "Barnard Athena Summer Innovation",
+      "location": "New York, NY",
+      "deadline": "Rolling",
+      "rec_letters": 1,
+      "grade": "10th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "NY",
+      "grade_min": 10
+    },
+    {
+      "name": "Barnard Health and Society Institute",
+      "location": "New York, NY",
+      "deadline": "Rolling",
+      "rec_letters": 1,
+      "grade": "10th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "NY",
+      "grade_min": 10
+    },
+    {
+      "name": "Barnard Pre-Baccalaureate Program",
+      "location": "New York, NY",
+      "deadline": "",
+      "rec_letters": 1,
+      "grade": "11th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "NY",
+      "grade_min": 11
+    },
+    {
+      "name": "Barnard SITI: STEMinists in Training",
+      "location": "New York, NY",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "7th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "NY",
+      "grade_min": 7
+    },
+    {
+      "name": "Bentley Pre-College Wall Street 101",
+      "location": "Online/Waltham, MA",
+      "deadline": "Rolling",
+      "rec_letters": 1,
+      "grade": "11th+",
+      "updated_for": "",
+      "format": "Hybrid",
+      "state": "MA",
+      "grade_min": 11
+    },
+    {
+      "name": "Berkeley Lab BLDAP",
+      "location": "UC Berkeley",
+      "deadline": "03/22/2026",
+      "rec_letters": 1,
+      "grade": "10th+",
+      "updated_for": "2026",
+      "format": "In-Person",
+      "state": "",
+      "grade_min": 10
+    },
+    {
+      "name": "Berkeley Lab EinR",
+      "location": "Berkeley, CA",
+      "deadline": "03/22/2026",
+      "rec_letters": 1,
+      "grade": "10th+",
+      "updated_for": "2026",
+      "format": "In-Person",
+      "state": "CA",
+      "grade_min": 10
+    },
+    {
+      "name": "Berklee Summer Music/Dance/Theater",
+      "location": "Boston, MA",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "7th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "MA",
+      "grade_min": 7
+    },
+    {
+      "name": "Bioresearch Academy",
+      "location": "Boston, MA (Harvard)",
+      "deadline": "",
+      "rec_letters": 0,
+      "grade": "7th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "MA",
+      "grade_min": 7
+    },
+    {
+      "name": "BLI: Boston Leadership Institute",
+      "location": "Boston, MA",
+      "deadline": "Rolling",
+      "rec_letters": 0,
+      "grade": "9th+",
+      "updated_for": "2026",
+      "format": "In-Person",
+      "state": "MA",
+      "grade_min": 9
+    },
+    {
+      "name": "Boston College BC Experience",
+      "location": "Chestnut Hill, MA",
+      "deadline": "",
+      "rec_letters": 2,
+      "grade": "10th+",
+      "updated_for": "",
+      "format": "In-Person",
+      "state": "MA",
+      "grade_min": 10
+    }
+  ]
+}

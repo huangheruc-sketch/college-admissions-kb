@@ -503,7 +503,8 @@ body {
   color: #314a67;
 }
 
-.explorer-filter select {
+.explorer-filter select,
+.explorer-filter input {
   width: 100%;
   min-height: 44px;
   border-radius: 12px;
@@ -511,6 +512,7 @@ body {
   background: #fff;
   padding: 10px 12px;
   color: #223247;
+  box-sizing: border-box;
 }
 
 .explorer-toggle {
@@ -622,6 +624,71 @@ body {
 .explorer-empty {
   border-style: dashed;
   text-align: center;
+}
+
+.explorer-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e1e9f3;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.explorer-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+}
+
+.explorer-table th,
+.explorer-table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.explorer-table th {
+  position: sticky;
+  top: 0;
+  background: #f8fbff;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.explorer-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.explorer-page-status,
+.explorer-page-ellipsis {
+  color: #5b6472;
+  font-size: 14px;
+}
+
+.explorer-page-btn {
+  min-width: 40px;
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 1px solid #c9d8ea;
+  border-radius: 10px;
+  background: #fff;
+  color: #1f3a5f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.explorer-page-btn.is-active {
+  background: #8b2030;
+  border-color: #8b2030;
+  color: #fff;
+}
+
+.explorer-page-btn[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 @media (max-width: 960px) {

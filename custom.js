@@ -4,6 +4,7 @@
     'admission-data': './data/explorers/admission-data.json',
     'case-study': './data/explorers/case-study.json',
     'academic-programs': './data/explorers/academic-programs.json',
+    'summer-programs': './data/explorers/summer-programs.json',
     'volunteering': './data/explorers/volunteering.json'
   };
 
@@ -728,6 +729,165 @@
     applyFilters();
   }
 
+  function normalizeSummerProgramRecord(item) {
+    return {
+      ...item,
+      name: getField(item, ['name', 'program_name', 'programName'], ''),
+      location: getField(item, ['location'], ''),
+      state: getField(item, ['state'], ''),
+      deadline: getField(item, ['deadline'], ''),
+      rec_letters: Number(getField(item, ['rec_letters', 'recLetters'], 0)) || 0,
+      grade: getField(item, ['grade'], ''),
+      grade_min: Number(getField(item, ['grade_min', 'gradeMin'], '')) || null,
+      format: getField(item, ['format'], ''),
+      updated_for: getField(item, ['updated_for', 'updatedFor'], '')
+    };
+  }
+
+  function renderSummerProgramsExplorerResults(records) {
+    if (!records.length) {
+      return renderExplorerEmpty('当前条件下没有匹配的夏校项目', '请放宽筛选条件，或清空关键字 / 年级 / 地点后重试。');
+    }
+
+    return `
+      <div class="explorer-table-wrap">
+        <table class="explorer-table explorer-table-summer-programs">
+          <thead>
+            <tr>
+              <th>Program</th>
+              <th>Location</th>
+              <th>Format</th>
+              <th>Grade</th>
+              <th>Deadline</th>
+              <th>Rec Letters</th>
+              <th>Updated For</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${records.map(item => `
+              <tr>
+                <td>${escapeHtml(item.name || '—')}</td>
+                <td>${escapeHtml(item.location || '—')}</td>
+                <td>${escapeHtml(item.format || '—')}</td>
+                <td>${escapeHtml(item.grade || '—')}</td>
+                <td>${escapeHtml(item.deadline || '—')}</td>
+                <td>${escapeHtml(String(item.rec_letters ?? '—'))}</td>
+                <td>${escapeHtml(item.updated_for || '—')}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderSummerProgramsExplorer(node, payload) {
+    const records = extractRecords(payload, ['records', 'summer_programs', 'summerPrograms']).map(normalizeSummerProgramRecord);
+    if (!records.length) {
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header"><div><h3>Summer Programs Explorer</h3><p class="linked-note">按年级、形式、地点、推荐信要求与截止日期筛选当前已结构化的夏校项目。</p></div></div>
+          ${renderExplorerEmpty('Summer Programs 数据暂不可用', '预期数据文件为 wiki/data/explorers/summer-programs.json。')}
+        </section>
+      `;
+      return;
+    }
+
+    const coverage = payload?.coverage || {};
+    const filters = {
+      format: node.dataset.format || '',
+      grade: node.dataset.grade || '',
+      state: node.dataset.state || '',
+      rec_letters: node.dataset.recLetters || '',
+      updated_for: node.dataset.updatedFor || '',
+      deadline: node.dataset.deadline || '',
+      search: ''
+    };
+    const pageState = { page: 1, pageSize: 50, totalPages: 1 };
+
+    function applyFilters() {
+      const searchLower = filters.search.toLowerCase().trim();
+      const filtered = records.filter(item => {
+        if (filters.format && item.format !== filters.format) return false;
+        if (filters.grade && item.grade !== filters.grade) return false;
+        if (filters.state) {
+          if (filters.state === 'Not specified') {
+            if (item.state) return false;
+          } else if (item.state !== filters.state) return false;
+        }
+        if (filters.rec_letters !== '' && String(item.rec_letters) !== String(filters.rec_letters)) return false;
+        if (filters.updated_for) {
+          if (filters.updated_for === 'Not specified') {
+            if (item.updated_for) return false;
+          } else if (item.updated_for !== filters.updated_for) return false;
+        }
+        if (filters.deadline) {
+          if (filters.deadline === 'Not specified') {
+            if (item.deadline) return false;
+          } else if (item.deadline !== filters.deadline) return false;
+        }
+        if (searchLower) {
+          const haystack = [item.name, item.location, item.state, item.grade, item.deadline, item.format].join(' ').toLowerCase();
+          if (!haystack.includes(searchLower)) return false;
+        }
+        return true;
+      });
+
+      pageState.totalPages = Math.max(1, Math.ceil(filtered.length / pageState.pageSize));
+      if (pageState.page > pageState.totalPages) pageState.page = pageState.totalPages;
+      const start = (pageState.page - 1) * pageState.pageSize;
+      const display = filtered.slice(start, start + pageState.pageSize);
+
+      const summaryBits = [];
+      if (filters.format) summaryBits.push(`Format: ${filters.format}`);
+      if (filters.grade) summaryBits.push(`Grade: ${filters.grade}`);
+      if (filters.state) summaryBits.push(`State: ${filters.state}`);
+      if (filters.rec_letters !== '') summaryBits.push(`Rec Letters: ${filters.rec_letters}`);
+      if (filters.updated_for) summaryBits.push(`Updated For: ${filters.updated_for}`);
+      if (filters.deadline) summaryBits.push(`Deadline: ${filters.deadline}`);
+      if (filters.search) summaryBits.push(`Search: ${filters.search}`);
+
+      const stateOptions = uniq(records.map(item => item.state || 'Not specified')).sort();
+      const updatedForOptions = uniq(records.map(item => item.updated_for || 'Not specified')).sort();
+      const deadlineOptions = uniq(records.map(item => item.deadline || 'Not specified')).sort();
+
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header">
+            <div>
+              <h3>Summer Programs Explorer</h3>
+              <p class="linked-note">先按年级、形式、地点和截止日期缩小范围，再回到原始 portal 或后续详情页做进一步核对。</p>
+            </div>
+            <button type="button" class="explorer-reset">重置筛选</button>
+          </div>
+          <div class="explorer-filters explorer-filters-dense">
+            ${renderExplorerFilter('Format', 'format', getUniqueOptions(records, 'format').sort(), filters.format)}
+            ${renderExplorerFilter('Grade', 'grade', getUniqueOptions(records, 'grade').sort(), filters.grade)}
+            ${renderExplorerFilter('State', 'state', stateOptions, filters.state)}
+            ${renderExplorerFilter('Rec Letters', 'rec_letters', getUniqueOptions(records, 'rec_letters').map(String).sort(), String(filters.rec_letters))}
+            ${renderExplorerFilter('Updated For', 'updated_for', updatedForOptions, filters.updated_for)}
+            ${renderExplorerFilter('Deadline', 'deadline', deadlineOptions, filters.deadline)}
+            <label class="explorer-filter">
+              <span>Search Program</span>
+              <input type="text" data-filter-key="search" placeholder="e.g. journalism, Berkeley, online" value="${escapeHtml(filters.search)}">
+            </label>
+          </div>
+          <div class="explorer-summary-bar">
+            <div><strong>${filtered.length}</strong> / ${records.length} 个项目匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
+            <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
+          </div>
+          <div class="linked-note explorer-data-note">当前仅基于已结构化数据提供筛选，不补造剩余未抓取项目。现状为 ${coverage.captured_structured || records.length} / ${coverage.total_in_source || records.length} 条，仍缺 Pages 2-4。</div>
+          <div class="explorer-results explorer-results-table">${renderSummerProgramsExplorerResults(display)}</div>
+          ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
+        </section>
+      `;
+      bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });
+      bindExplorerPagination(node, pageState, applyFilters);
+    }
+
+    applyFilters();
+  }
+
   function normalizeVolunteeringRecord(item) {
     return {
       ...item,
@@ -991,8 +1151,9 @@
     const caseExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="case-study"]'));
     const admissionExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="admission-data"]'));
     const academicExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="academic-programs"]'));
+    const summerProgramsExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="summer-programs"]'));
     const volunteeringExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="volunteering"]'));
-    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length && !volunteeringExplorerNodes.length) return;
+    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length && !summerProgramsExplorerNodes.length && !volunteeringExplorerNodes.length) return;
 
     const schoolSlug = currentSchoolSlug();
 
@@ -1044,6 +1205,18 @@
       } catch (error) {
         academicExplorerNodes.forEach(node => {
           node.innerHTML = '<p class="linked-error">Academic Programs Explorer 加载失败。请检查 wiki/data/explorers/academic-programs.json。</p>';
+        });
+        console.error(error);
+      }
+    }
+
+    if (summerProgramsExplorerNodes.length) {
+      try {
+        const summerProgramsData = await fetchJson(EXPLORER_DATASETS['summer-programs']);
+        summerProgramsExplorerNodes.forEach(node => renderSummerProgramsExplorer(node, summerProgramsData));
+      } catch (error) {
+        summerProgramsExplorerNodes.forEach(node => {
+          node.innerHTML = '<p class="linked-error">Summer Programs Explorer 加载失败。请检查 wiki/data/explorers/summer-programs.json。</p>';
         });
         console.error(error);
       }

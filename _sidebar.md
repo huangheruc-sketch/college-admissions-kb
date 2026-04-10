@@ -95,4 +95,6 @@
     - [Admission Data Explorer](/explorers/admission-data-explorer.md)
     - [Academic Programs Explorer](/explorers/academic-programs-explorer.md)
     - [Case Study Explorer](/explorers/case-study-explorer.md)
+    - [Summer Programs Explorer](/explorers/summer-programs-explorer.md)
+    - [Volunteering Explorer](/explorers/volunteering-explorer.md)
 - [Sources](/indexes/sources-index.md)
