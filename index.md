@@ -42,32 +42,32 @@
   <a class="product-entry-card" href="/schools/harvard/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Harvard</strong>
-    <p>当前内容最完整，可作为标准示范入口。</p>
+    <p>查看 Harvard 的学校概览、招生数据、公开案例和来源整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/stanford/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Stanford</strong>
-    <p>已建立标准页面结构，Admission Data 与 Case Study 持续增强中。</p>
+    <p>查看 Stanford 的申请概况、案例页面与相关数据整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/mit/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>MIT</strong>
-    <p>适合查看 STEM / Engineering 导向学校的基线结构。</p>
+    <p>查看 MIT 的学校页面、理工科申请案例与招生信息。</p>
   </a>
   <a class="product-entry-card" href="/navigation.md">
     <div class="product-entry-label">All Schools</div>
-    <strong>Browse All</strong>
-    <p>查看 11 所目标学校总览入口。</p>
+    <strong>全部学校</strong>
+    <p>查看 11 所目标学校的总览入口。</p>
   </a>
 </div>
 
-## Explore by Type
+## Explorers
 
 <div class="product-route-grid">
   <div class="product-route-card">
     <div class="product-route-step">Data</div>
     <h3>Admission Data Explorer</h3>
-    <p>按学校、周期、指标类型等维度筛选结构化招生数据。</p>
+    <p>按学校、周期和指标类型筛选结构化招生数据。</p>
     <p><a href="/explorers/admission-data-explorer.md">打开 Admission Data Explorer</a></p>
   </div>
   <div class="product-route-card">
@@ -76,11 +76,16 @@
     <p>按学校、申请周期、方向和来源快速筛选公开案例。</p>
     <p><a href="/explorers/case-study-explorer.md">打开 Case Study Explorer</a></p>
   </div>
+</div>
+
+## Sources
+
+<div class="product-route-grid">
   <div class="product-route-card">
-    <div class="product-route-step">Indexes</div>
-    <h3>Schools & Sources</h3>
-    <p>查看学校总览和来源索引，适合建立整体结构认知。</p>
-    <p><a href="/navigation.md">进入 Schools</a></p>
+    <div class="product-route-step">Sources</div>
+    <h3>Sources Index</h3>
+    <p>查看全站来源索引，按学校回溯数据和案例所引用的公开材料。</p>
+    <p><a href="/indexes/sources-index.md">进入 Sources</a></p>
   </div>
 </div>
 

@@ -1,62 +1,61 @@
 # Schools
 
-## Available Schools
 
 <div class="product-entry-grid product-entry-grid-4">
   <a class="product-entry-card" href="/schools/harvard/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Harvard</strong>
-    <p>当前内容最完整，适合作为整体示范入口。</p>
+    <p>查看 Harvard 的学校概览、招生数据、公开案例和来源整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/stanford/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Stanford</strong>
-    <p>Admission Data 和 Case Study 正在持续增强。</p>
+    <p>查看 Stanford 的申请概况、案例页面与相关数据整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/mit/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>MIT</strong>
-    <p>适合查看 STEM / Engineering 导向学校结构。</p>
+    <p>查看 MIT 的学校页面、理工科申请案例与招生信息。</p>
   </a>
   <a class="product-entry-card" href="/schools/princeton/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Princeton</strong>
-    <p>已建立基础页面，可继续扩充案例与数据。</p>
+    <p>查看 Princeton 的基础信息、案例整理和申请资料入口。</p>
   </a>
   <a class="product-entry-card" href="/schools/caltech/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Caltech</strong>
-    <p>理工导向学校入口，适合后续扩案例。</p>
+    <p>查看 Caltech 的学校页面，以及理工方向相关申请内容。</p>
   </a>
   <a class="product-entry-card" href="/schools/yale/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Yale</strong>
-    <p>已有 Yale 候选案例，可继续增强 Case Study。</p>
+    <p>查看 Yale 的招生信息、公开案例和学校页面整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/uc-berkeley/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>UC Berkeley</strong>
-    <p>适合横向比较公立强校数据与案例。</p>
+    <p>查看 UC Berkeley 的招生内容、案例信息和公立大学参考。</p>
   </a>
   <a class="product-entry-card" href="/schools/columbia/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Columbia</strong>
-    <p>基础页面已建立，等待更高质量案例补入。</p>
+    <p>查看 Columbia 的学校信息、案例页面和来源整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/uchicago/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>UChicago</strong>
-    <p>可继续补充文书型案例与数据背景。</p>
+    <p>查看 UChicago 的学校页面、文书相关案例和申请内容。</p>
   </a>
   <a class="product-entry-card" href="/schools/cornell/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Cornell</strong>
-    <p>基础页面已建立，适合后续补案例池。</p>
+    <p>查看 Cornell 的学校概览、案例整理和专业相关参考。</p>
   </a>
   <a class="product-entry-card" href="/schools/ucla/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>UCLA</strong>
-    <p>当前候选较弱，后续重点补本科案例。</p>
+    <p>查看 UCLA 的招生内容、申请案例和公立大学背景信息。</p>
   </a>
 </div>
 

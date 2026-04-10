@@ -6,10 +6,6 @@
 - [Start Here](navigation.md)
 - [About](about.md)
 
-## Indexes
-- [Universities](indexes/universities-index.generated.md)
-- [Sources](indexes/sources-index.generated.md)
-
 ## Schools
 - [Harvard](schools/harvard/index.md)
   - [Fact Sheet](schools/harvard/fact-sheet.md)
@@ -22,6 +18,8 @@
   - [Case Study](schools/stanford/case-study.md)
   - [Sources](schools/stanford/sources.md)
 
-## Knowledge Base
-- [Case Studies](cases/index.md)
+## Explorers
 - [Explorers](explorers/index.md)
+
+## Sources
+- [Sources](indexes/sources-index.generated.md)
