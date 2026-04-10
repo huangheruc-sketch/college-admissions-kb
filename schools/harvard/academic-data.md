@@ -1,9 +1,5 @@
 # Harvard Academic Data
 
-> 本页覆盖 Harvard 大学层面的学院架构、Harvard College 本科 50 个 concentration（专业）及学位授予趋势。数据主要来自 OIRA Fact Book（2025 年 12 月更新）及各学院官网。
->
-> **与 Admission Data 的区别：** Admission Data 聚焦录取率/标化/族裔等"进门"数据；本页聚焦"进门后学什么"——学院体系、专业设置、学位类型与毕业人数分布。
-
 ---
 
 ## Section 1：Harvard 大学学院架构
