@@ -82,6 +82,3 @@
   </a>
 </div>
 
----
-
-> **模板说明**：每项竞赛使用统一子页面结构：`index.md`（概览）、`fact-sheet.md`（赛事数据）、`pathway.md`（参赛路径）、`winners.md`（获奖案例）、`sources.md`（来源）。新增竞赛时复制此结构即可。
