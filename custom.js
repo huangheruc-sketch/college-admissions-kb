@@ -2,7 +2,8 @@
   const LINKED_DATA_PATH_TEMPLATE = './data/{school}-linked-data.json';
   const EXPLORER_DATASETS = {
     'admission-data': './data/explorers/admission-data.json',
-    'case-study': './data/explorers/case-study.json'
+    'case-study': './data/explorers/case-study.json',
+    'academic-programs': './data/explorers/academic-programs.json'
   };
 
   const jsonCache = new Map();
@@ -494,6 +495,133 @@
     applyFilters();
   }
 
+  function normalizeAcademicProgramRecord(item) {
+    return {
+      ...item,
+      school: getField(item, ['school'], ''),
+      school_slug: getField(item, ['school_slug', 'schoolSlug'], ''),
+      program_name: getField(item, ['program_name', 'programName', 'name', 'major', 'concentration'], ''),
+      original_label: getField(item, ['original_label', 'originalLabel'], 'major'),
+      division: getField(item, ['division', 'college', 'school_unit', 'schoolUnit'], ''),
+      degree: getField(item, ['degree'], ''),
+      degree_category: getField(item, ['degree_category', 'degreeCategory'], ''),
+      discipline_area: getField(item, ['discipline_area', 'disciplineArea', 'area', 'category'], ''),
+      undergrad_open: item.undergrad_open !== false,
+      source_page: getField(item, ['source_page', 'sourcePage'], '')
+    };
+  }
+
+  function renderAcademicProgramsExplorerResults(records) {
+    if (!records.length) {
+      return renderExplorerEmpty('当前条件下没有匹配的专业/项目', '请放宽筛选条件，或回到学校页查看完整列表。');
+    }
+    return records.map(item => {
+      const schoolLink = item.source_page ? `<a href="${escapeHtml(item.source_page)}">${escapeHtml(item.school)}</a>` : escapeHtml(item.school);
+      return `
+        <article class="linked-card explorer-result-card explorer-result-card-compact">
+          <div class="explorer-result-topline">
+            <span class="linked-eyebrow">${schoolLink}</span>
+            <span class="explorer-badge">${escapeHtml(item.degree || item.degree_category || 'N/A')}</span>
+          </div>
+          <h4>${escapeHtml(item.program_name)}</h4>
+          <div class="explorer-chip-row">
+            ${item.division ? `<span class="explorer-chip">${escapeHtml(item.division)}</span>` : ''}
+            ${item.discipline_area ? `<span class="explorer-chip">${escapeHtml(item.discipline_area)}</span>` : ''}
+            ${item.original_label && item.original_label !== 'major' ? `<span class="explorer-chip">${escapeHtml(labelize(item.original_label))}</span>` : ''}
+          </div>
+        </article>
+      `;
+    }).join('');
+  }
+
+  function renderAcademicProgramsExplorer(node, payload) {
+    const records = extractRecords(payload, ['records', 'programs']).map(normalizeAcademicProgramRecord);
+    if (!records.length) {
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header"><div><h3>Academic Programs Explorer</h3><p class="linked-note">按学校、专业、学院/Division、学位类型筛选本科可选专业。</p></div></div>
+          ${renderExplorerEmpty('聚合专业数据暂不可用', '预期数据文件为 wiki/data/explorers/academic-programs.json。')}
+        </section>
+      `;
+      return;
+    }
+
+    const filters = {
+      school: node.dataset.school || '',
+      division: node.dataset.division || '',
+      degree_category: node.dataset.degreeCategory || '',
+      discipline_area: node.dataset.disciplineArea || '',
+      search: ''
+    };
+
+    function applyFilters() {
+      const searchLower = filters.search.toLowerCase().trim();
+      const filtered = records.filter(item => {
+        if (filters.school && item.school !== filters.school) return false;
+        if (filters.division && item.division !== filters.division) return false;
+        if (filters.degree_category && item.degree_category !== filters.degree_category) return false;
+        if (filters.discipline_area && item.discipline_area !== filters.discipline_area) return false;
+        if (searchLower && !item.program_name.toLowerCase().includes(searchLower)) return false;
+        return true;
+      });
+
+      // Dynamically compute division options based on current school filter
+      const divisionPool = filters.school ? records.filter(r => r.school === filters.school) : records;
+      const divisionOptions = uniq(divisionPool.map(r => r.division).filter(Boolean)).sort();
+
+      const summaryBits = [];
+      if (filters.school) summaryBits.push(`School: ${filters.school}`);
+      if (filters.division) summaryBits.push(`Division: ${filters.division}`);
+      if (filters.degree_category) summaryBits.push(`Degree: ${filters.degree_category}`);
+      if (filters.discipline_area) summaryBits.push(`Area: ${filters.discipline_area}`);
+      if (filters.search) summaryBits.push(`Search: ${filters.search}`);
+
+      const PAGE_SIZE = 50;
+      const display = filtered.slice(0, PAGE_SIZE);
+      const hasMore = filtered.length > PAGE_SIZE;
+
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header">
+            <div>
+              <h3>Academic Programs Explorer</h3>
+              <p class="linked-note">按学校、学院/Division、学位类型、学科领域筛选全站 ${records.length} 个本科可选专业，或直接搜索专业名称。</p>
+            </div>
+            <button type="button" class="explorer-reset">重置筛选</button>
+          </div>
+          <div class="explorer-filters explorer-filters-dense">
+            ${renderExplorerFilter('School', 'school', getCoverageOptions(payload, 'school').length ? getCoverageOptions(payload, 'school') : getUniqueOptions(records, 'school'), filters.school)}
+            ${renderExplorerFilter('College / Division', 'division', divisionOptions, filters.division)}
+            ${renderExplorerFilter('Degree Type', 'degree_category', getUniqueOptions(records, 'degree_category'), filters.degree_category)}
+            ${renderExplorerFilter('Discipline Area', 'discipline_area', getUniqueOptions(records, 'discipline_area').filter(Boolean), filters.discipline_area)}
+            <label class="explorer-filter">
+              <span>Search Program</span>
+              <input type="text" data-filter-key="search" placeholder="e.g. Computer Science" value="${escapeHtml(filters.search)}">
+            </label>
+          </div>
+          <div class="explorer-summary-bar">
+            <div><strong>${filtered.length}</strong> / ${records.length} 个专业匹配当前条件${hasMore ? `（显示前 ${PAGE_SIZE} 条）` : ''}</div>
+            <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
+          </div>
+          <div class="linked-note explorer-data-note">数据来自各校 academic-data 页面，仅包含本科可选专业。不同学校可能称之为 major / concentration / option。</div>
+          <div class="linked-grid linked-grid-2 explorer-results">${renderAcademicProgramsExplorerResults(display)}</div>
+        </section>
+      `;
+      bindExplorerControls(node, filters, applyFilters);
+
+      // Also bind the text input for search
+      const searchInput = node.querySelector('input[data-filter-key="search"]');
+      if (searchInput) {
+        searchInput.addEventListener('input', event => {
+          filters.search = event.target.value;
+          applyFilters();
+        });
+      }
+    }
+
+    applyFilters();
+  }
+
   function templateFor(view, data, schoolSlug) {
     if (view === 'school-hub') {
       return `
@@ -618,7 +746,8 @@
     const linkedNodes = Array.from(document.querySelectorAll('[data-linked-view]'));
     const caseExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="case-study"]'));
     const admissionExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="admission-data"]'));
-    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length) return;
+    const academicExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="academic-programs"]'));
+    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length) return;
 
     const schoolSlug = currentSchoolSlug();
 
@@ -658,6 +787,18 @@
       } catch (error) {
         admissionExplorerNodes.forEach(node => {
           node.innerHTML = '<p class="linked-error">Admission Data Explorer 加载失败。请检查 wiki/data/explorers/admission-data.json。</p>';
+        });
+        console.error(error);
+      }
+    }
+
+    if (academicExplorerNodes.length) {
+      try {
+        const academicData = await fetchJson(EXPLORER_DATASETS['academic-programs']);
+        academicExplorerNodes.forEach(node => renderAcademicProgramsExplorer(node, academicData));
+      } catch (error) {
+        academicExplorerNodes.forEach(node => {
+          node.innerHTML = '<p class="linked-error">Academic Programs Explorer 加载失败。请检查 wiki/data/explorers/academic-programs.json。</p>';
         });
         console.error(error);
       }

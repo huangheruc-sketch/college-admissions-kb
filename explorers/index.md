@@ -9,6 +9,7 @@
 ## 当前可用工具
 - [Admission Data Explorer](./admission-data-explorer.md)
 - [Case Study Explorer](./case-study-explorer.md)
+- [Academic Programs Explorer](./academic-programs-explorer.md) — 按学校、专业、学院/Division、学位类型筛选本科可选专业
 
 ## 推荐用法
 - 先用 Explorer 缩小到学校 / 周期 / 结果范围
