@@ -141,7 +141,7 @@
       application_cycle: String(getField(item, ['application_cycle', 'cycle_year', 'cycleYear'], '')),
       result: getField(item, ['result', 'outcome'], ''),
       track: getField(item, ['track', 'intended_major', 'intendedMajor', 'major', 'focus_area', 'focusArea'], ''),
-      stem_flag: isTruthyLike(getField(item, ['stem_flag', 'stemFlag', 'is_stem', 'isStem'], false)),
+      major: getField(item, ['intended_major', 'intendedMajor', 'major', 'track', 'focus_area', 'focusArea'], ''),
       source_type: getField(item, ['source_type', 'sourceType'], ''),
       completeness: getField(item, ['completeness', 'completeness_score', 'completenessScore'], ''),
       confidence: getField(item, ['confidence', 'confidence_level', 'confidenceLevel'], ''),
@@ -273,7 +273,7 @@
           <h4>${escapeHtml(item.sample_title)}</h4>
           <div class="explorer-chip-row">
             ${item.track ? `<span class="explorer-chip">${escapeHtml(labelize(item.track))}</span>` : ''}
-            <span class="explorer-chip">${item.stem_flag ? 'STEM' : 'Non-STEM'}</span>
+            ${item.major ? `<span class="explorer-chip">${escapeHtml(item.major)}</span>` : ''}
             ${item.source_type ? `<span class="explorer-chip">${escapeHtml(labelize(item.source_type))}</span>` : ''}
             ${item.completeness ? `<span class="explorer-chip">${escapeHtml(labelize(item.completeness))}</span>` : ''}
             ${item.confidence ? `<span class="explorer-chip">${escapeHtml(labelize(item.confidence))}</span>` : ''}
@@ -371,7 +371,7 @@
       application_cycle: node.dataset.applicationCycle || '',
       result: node.dataset.result || '',
       track: node.dataset.track || '',
-      stem_flag: isTruthyLike(node.dataset.stemOnly || false),
+      major: node.dataset.major || '',
       source_type: node.dataset.sourceType || '',
       completeness: node.dataset.completeness || '',
       confidence: node.dataset.confidence || ''
@@ -389,7 +389,7 @@
       if (filters.application_cycle) summaryBits.push(`Cycle: ${filters.application_cycle}`);
       if (filters.result) summaryBits.push(`Result: ${labelize(filters.result)}`);
       if (filters.track) summaryBits.push(`Track: ${labelize(filters.track)}`);
-      if (filters.stem_flag) summaryBits.push('STEM only');
+      if (filters.major) summaryBits.push(`Major: ${labelize(filters.major)}`);
       if (filters.source_type) summaryBits.push(`Source: ${labelize(filters.source_type)}`);
       if (filters.completeness) summaryBits.push(`Completeness: ${labelize(filters.completeness)}`);
       if (filters.confidence) summaryBits.push(`Confidence: ${labelize(filters.confidence)}`);
@@ -408,10 +408,10 @@
             ${renderExplorerFilter('Application Cycle', 'application_cycle', getUniqueOptions(records, 'application_cycle'), filters.application_cycle)}
             ${renderExplorerFilter('Result', 'result', getUniqueOptions(records, 'result'), filters.result)}
             ${renderExplorerFilter('Track / Intended Major', 'track', getUniqueOptions(records, 'track'), filters.track)}
+            ${renderExplorerFilter('Major', 'major', getUniqueOptions(records, 'major'), filters.major)}
             ${renderExplorerFilter('Source Type', 'source_type', getUniqueOptions(records, 'source_type'), filters.source_type)}
             ${renderExplorerFilter('Completeness', 'completeness', getUniqueOptions(records, 'completeness'), filters.completeness)}
             ${renderExplorerFilter('Confidence', 'confidence', getUniqueOptions(records, 'confidence'), filters.confidence)}
-            ${renderExplorerToggle('STEM only', 'stem_flag', Boolean(filters.stem_flag))}
           </div>
           <div class="explorer-summary-bar">
             <div><strong>${filtered.length}</strong> / ${records.length} 条案例匹配当前条件</div>
