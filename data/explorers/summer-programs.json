@@ -1,15 +1,20 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "dataset": "summer-programs-explorer",
-  "generated_at": "2026-04-10T17:01:30Z",
+  "generated_at": "2026-04-10T17:43:18Z",
   "generated_from": [
     "portal.anndaveconsulting.com/dashboard/database/summer-programs/list",
+    "portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/:id",
     "raw/anndave-portal/2026-04-11/db-summer-programs-full-table.md"
   ],
   "coverage": {
     "total_in_source": 330,
     "captured_structured": 330,
-    "note": "Full Summer Programs table was captured from the logged-in portal session on 2026-04-11."
+    "adc_detail_links_captured": 330,
+    "adc_tier_non_empty": 297,
+    "adc_tier_empty_or_missing": 33,
+    "adc_tier_note": "ADC Tier was checked from portal detail pages. Empty star widgets or missing widgets are preserved as null.",
+    "note": "Full Summer Programs table was captured from the logged-in portal session on 2026-04-11, then cross-linked to detail pages for ADC Tier and profile URLs."
   },
   "fields": [
     "name",
@@ -20,7 +25,10 @@
     "grade",
     "grade_min",
     "format",
-    "updated_for"
+    "updated_for",
+    "adc_tier",
+    "adc_detail_path",
+    "adc_detail_url"
   ],
   "filterable_fields": [
     "grade",
@@ -28,7 +36,8 @@
     "rec_letters",
     "state",
     "updated_for",
-    "deadline"
+    "deadline",
+    "adc_tier"
   ],
   "records": [
     {
@@ -40,7 +49,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MN",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/8",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/8"
     },
     {
       "name": "AEOP: Army Education Outreach Program",
@@ -51,7 +63,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/12",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/12"
     },
     {
       "name": "AlphaStar Academy",
@@ -62,7 +77,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/7",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/7"
     },
     {
       "name": "AMDA: American Musical & Dramatic Academy Summer Conservatory",
@@ -73,7 +91,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/213",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/213"
     },
     {
       "name": "AMP Global Youth",
@@ -84,7 +105,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "DC",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/221",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/221"
     },
     {
       "name": "Apple Maker Academy",
@@ -95,7 +119,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/9",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/9"
     },
     {
       "name": "Arizona State University Camp Cronkite Journalism Camp",
@@ -106,7 +133,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "AZ",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/214",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/214"
     },
     {
       "name": "Arizona State University JBMSHP: Joaquin Bustoz Math-Science Honors Program",
@@ -117,7 +147,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "AZ",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/215",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/215"
     },
     {
       "name": "Art Institute of Chicago Teen Council",
@@ -128,7 +161,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/143",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/143"
     },
     {
       "name": "ASDRP: Aspiring Scholars Directed Research Program",
@@ -139,7 +175,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/11",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/11"
     },
     {
       "name": "AstroCamp",
@@ -150,7 +189,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/216",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/216"
     },
     {
       "name": "AwesomeMath",
@@ -161,7 +203,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/219",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/219"
     },
     {
       "name": "Babson Summer Study for High School Students",
@@ -172,7 +217,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/217",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/217"
     },
     {
       "name": "Bank of America Student Leaders",
@@ -183,7 +231,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/13",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/13"
     },
     {
       "name": "Barnard College Athena Summer Innovation Institute",
@@ -194,7 +245,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/218",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/218"
     },
     {
       "name": "Barnard Health and Society Institute",
@@ -205,7 +259,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/223",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/223"
     },
     {
       "name": "Barnard Pre-Baccalaureate Program",
@@ -216,7 +273,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/220",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/220"
     },
     {
       "name": "Barnard SITI: STEMinists in Training Institute",
@@ -227,7 +287,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/222",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/222"
     },
     {
       "name": "Bentley University Pre-College Wall Street 101",
@@ -238,7 +301,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "MA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/229",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/229"
     },
     {
       "name": "Berkeley Lab BLDAP: Berkeley Lab Director's Apprenticeship Program",
@@ -249,7 +315,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/355",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/355"
     },
     {
       "name": "Berkeley Lab EinR: Experiences in Research",
@@ -260,7 +329,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/354",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/354"
     },
     {
       "name": "Berklee & Boston Conservatory - Summer Music, Dance & Theater Programs",
@@ -271,7 +343,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/230",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/230"
     },
     {
       "name": "Bioresearch Academy",
@@ -282,7 +357,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/14",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/14"
     },
     {
       "name": "BLI: Boston Leadership Institute",
@@ -293,7 +371,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/228",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/228"
     },
     {
       "name": "Boston College BC Experience for High School Students",
@@ -304,7 +385,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/15",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/15"
     },
     {
       "name": "Boston University AIM: Academic Immersion",
@@ -315,7 +399,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/16",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/16"
     },
     {
       "name": "Boston University BU RISE: Research Internship Program",
@@ -326,7 +413,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/17",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/17"
     },
     {
       "name": "Boston University BUSTi: Boston University Summer Theatre Institute",
@@ -337,7 +427,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/18",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/18"
     },
     {
       "name": "Boston University BUTI: Boston University Tanglewood Institute",
@@ -348,7 +441,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/19",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/19"
     },
     {
       "name": "Boston University High School Honors Program",
@@ -359,7 +455,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/20",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/20"
     },
     {
       "name": "Boston University Summer Challenge",
@@ -370,7 +469,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/21",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/21"
     },
     {
       "name": "Boston University Summer Journalism Academy",
@@ -381,7 +483,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/22",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/22"
     },
     {
       "name": "Boston University Summer Preview",
@@ -392,7 +497,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/23",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/23"
     },
     {
       "name": "Boston University VASI: Visual Arts Summer Institute",
@@ -403,7 +511,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/24",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/24"
     },
     {
       "name": "BRAINYAC: Brain Research Apprenticeships in New York at Columbia",
@@ -414,7 +525,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/201",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/201"
     },
     {
       "name": "Brown University Leadership Institute",
@@ -425,7 +539,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "RI",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/25",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/25"
     },
     {
       "name": "Brown University Pre-College - STEM for Rising 9th & 10th Graders",
@@ -436,7 +553,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "RI",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/334",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/334"
     },
     {
       "name": "Brown University Pre-College - Summer@Brown",
@@ -447,7 +567,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "RI",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/26",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/26"
     },
     {
       "name": "BSSP: BROAD Summer Scholars Program - MIT & Harvard (Boston area only)",
@@ -458,7 +581,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/231",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/231"
     },
     {
       "name": "Burke Neurological Institute High School Opportunities",
@@ -469,7 +595,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/232",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/232"
     },
     {
       "name": "BYU STEM Camp",
@@ -480,7 +609,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "UT",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/27",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/27"
     },
     {
       "name": "Canada/USA Mathcamp",
@@ -491,7 +623,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "VT",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/28",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/28"
     },
     {
       "name": "Carnegie Hall NYO2",
@@ -502,7 +637,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/30",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/30"
     },
     {
       "name": "Carnegie Hall NYO Jazz",
@@ -513,7 +651,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/335",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/335"
     },
     {
       "name": "Carnegie Hall NYO-USA: National Youth Orchestra of the United States of America",
@@ -524,7 +665,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/29",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/29"
     },
     {
       "name": "Carnegie Mellon Pre-College - AI Scholars",
@@ -535,7 +679,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/6",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/6"
     },
     {
       "name": "Carnegie Mellon Pre-College - Architecture",
@@ -546,7 +693,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/10",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/10"
     },
     {
       "name": "Carnegie Mellon Pre-College - Art",
@@ -557,7 +707,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/40",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/40"
     },
     {
       "name": "Carnegie Mellon Pre-College - Computational Biology",
@@ -568,7 +721,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/41",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/41"
     },
     {
       "name": "Carnegie Mellon Pre-College - Design",
@@ -579,7 +735,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/115",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/115"
     },
     {
       "name": "Carnegie Mellon Pre-College - Drama",
@@ -590,7 +749,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/116",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/116"
     },
     {
       "name": "Carnegie Mellon Pre-College - Music",
@@ -601,7 +763,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/117",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/117"
     },
     {
       "name": "Carnegie Mellon Pre-College - NHSGA: National High School Gaming Academy",
@@ -612,7 +777,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/118",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/118"
     },
     {
       "name": "Carnegie Mellon Pre-College - SAMS: Summer Academy for Math & Science",
@@ -623,7 +791,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/119",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/119"
     },
     {
       "name": "Carnegie Mellon Pre-College - Summer Session",
@@ -634,7 +805,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/120",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/120"
     },
     {
       "name": "Carnegie Mellon Pre-College - Writing & Culture",
@@ -645,7 +819,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/121",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/121"
     },
     {
       "name": "CA Scholastic Press Assoc Journalism Workshop",
@@ -656,7 +833,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/233",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/233"
     },
     {
       "name": "Case Western Reserve University Pre-College",
@@ -667,7 +847,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/149",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/149"
     },
     {
       "name": "CDC Disease Detective Camp",
@@ -678,7 +861,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "GA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/234",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/234"
     },
     {
       "name": "CHORI: Children's Hospital Oakland Research Institute - SSRP: Summer Student Research Program",
@@ -689,7 +875,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/150",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/150"
     },
     {
       "name": "CIEE Global Navigator High School Programs",
@@ -700,7 +889,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/151",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/151"
     },
     {
       "name": "Cincinnati Children's Hospital Job Shadow Program",
@@ -711,7 +903,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "OH",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/235",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/235"
     },
     {
       "name": "CISTAR Young Scholars Program",
@@ -722,7 +917,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IN",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/236",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/236"
     },
     {
       "name": "City of Hope Eugene & Ruth Roberts Summer Student Academy",
@@ -733,7 +931,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/237",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/237"
     },
     {
       "name": "Columbia Pre-College Summer",
@@ -744,7 +945,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/152",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/152"
     },
     {
       "name": "Columbia Scholastic Press Association",
@@ -755,7 +959,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/153",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/153"
     },
     {
       "name": "Columbia SHAPE",
@@ -766,7 +973,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/154",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/154"
     },
     {
       "name": "Coriell Institute Summer Experience Program",
@@ -777,7 +987,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NJ",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/155",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/155"
     },
     {
       "name": "Cornell University Pre-College",
@@ -788,7 +1001,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/157",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/157"
     },
     {
       "name": "COSLI: Colorado Student Leaders Institute",
@@ -799,7 +1015,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CO",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/159",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/159"
     },
     {
       "name": "Dana-Farber / Harvard Cancer Center CURE (DF/HCC): Continuing Umbrella of Research Experience",
@@ -810,7 +1029,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/160",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/160"
     },
     {
       "name": "Davidson Institute Young Scholars",
@@ -821,7 +1043,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NV",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/239",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/239"
     },
     {
       "name": "Da Vinci Camp Summer Institute",
@@ -832,7 +1057,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/238",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/238"
     },
     {
       "name": "DOROT Summer Teen Internship Program",
@@ -843,7 +1071,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/145",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/145"
     },
     {
       "name": "Drexel University NAIOP-Drexel Summer Real Estate Program",
@@ -854,7 +1085,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/161",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/161"
     },
     {
       "name": "Drexel University Pre-College",
@@ -865,7 +1099,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "PA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/162",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/162"
     },
     {
       "name": "Duke University Pre-College",
@@ -876,7 +1113,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "NC",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/163",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/163"
     },
     {
       "name": "Ellison Institute Research Foundation",
@@ -887,7 +1127,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/348",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/348"
     },
     {
       "name": "Emory Pre-College Program",
@@ -898,7 +1141,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "GA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/164",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/164"
     },
     {
       "name": "Fermilab High School Internships",
@@ -909,7 +1155,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/241",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/241"
     },
     {
       "name": "Fordham University Gabelli School of Business: Summer Business Programs",
@@ -920,7 +1169,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/165",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/165"
     },
     {
       "name": "Forsyth Student Scholars Program (MA students only)",
@@ -931,7 +1183,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/242",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/242"
     },
     {
       "name": "Fred Hutchinson Cancer Research Center: Summer High School Internship Program",
@@ -942,7 +1197,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "WA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/243",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/243"
     },
     {
       "name": "FTE/EFL: Economics for Leaders",
@@ -953,7 +1211,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/166",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/166"
     },
     {
       "name": "Furman University Top Mock",
@@ -964,7 +1225,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "SC",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/244",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/244"
     },
     {
       "name": "G2 Math Program (Girls Together Math Program)",
@@ -975,7 +1239,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/245",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/245"
     },
     {
       "name": "George Mason University: Young Research Scholars",
@@ -986,7 +1253,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/360",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/360"
     },
     {
       "name": "George Mason University Young Scholars Program: Bioscience: AI & Life Science in Disease Research",
@@ -997,7 +1267,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/358",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/358"
     },
     {
       "name": "George Mason University Young Scholars Program: NASA Data Science Analysis (3 month program)",
@@ -1008,7 +1281,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/357",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/357"
     },
     {
       "name": "George Mason University Young Scholars Program: NextGen Science: Machine Learning & Bioinformatics",
@@ -1019,7 +1295,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/359",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/359"
     },
     {
       "name": "Georgetown Lombardi Comprehensive Cancer Center: High School Summer Research Volunteer Program",
@@ -1030,7 +1309,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/168",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/168"
     },
     {
       "name": "Georgetown Pre-College Online Program",
@@ -1041,7 +1323,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/169",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/169"
     },
     {
       "name": "Georgetown Summer Academies",
@@ -1052,7 +1337,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "DC",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/170",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/170"
     },
     {
       "name": "Gettysburg College's Camp Psych",
@@ -1063,7 +1351,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/171",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/171"
     },
     {
       "name": "Girls State & Girls Nation ALA: American Legion Auxiliary",
@@ -1074,7 +1365,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/246",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/246"
     },
     {
       "name": "Girls Who Code Pathways",
@@ -1085,7 +1379,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/247",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/247"
     },
     {
       "name": "GL4HS: GeneLab @ NASA",
@@ -1096,7 +1393,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/172",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/172"
     },
     {
       "name": "Global Routes",
@@ -1107,7 +1407,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/248",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/248"
     },
     {
       "name": "GVI Career Experience Virtual Internships",
@@ -1118,7 +1421,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/249",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/249"
     },
     {
       "name": "Hampshire College HCSSiM: Hampshire College Summer Studies in Mathematics",
@@ -1129,7 +1435,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/173",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/173"
     },
     {
       "name": "Harvard HVTSP: Harvard Ventures-TECH Summer Program",
@@ -1140,7 +1449,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/174",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/174"
     },
     {
       "name": "Harvard OpenBio's Summer Research Institute (SRI)",
@@ -1151,7 +1463,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/365",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/365"
     },
     {
       "name": "Harvard Pre-College",
@@ -1162,7 +1477,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/175",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/175"
     },
     {
       "name": "Harvard SRI: Student Research Institute",
@@ -1173,7 +1491,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/367",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/367"
     },
     {
       "name": "HOBY: Hugh O'Brian Youth Leadership - Workshops, Seminars & Congress",
@@ -1184,7 +1505,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/250",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/250"
     },
     {
       "name": "Horizon Academic Research Program",
@@ -1195,7 +1519,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "NJ",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/251",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/251"
     },
     {
       "name": "iD Tech",
@@ -1206,7 +1533,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/252",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/252"
     },
     {
       "name": "Idyllwild Arts Teen Programs",
@@ -1217,7 +1547,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/253",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/253"
     },
     {
       "name": "Illinois Tech Pre-College",
@@ -1228,7 +1561,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "IL",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/176",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/176"
     },
     {
       "name": "Immerse Education",
@@ -1239,7 +1575,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/351",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/351"
     },
     {
       "name": "Indiana University BOSS: Business Opportunities Summer Session",
@@ -1250,7 +1589,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IN",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/332",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/332"
     },
     {
       "name": "Indiana University Kelley School of Business - Women's Leadership Institute",
@@ -1261,7 +1603,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IN",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/177",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/177"
     },
     {
       "name": "Indiana University Pre-College Programs",
@@ -1272,7 +1617,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "IN",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/178",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/178"
     },
     {
       "name": "Inspirit AI",
@@ -1283,7 +1631,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/179",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/179"
     },
     {
       "name": "Institute For Mathematics and Democracy",
@@ -1294,7 +1645,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/352",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/352"
     },
     {
       "name": "Institute for Systems Biology (ISB) High School Intern Programs",
@@ -1305,7 +1659,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "WA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/361",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/361"
     },
     {
       "name": "Interlochen Arts Camp",
@@ -1316,7 +1673,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MI",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/254",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/254"
     },
     {
       "name": "Iowa Young Writers Studio",
@@ -1327,7 +1687,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "IA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/255",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/255"
     },
     {
       "name": "Ithaca College Summer College for High School Students",
@@ -1338,7 +1701,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/180",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/180"
     },
     {
       "name": "John Locke Institute",
@@ -1349,7 +1715,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/366",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/366"
     },
     {
       "name": "Johns Hopkins CTY: Center for Talented Youth",
@@ -1360,7 +1729,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MD",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/181",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/181"
     },
     {
       "name": "Johns Hopkins EEI: Explore Engineering Innovation",
@@ -1371,7 +1743,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MD",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/182",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/182"
     },
     {
       "name": "Johns Hopkins Pre-College",
@@ -1382,7 +1757,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "MD",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/183",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/183"
     },
     {
       "name": "Julliard Performing Arts Summer Program",
@@ -1393,7 +1771,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "FL",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/256",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/256"
     },
     {
       "name": "Julliard Pre-College",
@@ -1404,7 +1785,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/114",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/114"
     },
     {
       "name": "Kelly Writers House Writers Workshop",
@@ -1415,7 +1799,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/257",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/257"
     },
     {
       "name": "Kenyon Young Writers Workshop",
@@ -1426,7 +1813,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "OH",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/258",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/258"
     },
     {
       "name": "LaunchX",
@@ -1437,7 +1827,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/185",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/185"
     },
     {
       "name": "LEAD: Leadership, Education & Development - Global Summer Learning Institute (GSLI)",
@@ -1448,7 +1841,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "GA",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/186",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/186"
     },
     {
       "name": "Leangap",
@@ -1459,7 +1855,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/187",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/187"
     },
     {
       "name": "Lehigh University IACOCCA Global Entrepreneurship Intensive",
@@ -1470,7 +1869,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/259",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/259"
     },
     {
       "name": "LMU: Loyola Marymount University Pre-College",
@@ -1481,7 +1883,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/188",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/188"
     },
     {
       "name": "Maine Space Grant Consortium MERITS: Maine Research Internships for High School",
@@ -1492,7 +1897,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "ME",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/260",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/260"
     },
     {
       "name": "Marist College Summer Pre-College - Business",
@@ -1503,7 +1911,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/261",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/261"
     },
     {
       "name": "MathILy/MathILY-er",
@@ -1514,7 +1925,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/189",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/189"
     },
     {
       "name": "MDI Biological Laboratory Biomedical Bootcamp",
@@ -1525,7 +1939,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "ME",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/190",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/190"
     },
     {
       "name": "Medical Intelligence and Innovation Institute (Mi4) Summer Internship Program (Rady Children's Hospital)",
@@ -1536,7 +1953,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/356",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/356"
     },
     {
       "name": "Memorial Sloan Kettering Cancer Center HOPP Summer Student Program",
@@ -1547,7 +1967,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/202",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/202"
     },
     {
       "name": "MFAA: Missouri Fine Arts Academy",
@@ -1558,7 +1981,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MO",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/191",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/191"
     },
     {
       "name": "Michigan State HSHSP: High School Honors Science/Mathematics/Engineering Program",
@@ -1569,7 +1995,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MI",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/333",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/333"
     },
     {
       "name": "MIT BWSI: Beaver Works Summer Institute",
@@ -1580,7 +2009,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/192",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/192"
     },
     {
       "name": "MIT LLRISE: Lincoln Lab Intro for Student Engineers",
@@ -1591,7 +2023,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/193",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/193"
     },
     {
       "name": "MIT Mathroots",
@@ -1602,7 +2037,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/194",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/194"
     },
     {
       "name": "MIT MITES Summer",
@@ -1613,7 +2051,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/195",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/195"
     },
     {
       "name": "MIT PRIMES",
@@ -1624,7 +2065,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/196",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/196"
     },
     {
       "name": "MIT RSI: Research Science Institute",
@@ -1635,7 +2079,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/197",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/197"
     },
     {
       "name": "MIT WTP: Women's Technology Program",
@@ -1646,7 +2093,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/203",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/203"
     },
     {
       "name": "Music @ Menlo Young Performers Program",
@@ -1657,7 +2107,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/262",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/262"
     },
     {
       "name": "NASA Internships and Fellowships",
@@ -1668,7 +2121,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/263",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/263"
     },
     {
       "name": "National Debate Forum",
@@ -1679,7 +2135,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/264",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/264"
     },
     {
       "name": "National Security Language Initiative for Youth (NSLI-Y)",
@@ -1690,7 +2149,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/349",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/349"
     },
     {
       "name": "New Jersey GSS: Governor's School of Sciences",
@@ -1701,7 +2163,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NJ",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/265",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/265"
     },
     {
       "name": "NMP: Neuroscience Mentorship Program",
@@ -1712,7 +2177,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/266",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/266"
     },
     {
       "name": "Non-Trivial Fellowship",
@@ -1723,7 +2191,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/267",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/267"
     },
     {
       "name": "Northeastern Accelerate Pre-College Programs",
@@ -1734,7 +2205,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/204",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/204"
     },
     {
       "name": "Northwestern Bridge Program",
@@ -1745,7 +2219,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "IL",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/205",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/205"
     },
     {
       "name": "Northwestern College Prep Program",
@@ -1756,7 +2233,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "IL",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/206",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/206"
     },
     {
       "name": "Northwestern CTD CLI: Civic Leadership Institute",
@@ -1767,7 +2247,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/36",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/36"
     },
     {
       "name": "Northwestern Debate Institute",
@@ -1778,7 +2261,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "IL",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/52",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/52"
     },
     {
       "name": "Northwestern NHSI Film & Video Institute",
@@ -1789,7 +2275,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/43",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/43"
     },
     {
       "name": "Northwestern NHSI Theatre Arts Division",
@@ -1800,7 +2289,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/44",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/44"
     },
     {
       "name": "Northwestern University Medill Cherubs Journalism",
@@ -1811,7 +2303,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/45",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/45"
     },
     {
       "name": "Notre Dame NDLS: Notre Dame Leadership Seminar",
@@ -1822,7 +2317,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "IN",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/46",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/46"
     },
     {
       "name": "Notre Dame NDSS: Notre Dame Summer Scholars",
@@ -1833,7 +2331,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "IN",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/48",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/48"
     },
     {
       "name": "NSLC: National Student Leadership Conference Pre-College Programs",
@@ -1844,7 +2345,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/207",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/207"
     },
     {
       "name": "NYSCamp: National Youth Science Camp",
@@ -1855,7 +2359,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "WV",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/208",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/208"
     },
     {
       "name": "NYSSSA: New York State Summer School of the Arts",
@@ -1866,7 +2373,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/53",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/53"
     },
     {
       "name": "NYU ARISE: Applied Research Innovations in Science & Engineering",
@@ -1877,7 +2387,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/122",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/122"
     },
     {
       "name": "NYU CMT: Center for Math Talent - Summer Math Program for Young Scholars",
@@ -1888,7 +2401,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/123",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/123"
     },
     {
       "name": "NYU Coding for Game Design",
@@ -1899,7 +2415,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/124",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/124"
     },
     {
       "name": "NYU GSTEM: Girls in STEM",
@@ -1910,7 +2429,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/126",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/126"
     },
     {
       "name": "NYU High School Summer Art Intensive",
@@ -1921,7 +2443,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/127",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/127"
     },
     {
       "name": "NYU Pre-College",
@@ -1932,7 +2457,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/103",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/103"
     },
     {
       "name": "NYU SPARC: Summer Program for Automation, Robotics & Coding",
@@ -1943,7 +2471,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/102",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/102"
     },
     {
       "name": "NYU SPS: School of Professional Studies High School Academy",
@@ -1954,7 +2485,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/51",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/51"
     },
     {
       "name": "NYU Steinhardt Music Summer Programs",
@@ -1965,7 +2499,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/79",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/79"
     },
     {
       "name": "NYU Summer Program - XR Through Virtual Worlds",
@@ -1976,7 +2513,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/81",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/81"
     },
     {
       "name": "NYU Tandon K12 STEM Education Programs",
@@ -1987,7 +2527,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/353",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/353"
     },
     {
       "name": "NYU Tisch High School Programs",
@@ -1998,7 +2541,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/85",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/85"
     },
     {
       "name": "NYU Tisch - Online High School Filmmakers Workshop",
@@ -2009,7 +2555,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/83",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/83"
     },
     {
       "name": "NYU Tisch - Online High School Screenwriters Workshop",
@@ -2020,7 +2569,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/84",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/84"
     },
     {
       "name": "NYU Urban Journalism Workshop",
@@ -2031,7 +2583,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/86",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/86"
     },
     {
       "name": "PAN: Physics of Atomic Nuclei",
@@ -2042,7 +2597,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MI",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/87",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/87"
     },
     {
       "name": "Penn Data Science Academy",
@@ -2053,7 +2611,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/91",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/91"
     },
     {
       "name": "Penn ESAP: Engineering Summer Academy",
@@ -2064,7 +2625,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/54",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/54"
     },
     {
       "name": "Penn Essentials of Entrepreneurship",
@@ -2075,7 +2639,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/55",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/55"
     },
     {
       "name": "Penn Essentials of Finance",
@@ -2086,7 +2653,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/56",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/56"
     },
     {
       "name": "Penn FBW: Future of the Business World",
@@ -2097,7 +2667,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/57",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/57"
     },
     {
       "name": "Penn LBW: Leadership in the Business World",
@@ -2108,7 +2681,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/58",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/58"
     },
     {
       "name": "Penn Medicine Summer Program",
@@ -2119,7 +2695,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/60",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/60"
     },
     {
       "name": "Penn Moneyball Academy",
@@ -2130,7 +2709,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/61",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/61"
     },
     {
       "name": "Penn M&TSI: Management and Technology Summer Institute",
@@ -2141,7 +2723,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/59",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/59"
     },
     {
       "name": "Penn Neuroscience Research Academy",
@@ -2152,7 +2737,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/62",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/62"
     },
     {
       "name": "Penn Pre-College",
@@ -2163,7 +2751,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/93",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/93"
     },
     {
       "name": "Penn Product Design Academy",
@@ -2174,7 +2765,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/63",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/63"
     },
     {
       "name": "Penn Sports Business Academy",
@@ -2185,7 +2779,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/64",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/64"
     },
     {
       "name": "Penn State BOSS: Business Opportunities Summer Session",
@@ -2196,7 +2793,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/94",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/94"
     },
     {
       "name": "Penn Summer Academies",
@@ -2207,7 +2807,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/95",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/95"
     },
     {
       "name": "PGSS: Pennsylvania Governor's School for the Sciences",
@@ -2218,7 +2821,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/97",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/97"
     },
     {
       "name": "Pioneer Research",
@@ -2229,7 +2835,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/65",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/65"
     },
     {
       "name": "PNNL: Pacific Northwest National Laboratory Student Research Apprencticeship Program",
@@ -2240,7 +2849,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "WA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/98",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/98"
     },
     {
       "name": "PNNL: Pacific Northwest National Laboratory Young Women in Science",
@@ -2251,7 +2863,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "WA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/99",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/99"
     },
     {
       "name": "Polyphony Lit Summer Scholars Program",
@@ -2262,7 +2877,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/100",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/100"
     },
     {
       "name": "Princeton LLP: Laboratory Learning Program",
@@ -2273,7 +2891,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NJ",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/66",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/66"
     },
     {
       "name": "Princeton PSJP: Princeton Summer Journalism Program",
@@ -2284,7 +2905,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NJ",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/101",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/101"
     },
     {
       "name": "PROMYS: Program in Mathematics for Young Scientists",
@@ -2295,7 +2919,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/67",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/67"
     },
     {
       "name": "Rennselaer PREFACE Summer Engineering Design Program",
@@ -2306,7 +2933,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/31",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/31"
     },
     {
       "name": "Rice University Pre-College",
@@ -2317,7 +2947,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/32",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/32"
     },
     {
       "name": "RISD: Rhode Island School of Design Pre-College",
@@ -2328,7 +2961,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "RI",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/33",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/33"
     },
     {
       "name": "RISD: Rhode Island School of Design Youth Programs",
@@ -2339,7 +2975,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "RI",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/37",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/37"
     },
     {
       "name": "Rockefeller University SSRP: Summer Science Research Program",
@@ -2350,7 +2989,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/38",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/38"
     },
     {
       "name": "Rosetta Institute Biomedical Summer Camps",
@@ -2361,7 +3003,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/39",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/39"
     },
     {
       "name": "Ross Mathematics Program",
@@ -2372,7 +3017,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/42",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/42"
     },
     {
       "name": "Rutgers University Community Arts Summer Program",
@@ -2383,7 +3031,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NJ",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/47",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/47"
     },
     {
       "name": "Rutgers University Young Scholars Program in Discrete Mathematics",
@@ -2394,7 +3045,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NJ",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/49",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/49"
     },
     {
       "name": "SAME: Society of American Military Engineers STEM / Engineering Camps",
@@ -2405,7 +3059,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/50",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/50"
     },
     {
       "name": "San Jose State University Mosaic Journalism",
@@ -2416,7 +3073,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/78",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/78"
     },
     {
       "name": "SEAP: Science & Engineering Apprenticeship Program",
@@ -2427,7 +3087,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/68",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/68"
     },
     {
       "name": "Sigma Camp",
@@ -2438,7 +3101,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CT",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/88",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/88"
     },
     {
       "name": "SMASH: Summer Math and Science Honors Academy",
@@ -2449,7 +3115,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/4",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/4"
     },
     {
       "name": "Smith College Pre-College Programs",
@@ -2460,7 +3129,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/89",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/89"
     },
     {
       "name": "Smith College SSEP: Summer Science & Engineering Program (girls only)",
@@ -2471,7 +3143,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/69",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/69"
     },
     {
       "name": "Sotheby's Institute of Art Summer Institute",
@@ -2482,7 +3157,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/90",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/90"
     },
     {
       "name": "SPARC: Summer Program for Applied Rationality & Cognition",
@@ -2493,7 +3171,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/70",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/70"
     },
     {
       "name": "SSP: Summer Science Program",
@@ -2504,7 +3185,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/92",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/92"
     },
     {
       "name": "StandOut Connect",
@@ -2515,7 +3199,10 @@
       "updated_for": "2025",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/141",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/141"
     },
     {
       "name": "Stanford AI4ALL",
@@ -2526,7 +3213,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/71",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/71"
     },
     {
       "name": "Stanford Clinical Science, Technology and Medicine Internships",
@@ -2537,7 +3227,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/72",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/72"
     },
     {
       "name": "Stanford CNI-X: Clinical Neuroscience Immersion Experience",
@@ -2548,7 +3241,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/73",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/73"
     },
     {
       "name": "Stanford CSI: Clinical Summer Internship",
@@ -2559,7 +3255,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/74",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/74"
     },
     {
       "name": "Stanford CSSEC: Cardiothoracic Surgical Skills and Education Center",
@@ -2570,7 +3269,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/75",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/75"
     },
     {
       "name": "Stanford Daily - Summer Internship Program",
@@ -2581,7 +3283,10 @@
       "updated_for": "2025",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/128",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/128"
     },
     {
       "name": "Stanford GRIPS: Genomics Research Internship Program at Stanford",
@@ -2592,7 +3297,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/76",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/76"
     },
     {
       "name": "Stanford High School Summer College",
@@ -2603,7 +3311,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/129",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/129"
     },
     {
       "name": "Stanford IFSS: Inspiring Future Scientists through Shadowing",
@@ -2614,7 +3325,10 @@
       "updated_for": "2025",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/147",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/147"
     },
     {
       "name": "Stanford Medicine EXPLORE Lecture Series",
@@ -2625,7 +3339,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/130",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/130"
     },
     {
       "name": "Stanford PIPS: Pediatrics Internship Program at Stanford",
@@ -2636,7 +3353,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/131",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/131"
     },
     {
       "name": "Stanford Pre-Collegiate Summer Institutes",
@@ -2647,7 +3367,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/132",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/132"
     },
     {
       "name": "Stanford SHTEM: Summer Internships for High Schoolers",
@@ -2658,7 +3381,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/368",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/368"
     },
     {
       "name": "Stanford SIMR: Stanford Institutes of Medicine Research - Bioengineering",
@@ -2669,7 +3395,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/133",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/133"
     },
     {
       "name": "Stanford SPINWIP: Stanford Program for Inspiring the Next Generation of Women in Physics",
@@ -2680,7 +3409,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/134",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/134"
     },
     {
       "name": "Stanford SSHI: Stanford Summer Humanities Institute",
@@ -2691,7 +3423,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/135",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/135"
     },
     {
       "name": "Stanford STaRS: Science Technology and Reconstructive Surgery",
@@ -2702,7 +3437,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/136",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/136"
     },
     {
       "name": "Stanford SUMaC: Stanford University Mathematics Camp",
@@ -2713,7 +3451,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/137",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/137"
     },
     {
       "name": "Stanford Summer of Neurosciences",
@@ -2724,7 +3465,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/138",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/138"
     },
     {
       "name": "Stanford Young Investigators",
@@ -2735,7 +3479,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/139",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/139"
     },
     {
       "name": "STEP-UP: Short-Term Research Experiences for Underrepresented Persons - NIDDK: National Institute of Diabetes and Digestive and Kidney",
@@ -2746,7 +3493,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/140",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/140"
     },
     {
       "name": "Stony Brook University Garcia Center for Polymers",
@@ -2757,7 +3507,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/77",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/77"
     },
     {
       "name": "Stony Brook University Simons Summer Research Program",
@@ -2768,7 +3521,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/104",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/104"
     },
     {
       "name": "Student Historian Internship Program",
@@ -2779,7 +3535,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/146",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/146"
     },
     {
       "name": "Summer Discovery",
@@ -2790,7 +3549,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/148",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/148"
     },
     {
       "name": "Summer Springboard",
@@ -2801,7 +3563,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/198",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/198"
     },
     {
       "name": "Syracuse University Summer College for High School Students",
@@ -2812,7 +3577,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/199",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/199"
     },
     {
       "name": "TASS-AOS: Telluride Association Summer Seminars - Anti Oppressive Studies",
@@ -2823,7 +3591,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/105",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/105"
     },
     {
       "name": "TASS-CBS: Telluride Association Summer Seminars - Critical Black Studies",
@@ -2834,7 +3605,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/106",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/106"
     },
     {
       "name": "Texas A&M Aggie STEM",
@@ -2845,7 +3619,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "TX",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/107",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/107"
     },
     {
       "name": "Texas State University HSMC: Honors Summer Math Camp",
@@ -2856,7 +3633,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "TX",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/108",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/108"
     },
     {
       "name": "Texas Tech University The Anson L. Clark Scholars Program",
@@ -2867,7 +3647,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "TX",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/109",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/109"
     },
     {
       "name": "The Lawrence Summer Camps & Teen Research Programs",
@@ -2878,7 +3661,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/110",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/110"
     },
     {
       "name": "The Lundquist Institute: High School Summer Training in Advanced Research",
@@ -2889,7 +3675,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/363",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/363"
     },
     {
       "name": "The Met High School Internships",
@@ -2900,7 +3689,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/144",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/144"
     },
     {
       "name": "The School of the New York Times Pre-College (Summer Academy)",
@@ -2911,7 +3703,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/111",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/111"
     },
     {
       "name": "Tufts University Pre-College",
@@ -2922,7 +3717,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/112",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/112"
     },
     {
       "name": "UC Berkeley Business Academy for Youth (B-BAY): High School Entrepreneurship",
@@ -2933,7 +3731,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/200",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/200"
     },
     {
       "name": "UC Berkeley Pre-College Scholars - Summer Commuter Program for High School Students",
@@ -2944,7 +3745,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/113",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/113"
     },
     {
       "name": "UC Campuses COSMOS",
@@ -2955,7 +3759,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/5",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/5"
     },
     {
       "name": "UC Davis YSP: Young Scholars Program",
@@ -2966,7 +3773,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/209",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/209"
     },
     {
       "name": "UC Irvine Brain Camp",
@@ -2977,7 +3787,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/210",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/210"
     },
     {
       "name": "UC Irvine Cancer Research Institute - Youth Science Fellowship Program",
@@ -2988,7 +3801,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/211",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/211"
     },
     {
       "name": "UC Irvine MEDACADEMY",
@@ -2999,7 +3815,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/212",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/212"
     },
     {
       "name": "UC Irvine Merage School of Business Pre College Programs",
@@ -3010,7 +3829,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/268",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/268"
     },
     {
       "name": "UC Irvine School of Medicine - Summer Online Research Program",
@@ -3021,7 +3843,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/269",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/269"
     },
     {
       "name": "UC Irvine SHE: Summer Healthcare Experience",
@@ -3032,7 +3857,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/270",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/270"
     },
     {
       "name": "UC Irvine Summer Surgery Program",
@@ -3043,7 +3871,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/271",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/271"
     },
     {
       "name": "UC Irvine x GATI: Gifted & Talented Institute - BEAM: Bioengineering AI Medicine 2.0",
@@ -3054,7 +3885,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/272",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/272"
     },
     {
       "name": "UC Irvine x GATI: Gifted & Talented Institute - GSET: Game Science Entertainment Technology",
@@ -3065,7 +3899,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/273",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/273"
     },
     {
       "name": "UCLA Acting & Performance Laboratory Intensive",
@@ -3076,7 +3913,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/276",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/276"
     },
     {
       "name": "UCLA Applications of Nanoscience Summer Institute",
@@ -3087,7 +3927,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/277",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/277"
     },
     {
       "name": "UCLA Design Media Arts Summer Institute",
@@ -3098,7 +3941,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/274",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/274"
     },
     {
       "name": "UCLA Nanoscience Lab Summer Institute",
@@ -3109,7 +3955,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/341",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/341"
     },
     {
       "name": "UCLA Pre-College",
@@ -3120,7 +3969,10 @@
       "updated_for": "2025",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/275",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/275"
     },
     {
       "name": "UCLA Pre-College Focus Series - Economics",
@@ -3131,7 +3983,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/339",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/339"
     },
     {
       "name": "UCLA Pre-College Focus Series - Engineering Design: The Internet of Things",
@@ -3142,7 +3997,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/278",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/278"
     },
     {
       "name": "UCLA Pre-College Focus Series - Introduction to Investments",
@@ -3153,7 +4011,10 @@
       "updated_for": "2026",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/340",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/340"
     },
     {
       "name": "UCLA Pre-College Focus Series - Python for Economics and Finance",
@@ -3164,7 +4025,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/342",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/342"
     },
     {
       "name": "UCLA SciArt Lab + Studio",
@@ -3175,7 +4039,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/279",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/279"
     },
     {
       "name": "UCLA Startup UCLA: Social Entrepreneurship Summer Institute",
@@ -3186,7 +4053,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/343",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/343"
     },
     {
       "name": "UCLA Summer College Immersion",
@@ -3197,7 +4067,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/364",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/364"
     },
     {
       "name": "UCSB RMP: Research Mentorship Program",
@@ -3208,7 +4081,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/280",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/280"
     },
     {
       "name": "UCSB SRA: Summer Research Academies",
@@ -3219,7 +4095,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/281",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/281"
     },
     {
       "name": "UCSC High School Summer Online",
@@ -3230,7 +4109,10 @@
       "updated_for": "",
       "format": "Online",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/282",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/282"
     },
     {
       "name": "UCSC SIP: Science Internship Program",
@@ -3241,7 +4123,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/283",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/283"
     },
     {
       "name": "UCSD Academic Connections",
@@ -3252,7 +4137,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/284",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/284"
     },
     {
       "name": "UCSD Pre-College - Research Scholars",
@@ -3263,7 +4151,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/285",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/285"
     },
     {
       "name": "UMass Amherst Pre-College",
@@ -3274,7 +4165,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/286",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/286"
     },
     {
       "name": "University of Arizona NASA Astro Camp",
@@ -3285,7 +4179,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "AZ",
-      "grade_min": 7
+      "grade_min": 7,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/287",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/287"
     },
     {
       "name": "University of Chicago Pre-College Programs",
@@ -3296,7 +4193,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "IL",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/290",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/290"
     },
     {
       "name": "University of Chicago RIBS: Research in the Biological Sciences",
@@ -3307,7 +4207,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/288",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/288"
     },
     {
       "name": "University of Chicago Stones & Bones",
@@ -3318,7 +4221,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/289",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/289"
     },
     {
       "name": "University of Chicago Summer Immersion / Pathways (UChicago)",
@@ -3329,7 +4235,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "IL",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/291",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/291"
     },
     {
       "name": "University of Colorado Leeds School of Business - Summer Programs",
@@ -3340,7 +4249,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CO",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/292",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/292"
     },
     {
       "name": "University of Florida Gator Vet Camp",
@@ -3351,7 +4263,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "FL",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/293",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/293"
     },
     {
       "name": "University of Florida SSTP: Student Science Training Program",
@@ -3362,7 +4277,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "FL",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/294",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/294"
     },
     {
       "name": "University of Georgia Terry College of Business - Accelerated Business Program",
@@ -3373,7 +4291,10 @@
       "updated_for": "",
       "format": "Hybrid",
       "state": "GA",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/295",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/295"
     },
     {
       "name": "University of Iowa SSTP: Secondary Student Training Program",
@@ -3384,7 +4305,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "IA",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/2",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/2"
     },
     {
       "name": "University of Kansas Summer Venture in Business",
@@ -3395,7 +4319,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "KS",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/302",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/302"
     },
     {
       "name": "University of Maryland Pre-College - TERP Young Scholars",
@@ -3406,7 +4333,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MD",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/303",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/303"
     },
     {
       "name": "University of Michigan MMSS: Michigan Math and Science Scholars",
@@ -3417,7 +4347,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MI",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/305",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/305"
     },
     {
       "name": "University of Michigan Ross Summer Business Academy",
@@ -3428,7 +4361,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MI",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/306",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/306"
     },
     {
       "name": "University of Rochester LLE: Laboratory for Laser Energetics - Summer Research Program",
@@ -3439,7 +4375,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/308",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/308"
     },
     {
       "name": "University of Rochester Pre-College",
@@ -3450,7 +4389,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "NY",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/309",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/309"
     },
     {
       "name": "University of South Florida Pre-College",
@@ -3461,7 +4403,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "FL",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/310",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/310"
     },
     {
       "name": "USC Pre-College Programs",
@@ -3472,7 +4417,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/313",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/313"
     },
     {
       "name": "USC Viterbi K-12 Stem Center",
@@ -3483,7 +4431,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/314",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/314"
     },
     {
       "name": "USC YRP: Young Researchers Program",
@@ -3494,7 +4445,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CA",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/315",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/315"
     },
     {
       "name": "US Dept of State Pathways Internship Programs",
@@ -3505,7 +4459,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/142",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/142"
     },
     {
       "name": "US Naval Academy Summer Seminar",
@@ -3516,7 +4473,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MD",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/311",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/311"
     },
     {
       "name": "US Naval Academy Summer STEM",
@@ -3527,7 +4487,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MD",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/312",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/312"
     },
     {
       "name": "UT Austin SEES: STEM Enhancement in Earth Science (NASA)",
@@ -3538,7 +4501,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "TX",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/316",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/316"
     },
     {
       "name": "Vanderbilt University - Aspirnaut High School Summer Research Internship",
@@ -3549,7 +4515,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "TN",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/317",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/317"
     },
     {
       "name": "Veritas AI",
@@ -3560,7 +4529,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 8
+      "grade_min": 8,
+      "adc_tier": 4,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/1",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/1"
     },
     {
       "name": "VESTED: Villanova Engineering, Science, Technology, Enrichment & Development",
@@ -3571,7 +4543,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "PA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/322",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/322"
     },
     {
       "name": "WashU: Washington University in St. Louis Pre-Collegiate Business Programs",
@@ -3582,7 +4557,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MO",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/323",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/323"
     },
     {
       "name": "WashU: Washington University in St. Louis Summer Scholars Program",
@@ -3593,7 +4571,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MO",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/324",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/324"
     },
     {
       "name": "Williams College PZ MC: Math Camp",
@@ -3604,7 +4585,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/325",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/325"
     },
     {
       "name": "Wolfram High School Summer Research Program",
@@ -3615,7 +4599,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "MA",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/326",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/326"
     },
     {
       "name": "Yale YSPA: Yale Summer Program in Astrophysics",
@@ -3626,7 +4613,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CT",
-      "grade_min": 11
+      "grade_min": 11,
+      "adc_tier": 1,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/327",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/327"
     },
     {
       "name": "Yale YSS: Yale Summer Session - Pre-College",
@@ -3637,7 +4627,10 @@
       "updated_for": "",
       "format": "In-Person",
       "state": "CT",
-      "grade_min": 12
+      "grade_min": 12,
+      "adc_tier": 3,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/328",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/328"
     },
     {
       "name": "Yale YYGS: Yale Young Global Scholars",
@@ -3648,7 +4641,10 @@
       "updated_for": "2026",
       "format": "In-Person",
       "state": "CT",
-      "grade_min": 10
+      "grade_min": 10,
+      "adc_tier": null,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/329",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/329"
     },
     {
       "name": "Young Founders Lab",
@@ -3659,7 +4655,10 @@
       "updated_for": "2026",
       "format": "Online",
       "state": "",
-      "grade_min": 9
+      "grade_min": 9,
+      "adc_tier": 2,
+      "adc_detail_path": "/dashboard/database/summer-programs/profile/330",
+      "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/330"
     }
   ]
 }

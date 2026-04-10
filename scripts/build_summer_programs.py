@@ -69,6 +69,10 @@ def parse_records(jwt: str) -> list[dict]:
                 continue
             grade, grade_min = normalize_grade(cells[4])
             location = cells[1].strip()
+            profile_path = ''
+            link = tr.xpath('./td[1]//a/@href')
+            if link:
+                profile_path = link[0].strip()
             record = {
                 'name': cells[0].strip(),
                 'location': location,
@@ -79,10 +83,10 @@ def parse_records(jwt: str) -> list[dict]:
                 'format': infer_format(location),
                 'state': infer_state(location),
                 'grade_min': grade_min,
+                'adc_tier': None,
+                'adc_detail_path': profile_path,
+                'adc_detail_url': f'https://portal.anndaveconsulting.com{profile_path}' if profile_path else '',
             }
-            adc_tier = clean_dash(cells[5])
-            if adc_tier:
-                record['adc_tier'] = adc_tier
             records.append(record)
     return records
 
@@ -116,7 +120,7 @@ def main() -> None:
     if len(records) != TOTAL_IN_SOURCE:
         raise SystemExit(f'Expected {TOTAL_IN_SOURCE} records, got {len(records)}')
     payload = {
-        'schema_version': 2,
+        'schema_version': 3,
         'dataset': 'summer-programs-explorer',
         'generated_at': datetime.now(UTC).replace(microsecond=0).isoformat().replace('+00:00', 'Z'),
         'generated_from': [
@@ -126,10 +130,14 @@ def main() -> None:
         'coverage': {
             'total_in_source': TOTAL_IN_SOURCE,
             'captured_structured': len(records),
-            'note': 'Full Summer Programs table was captured from the logged-in portal session on 2026-04-11.',
+            'adc_detail_links_captured': sum(1 for r in records if r.get('adc_detail_url')),
+            'adc_tier_non_empty': 0,
+            'adc_tier_empty_or_missing': len(records),
+            'adc_tier_note': 'Base build captures detail links from the list page. ADC Tier should be backfilled from portal profile pages when available.',
+            'note': 'Full Summer Programs table was captured from the logged-in portal session on 2026-04-11, with detail links extracted from the list page.',
         },
-        'fields': ['name', 'location', 'state', 'deadline', 'rec_letters', 'grade', 'grade_min', 'format', 'updated_for'],
-        'filterable_fields': ['grade', 'format', 'rec_letters', 'state', 'updated_for', 'deadline'],
+        'fields': ['name', 'location', 'state', 'deadline', 'rec_letters', 'grade', 'grade_min', 'format', 'updated_for', 'adc_tier', 'adc_detail_path', 'adc_detail_url'],
+        'filterable_fields': ['grade', 'format', 'rec_letters', 'state', 'updated_for', 'deadline', 'adc_tier'],
         'records': records,
     }
     OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

@@ -740,7 +740,10 @@
       grade: getField(item, ['grade'], ''),
       grade_min: Number(getField(item, ['grade_min', 'gradeMin'], '')) || null,
       format: getField(item, ['format'], ''),
-      updated_for: getField(item, ['updated_for', 'updatedFor'], '')
+      updated_for: getField(item, ['updated_for', 'updatedFor'], ''),
+      adc_tier: getField(item, ['adc_tier', 'adcTier'], null),
+      adc_detail_url: getField(item, ['adc_detail_url', 'adcDetailUrl'], ''),
+      adc_detail_path: getField(item, ['adc_detail_path', 'adcDetailPath'], '')
     };
   }
 
@@ -755,6 +758,7 @@
           <thead>
             <tr>
               <th>Program</th>
+              <th>ADC Tier</th>
               <th>Location</th>
               <th>Format</th>
               <th>Grade</th>
@@ -766,7 +770,8 @@
           <tbody>
             ${records.map(item => `
               <tr>
-                <td>${escapeHtml(item.name || '—')}</td>
+                <td>${item.adc_detail_url ? `<a href="${escapeHtml(item.adc_detail_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name || '—')}</a>` : escapeHtml(item.name || '—')}</td>
+                <td>${item.adc_tier ?? '—'}</td>
                 <td>${escapeHtml(item.location || '—')}</td>
                 <td>${escapeHtml(item.format || '—')}</td>
                 <td>${escapeHtml(item.grade || '—')}</td>
@@ -801,6 +806,7 @@
       rec_letters: node.dataset.recLetters || '',
       updated_for: node.dataset.updatedFor || '',
       deadline: node.dataset.deadline || '',
+      adc_tier: node.dataset.adcTier || '',
       search: ''
     };
     const pageState = { page: 1, pageSize: 50, totalPages: 1 };
@@ -826,6 +832,11 @@
             if (item.deadline) return false;
           } else if (item.deadline !== filters.deadline) return false;
         }
+        if (filters.adc_tier) {
+          if (filters.adc_tier === 'Not specified') {
+            if (item.adc_tier !== null && item.adc_tier !== undefined && item.adc_tier !== '') return false;
+          } else if (String(item.adc_tier) !== String(filters.adc_tier)) return false;
+        }
         if (searchLower) {
           const haystack = [item.name, item.location, item.state, item.grade, item.deadline, item.format].join(' ').toLowerCase();
           if (!haystack.includes(searchLower)) return false;
@@ -845,11 +856,17 @@
       if (filters.rec_letters !== '') summaryBits.push(`Rec Letters: ${filters.rec_letters}`);
       if (filters.updated_for) summaryBits.push(`Updated For: ${filters.updated_for}`);
       if (filters.deadline) summaryBits.push(`Deadline: ${filters.deadline}`);
+      if (filters.adc_tier) summaryBits.push(`ADC Tier: ${filters.adc_tier}`);
       if (filters.search) summaryBits.push(`Search: ${filters.search}`);
 
       const stateOptions = uniq(records.map(item => item.state || 'Not specified')).sort();
       const updatedForOptions = uniq(records.map(item => item.updated_for || 'Not specified')).sort();
       const deadlineOptions = uniq(records.map(item => item.deadline || 'Not specified')).sort();
+      const adcTierOptions = uniq(records.map(item => item.adc_tier === null || item.adc_tier === undefined || item.adc_tier === '' ? 'Not specified' : String(item.adc_tier))).sort((a, b) => {
+        if (a === 'Not specified') return 1;
+        if (b === 'Not specified') return -1;
+        return Number(a) - Number(b);
+      });
 
       node.innerHTML = `
         <section class="linked-section explorer-shell">
@@ -867,6 +884,7 @@
             ${renderExplorerFilter('Rec Letters', 'rec_letters', getUniqueOptions(records, 'rec_letters').map(String).sort(), String(filters.rec_letters))}
             ${renderExplorerFilter('Updated For', 'updated_for', updatedForOptions, filters.updated_for)}
             ${renderExplorerFilter('Deadline', 'deadline', deadlineOptions, filters.deadline)}
+            ${renderExplorerFilter('ADC Tier', 'adc_tier', adcTierOptions, filters.adc_tier)}
             <label class="explorer-filter">
               <span>Search Program</span>
               <input type="text" data-filter-key="search" placeholder="e.g. journalism, Berkeley, online" value="${escapeHtml(filters.search)}">
@@ -876,7 +894,7 @@
             <div><strong>${filtered.length}</strong> / ${records.length} 个项目匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
-          <div class="linked-note explorer-data-note">当前基于 portal 已结构化数据提供筛选。现状为 ${coverage.captured_structured || records.length} / ${coverage.total_in_source || records.length} 条；如需更深信息，仍需回到 portal 原页或后续详情页核对。</div>
+          <div class="linked-note explorer-data-note">当前基于 portal 已结构化数据提供筛选。现状为 ${coverage.captured_structured || records.length} / ${coverage.total_in_source || records.length} 条，详情页链接 ${coverage.adc_detail_links_captured || records.filter(item => item.adc_detail_url).length} 条，ADC Tier 非空 ${coverage.adc_tier_non_empty ?? records.filter(item => item.adc_tier !== null && item.adc_tier !== undefined && item.adc_tier !== '').length} 条；空值保留为空，不做推断。</div>
           <div class="explorer-results explorer-results-table">${renderSummerProgramsExplorerResults(display)}</div>
           ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
         </section>
