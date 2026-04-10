@@ -3,7 +3,8 @@
   const EXPLORER_DATASETS = {
     'admission-data': './data/explorers/admission-data.json',
     'case-study': './data/explorers/case-study.json',
-    'academic-programs': './data/explorers/academic-programs.json'
+    'academic-programs': './data/explorers/academic-programs.json',
+    'volunteering': './data/explorers/volunteering.json'
   };
 
   const jsonCache = new Map();
@@ -727,6 +728,144 @@
     applyFilters();
   }
 
+  function normalizeVolunteeringRecord(item) {
+    return {
+      ...item,
+      name: getField(item, ['name', 'organization'], ''),
+      location: getField(item, ['location'], ''),
+      category: getField(item, ['category', 'type'], ''),
+      virtual: item.virtual === null || item.virtual === undefined ? null : Boolean(item.virtual),
+      virtual_raw: getField(item, ['virtual_raw', 'virtualOption', 'virtual_option'], ''),
+      grade: getField(item, ['grade', 'grade_requirement', 'gradeRequirement'], ''),
+      url: getField(item, ['url', 'website'], '')
+    };
+  }
+
+  function renderVolunteeringExplorerResults(records) {
+    if (!records.length) {
+      return renderExplorerEmpty('当前条件下没有匹配的志愿活动', '请放宽筛选条件，或清空关键字/年级/地点后重试。');
+    }
+
+    return `
+      <div class="explorer-table-wrap">
+        <table class="explorer-table explorer-table-volunteering">
+          <thead>
+            <tr>
+              <th>Organization</th>
+              <th>Category</th>
+              <th>Location</th>
+              <th>Virtual</th>
+              <th>Grade</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${records.map(item => `
+              <tr>
+                <td>${escapeHtml(item.name || '—')}</td>
+                <td>${escapeHtml(item.category || '—')}</td>
+                <td>${escapeHtml(item.location || '—')}</td>
+                <td>${escapeHtml(item.virtual_raw ? labelize(item.virtual_raw) : '—')}</td>
+                <td>${escapeHtml(item.grade || '—')}</td>
+                <td>${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Open</a>` : '—'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderVolunteeringExplorer(node, payload) {
+    const records = extractRecords(payload, ['records', 'volunteering']).map(normalizeVolunteeringRecord);
+    if (!records.length) {
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header"><div><h3>Volunteering Explorer</h3><p class="linked-note">按类别、线上/线下、地点与年级要求筛选志愿活动组织。</p></div></div>
+          ${renderExplorerEmpty('志愿活动数据暂不可用', '预期数据文件为 wiki/data/explorers/volunteering.json。')}
+        </section>
+      `;
+      return;
+    }
+
+    const filters = {
+      category: node.dataset.category || '',
+      virtual_raw: node.dataset.virtualRaw || '',
+      location: node.dataset.location || '',
+      grade: node.dataset.grade || '',
+      search: ''
+    };
+    const pageState = { page: 1, pageSize: 50, totalPages: 1 };
+
+    function applyFilters() {
+      const searchLower = filters.search.toLowerCase().trim();
+      const filtered = records.filter(item => {
+        if (filters.category && item.category !== filters.category) return false;
+        if (filters.virtual_raw && item.virtual_raw !== filters.virtual_raw) return false;
+        if (filters.location && item.location !== filters.location) return false;
+        if (filters.grade) {
+          if (filters.grade === 'Not specified') {
+            if (item.grade) return false;
+          } else if (item.grade !== filters.grade) return false;
+        }
+        if (searchLower) {
+          const haystack = [item.name, item.location, item.category, item.grade].join(' ').toLowerCase();
+          if (!haystack.includes(searchLower)) return false;
+        }
+        return true;
+      });
+
+      pageState.totalPages = Math.max(1, Math.ceil(filtered.length / pageState.pageSize));
+      if (pageState.page > pageState.totalPages) pageState.page = pageState.totalPages;
+      const start = (pageState.page - 1) * pageState.pageSize;
+      const display = filtered.slice(start, start + pageState.pageSize);
+
+      const summaryBits = [];
+      if (filters.category) summaryBits.push(`Category: ${filters.category}`);
+      if (filters.virtual_raw) summaryBits.push(`Virtual: ${labelize(filters.virtual_raw)}`);
+      if (filters.location) summaryBits.push(`Location: ${filters.location}`);
+      if (filters.grade) summaryBits.push(`Grade: ${filters.grade}`);
+      if (filters.search) summaryBits.push(`Search: ${filters.search}`);
+
+      const gradeOptions = uniq(records.map(item => item.grade || 'Not specified')).sort();
+      const locationOptions = getUniqueOptions(records, 'location').sort();
+
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header">
+            <div>
+              <h3>Volunteering Explorer</h3>
+              <p class="linked-note">按类别、线上可能性、地点与年级要求筛选全站 ${records.length} 个志愿活动组织，也可直接搜索机构名。</p>
+            </div>
+            <button type="button" class="explorer-reset">重置筛选</button>
+          </div>
+          <div class="explorer-filters explorer-filters-dense">
+            ${renderExplorerFilter('Category', 'category', getUniqueOptions(records, 'category').sort(), filters.category)}
+            ${renderExplorerFilter('Virtual', 'virtual_raw', getUniqueOptions(records, 'virtual_raw').sort(), filters.virtual_raw)}
+            ${renderExplorerFilter('Location', 'location', locationOptions, filters.location)}
+            ${renderExplorerFilter('Grade', 'grade', gradeOptions, filters.grade)}
+            <label class="explorer-filter">
+              <span>Search Organization</span>
+              <input type="text" data-filter-key="search" placeholder="e.g. hospice, autism, tutoring" value="${escapeHtml(filters.search)}">
+            </label>
+          </div>
+          <div class="explorer-summary-bar">
+            <div><strong>${filtered.length}</strong> / ${records.length} 个组织匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
+            <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
+          </div>
+          <div class="linked-note explorer-data-note">当前数据来自本地 Excel 导出，共 270 条结构化记录。` +
+            `Virtual 字段保留原始 yes / no / possibly；绝大多数记录未给出明确 grade requirement。</div>
+          <div class="explorer-results explorer-results-table">${renderVolunteeringExplorerResults(display)}</div>
+          ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
+        </section>
+      `;
+      bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });
+      bindExplorerPagination(node, pageState, applyFilters);
+    }
+
+    applyFilters();
+  }
+
   function templateFor(view, data, schoolSlug) {
     if (view === 'school-hub') {
       return `
@@ -852,7 +991,8 @@
     const caseExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="case-study"]'));
     const admissionExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="admission-data"]'));
     const academicExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="academic-programs"]'));
-    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length) return;
+    const volunteeringExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="volunteering"]'));
+    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length && !volunteeringExplorerNodes.length) return;
 
     const schoolSlug = currentSchoolSlug();
 
@@ -904,6 +1044,18 @@
       } catch (error) {
         academicExplorerNodes.forEach(node => {
           node.innerHTML = '<p class="linked-error">Academic Programs Explorer 加载失败。请检查 wiki/data/explorers/academic-programs.json。</p>';
+        });
+        console.error(error);
+      }
+    }
+
+    if (volunteeringExplorerNodes.length) {
+      try {
+        const volunteeringData = await fetchJson(EXPLORER_DATASETS['volunteering']);
+        volunteeringExplorerNodes.forEach(node => renderVolunteeringExplorer(node, volunteeringData));
+      } catch (error) {
+        volunteeringExplorerNodes.forEach(node => {
+          node.innerHTML = '<p class="linked-error">Volunteering Explorer 加载失败。请检查 wiki/data/explorers/volunteering.json。</p>';
         });
         console.error(error);
       }
