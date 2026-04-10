@@ -11,46 +11,46 @@
 | 指标 | Class of 2029 | Class of 2028 | Class of 2027 | Class of 2026 | Class of 2025 |
 |---|---|---|---|---|---|
 | **SAT/ACT 政策** | Test-optional / not required | Not required but considered | Test-optional / not required | Test-optional / not required | Test-optional / not required |
-| **SAT 阅读写作 25th / 50th / 75th** | — | 740 / — / 780 | — | — | — |
-| **SAT 数学 25th / 50th / 75th** | — | 770 / — / 800 | — | — | — |
-| **ACT 综合 25th / 50th / 75th** | — | 34 / — / 35 | — | — | — |
-| **SAT 提交率** | — | 50.3% | — | — | — |
-| **ACT 提交率** | — | 19.0% | — | — | — |
-| **平均 GPA** | — | 3.94 | — | — | — |
-| **GPA 4.0 占比** | — | 73.3% | — | — | — |
-| **GPA ≥ 3.75 累计** | — | — | — | — | — |
-| **Top 10% 占比** | — | 97.8% | — | — | — |
-| **Top 25% 占比** | — | 100% | — | — | — |
+| **SAT 阅读写作 25th / 50th / 75th** | — | 740 / — / 780 | 730 / 760 / 780 | 730 / 760 / 780 | 720 / — / 770 |
+| **SAT 数学 25th / 50th / 75th** | — | 770 / — / 800 | 770 / 790 / 800 | 770 / 790 / 800 | 750 / — / 800 |
+| **ACT 综合 25th / 50th / 75th** | — | 34 / — / 35 | 33 / 35 / 35 | 33 / 35 / 35 | 34 / — / 35 |
+| **SAT 提交率** | — | 50.3% | 49.0% | 49.0% | 48.0% |
+| **ACT 提交率** | — | 19.0% | 23.0% | 23.0% | 31.0% |
+| **平均 GPA** | — | 3.94 | 3.95 | 3.95 | 3.96 |
+| **GPA 4.0 占比** | — | 73.3% | 70.7% | 70.7% | 75.1% |
+| **GPA ≥ 3.75 累计** | — | — | 93.6% | 93.6% | 94.1% |
+| **Top 10% 占比** | — | 97.8% | 94.0% | 94.0% | 96.0% |
+| **Top 25% 占比** | — | 100% | 99.0% | 99.0% | 100.0% |
 | **班级排名提交率** | — | — | — | — | — |
-| **GPA 提交率** | — | — | — | — | — |
+| **GPA 提交率** | — | — | 75.9% | 75.9% | 58.4% |
 
-> **注：** Stanford CDS 2024-25（Class of 2028）公开的是 25th / 75th percentile，并未在参考资料中给出 50th percentile，因此标「—」。Class of 2027–2025 的同口径 CDS 细表未在本次参考材料中整理出来，故不补推断值。
+> **注：** Stanford CDS 2024-25（Class of 2028）公开的是 25th / 75th percentile，并未在参考资料中给出 50th percentile，因此标「—」。本轮补入的 Class of 2027–2025 数据来自 Stanford IRDS 官方历史 CDS PDF；其中 2021-22（Class of 2025）在本页所用口径下仍未清晰给出 SAT ERW / SAT Math / ACT Composite 的 50th percentile，因此继续保留为「—」。班级排名提交率在 2023-24 / 2022-23 / 2021-22 PDF 中未稳定提取到明确值，故不补。
 
 ### 表 1-B：录取因素重要性（CDS C7）
 
-| 因素 | Class of 2028（CDS 2024-25） | Class of 2027 | Class of 2026 |
-|---|---|---|---|
-| **课程难度（Rigor）** | Very Important | — | — |
-| **班级排名（Class Rank）** | Very Important | — | — |
-| **GPA** | Very Important | — | — |
-| **标化成绩（Standardized Tests）** | Considered | — | — |
-| **文书（Essay）** | Very Important | — | — |
-| **推荐信** | Very Important | — | — |
-| **课外活动** | Very Important | — | — |
-| **才能/能力（Talent）** | Very Important | — | — |
-| **品格/个人特质** | Very Important | — | — |
-| **面试（Interview）** | Considered | — | — |
-| **First-generation** | Considered | — | — |
-| **校友关系（Legacy）** | Considered | — | — |
-| **地理来源** | Considered | — | — |
-| **志愿活动** | Considered | — | — |
-| **工作经验** | Considered | — | — |
-| **宗教** | Not Considered | — | — |
-| **州居民身份** | — | — | — |
-| **族裔/种族** | — | — | — |
-| **兴趣展示（Demonstrated Interest）** | — | — | — |
+| 因素 | Class of 2028（CDS 2024-25） | Class of 2027（CDS 2023-24） | Class of 2026（CDS 2022-23） | Class of 2025（CDS 2021-22） |
+|---|---|---|---|---|
+| **课程难度（Rigor）** | Very Important | Very Important | Very Important | Very Important |
+| **班级排名（Class Rank）** | Very Important | Very Important | Very Important | Very Important |
+| **GPA** | Very Important | Very Important | Very Important | Very Important |
+| **标化成绩（Standardized Tests）** | Considered | Considered | Very Important | Very Important |
+| **文书（Essay）** | Very Important | Very Important | Very Important | Very Important |
+| **推荐信** | Very Important | Very Important | Very Important | Very Important |
+| **课外活动** | Very Important | Very Important | Very Important | Very Important |
+| **才能/能力（Talent）** | Very Important | Very Important | Very Important | Very Important |
+| **品格/个人特质** | Very Important | Very Important | Very Important | Very Important |
+| **面试（Interview）** | Considered | Considered | Considered | Considered |
+| **First-generation** | Considered | Considered | Considered | Considered |
+| **校友关系（Legacy）** | Considered | Considered | Considered | Considered |
+| **地理来源** | Considered | Considered | Considered | Considered |
+| **志愿活动** | Considered | Considered | Considered | Considered |
+| **工作经验** | Considered | Considered | Considered | Considered |
+| **宗教** | Not Considered | Not Considered | Not Considered | Not Considered |
+| **州居民身份** | — | Not Considered | Not Considered | Not Considered |
+| **族裔/种族** | — | — | Considered | Considered |
+| **兴趣展示（Demonstrated Interest）** | — | Not Considered | Not Considered | Not Considered |
 
-> **注：** Stanford 在本页可核实到的 2024-25 CDS 中**没有 Important 档位**；重要性分层基本直接从 Very Important 跳到 Considered。最值得注意的差异是：**标化考试在 Stanford 仅列为 Considered**，与 Harvard 在最新 CDS 中将其列为 Very Important 明显不同。
+> **注：** Stanford 在本页可核实到的 2024-25 / 2023-24 CDS 中**没有 Important 档位**；重要性分层基本直接从 Very Important 跳到 Considered。一个值得注意的历史变化是：**到 Class of 2027（CDS 2023-24）时，标化考试已降为 Considered；但在 Class of 2026 / 2025 对应的 2022-23 与 2021-22 CDS 中，standardized test scores 仍被列为 Very Important。** 这说明 Stanford 在 test-optional 时代内部的官方口径并不完全静态。
 
 ### 表 1-C：学生构成
 
@@ -98,18 +98,18 @@
 |---|---|---|---|---|---|
 | 2029 | — | —（Stanford Daily 引述校内消息称约比上年多 150） | — | — | — |
 | 2028 | 57,326 | 2,067 | 3.61% | ~82% | 1,693 |
-| 2027 | ~55,000+ | ~2,099 | 3.91% | — | — |
-| 2026 | 56,378 | ~2,075 | 3.68% | — | — |
-| 2025 | 55,471 | ~2,190 | 3.95% | — | — |
+| 2027 | 53,733（由官方男/女人数相加） | 2,099（由官方男/女人数相加） | 3.91% | 80.9% | 1,699（由官方男/女人数相加） |
+| 2026 | 56,378 | 2,075 | 3.68% | 83.7% | 1,736 |
+| 2025 | 55,471 | 2,190 | 3.95% | 80.2% | 1,757 |
 | 2024 | 47,498 | ~2,349 | 5.2% | — | — |
 
-> **注：** Stanford 对 Class of 2029 延续“不随放榜即时公开录取率”的做法；正式申请人数与录取率需待 CDS 2025-26 发布后才能确认。因此若只看官方已确认数据，目前最新可完全落表的周期仍是 Class of 2028。
+> **注：** Stanford 对 Class of 2029 延续“不随放榜即时公开录取率”的做法；正式申请人数与录取率需待 CDS 2025-26 发布后才能确认。对于 Class of 2027，CDS 2023-24 的页面提取中总人数栏未稳定显示，但男/女人数分别清楚给出，因此本页采用**官方分项直接相加**的保守写法；Class of 2026 / 2025 则可直接从 CDS 总表读取。
 
 ### 表 2-B：政策事件时间线
 
 | 时间 | 事件 | 对录取数据的意义 |
 |---|---|---|
-| 2020–2024 申请周期 | Stanford 实行 test-optional / not required 政策 | 对应 Class of 2025–2029 之间的大部分申请周期，申请量长期维持在 5.5 万以上 |
+| 2020–2024 申请周期 | Stanford 实行 test-optional / not required 政策 | 对应 Class of 2025–2029 之间的大部分申请周期，申请量大致处于 5.37 万–5.73 万区间 |
 | 2023 年 6 月 | 美国最高法院作出 SFFA 裁决，终止 race-conscious admissions | Class of 2028 成为 Stanford 首个 post-SFFA 完整入学队列 |
 | 2024 年 10 月 | Stanford Report 罕见提前公开 Class of 2028 preliminary enrollment demographics | 反映学校在 post-SFFA 舆论环境下提高透明度 |
 | 2025 年 1 月 | CDS 2024-25 公布 Class of 2028 final enrollment data | 给出 57,326 / 2,067 / 1,693 的完整官方数字 |
@@ -120,7 +120,7 @@
 
 | 观察主题 | 结论 |
 |---|---|
-| **申请量变化** | Class of 2024 为 47,498；此后在 Class of 2025–2028 区间升至 5.5 万–5.7 万量级，显示 test-optional 时期申请池显著扩张。 |
+| **申请量变化** | Class of 2024 为 47,498；此后在 Class of 2025–2028 区间升至约 53,733–57,326，显示 test-optional 时期申请池显著扩张。 |
 | **录取率变化** | Class of 2024 的 5.2% 已相当低；到 Class of 2025–2028 进一步压缩至 3.61%–3.95% 区间，Class of 2028 触及本页可核实范围内最低点 3.61%。 |
 | **Class of 2029 透明度** | Stanford 在 2025 放榜时仍未公布即时录取率，外界只能等 2025-26 CDS；这点与部分学校在放榜日同步披露统计不同。 |
 | **SFFA 后变化** | Stanford 针对 Class of 2028 额外发布了 early demographic update，显示校方对 post-SFFA 招生结果的公共关注有所回应。 |
