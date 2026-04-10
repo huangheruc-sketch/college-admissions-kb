@@ -1,6 +1,6 @@
 # Stanford Admission Data
 
-> 本页数据覆盖 Class of 2025–2029（最近 5 个申请周期）。CDS 详细数据目前以 2024-25 版（Class of 2028 入学队列）为主；Class of 2029 的 CDS 2025-26 尚未发布，Stanford 亦延续近年做法，在放榜时不即时公开录取率与申请池规模，因此凡未获官方最终披露之处均标「—」。
+> 本页数据覆盖 Class of 2025–2029（最近 5 个申请周期）。CDS 详细数据目前以 2024-25 版（Class of 2028 入学队列）为主；Class of 2029 的 CDS 2025-26 尚未发布，Stanford 亦延续近年做法，在放榜时不即时公开录取率与申请池规模，因此凡未获官方最终披露之处均标「—」。不过，Class of 2029 仍处于 Stanford 恢复 SAT/ACT Required 之前的最后一个申请周期，因此其考试政策可安全标注为 test-optional / not required。
 
 ---
 
@@ -10,7 +10,7 @@
 
 | 指标 | Class of 2029 | Class of 2028 | Class of 2027 | Class of 2026 | Class of 2025 |
 |---|---|---|---|---|---|
-| **SAT/ACT 政策** | Not yet published（已知 Class of 2030 起恢复 Required） | Not required but considered | Test-optional / not required | Test-optional / not required | Test-optional / not required |
+| **SAT/ACT 政策** | Test-optional / not required | Not required but considered | Test-optional / not required | Test-optional / not required | Test-optional / not required |
 | **SAT 阅读写作 25th / 50th / 75th** | — | 740 / — / 780 | — | — | — |
 | **SAT 数学 25th / 50th / 75th** | — | 770 / — / 800 | — | — | — |
 | **ACT 综合 25th / 50th / 75th** | — | 34 / — / 35 | — | — | — |

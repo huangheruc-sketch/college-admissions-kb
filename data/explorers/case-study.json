@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "case-study-explorer",
+  "generated_at": "2026-04-09T23:44:35.273760+00:00",
+  "generated_from": [
+    "wiki/schools/harvard/case-study.md",
+    "wiki/schools/harvard/cases/mrhenry.md",
+    "wiki/schools/stanford/case-study.md",
+    "wiki/schools/stanford/cases/alishaz.md",
+    "wiki/schools/mit/case-study.md"
+  ],
+  "coverage": [
+    {
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/harvard/case-study",
+      "note": "Extracted from the current Harvard summary table and linked case page."
+    },
+    {
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/stanford/case-study",
+      "note": "Extracted from the current Stanford summary table and linked case page."
+    },
+    {
+      "school_slug": "mit",
+      "school": "MIT",
+      "status": "no_public_cases_listed",
+      "listed_case_count": 0,
+      "extracted_record_count": 0,
+      "source_page": "#/schools/mit/case-study",
+      "note": "Current MIT case-study page explicitly says 暂无案例; kept as coverage metadata instead of inventing a case.",
+      "evidence_excerpt": "| *暂无案例* | — | — | — | — | — | — | — "
+    }
+  ],
+  "records": [
+    {
+      "case_id": "harvard-mrhenry",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "application_cycle": "unknown",
+      "sample_title": "mrhenry",
+      "intended_major": "B.A., Social Sciences",
+      "gpa": "4.0",
+      "test_score": "SAT: 1570",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Complete",
+      "confidence_level": "Medium",
+      "source_page": "#/schools/harvard/case-study",
+      "school_page_path": "#/schools/harvard/case-study",
+      "source_page_path": "#/schools/harvard/case-study",
+      "case_page_path": "#/schools/harvard/cases/mrhenry",
+      "profile_path": "#/schools/harvard/cases/mrhenry",
+      "public_signals": [
+        "Region: Vermont",
+        "Other admits: Yale, Brown, Dartmouth, Williams, Swarthmore, Middlebury",
+        "Awards: Vermont Presidential Scholar",
+        "Extracurricular: Principal Cellist of VYO and New England Music Festival; Assistant Principal and scholarship winner of All-State; Soloist with VYO (cello) and VT Philharmonic (piano)."
+      ],
+      "extraction": {
+        "summary_page": "wiki/schools/harvard/case-study.md",
+        "detail_page": "wiki/schools/harvard/cases/mrhenry.md",
+        "case_row": "mrhenry"
+      }
+    },
+    {
+      "case_id": "stanford-alishaz",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "application_cycle": "unknown",
+      "sample_title": "alishaz",
+      "intended_major": "B.S., Political Science",
+      "gpa": "4.5",
+      "test_score": "ACT: 33",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Complete",
+      "confidence_level": "Medium",
+      "source_page": "#/schools/stanford/case-study",
+      "school_page_path": "#/schools/stanford/case-study",
+      "source_page_path": "#/schools/stanford/case-study",
+      "case_page_path": "#/schools/stanford/cases/alishaz",
+      "profile_path": "#/schools/stanford/cases/alishaz",
+      "public_signals": [
+        "Region: Portland",
+        "Other admits: Yale, Penn, Georgetown, UC Berkeley, USC, UCLA, BC",
+        "Awards: Prudential Community Spirit Award — One of 5 National Winners",
+        "Extracurricular: Founded a national 501(c)(3) nonprofit organization that brings educational and recreational programs to youth experiencing homelessness in shelters; led over 400 volunteers."
+      ],
+      "extraction": {
+        "summary_page": "wiki/schools/stanford/case-study.md",
+        "detail_page": "wiki/schools/stanford/cases/alishaz.md",
+        "case_row": "alishaz"
+      }
+    }
+  ]
+}

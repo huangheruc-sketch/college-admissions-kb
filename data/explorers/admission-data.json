@@ -1,0 +1,462 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "admission-data-explorer",
+  "generated_at": "2026-04-09T23:44:35.272484+00:00",
+  "generated_from": [
+    "wiki/schools/harvard/admission-data.md",
+    "wiki/schools/stanford/admission-data.md",
+    "wiki/schools/mit/admission-data.md"
+  ],
+  "coverage": [
+    {
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "status": "records_available",
+      "record_count": 6,
+      "cycle_years": [
+        "2029"
+      ],
+      "source_page": "#/schools/harvard/admission-data"
+    },
+    {
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "status": "records_available",
+      "record_count": 6,
+      "cycle_years": [
+        "2028"
+      ],
+      "source_page": "#/schools/stanford/admission-data"
+    },
+    {
+      "school_slug": "mit",
+      "school": "MIT",
+      "status": "records_available",
+      "record_count": 7,
+      "cycle_years": [
+        "2029"
+      ],
+      "source_page": "#/schools/mit/admission-data"
+    }
+  ],
+  "records": [
+    {
+      "record_id": "harvard-2029-application-volume-applicants",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "47,893",
+      "source_page": "#/schools/harvard/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Harvard Class of 2029 official application count from the school page."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "申请人数"
+      }
+    },
+    {
+      "record_id": "harvard-2029-application-volume-admitted",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "2,003",
+      "source_page": "#/schools/harvard/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Harvard Class of 2029 admitted count from the school page."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "录取人数"
+      }
+    },
+    {
+      "record_id": "harvard-2029-selectivity-admission-rate",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "4.2%",
+      "source_page": "#/schools/harvard/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Harvard Class of 2029 admit rate."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "录取率"
+      }
+    },
+    {
+      "record_id": "harvard-2029-yield-yield",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "yield",
+      "track": "enrollment_outcome",
+      "label": "Yield",
+      "value": "83.6%",
+      "source_page": "#/schools/harvard/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Harvard Class of 2029 yield."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "Yield"
+      }
+    },
+    {
+      "record_id": "harvard-2029-testing-policy-sat-act-policy",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "cycle_year": "2029",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Required",
+      "source_page": "#/schools/harvard/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "Harvard restored required testing for Class of 2029."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "SAT/ACT 政策",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "harvard-2029-academic-interest-share-engineering-cs-interest",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "cycle_year": "2029",
+      "source_role": "composition",
+      "metric_group": "academic_interest_share",
+      "track": "stem_engineering",
+      "label": "Engineering / CS Interest",
+      "value": "25.2%",
+      "source_page": "#/schools/harvard/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "Share of incoming students interested in engineering / CS."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "Engineering / CS interest",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "stanford-2028-application-volume-applicants",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "cycle_year": "2028",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "57,326",
+      "source_page": "#/schools/stanford/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Stanford Class of 2028 official application count."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2028",
+        "column": "申请人数"
+      }
+    },
+    {
+      "record_id": "stanford-2028-application-volume-admitted",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "cycle_year": "2028",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "2,067",
+      "source_page": "#/schools/stanford/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Stanford Class of 2028 admitted count."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2028",
+        "column": "录取人数"
+      }
+    },
+    {
+      "record_id": "stanford-2028-selectivity-admission-rate",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "cycle_year": "2028",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "3.61%",
+      "source_page": "#/schools/stanford/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Stanford Class of 2028 admit rate."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2028",
+        "column": "录取率"
+      }
+    },
+    {
+      "record_id": "stanford-2028-testing-policy-sat-act-policy",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "cycle_year": "2028",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Not required but considered",
+      "source_page": "#/schools/stanford/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "Stanford remained not-required but considered for this cycle."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "SAT/ACT 政策",
+        "column": "Class of 2028"
+      }
+    },
+    {
+      "record_id": "stanford-2028-gpa-average-gpa",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "cycle_year": "2028",
+      "source_role": "academics",
+      "metric_group": "gpa",
+      "track": "academic_profile",
+      "label": "Average GPA",
+      "value": "3.94",
+      "source_page": "#/schools/stanford/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "Stanford average GPA for Class of 2028."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "平均 GPA",
+        "column": "Class of 2028"
+      }
+    },
+    {
+      "record_id": "stanford-2028-student-composition-international-share",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "cycle_year": "2028",
+      "source_role": "composition",
+      "metric_group": "student_composition",
+      "track": "international",
+      "label": "International Share",
+      "value": "14.3%（CDS）/ 14%（Facts 四舍五入）",
+      "source_page": "#/schools/stanford/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "Stanford international share for Class of 2028."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "International 比例",
+        "column": "Class of 2028"
+      }
+    },
+    {
+      "record_id": "mit-2029-application-volume-applicants",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "29,281",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "MIT Class of 2029 application count from admissions statistics."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "总申请数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "mit-2029-application-volume-admitted",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "1,334",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "MIT Class of 2029 admitted count from admissions statistics."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "总录取数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "mit-2029-selectivity-admission-rate",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "4.6%",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "MIT Class of 2029 admit rate."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "录取率",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "mit-2029-testing-policy-sat-act-policy",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Required",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "MIT requires testing for Class of 2029."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "SAT/ACT 政策",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "mit-2029-early-action-ea-applications",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "early_action",
+      "track": "early_action",
+      "label": "EA Applications",
+      "value": "12,052",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "MIT Early Action application count."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "EA 申请数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "mit-2029-test-score-range-sat-math-25th-75th",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "academics",
+      "metric_group": "test_score_range",
+      "track": "sat_math",
+      "label": "SAT Math 25th / 75th",
+      "value": "780 / 800",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "Admitted student SAT Math range for MIT Class of 2029."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "SAT 数学 25th / 75th",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "mit-2029-waitlist-waitlist-admits",
+      "school_slug": "mit",
+      "school": "MIT",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "waitlist",
+      "track": "waitlist",
+      "label": "Waitlist Admits",
+      "value": "10",
+      "source_page": "#/schools/mit/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "MIT waitlist admits for Class of 2029."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "Waitlist admit",
+        "column": "Class of 2029"
+      }
+    }
+  ]
+}

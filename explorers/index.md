@@ -2,8 +2,8 @@
 
 <div class="product-hero product-hero-soft">
   <div class="product-hero-eyebrow">Search & Filter</div>
-  <h2>当你已经知道自己想找什么时，直接在这里筛选。</h2>
-  <p>Explorers 适合在看过学校页之后使用。你可以先理解学校背景，再按条件快速查看相关数据或案例。</p>
+  <h2>把全站数据当作一个可筛选库，而不是逐校翻页。</h2>
+  <p>Explorers 现在面向全站聚合数据：适合先定位想看的学校、周期、结果或指标，再跳回对应学校页、案例页与来源页做深挖。</p>
 </div>
 
 ## 当前可用工具
@@ -11,6 +11,11 @@
 - [Case Study Explorer](./case-study-explorer.md)
 
 ## 推荐用法
-- 先看学校页，再进入 Explorer 缩小范围
-- 筛选后回到学校页或来源页继续核对
-- 如果你是第一次访问本站，建议先看 [Start Here](../navigation.md)
+- 先用 Explorer 缩小到学校 / 周期 / 结果范围
+- 再点结果卡片回到对应学校页或案例页看完整上下文
+- 如果你第一次访问本站，建议先看 [Start Here](../navigation.md)
+
+## 数据覆盖说明
+- Explorer 只展示当前聚合数据里真实存在的记录
+- 没有出现的学校/字段，不代表“不存在”，只代表“当前未聚合”
+- 学校页仍保留各自原始内容与链接上下文，不会被全站 Explorer 替代
