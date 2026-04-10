@@ -29,6 +29,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-columbia-2026-020 | CC major 完整列表 | Columbia College Bulletin | [bulletin.columbia.edu](https://bulletin.columbia.edu/columbia-college/departments-instruction/) |
+| source-columbia-2026-021 | SEAS 本科专业 | Columbia SEAS Undergraduate | [undergrad.seas.columbia.edu](https://undergrad.seas.columbia.edu) |
+| source-columbia-2026-022 | 学位授予与注册数据 | Columbia Institutional Research | [ir.columbia.edu](https://ir.columbia.edu) |
+| source-columbia-2026-023 | Core Curriculum 详情 | Columbia Core Curriculum | [college.columbia.edu](https://www.college.columbia.edu/core/) |
+| source-columbia-2026-024 | 本科学术概述 | Columbia Admissions — Academics | [undergrad.admissions.columbia.edu](https://undergrad.admissions.columbia.edu/academics) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

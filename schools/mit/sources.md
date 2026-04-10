@@ -25,6 +25,16 @@
 |---|---|---|---|
 | source-mit-2026-009 | rl-mit-rd 案例 | 案例素材采集中 | *(来源待补充)* |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-mit-2026-020 | 本科 major 完整列表 | MIT Course Catalog | [catalog.mit.edu](https://catalog.mit.edu/subjects/) |
+| source-mit-2026-021 | 注册与学位数据 | MIT Registrar — Statistics | [registrar.mit.edu](https://registrar.mit.edu/statistics-reports) |
+| source-mit-2026-022 | 学位授予趋势 | MIT Institutional Research | [ir.mit.edu](https://ir.mit.edu) |
+| source-mit-2026-023 | GIRs 通识要求 | MIT General Institute Requirements | [catalog.mit.edu](https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/) |
+| source-mit-2026-024 | 本科研究项目 | MIT UROP | [urop.mit.edu](https://urop.mit.edu) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

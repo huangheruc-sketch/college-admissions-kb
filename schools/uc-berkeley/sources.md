@@ -31,6 +31,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-ucb-2026-020 | 完整 major 列表 | UC Berkeley Academic Guide | [guide.berkeley.edu](https://guide.berkeley.edu/undergraduate/degree-programs/) |
+| source-ucb-2026-021 | 学位授予与注册数据 | UC Berkeley Office of Planning and Analysis | [opa.berkeley.edu](https://opa.berkeley.edu) |
+| source-ucb-2026-022 | UC 系统数据 | UC InfoCenter | [universityofcalifornia.edu](https://www.universityofcalifornia.edu/infocenter) |
+| source-ucb-2026-023 | 工程学院本科 | Berkeley Engineering | [engineering.berkeley.edu](https://engineering.berkeley.edu/academics/undergraduate-guide/) |
+| source-ucb-2026-024 | 商科本科 | Haas Undergraduate Program | [haas.berkeley.edu](https://haas.berkeley.edu/undergrad/) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

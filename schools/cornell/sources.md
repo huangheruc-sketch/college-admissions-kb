@@ -24,6 +24,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-cornell-2026-020 | 完整 major 列表与课程要求 | Cornell Courses of Study | [courses.cornell.edu](https://courses.cornell.edu) |
+| source-cornell-2026-021 | 学位授予数据 | Cornell Institutional Research and Planning | [irp.dpb.cornell.edu](https://irp.dpb.cornell.edu) |
+| source-cornell-2026-022 | 本科学术概述 | Cornell Admissions — Academics | [admissions.cornell.edu](https://admissions.cornell.edu/academics) |
+| source-cornell-2026-023 | 工程学院本科 | Cornell Engineering — Undergraduate Majors | [engineering.cornell.edu](https://www.engineering.cornell.edu/students/undergraduate-students/undergraduate-majors) |
+| source-cornell-2026-024 | CALS major | Cornell CALS — Majors | [cals.cornell.edu](https://cals.cornell.edu/education/degrees/undergraduate-majors-minors) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

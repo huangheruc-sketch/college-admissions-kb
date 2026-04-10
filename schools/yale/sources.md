@@ -30,6 +30,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-yale-2026-020 | 本科 major 完整列表 | Yale College Programs of Study | [catalog.yale.edu](https://catalog.yale.edu/ycps/) |
+| source-yale-2026-021 | 学位授予与注册数据 | Yale Office of Institutional Research | [oir.yale.edu](https://oir.yale.edu) |
+| source-yale-2026-022 | 本科学术概述 | Yale Admissions — Academics | [admissions.yale.edu](https://admissions.yale.edu/academics) |
+| source-yale-2026-023 | 工程学院（2024 年独立） | Yale SEAS | [seas.yale.edu](https://seas.yale.edu) |
+| source-yale-2026-024 | 通识要求 | Yale Distributional Requirements | [catalog.yale.edu](https://catalog.yale.edu/ycps/yale-college/distributional-requirements/) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

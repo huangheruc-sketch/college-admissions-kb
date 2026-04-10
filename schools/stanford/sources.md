@@ -34,6 +34,16 @@
 |---|---|---|---|
 | source-stanford-2026-018 | alishaz / lr-stanford-ea 案例素材 | 唯尚留学 × AdmitSee 电子书（HYPS Real Essays & EC List） | *(电子书，无公开链接)* |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-stanford-2026-020 | 学院架构 / 本科 major 列表 | Stanford Bulletin — Undergraduate Majors | [bulletin.stanford.edu](https://bulletin.stanford.edu/programs?filter-type=Major&filter-level=Undergraduate) |
+| source-stanford-2026-021 | 学位授予趋势 / Top major 分布 | Stanford IRDS — Degrees Conferred | [irds.stanford.edu](https://irds.stanford.edu/data-findings/degrees) |
+| source-stanford-2026-022 | 工程学院本科专业 | Stanford Engineering — Undergraduate Majors | [engineering.stanford.edu](https://engineering.stanford.edu/students/undergraduate-students/explore-majors) |
+| source-stanford-2026-023 | School of Sustainability 架构 | Stanford School of Sustainability | [sustainability.stanford.edu](https://sustainability.stanford.edu) |
+| source-stanford-2026-024 | 通识教育 / 学术体制 | Stanford Bulletin — General Education | [bulletin.stanford.edu](https://bulletin.stanford.edu/academic-policies/general-education) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

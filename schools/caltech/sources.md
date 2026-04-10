@@ -25,6 +25,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-caltech-2026-020 | 本科 Option 完整列表 / Core Curriculum | Caltech Catalog | [catalog.caltech.edu](https://catalog.caltech.edu/current/information-for-undergraduate-students) |
+| source-caltech-2026-021 | 注册与学位数据 | Caltech Registrar | [registrar.caltech.edu](https://www.registrar.caltech.edu) |
+| source-caltech-2026-022 | 本科学术概述 | Caltech Admissions — Academics | [admissions.caltech.edu](https://www.admissions.caltech.edu/explore/academics) |
+| source-caltech-2026-023 | SURF 本科研究项目 | Caltech SURF Program | [sfp.caltech.edu](https://sfp.caltech.edu/undergraduate-research/programs/surf) |
+| source-caltech-2026-024 | 学校规模与基础数据 | Caltech Facts and Figures | [caltech.edu](https://www.caltech.edu/about/facts-figures) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

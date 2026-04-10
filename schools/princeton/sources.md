@@ -24,6 +24,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-princeton-2026-020 | 本科 concentration 完整列表 | Princeton Course Offerings | [registrar.princeton.edu](https://registrar.princeton.edu/course-offerings) |
+| source-princeton-2026-021 | 学位授予数据 | Princeton Institutional Research | [ir.princeton.edu](https://ir.princeton.edu) |
+| source-princeton-2026-022 | 本科学术概述 | Princeton Admission — Academics | [admission.princeton.edu](https://admission.princeton.edu/academics) |
+| source-princeton-2026-023 | 课程要求与 concentration 详情 | Princeton Undergraduate Announcement | [ua.princeton.edu](https://ua.princeton.edu) |
+| source-princeton-2026-024 | Certificate 列表 | Princeton Certificate Programs | [ua.princeton.edu](https://ua.princeton.edu/fields-study) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

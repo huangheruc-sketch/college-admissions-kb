@@ -23,6 +23,16 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-uchicago-2026-020 | 本科 major 完整列表 | UChicago College Catalog | [catalog.uchicago.edu](https://catalog.uchicago.edu/thecollege/programsofstudy/) |
+| source-uchicago-2026-021 | 学位授予数据 | UChicago Institutional Research | [ir.uchicago.edu](https://ir.uchicago.edu) |
+| source-uchicago-2026-022 | Core Curriculum 详情 | UChicago The Core | [college.uchicago.edu](https://college.uchicago.edu/academics/core-curriculum) |
+| source-uchicago-2026-023 | 本科学术概述 | UChicago Admissions — Academics | [collegeadmissions.uchicago.edu](https://collegeadmissions.uchicago.edu/academics) |
+| source-uchicago-2026-024 | 工程学院 | Pritzker School of Molecular Engineering | [pme.uchicago.edu](https://pme.uchicago.edu) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)

@@ -24,6 +24,17 @@
 |---|---|---|---|
 | *(暂无案例)* | | | |
 
+## Academic Data Sources
+<a id="academic-data-sources"></a>
+| Source ID | Supports | Title | Link |
+|---|---|---|---|
+| source-ucla-2026-020 | 完整 major 列表 | UCLA General Catalog | [catalog.registrar.ucla.edu](https://catalog.registrar.ucla.edu) |
+| source-ucla-2026-021 | 学位授予数据 | UCLA Academic Planning and Budget | [apb.ucla.edu](https://apb.ucla.edu) |
+| source-ucla-2026-022 | UC 系统数据 | UC InfoCenter | [universityofcalifornia.edu](https://www.universityofcalifornia.edu/infocenter) |
+| source-ucla-2026-023 | 工程学院本科 | UCLA Engineering | [samueli.ucla.edu](https://samueli.ucla.edu/undergraduate/) |
+| source-ucla-2026-024 | L&S 通识与 major 要求 | UCLA College — Academics | [college.ucla.edu](https://www.college.ucla.edu/academics/) |
+| source-ucla-2026-025 | 本科专业列表 | UCLA Admissions — Majors | [admission.ucla.edu](https://admission.ucla.edu/apply/majors) |
+
 ## Registry / Generated Views
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)
