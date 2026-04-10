@@ -1,11 +1,19 @@
 {
   "schema_version": "1.0.0",
   "dataset": "admission-data-explorer",
-  "generated_at": "2026-04-09T23:44:35.272484+00:00",
+  "generated_at": "2026-04-10T09:35:22.379961+00:00",
   "generated_from": [
     "wiki/schools/harvard/admission-data.md",
     "wiki/schools/stanford/admission-data.md",
-    "wiki/schools/mit/admission-data.md"
+    "wiki/schools/mit/admission-data.md",
+    "wiki/schools/princeton/admission-data.md",
+    "wiki/schools/caltech/admission-data.md",
+    "wiki/schools/yale/admission-data.md",
+    "wiki/schools/uc-berkeley/admission-data.md",
+    "wiki/schools/columbia/admission-data.md",
+    "wiki/schools/uchicago/admission-data.md",
+    "wiki/schools/cornell/admission-data.md",
+    "wiki/schools/ucla/admission-data.md"
   ],
   "coverage": [
     {
@@ -37,6 +45,85 @@
         "2029"
       ],
       "source_page": "#/schools/mit/admission-data"
+    },
+    {
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "status": "records_available",
+      "record_count": 5,
+      "cycle_years": [
+        "2029"
+      ],
+      "source_page": "#/schools/princeton/admission-data"
+    },
+    {
+      "school_slug": "caltech",
+      "school": "Caltech",
+      "status": "records_available",
+      "record_count": 2,
+      "cycle_years": [
+        "2029"
+      ],
+      "source_page": "#/schools/caltech/admission-data"
+    },
+    {
+      "school_slug": "yale",
+      "school": "Yale",
+      "status": "records_available",
+      "record_count": 5,
+      "cycle_years": [
+        "2029"
+      ],
+      "source_page": "#/schools/yale/admission-data"
+    },
+    {
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "status": "records_available",
+      "record_count": 10,
+      "cycle_years": [
+        "2025"
+      ],
+      "source_page": "#/schools/uc-berkeley/admission-data"
+    },
+    {
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "status": "records_available",
+      "record_count": 5,
+      "cycle_years": [
+        "2028",
+        "2029"
+      ],
+      "source_page": "#/schools/columbia/admission-data"
+    },
+    {
+      "school_slug": "uchicago",
+      "school": "UChicago",
+      "status": "page_exists_no_data",
+      "record_count": 0,
+      "cycle_years": [],
+      "source_page": "#/schools/uchicago/admission-data"
+    },
+    {
+      "school_slug": "cornell",
+      "school": "Cornell",
+      "status": "records_available",
+      "record_count": 1,
+      "cycle_years": [
+        "2029"
+      ],
+      "source_page": "#/schools/cornell/admission-data"
+    },
+    {
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "status": "records_available",
+      "record_count": 7,
+      "cycle_years": [
+        "2024"
+      ],
+      "source_page": "#/schools/ucla/admission-data"
     }
   ],
   "records": [
@@ -456,6 +543,776 @@
         "row_key": "指标",
         "row_value": "Waitlist admit",
         "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "princeton-2029-testing-policy-sat-act-policy",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "cycle_year": "2029",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Test-optional",
+      "source_page": "#/schools/princeton/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "Princeton SAT/ACT Policy from 表 1-A：标化成绩与 GPA."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "SAT/ACT 政策",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "princeton-2029-student-composition-first-generation-share",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "cycle_year": "2029",
+      "source_role": "composition",
+      "metric_group": "student_composition",
+      "track": "first_gen",
+      "label": "First-generation Share",
+      "value": "16.7%",
+      "source_page": "#/schools/princeton/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "Princeton First-generation Share from 表 1-C：学生构成."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "First-generation",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "princeton-2029-student-composition-pell-grant-share",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "cycle_year": "2029",
+      "source_role": "composition",
+      "metric_group": "student_composition",
+      "track": "pell",
+      "label": "Pell Grant Share",
+      "value": "25%",
+      "source_page": "#/schools/princeton/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "Princeton Pell Grant Share from 表 1-C：学生构成."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "Pell eligible",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "princeton-2029-student-composition-international-share",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "cycle_year": "2029",
+      "source_role": "composition",
+      "metric_group": "student_composition",
+      "track": "international",
+      "label": "International Share",
+      "value": "14.1%",
+      "source_page": "#/schools/princeton/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "Princeton International Share from 表 1-C：学生构成."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "国际生",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "princeton-2029-application-volume-enrolled",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Enrolled",
+      "value": "1,408",
+      "source_page": "#/schools/princeton/admission-data",
+      "source_anchor": "表 2-A：申请量 / 录取率 / Yield",
+      "notes": [
+        "Princeton Enrolled from 表 2-A：申请量 / 录取率 / Yield."
+      ],
+      "extraction": {
+        "table_heading": "表 2-A：申请量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "入学人数"
+      }
+    },
+    {
+      "record_id": "caltech-2029-testing-policy-sat-act-policy",
+      "school_slug": "caltech",
+      "school": "Caltech",
+      "cycle_year": "2029",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Required",
+      "source_page": "#/schools/caltech/admission-data",
+      "source_anchor": "表 1-A：标化成绩与 GPA",
+      "notes": [
+        "Caltech SAT/ACT Policy from 表 1-A：标化成绩与 GPA."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：标化成绩与 GPA",
+        "row_key": "指标",
+        "row_value": "SAT/ACT 政策",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "caltech-2029-application-volume-admitted",
+      "school_slug": "caltech",
+      "school": "Caltech",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "427",
+      "source_page": "#/schools/caltech/admission-data",
+      "source_anchor": "表 1-C：学生构成",
+      "notes": [
+        "Caltech Admitted from 表 1-C：学生构成."
+      ],
+      "extraction": {
+        "table_heading": "表 1-C：学生构成",
+        "row_key": "指标",
+        "row_value": "录取人数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "yale-2029-application-volume-applicants",
+      "school_slug": "yale",
+      "school": "Yale",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "50,228",
+      "source_page": "#/schools/yale/admission-data",
+      "source_anchor": "表 1-A：申请量、录取量、入学量、录取率",
+      "notes": [
+        "Yale Applicants from 表 1-A：申请量、录取量、入学量、录取率."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量、录取量、入学量、录取率",
+        "row_key": "指标",
+        "row_value": "申请人数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "yale-2029-application-volume-admitted",
+      "school_slug": "yale",
+      "school": "Yale",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "2,308",
+      "source_page": "#/schools/yale/admission-data",
+      "source_anchor": "表 1-A：申请量、录取量、入学量、录取率",
+      "notes": [
+        "Yale Admitted from 表 1-A：申请量、录取量、入学量、录取率."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量、录取量、入学量、录取率",
+        "row_key": "指标",
+        "row_value": "录取人数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "yale-2029-application-volume-enrolled",
+      "school_slug": "yale",
+      "school": "Yale",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Enrolled",
+      "value": "1,650（计划扩招目标）",
+      "source_page": "#/schools/yale/admission-data",
+      "source_anchor": "表 1-A：申请量、录取量、入学量、录取率",
+      "notes": [
+        "Yale Enrolled from 表 1-A：申请量、录取量、入学量、录取率."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量、录取量、入学量、录取率",
+        "row_key": "指标",
+        "row_value": "入学人数",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "yale-2029-selectivity-admission-rate",
+      "school_slug": "yale",
+      "school": "Yale",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "4.6%",
+      "source_page": "#/schools/yale/admission-data",
+      "source_anchor": "表 1-A：申请量、录取量、入学量、录取率",
+      "notes": [
+        "Yale Admission Rate from 表 1-A：申请量、录取量、入学量、录取率."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量、录取量、入学量、录取率",
+        "row_key": "指标",
+        "row_value": "录取率",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "yale-2029-testing-policy-sat-act-policy",
+      "school_slug": "yale",
+      "school": "Yale",
+      "cycle_year": "2029",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Required（test-flexible）",
+      "source_page": "#/schools/yale/admission-data",
+      "source_anchor": "表 1-B：标化与学术背景（CDS）",
+      "notes": [
+        "Yale SAT/ACT Policy from 表 1-B：标化与学术背景（CDS）."
+      ],
+      "extraction": {
+        "table_heading": "表 1-B：标化与学术背景（CDS）",
+        "row_key": "指标",
+        "row_value": "标化政策",
+        "column": "Class of 2029"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-application-volume-applicants",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "126,864",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Applicants from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "申请人数",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-application-volume-admitted",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "14,524",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Admitted from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "录取人数",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-application-volume-enrolled",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Enrolled",
+      "value": "6,687",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Enrolled from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "入学人数",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-selectivity-admission-rate",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "11.4%",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Admission Rate from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "录取率",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-yield-yield",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "yield",
+      "track": "enrollment_outcome",
+      "label": "Yield",
+      "value": "46.0%",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Yield from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "Yield",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-waitlist-waitlist-offered",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "waitlist",
+      "track": "waitlist",
+      "label": "Waitlist Offered",
+      "value": "9,102",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Waitlist Offered from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "Waitlist offered",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-waitlist-waitlist-admits",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "statistics",
+      "metric_group": "waitlist",
+      "track": "waitlist",
+      "label": "Waitlist Admits",
+      "value": "1",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Waitlist Admits from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "Waitlist admitted",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-gpa-average-gpa",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "academics",
+      "metric_group": "gpa",
+      "track": "academic_profile",
+      "label": "Average GPA",
+      "value": "3.90",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley Average GPA from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "平均高中 GPA",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-gpa-gpa-3-75-share",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "academics",
+      "metric_group": "gpa",
+      "track": "academic_profile",
+      "label": "GPA >= 3.75 Share",
+      "value": "89.9%",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley GPA >= 3.75 Share from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "GPA ≥ 3.75 累计",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "uc-berkeley-2025-testing-policy-sat-act-policy",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "cycle_year": "2025",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "Test-free",
+      "source_page": "#/schools/uc-berkeley/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+      "notes": [
+        "UC Berkeley SAT/ACT Policy from 表 1-A：申请量 / 录取 / 入学 / Waitlist."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取 / 入学 / Waitlist",
+        "row_key": "指标",
+        "row_value": "SAT / ACT",
+        "column": "2025-26"
+      }
+    },
+    {
+      "record_id": "columbia-2029-application-volume-applicants",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "59,616",
+      "source_page": "#/schools/columbia/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield",
+      "notes": [
+        "Columbia Applicants from 表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "申请人数"
+      }
+    },
+    {
+      "record_id": "columbia-2029-application-volume-admitted",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "2,557",
+      "source_page": "#/schools/columbia/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield",
+      "notes": [
+        "Columbia Admitted from 表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "录取人数"
+      }
+    },
+    {
+      "record_id": "columbia-2029-selectivity-admission-rate",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "4.29%",
+      "source_page": "#/schools/columbia/admission-data",
+      "source_anchor": "表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield",
+      "notes": [
+        "Columbia Admission Rate from 表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield."
+      ],
+      "extraction": {
+        "table_heading": "表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield",
+        "row_key": "Class of",
+        "row_value": "2029",
+        "column": "录取率"
+      }
+    },
+    {
+      "record_id": "columbia-2028-test-score-range-sat-composite-25th-75th",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "cycle_year": "2028",
+      "source_role": "academics",
+      "metric_group": "test_score_range",
+      "track": "sat_composite",
+      "label": "SAT Composite 25th-75th",
+      "value": "1510 / 1540 / 1560",
+      "source_page": "#/schools/columbia/admission-data",
+      "source_anchor": "表 1-B：标化成绩（CDS C9）",
+      "notes": [
+        "Columbia SAT Composite 25th-75th from 表 1-B：标化成绩（CDS C9）."
+      ],
+      "extraction": {
+        "table_heading": "表 1-B：标化成绩（CDS C9）",
+        "row_key": "指标",
+        "row_value": "SAT Composite 25th / 50th / 75th",
+        "column": "Class of 2028"
+      }
+    },
+    {
+      "record_id": "columbia-2028-test-score-range-act-composite-25th-75th",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "cycle_year": "2028",
+      "source_role": "academics",
+      "metric_group": "test_score_range",
+      "track": "act_composite",
+      "label": "ACT Composite 25th-75th",
+      "value": "34 / 35 / 36",
+      "source_page": "#/schools/columbia/admission-data",
+      "source_anchor": "表 1-B：标化成绩（CDS C9）",
+      "notes": [
+        "Columbia ACT Composite 25th-75th from 表 1-B：标化成绩（CDS C9）."
+      ],
+      "extraction": {
+        "table_heading": "表 1-B：标化成绩（CDS C9）",
+        "row_key": "指标",
+        "row_value": "ACT Composite 25th / 50th / 75th",
+        "column": "Class of 2028"
+      }
+    },
+    {
+      "record_id": "cornell-2029-application-volume-admitted",
+      "school_slug": "cornell",
+      "school": "Cornell",
+      "cycle_year": "2029",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "5,824",
+      "source_page": "#/schools/cornell/admission-data",
+      "source_anchor": "2. 五年趋势（5-Year Trend）",
+      "notes": [
+        "Cornell Admitted from 2. 五年趋势（5-Year Trend）."
+      ],
+      "extraction": {
+        "table_heading": "2. 五年趋势（5-Year Trend）",
+        "row_key": "年度",
+        "row_value": "2029",
+        "column": "录取人数"
+      }
+    },
+    {
+      "record_id": "ucla-2024-application-volume-applicants",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Applicants",
+      "value": "146,276",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA Applicants from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "Applicants",
+        "column": "Fall 2024"
+      }
+    },
+    {
+      "record_id": "ucla-2024-application-volume-admitted",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Admitted",
+      "value": "13,114",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA Admitted from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "Admits",
+        "column": "Fall 2024"
+      }
+    },
+    {
+      "record_id": "ucla-2024-application-volume-enrolled",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "statistics",
+      "metric_group": "application_volume",
+      "track": "all_applicants",
+      "label": "Enrolled",
+      "value": "6,613",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA Enrolled from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "Enrolled",
+        "column": "Fall 2024"
+      }
+    },
+    {
+      "record_id": "ucla-2024-selectivity-admission-rate",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "statistics",
+      "metric_group": "selectivity",
+      "track": "all_applicants",
+      "label": "Admission Rate",
+      "value": "9.0%",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA Admission Rate from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "Admit Rate",
+        "column": "Fall 2024"
+      }
+    },
+    {
+      "record_id": "ucla-2024-gpa-weighted-gpa-median",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "academics",
+      "metric_group": "gpa",
+      "track": "academic_profile",
+      "label": "Weighted GPA Median",
+      "value": "4.60",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA Weighted GPA Median from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "Weighted GPA median",
+        "column": "Fall 2024"
+      }
+    },
+    {
+      "record_id": "ucla-2024-student-composition-international-share",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "composition",
+      "metric_group": "student_composition",
+      "track": "international",
+      "label": "International Share",
+      "value": "7%",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA International Share from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "国际生占比（entering class）",
+        "column": "Fall 2024"
+      }
+    },
+    {
+      "record_id": "ucla-2024-testing-policy-sat-act-policy",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "cycle_year": "2024",
+      "source_role": "requirements",
+      "metric_group": "testing_policy",
+      "track": "application_requirements",
+      "label": "SAT/ACT Policy",
+      "value": "不纳入录取",
+      "source_page": "#/schools/ucla/admission-data",
+      "source_anchor": "1. 核心数据总表（Core Data Snapshot）",
+      "notes": [
+        "UCLA SAT/ACT Policy from 1. 核心数据总表（Core Data Snapshot）."
+      ],
+      "extraction": {
+        "table_heading": "1. 核心数据总表（Core Data Snapshot）",
+        "row_key": "指标",
+        "row_value": "SAT / ACT",
+        "column": "Fall 2024"
       }
     }
   ]

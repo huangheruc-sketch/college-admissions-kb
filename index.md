@@ -84,9 +84,3 @@
   </div>
 </div>
 
-## Recommended First Clicks
-- 想快速看完整示范： [Harvard Hub](/schools/harvard/index.md)
-- 想看 Stanford 最新补强内容： [Stanford Admission Data](/schools/stanford/admission-data.md)
-- 想从学校总览开始： [Schools 总览](/navigation.md)
-- 想横向筛选： [Explorers](/explorers/index.md)
-- 想理解网站定位： [About](/about.md)
