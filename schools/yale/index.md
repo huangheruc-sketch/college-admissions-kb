@@ -3,7 +3,6 @@
 - [Fact Sheet](./fact-sheet.md)
 - [Admission Data](./admission-data.md)
 - [Case Study](./case-study.md)
-- [Application Strategy](./application-strategy.md)
 - [Sources](./sources.md)
 
 ---

@@ -15,13 +15,11 @@
   - [Fact Sheet](schools/harvard/fact-sheet.md)
   - [Admission Data](schools/harvard/admission-data.md)
   - [Case Study](schools/harvard/case-study.md)
-  - [Application Strategy](schools/harvard/application-strategy.md)
   - [Sources](schools/harvard/sources.md)
 - [Stanford](schools/stanford/index.md)
   - [Fact Sheet](schools/stanford/fact-sheet.md)
   - [Admission Data](schools/stanford/admission-data.md)
   - [Case Study](schools/stanford/case-study.md)
-  - [Application Strategy](schools/stanford/application-strategy.md)
   - [Sources](schools/stanford/sources.md)
 
 ## Knowledge Base
