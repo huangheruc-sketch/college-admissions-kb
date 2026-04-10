@@ -10,7 +10,7 @@
 - [Admission Data Explorer](./admission-data-explorer.md)
 - [Case Study Explorer](./case-study-explorer.md)
 - [Academic Programs Explorer](./academic-programs-explorer.md) — 按学校、专业、学院/Division、学位类型筛选本科可选专业
-- [Summer Programs Explorer](./summer-programs-explorer.md) — 按年级、地点、截止日期、推荐信要求筛选高中生夏校项目（首版 25/330 条）
+- [Summer Programs Explorer](./summer-programs-explorer.md) — 按年级、地点、截止日期、推荐信要求筛选高中生夏校项目（现已覆盖 330/330 条）
 - [Volunteering Explorer](./volunteering-explorer.md) — 按类别、地点、线上可能性、年级要求筛选志愿活动组织（当前 270/271 条）
 
 ## 推荐用法

@@ -876,7 +876,7 @@
             <div><strong>${filtered.length}</strong> / ${records.length} 个项目匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
-          <div class="linked-note explorer-data-note">当前仅基于已结构化数据提供筛选，不补造剩余未抓取项目。现状为 ${coverage.captured_structured || records.length} / ${coverage.total_in_source || records.length} 条，仍缺 Pages 2-4。</div>
+          <div class="linked-note explorer-data-note">当前基于 portal 已结构化数据提供筛选。现状为 ${coverage.captured_structured || records.length} / ${coverage.total_in_source || records.length} 条；如需更深信息，仍需回到 portal 原页或后续详情页核对。</div>
           <div class="explorer-results explorer-results-table">${renderSummerProgramsExplorerResults(display)}</div>
           ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
         </section>
