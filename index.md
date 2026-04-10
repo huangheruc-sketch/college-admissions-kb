@@ -61,6 +61,21 @@
   </a>
 </div>
 
+## Competitions
+
+<div class="product-entry-grid product-entry-grid-4">
+  <a class="product-entry-card" href="/competitions/isef/index.md">
+    <div class="product-entry-label">Competition</div>
+    <strong>ISEF</strong>
+    <p>全球最大高中生科学与工程竞赛：赛事概况、参赛路径、获奖案例。</p>
+  </a>
+  <a class="product-entry-card" href="/competitions/index.md">
+    <div class="product-entry-label">All Competitions</div>
+    <strong>全部竞赛</strong>
+    <p>查看所有已收录竞赛的总览入口。</p>
+  </a>
+</div>
+
 ## Explorers
 
 <div class="product-route-grid">
