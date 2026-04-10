@@ -78,12 +78,18 @@
 
 ## Explorers
 
-<div class="product-route-grid">
+<div class="product-route-grid product-route-grid-3">
   <div class="product-route-card">
     <div class="product-route-step">Data</div>
     <h3>Admission Data Explorer</h3>
     <p>按学校、周期和指标类型筛选结构化招生数据。</p>
     <p><a href="/explorers/admission-data-explorer.md">打开 Admission Data Explorer</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">Programs</div>
+    <h3>Academic Programs Explorer</h3>
+    <p>按学校和学科方向浏览本科学术项目与专业设置。</p>
+    <p><a href="/explorers/academic-programs-explorer.md">打开 Academic Programs Explorer</a></p>
   </div>
   <div class="product-route-card">
     <div class="product-route-step">Cases</div>
@@ -95,24 +101,30 @@
 
 ## Sources
 
-<div class="product-route-grid product-route-grid-3">
+<div class="product-route-grid product-route-grid-4">
   <div class="product-route-card">
-    <div class="product-route-step">Sources</div>
+    <div class="product-route-step">All Sources</div>
     <h3>Sources Index</h3>
-    <p>查看全站来源索引，按学校回溯数据和案例所引用的公开材料。</p>
-    <p><a href="/indexes/sources-index.md">进入 Sources</a></p>
+    <p>全站来源索引，回溯学校和竞赛页面所引用的公开材料。</p>
+    <p><a href="/indexes/sources-index.md">进入 Sources Index</a></p>
   </div>
   <div class="product-route-card">
-    <div class="product-route-step">School Sources</div>
+    <div class="product-route-step">School</div>
     <h3>Harvard Sources</h3>
-    <p>查看 Harvard 的 Fact Sheet、Admission Data 和 Case Study 来源页。</p>
+    <p>Harvard 的 Fact Sheet、Admission Data 和 Case Study 来源。</p>
     <p><a href="/schools/harvard/sources.md">打开 Harvard Sources</a></p>
   </div>
   <div class="product-route-card">
-    <div class="product-route-step">School Sources</div>
+    <div class="product-route-step">School</div>
     <h3>Stanford Sources</h3>
-    <p>查看 Stanford 的来源页与对应分栏入口。</p>
+    <p>Stanford 的来源页与对应分栏入口。</p>
     <p><a href="/schools/stanford/sources.md">打开 Stanford Sources</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">Competition</div>
+    <h3>ISEF Sources</h3>
+    <p>ISEF 赛事数据、获奖信息和参赛路径的来源依据。</p>
+    <p><a href="/competitions/isef/sources.md">打开 ISEF Sources</a></p>
   </div>
 </div>
 
