@@ -1,0 +1,394 @@
+{
+  "scope": "Harvard Mathematics + Harvard Applied Mathematics professors only",
+  "sources": {
+    "mathematics_roster": "https://www.math.harvard.edu/people/",
+    "applied_mathematics_roster": "https://seas.harvard.edu/applied-mathematics/people"
+  },
+  "counts": {
+    "mathematics": 26,
+    "applied_mathematics": 12,
+    "total": 38
+  },
+  "entries": [
+    {
+      "name": "Auroux, Denis",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~auroux/",
+      "roster_title": "Herchel Smith Professor of Mathematics Harvard College Professor",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "DeMarco, Laura",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~demarco/",
+      "roster_title": "Hollis Professor of Mathematicks and Natural Philosophy",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Elkies, Noam",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~elkies/",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Freed, Dan",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://people.math.harvard.edu/~dafr/",
+      "roster_title": "Shiing-Shen Chern Professor of Mathematics Director of the Center of Mathematical Sciences and Applications (CMSA)",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Gottlieb, Robin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.harvard.edu/people/gottlieb-robin/",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Gross, Benedict",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~gross/",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Harris, Joe",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.harvard.edu/people/harris-joe/",
+      "roster_title": "Higgins Professor of Mathematics Department Chair",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Hironaka, Heisuke",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~hironaka/",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Hopkins, Michael",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~mjh/",
+      "roster_title": "George Putnam Professor of Pure and Applied Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Kazhdan, David",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.harvard.edu/people/kazhdan-david/",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Kisin, Mark",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~kisin/",
+      "roster_title": "Perkins Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Kronheimer, Peter",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~kronheim/",
+      "roster_title": "William Caspar Graustein Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Maskin, Eric",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://scholar.harvard.edu/maskin/home",
+      "roster_title": "Adams University Professor of Mathematics and Economics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Mazur, Barry",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://sites.harvard.edu/barry-mazur/",
+      "roster_title": "Gerhard Gade University Professor",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "McMullen, Curtis",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~ctm/",
+      "roster_title": "Maria Moors Cabot Professor of the Natural Sciences",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Mumford, David",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.harvard.edu/people/mumford-david/",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Nowak, Martin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://sites.harvard.edu/martin-nowak/",
+      "roster_title": "Professor of Mathematics and of Biology On Leave",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Popa, Mihnea",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~mpopa/",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Schmid, Wilfried",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~schmid/",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Siu, Yum-Tong",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~siu/",
+      "roster_title": "William Elwood Byerly Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Taubes, Cliff",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Nonlinear partial differential equations and applications to topology, geometry, and mathematical physics",
+      "faculty_source_url": "https://www.math.harvard.edu/people/taubes-cliff/",
+      "roster_title": "William Petschek Professor of Mathematics Director of Undergraduate Studies",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Williams, Lauren",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~williams/",
+      "roster_title": "Dwight Parker Robinson Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Wood, Melanie Matchett",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~mmwood/",
+      "roster_title": "William Caspar Graustein Professor of Mathematics Director of Graduate Studies",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Woodin, Hugh",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.harvard.edu/people/woodin-hugh/",
+      "roster_title": "Professor of Mathematics and of Philosophy",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Yau, Horng-Tzer",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "http://people.math.harvard.edu/~htyau/",
+      "roster_title": "Merton Professor of Mathematics",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Yau, Shing-Tung",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.harvard.edu/people/yau-shing-tung/",
+      "roster_title": "Professors Emeritus",
+      "roster_url": "https://www.math.harvard.edu/people/"
+    },
+    {
+      "name": "Michael P. Brenner",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Fluid Mechanics; Modeling Physical/Biological Phenomena and Systems; Artificial Intelligence; Science and Engineering for ClimateTech; Soft Matter; Biomechanics and Motor Control; Computational and Data Science",
+      "faculty_source_url": "https://seas.harvard.edu/person/michael-brenner",
+      "roster_title": "Catalyst Professor of Applied Mathematics and Applied Physics and of Physics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "SueYeon Chung",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Modeling Physical/Biological Phenomena and Systems; Artificial Intelligence; Computational Neuroscience; Data Science; Machine Learning; Bioinspired Robotics and Computing",
+      "faculty_source_url": "https://seas.harvard.edu/person/sueyeon-chung",
+      "roster_title": "Assistant Professor of Physics and of Applied Mathematics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Yu-Chi Larry Ho",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://seas.harvard.edu/person/yu-chi-ho",
+      "roster_title": "T Jefferson Coolidge Professor of Applied Mathematics, Emeritus",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Efthimios Kaxiras",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Machine Learning; Modeling Physical/Biological Phenomena and Systems; Computational Materials Science; Materials; Surface and Interface Science",
+      "faculty_source_url": "https://seas.harvard.edu/person/efthimios-kaxiras",
+      "roster_title": "John Hasbrouck Van Vleck Professor of Pure and Applied Physics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Petros Koumoutsakos",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Active Matter; Computational Science and Engineering; Control Theory and Stochastic Systems; Data Science; Machine Learning; Modeling Physical/Biological Phenomena and Systems; Artificial Intelligence; Fluid Mechanics; Science and Engineering for ClimateTech; Soft Matter; Bioinspired Robotics and Computing; Energy Resources and Energy Systems; Energy, Environment, and Sustainability",
+      "faculty_source_url": "https://seas.harvard.edu/person/petros-koumoutsakos",
+      "roster_title": "Herbert S. Winokur, Jr. Professor of Computing in Science and Engineering",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Yue Lu",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Control Theory and Stochastic Systems; Data Science; Artificial Intelligence; Machine Learning; Signal Processing",
+      "faculty_source_url": "https://seas.harvard.edu/person/yue-lu",
+      "roster_title": "Gordon McKay Professor of Electrical Engineering and of Applied Mathematics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "L Mahadevan",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Active Matter; Computational Neuroscience; Computational Science and Engineering; Control Theory and Stochastic Systems; Data Science; Machine Learning; Modeling Physical/Biological Phenomena and Systems; Artificial Intelligence; Soft Matter; Biomechanics and Motor Control; Cell and Tissue Engineering, Biomaterials, and Therapeutics; Robotics and Control; Solid Mechanics; Surface and Interface Science",
+      "faculty_source_url": "https://seas.harvard.edu/person/l-mahadevan",
+      "roster_title": "Lola England de Valpine Professor of Applied Mathematics, of Organismic and Evolutionary Biology, and of Physics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Cengiz Pehlevan",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Computational Neuroscience; Computational Science and Engineering; Data Science; Machine Learning; Modeling Physical/Biological Phenomena and Systems; Artificial Intelligence; Bioinspired Robotics and Computing; Biomechanics and Motor Control",
+      "faculty_source_url": "https://seas.harvard.edu/person/cengiz-pehlevan",
+      "roster_title": "Associate Professor of Applied Mathematics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Anna Seigal",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Algebra and Geometry; Data Science; Machine Learning; Numerical Analysis; Theory of Computation; Artificial Intelligence; Computational and Data Science; Graphics, Vision, and Visualization",
+      "faculty_source_url": "https://seas.harvard.edu/person/anna-seigal",
+      "roster_title": "Assistant Professor of Applied Mathematics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Nick Trefethen",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Computational Science and Engineering; Numerical Analysis",
+      "faculty_source_url": "https://seas.harvard.edu/person/nick-trefethen",
+      "roster_title": "Professor of Applied Mathematics in Residence",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Eli Tziperman",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Fluid Mechanics; Computational Science and Engineering; Modeling Physical/Biological Phenomena and Systems; Climate Change; Climate Dynamics; Ice Dynamics and Sea Level; Oceanography; Planetary Sciences",
+      "faculty_source_url": "https://seas.harvard.edu/person/eli-tziperman",
+      "roster_title": "Pamela and Vasco McCoy, Jr. Professor of Oceanography and Applied Physics",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    },
+    {
+      "name": "Melanie Weber",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Algebra and Geometry; Data Science; Machine Learning; Numerical Analysis; Theory of Computation; Artificial Intelligence; Computation and Society",
+      "faculty_source_url": "https://seas.harvard.edu/person/melanie-weber",
+      "roster_title": "Assistant Professor of Applied Mathematics and of Computer Science",
+      "roster_url": "https://seas.harvard.edu/applied-mathematics/people"
+    }
+  ]
+}
