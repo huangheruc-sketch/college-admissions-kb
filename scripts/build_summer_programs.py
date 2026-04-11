@@ -12,6 +12,7 @@ from lxml import html
 ROOT = Path(__file__).resolve().parents[2]
 OUT_JSON = ROOT / 'wiki/data/explorers/summer-programs.json'
 OUT_MD = ROOT / 'raw/anndave-portal/2026-04-11/db-summer-programs-full-table.md'
+DETAILS_JSON = ROOT / 'raw/anndave-portal/2026-04-11/summer-programs-adc-details.json'
 BASE_URL = 'https://portal.anndaveconsulting.com/dashboard/database/summer-programs/list?majorParents=&page={page}&pageSize=25'
 TOTAL_PAGES = 14
 TOTAL_IN_SOURCE = 330
@@ -91,6 +92,27 @@ def parse_records(jwt: str) -> list[dict]:
     return records
 
 
+def load_adc_details() -> dict[str, dict]:
+    if not DETAILS_JSON.exists():
+        return {}
+    details = json.loads(DETAILS_JSON.read_text(encoding='utf-8'))
+    by_path = {}
+    for item in details:
+        profile_path = (item.get('profile_path') or '').strip()
+        if not profile_path:
+            continue
+        total = item.get('star_count_total') or 0
+        empty_count = item.get('star_count_filled') or 0
+        adc_tier = None
+        if item.get('has_adc_tier_widget') and total > 0:
+            adc_tier = max(total - empty_count, 0)
+        by_path[profile_path] = {
+            'adc_tier': adc_tier,
+            'profile_url': item.get('profile_url', '').strip(),
+        }
+    return by_path
+
+
 def write_markdown(records: list[dict]) -> None:
     lines = [
         '# Database: Summer Programs (Structured full table)',
@@ -119,6 +141,17 @@ def main() -> None:
     records = parse_records(jwt)
     if len(records) != TOTAL_IN_SOURCE:
         raise SystemExit(f'Expected {TOTAL_IN_SOURCE} records, got {len(records)}')
+
+    adc_details = load_adc_details()
+    for record in records:
+        detail = adc_details.get(record['adc_detail_path'])
+        if not detail:
+            continue
+        record['adc_tier'] = detail['adc_tier']
+        if detail['profile_url']:
+            record['adc_detail_url'] = detail['profile_url']
+
+    adc_tier_non_empty = sum(1 for r in records if r.get('adc_tier') is not None)
     payload = {
         'schema_version': 3,
         'dataset': 'summer-programs-explorer',
@@ -126,15 +159,16 @@ def main() -> None:
         'generated_from': [
             'portal.anndaveconsulting.com/dashboard/database/summer-programs/list',
             'raw/anndave-portal/2026-04-11/db-summer-programs-full-table.md',
+            'raw/anndave-portal/2026-04-11/summer-programs-adc-details.json',
         ],
         'coverage': {
             'total_in_source': TOTAL_IN_SOURCE,
             'captured_structured': len(records),
             'adc_detail_links_captured': sum(1 for r in records if r.get('adc_detail_url')),
-            'adc_tier_non_empty': 0,
-            'adc_tier_empty_or_missing': len(records),
-            'adc_tier_note': 'Base build captures detail links from the list page. ADC Tier should be backfilled from portal profile pages when available.',
-            'note': 'Full Summer Programs table was captured from the logged-in portal session on 2026-04-11, with detail links extracted from the list page.',
+            'adc_tier_non_empty': adc_tier_non_empty,
+            'adc_tier_empty_or_missing': len(records) - adc_tier_non_empty,
+            'adc_tier_note': 'ADC Tier was backfilled from portal detail-page star widgets using the confirmed rule that dark stars are filled and white stars are empty.',
+            'note': 'Full Summer Programs table was captured from the logged-in portal session on 2026-04-11, then cross-linked to detail pages for corrected ADC Tier and profile URLs.',
         },
         'fields': ['name', 'location', 'state', 'deadline', 'rec_letters', 'grade', 'grade_min', 'format', 'updated_for', 'adc_tier', 'adc_detail_path', 'adc_detail_url'],
         'filterable_fields': ['grade', 'format', 'rec_letters', 'state', 'updated_for', 'deadline', 'adc_tier'],

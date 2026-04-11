@@ -1,20 +1,21 @@
 {
   "schema_version": 3,
   "dataset": "summer-programs-explorer",
-  "generated_at": "2026-04-10T17:43:18Z",
+  "generated_at": "2026-04-11T02:12:00Z",
   "generated_from": [
     "portal.anndaveconsulting.com/dashboard/database/summer-programs/list",
     "portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/:id",
-    "raw/anndave-portal/2026-04-11/db-summer-programs-full-table.md"
+    "raw/anndave-portal/2026-04-11/db-summer-programs-full-table.md",
+    "raw/anndave-portal/2026-04-11/summer-programs-adc-details.json"
   ],
   "coverage": {
     "total_in_source": 330,
     "captured_structured": 330,
     "adc_detail_links_captured": 330,
-    "adc_tier_non_empty": 297,
-    "adc_tier_empty_or_missing": 33,
-    "adc_tier_note": "ADC Tier was checked from portal detail pages. Empty star widgets or missing widgets are preserved as null.",
-    "note": "Full Summer Programs table was captured from the logged-in portal session on 2026-04-11, then cross-linked to detail pages for ADC Tier and profile URLs."
+    "adc_tier_non_empty": 329,
+    "adc_tier_empty_or_missing": 1,
+    "adc_tier_note": "ADC Tier was backfilled from portal detail-page star widgets using the confirmed rule that dark stars are filled and white stars are empty.",
+    "note": "Full Summer Programs table was captured from the logged-in portal session on 2026-04-11, then cross-linked to detail pages for corrected ADC Tier and profile URLs."
   },
   "fields": [
     "name",
@@ -64,7 +65,7 @@
       "format": "In-Person",
       "state": "",
       "grade_min": 9,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/12",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/12"
     },
@@ -232,7 +233,7 @@
       "format": "In-Person",
       "state": "",
       "grade_min": 12,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/13",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/13"
     },
@@ -414,7 +415,7 @@
       "format": "In-Person",
       "state": "MA",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/17",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/17"
     },
@@ -624,7 +625,7 @@
       "format": "In-Person",
       "state": "VT",
       "grade_min": 8,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/28",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/28"
     },
@@ -638,7 +639,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 8,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/30",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/30"
     },
@@ -666,7 +667,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 9,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/29",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/29"
     },
@@ -1156,7 +1157,7 @@
       "format": "In-Person",
       "state": "IL",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/241",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/241"
     },
@@ -1394,7 +1395,7 @@
       "format": "Hybrid",
       "state": "CA",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/172",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/172"
     },
@@ -1436,7 +1437,7 @@
       "format": "In-Person",
       "state": "MA",
       "grade_min": 9,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/173",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/173"
     },
@@ -1856,7 +1857,7 @@
       "format": "Hybrid",
       "state": "CA",
       "grade_min": 8,
-      "adc_tier": 3,
+      "adc_tier": null,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/187",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/187"
     },
@@ -1968,7 +1969,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/202",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/202"
     },
@@ -2066,7 +2067,7 @@
       "format": "In-Person",
       "state": "MA",
       "grade_min": 9,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/196",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/196"
     },
@@ -2080,7 +2081,7 @@
       "format": "In-Person",
       "state": "MA",
       "grade_min": 12,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/197",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/197"
     },
@@ -2122,7 +2123,7 @@
       "format": "In-Person",
       "state": "",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/263",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/263"
     },
@@ -2318,7 +2319,7 @@
       "format": "In-Person",
       "state": "IN",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/46",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/46"
     },
@@ -2724,7 +2725,7 @@
       "format": "In-Person",
       "state": "PA",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/59",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/59"
     },
@@ -2892,7 +2893,7 @@
       "format": "In-Person",
       "state": "NJ",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/66",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/66"
     },
@@ -3088,7 +3089,7 @@
       "format": "In-Person",
       "state": "",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/68",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/68"
     },
@@ -3186,7 +3187,7 @@
       "format": "In-Person",
       "state": "",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/92",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/92"
     },
@@ -3270,7 +3271,7 @@
       "format": "Online",
       "state": "",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/75",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/75"
     },
@@ -3298,7 +3299,7 @@
       "format": "In-Person",
       "state": "CA",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/76",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/76"
     },
@@ -3354,7 +3355,7 @@
       "format": "In-Person",
       "state": "CA",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/131",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/131"
     },
@@ -3396,7 +3397,7 @@
       "format": "In-Person",
       "state": "CA",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/133",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/133"
     },
@@ -3508,7 +3509,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/77",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/77"
     },
@@ -3522,7 +3523,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/104",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/104"
     },
@@ -3592,7 +3593,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/105",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/105"
     },
@@ -3606,7 +3607,7 @@
       "format": "In-Person",
       "state": "NY",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/106",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/106"
     },
@@ -3648,7 +3649,7 @@
       "format": "In-Person",
       "state": "TX",
       "grade_min": 11,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/109",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/109"
     },
@@ -4082,7 +4083,7 @@
       "format": "In-Person",
       "state": "CA",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/280",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/280"
     },
@@ -4208,7 +4209,7 @@
       "format": "In-Person",
       "state": "IL",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 1,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/288",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/288"
     },
@@ -4278,7 +4279,7 @@
       "format": "In-Person",
       "state": "FL",
       "grade_min": 12,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/294",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/294"
     },
@@ -4306,7 +4307,7 @@
       "format": "In-Person",
       "state": "IA",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/2",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/2"
     },
@@ -4460,7 +4461,7 @@
       "format": "In-Person",
       "state": "",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/142",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/142"
     },
@@ -4642,7 +4643,7 @@
       "format": "In-Person",
       "state": "CT",
       "grade_min": 10,
-      "adc_tier": null,
+      "adc_tier": 5,
       "adc_detail_path": "/dashboard/database/summer-programs/profile/329",
       "adc_detail_url": "https://portal.anndaveconsulting.com/dashboard/database/summer-programs/profile/329"
     },
