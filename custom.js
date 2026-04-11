@@ -5,7 +5,8 @@
     'case-study': './data/explorers/case-study.json',
     'academic-programs': './data/explorers/academic-programs.json',
     'summer-programs': './data/explorers/summer-programs.json',
-    'volunteering': './data/explorers/volunteering.json'
+    'volunteering': './data/explorers/volunteering.json',
+    'professors': './data/explorers/professors.json'
   };
 
   const jsonCache = new Map();
@@ -1044,6 +1045,144 @@
     applyFilters();
   }
 
+  function normalizeProfessorRecord(item) {
+    return {
+      ...item,
+      school: getField(item, ['school'], ''),
+      school_slug: getField(item, ['school_slug', 'schoolSlug'], ''),
+      department: getField(item, ['department'], ''),
+      name: getField(item, ['name'], ''),
+      title: getField(item, ['title', 'roster_title', 'rosterTitle'], ''),
+      status: getField(item, ['status'], ''),
+      research_areas: getField(item, ['research_areas', 'primary_research_areas', 'primaryResearchAreas'], ''),
+      research_available: Boolean(getField(item, ['research_available', 'researchAvailable'], false)),
+      faculty_source_url: getField(item, ['faculty_source_url', 'facultySourceUrl'], ''),
+      school_page_path: getField(item, ['school_page_path', 'schoolPagePath'], '')
+    };
+  }
+
+  function renderProfessorsExplorerResults(records) {
+    if (!records.length) {
+      return renderExplorerEmpty('当前条件下没有匹配的教授', '请放宽筛选条件，或清空关键字后重试。');
+    }
+
+    return `
+      <div class="explorer-table-wrap">
+        <table class="explorer-table explorer-table-professors">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>School</th>
+              <th>Department</th>
+              <th>Status</th>
+              <th>Title</th>
+              <th>Research</th>
+              <th>Profile</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${records.map(item => `
+              <tr>
+                <td>${escapeHtml(item.name || '—')}</td>
+                <td>${escapeHtml(item.school || '—')}</td>
+                <td>${escapeHtml(item.department || '—')}</td>
+                <td>${escapeHtml(item.status || '—')}</td>
+                <td>${escapeHtml(item.title || '—')}</td>
+                <td>${escapeHtml(item.research_areas || '—')}</td>
+                <td>${item.faculty_source_url ? `<a href="${escapeHtml(item.faculty_source_url)}" target="_blank" rel="noopener">Open</a>` : (item.school_page_path ? `<a href="${escapeHtml(pageRoute(item.school_page_path))}">School page</a>` : '—')}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  function renderProfessorsExplorer(node, payload) {
+    const records = extractRecords(payload, ['records', 'professors', 'faculty']).map(normalizeProfessorRecord);
+    if (!records.length) {
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header"><div><h3>Professors Explorer</h3><p class="linked-note">按学校、院系、状态与研究信息可用性筛选教授名单。</p></div></div>
+          ${renderExplorerEmpty('教授数据暂不可用', '预期数据文件为 wiki/data/explorers/professors.json。')}
+        </section>
+      `;
+      return;
+    }
+
+    const filters = {
+      school: node.dataset.school || '',
+      department: node.dataset.department || '',
+      status: node.dataset.status || '',
+      research_available: node.dataset.researchAvailable || '',
+      search: ''
+    };
+    const pageState = { page: 1, pageSize: 50, totalPages: 1 };
+
+    function applyFilters() {
+      const searchLower = filters.search.toLowerCase().trim();
+      const filtered = records.filter(item => {
+        if (filters.school && item.school !== filters.school) return false;
+        if (filters.department && item.department !== filters.department) return false;
+        if (filters.status && item.status !== filters.status) return false;
+        if (filters.research_available) {
+          const wanted = filters.research_available === 'yes';
+          if (Boolean(item.research_available) !== wanted) return false;
+        }
+        if (searchLower) {
+          const haystack = [item.name, item.school, item.department, item.status, item.title, item.research_areas].join(' ').toLowerCase();
+          if (!haystack.includes(searchLower)) return false;
+        }
+        return true;
+      });
+
+      pageState.totalPages = Math.max(1, Math.ceil(filtered.length / pageState.pageSize));
+      if (pageState.page > pageState.totalPages) pageState.page = pageState.totalPages;
+      const start = (pageState.page - 1) * pageState.pageSize;
+      const display = filtered.slice(start, start + pageState.pageSize);
+
+      const summaryBits = [];
+      if (filters.school) summaryBits.push(`School: ${filters.school}`);
+      if (filters.department) summaryBits.push(`Department: ${filters.department}`);
+      if (filters.status) summaryBits.push(`Status: ${filters.status}`);
+      if (filters.research_available) summaryBits.push(`Research listed: ${filters.research_available}`);
+      if (filters.search) summaryBits.push(`Search: ${filters.search}`);
+
+      node.innerHTML = `
+        <section class="linked-section explorer-shell">
+          <div class="explorer-header">
+            <div>
+              <h3>Professors Explorer</h3>
+              <p class="linked-note">先按学校、院系和状态缩小范围，再打开教授主页或回到学校 professors 页面继续深挖。</p>
+            </div>
+            <button type="button" class="explorer-reset">重置筛选</button>
+          </div>
+          <div class="explorer-filters explorer-filters-dense">
+            ${renderExplorerFilter('School', 'school', getUniqueOptions(records, 'school').sort(), filters.school)}
+            ${renderExplorerFilter('Department', 'department', getUniqueOptions(records, 'department').sort(), filters.department)}
+            ${renderExplorerFilter('Status', 'status', getUniqueOptions(records, 'status').sort(), filters.status)}
+            ${renderExplorerFilter('Research Listed', 'research_available', ['yes', 'no'], filters.research_available)}
+            <label class="explorer-filter">
+              <span>Search Professor</span>
+              <input type="text" data-filter-key="search" placeholder="e.g. algebra, Harvard, emeritus" value="${escapeHtml(filters.search)}">
+            </label>
+          </div>
+          <div class="explorer-summary-bar">
+            <div><strong>${filtered.length}</strong> / ${records.length} 位教授匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
+            <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
+          </div>
+          <div class="linked-note explorer-data-note">当前为第一版 professors explorer，仅接入 Harvard Mathematics + Applied Mathematics 共 ${records.length} 位教授；字段保留 school / school_slug，后续可继续扩展到更多学校。</div>
+          <div class="explorer-results explorer-results-table">${renderProfessorsExplorerResults(display)}</div>
+          ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
+        </section>
+      `;
+      bindExplorerControls(node, filters, () => { pageState.page = 1; applyFilters(); });
+      bindExplorerPagination(node, pageState, applyFilters);
+    }
+
+    applyFilters();
+  }
+
   function templateFor(view, data, schoolSlug) {
     if (view === 'school-hub') {
       return `
@@ -1171,7 +1310,8 @@
     const academicExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="academic-programs"]'));
     const summerProgramsExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="summer-programs"]'));
     const volunteeringExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="volunteering"]'));
-    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length && !summerProgramsExplorerNodes.length && !volunteeringExplorerNodes.length) return;
+    const professorsExplorerNodes = Array.from(document.querySelectorAll('[data-explorer-view="professors"]'));
+    if (!linkedNodes.length && !caseExplorerNodes.length && !admissionExplorerNodes.length && !academicExplorerNodes.length && !summerProgramsExplorerNodes.length && !volunteeringExplorerNodes.length && !professorsExplorerNodes.length) return;
 
     const schoolSlug = currentSchoolSlug();
 
@@ -1247,6 +1387,18 @@
       } catch (error) {
         volunteeringExplorerNodes.forEach(node => {
           node.innerHTML = '<p class="linked-error">Volunteering Explorer 加载失败。请检查 wiki/data/explorers/volunteering.json。</p>';
+        });
+        console.error(error);
+      }
+    }
+
+    if (professorsExplorerNodes.length) {
+      try {
+        const professorsData = await fetchJson(EXPLORER_DATASETS['professors']);
+        professorsExplorerNodes.forEach(node => renderProfessorsExplorer(node, professorsData));
+      } catch (error) {
+        professorsExplorerNodes.forEach(node => {
+          node.innerHTML = '<p class="linked-error">Professors Explorer 加载失败。请检查 wiki/data/explorers/professors.json。</p>';
         });
         console.error(error);
       }
