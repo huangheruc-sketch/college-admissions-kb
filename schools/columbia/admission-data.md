@@ -4,6 +4,46 @@
 
 ---
 
+## Section 0：What Columbia Looks For
+
+### 官网直接回答的核心问题
+
+Columbia Undergraduate Admissions 在 first-year 官方页面明确写道，招生办公室会 **holistically and with care** 审阅每一份申请，以理解申请者会为本科生社区带来什么，并识别“**will make the most of this experience**”的学生。
+
+### Columbia 官方公开偏好的目标人群
+
+结合 Columbia Admissions 官方页面 **First-Year Applicants / Columbia-specific Questions / Testing Policy**，可以归纳出 Columbia 明确想招的是以下类型的学生：
+
+1. **能够在 Columbia 严格学术环境中成功的学生**
+   - Columbia 会看完整高中成绩单、课程挑战度、学校报告与教师推荐信。
+   - 这首先对应强学术基础与长期稳定的课堂表现。
+
+2. **有明确学术兴趣和智识好奇心的学生**
+   - 官网说明 Columbia-specific questions 用来了解学生的 **academic, extracurricular and intellectual interests**。
+   - 学校想看到的不只是“优秀”，而是你真正关心什么、会如何思考。
+
+3. **能为本科社区作出贡献的学生**
+   - Columbia 官网原文直接说，会理解每位申请者可能为 undergraduate community 带来什么。
+   - 这意味着招生并不只看个人成就，也看你进入校园后会如何参与和影响他人。
+
+4. **有自我认知、能解释为什么 Columbia 适合自己的学生**
+   - 官网明确表示补充问题帮助委员会理解：为什么你认为 Columbia 独特的课堂内外体验适合你的本科教育。
+   - 这类表达强调匹配度，而不是空泛的名校向往。
+
+5. **在活动、工作或暑期经历中持续投入的人**
+   - 官方申请材料要求中会系统查看 achievements、activities、employment 和 summer activities。
+   - 学校更重视长期投入与个人轨迹，而不是零散堆砌。
+
+### 一句话总结
+
+**Columbia 官方公开想招的，是学术能力很强、智识兴趣鲜明、能清楚说明自己为何适合 Columbia，并能真实贡献本科社区的学生。**
+
+### Source
+
+- [Columbia Undergraduate Admissions, First-Year Applicants](https://undergrad.admissions.columbia.edu/apply/firstyear)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：申请量 / 录取量 / 入学量 / 录取率 / Yield

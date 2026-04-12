@@ -4,6 +4,47 @@
 
 ---
 
+## Section 0：What Caltech Looks For
+
+### 官网直接回答的核心问题
+
+Caltech 招生官网 **What We Look For** 直接说明，Caltech 在审阅申请时，重点并不只是看分数，而是看申请者是否真正适合这个以科学、工程与探索为核心的学习环境。
+
+### Caltech 官方公开偏好的目标人群
+
+结合 Caltech Admissions 官方页面 **What We Look For / Academic Preparation / Letters of Recommendation / Standardized Tests**，可以归纳出 Caltech 明确想招的是以下类型的学生：
+
+1. **数理基础扎实、学术准备度很强的学生**
+   - Caltech 明确要求申请者完成高强度的数学与科学课程准备。
+   - 官方特别强调 calculus、physics、chemistry 等核心学术训练的重要性。
+
+2. **真正喜欢 STEM，而不是只会刷题的学生**
+   - 官网强调会看学生是否长期投入科学、技术、工程或数学相关兴趣与探索。
+   - 重点不是“奖项堆得多高”，而是你是否真实地持续钻研问题。
+
+3. **有好奇心、创造力和动手精神的学生**
+   - Caltech 明确重视 problem solving、creativity 与 hands-on engagement。
+   - 这类学生通常不仅理解概念，也愿意自己去做、去试、去验证。
+
+4. **能在高强度学术环境中合作成长的学生**
+   - Caltech 官网强调推荐信与整体审查会帮助招生官判断学生如何在社区中学习与合作。
+   - 学校想看到的不是“单打独斗的天才”，而是能与同伴共同推进问题的人。
+
+5. **在自身环境中主动把学术机会用到极致的学生**
+   - 官网明确要求结合学校可提供课程与个人背景来理解学术选择。
+   - 重点是你是否已经在可获得条件下表现出最大程度的准备与投入。
+
+### 一句话总结
+
+**Caltech 官方公开想招的，是数理准备极强、真正热爱 STEM、有创造力和动手能力，并且能在高强度合作型学术环境中持续解决问题的学生。**
+
+### Source
+
+- [Caltech Admissions, What We Look For](https://www.admissions.caltech.edu/apply/what-we-look-for)
+- [Caltech Admissions, Academic Preparation](https://www.admissions.caltech.edu/apply/first-year-applicants/academic-requirements)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：标化成绩与 GPA

@@ -2,6 +2,48 @@
 
 > 数据以 UCLA First-Year Profile、UCLA freshman selection 文件、UCLA 官方新闻稿为主；缺失项记为 `—`。
 
+---
+
+## Section 0：What UCLA Looks For
+
+### 官网直接回答的核心问题
+
+UCLA Undergraduate Admission 在 first-year requirements 官方页面直接写道，学校在审阅申请时，会同时考虑学术记录与个人经历，并明确表示：**we seek students who have excelled academically and gained valuable perspective from the personal experiences that have helped shape their lives**。
+
+### UCLA 官方公开偏好的目标人群
+
+结合 UCLA Admissions 官方页面 **First-Year Requirements / Review Process / Personal Insight Questions**，可以归纳出 UCLA 明确想招的是以下类型的学生：
+
+1. **学术表现非常强、并修读高强度课程的学生**
+   - UCLA 明确说明，competitive applicants 的学术画像通常远高于最低 UC 要求。
+   - 官方也强调强申请者通常会在 available rigorous curriculum 中取得高分。
+
+2. **在自身环境里充分利用机会的学生**
+   - 官网原文写明，每份申请都会在学生可获得课程资源的背景下审阅。
+   - 这意味着 UCLA 会看你是否已经把所在学校的机会用到了最好。
+
+3. **能带来 intellectual and cultural vitality 的学生**
+   - UCLA 官方在 holistic review criteria 中明确写到，会看申请者对校园 **intellectual and cultural vitality** 的潜在贡献。
+   - 这不只是学术强，还包括你会给校园带来什么样的视角与能量。
+
+4. **有鲜明个人特质和成长经历的学生**
+   - 官方标准明确包括 **personal qualities** 与 personal experiences。
+   - 个人背景、责任、逆境、成长路径都会进入理解框架。
+
+5. **在课堂外也持续投入的学生**
+   - UCLA 明确会看 academic enrichment、creative work、arts、athletics、community service 等方面的成就。
+   - 学校重视的是广义上的长期投入和实际表现。
+
+### 一句话总结
+
+**UCLA 官方公开想招的，是学术表现出色、会在自身环境中把机会用足、能为校园带来 intellectual and cultural vitality，并且个人经历与特质都很鲜明的学生。**
+
+### Source
+
+- [UCLA Undergraduate Admission, First-Year Requirements](https://admission.ucla.edu/apply/first-year/first-year-requirements)
+
+---
+
 ## 1. 核心数据总表（Core Data Snapshot）
 
 | 指标 | Fall 2024 | Fall 2023 | 说明 |

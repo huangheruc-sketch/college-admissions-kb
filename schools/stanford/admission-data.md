@@ -4,6 +4,46 @@
 
 ---
 
+## Section 0：What Stanford Looks For
+
+### 官网直接回答的核心问题
+
+Stanford Undergraduate Admission 在官方页面 **Admission Overview** 直接写道，Stanford 实行 **holistic admission**，想了解的是申请者会如何在 Stanford **grow, contribute, and thrive**。
+
+### Stanford 官方公开偏好的目标人群
+
+结合 Stanford Admissions 官方页面 **Admission Overview / Preparing for Stanford / Application and Essays**，可以归纳出 Stanford 明确想招的是以下类型的学生：
+
+1. **学术表现近乎顶尖、且课程挑战度高的学生**
+   - 官网明确写道，Stanford 最主要的录取标准是 **academic excellence**。
+   - strongest applicants 通常会在 rigorous program of study 中取得 outstanding results。
+
+2. **在自身背景与学校环境中充分发挥机会的学生**
+   - Stanford 官方专门强调 **Context**，会结合背景、教育路径、家庭与工作责任来理解申请者表现。
+   - 重点不是绝对资源多少，而是你如何利用现有资源做到最好。
+
+3. **能在校园外也产生真实影响的学生**
+   - 官网表示，会看你在 job、family、school 与 larger community 中带来的 impact。
+   - 这意味着非学术贡献同样是核心判断因素。
+
+4. **有深度投入而不是表面堆砌活动的学生**
+   - Stanford 直说，one or two activities 的 exceptional depth，往往比参与很多活动但投入很浅更有说服力。
+   - 学校更看重持续性、深度和影响。
+
+5. **具备 intellectual vitality 的学生**
+   - Stanford 将 **Intellectual Vitality** 单列出来，强调真正的思考兴趣与探索动力。
+   - 这类学生通常不只是“会学”，而是对知识本身有主动追问。
+
+### 一句话总结
+
+**Stanford 官方公开想招的，是学术极强、能在自身环境中把机会用足、在社区中产生真实影响，并且具有深度投入与 intellectual vitality 的学生。**
+
+### Source
+
+- [Stanford Undergraduate Admission, Admission Overview](https://admission.stanford.edu/apply/overview/index.html)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：标化成绩与 GPA

@@ -4,6 +4,46 @@
 
 ---
 
+## Section 0：What MIT Looks For
+
+### 官网直接回答的核心问题
+
+MIT Admissions 在官方页面 **What we look for** 直接写道，真正驱动录取选择的，不只是成绩和分数，而是申请者与 MIT 的 **match**。
+
+### MIT 官方公开偏好的目标人群
+
+结合 MIT Admissions 官方页面 **What we look for / How to Apply / Standardized Tests**，可以归纳出 MIT 明确想招的是以下类型的学生：
+
+1. **与 MIT 使命高度契合的学生**
+   - 官网明确写道，MIT 的使命是用 science, technology and other areas of scholarship to make the world better。
+   - 学校想看到申请者是否也愿意把知识用于真实问题与真实影响。
+
+2. **学术准备很强，尤其不排斥高强度数理训练的学生**
+   - MIT 明确要求所有本科生都要接受坚实的 math and science foundation。
+   - 因此，强学术准备尤其是数理准备，始终是基础门槛。
+
+3. **有合作精神的学生**
+   - 官网专门把 **Collaborative and cooperative spirit** 列为关键组成部分。
+   - MIT 不是只看个人能力，也看你是否能在团队与跨学科环境中工作。
+
+4. **有主动性、敢于尝试并不怕失败的学生**
+   - 官方页面把 **Initiative** 和 **Risk-taking** 单独列出。
+   - 这意味着 MIT 重视那种会主动寻找机会、愿意承担挑战、失败后还能继续推进的人。
+
+5. **动手能力强、好奇心旺盛、愿意把想法变成实践的学生**
+   - 官网明确强调 **Hands-on creativity** 以及 “Mind and Hand”。
+   - 申请者不应只是喜欢讨论问题，也要愿意真正去做点什么解决问题。
+
+### 一句话总结
+
+**MIT 官方公开想招的，是与 MIT 使命匹配、学术准备扎实、合作意识强、敢于尝试，并且能把好奇心转化为动手实践的学生。**
+
+### Source
+
+- [MIT Admissions, What we look for](https://mitadmissions.org/apply/process/what-we-look-for/)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：标化成绩与 GPA

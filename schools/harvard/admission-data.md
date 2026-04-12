@@ -4,6 +4,47 @@
 
 ---
 
+## Section 0：What Harvard Looks For / 招生目标人群
+
+### 官网直接回答的核心问题
+
+Harvard College 官网没有稳定保留一个单页式的 **What We Look For** 页面，但官方申请要求、招生 FAQ 与 CDS 长期传达的信息很一致：Harvard 会通过整体审查判断申请者是否具备顶尖学术准备、强烈个人潜力，以及能否为校园社区带来明显贡献。
+
+### Harvard 官方公开偏好的目标人群
+
+结合 Harvard College 官方页面 **Application Requirements / FAQs / Common Data Set**，可以归纳出 Harvard 明确想招的是以下类型的学生：
+
+1. **课程强度和学业表现都非常突出的学生**
+   - Harvard 要求完整成绩单、school report、midyear report，并长期在 CDS 中将课程难度、GPA、推荐信、文书等列为最高重要性。
+   - 这首先对应顶尖学术准备度。
+
+2. **不仅成绩强，而且真正有个人潜力的学生**
+   - Harvard 的整体审查并不只找“分数最漂亮”的人，而是找未来会继续成长的人。
+   - 学术潜力、思维质量与持续上升空间都很关键。
+
+3. **能在课堂外同样产生影响的学生**
+   - 官方申请材料会系统呈现活动、荣誉、工作与个人经历。
+   - 这意味着招生会看你是否已经在学校、家庭或社区里留下实际影响。
+
+4. **有鲜明个性、能真实表达自己的学生**
+   - Harvard 补充文书和申请材料设计，本质上是在看学生如何用自己的声音展现价值观、兴趣与思考方式。
+   - 这类表达比“完美模板答案”更有意义。
+
+5. **能够为 Harvard 社区带来多样化贡献的学生**
+   - 从整体审查到招生 FAQ，Harvard 一直强调会综合理解个人背景与经历。
+   - 学校想招的是能在住宿、课堂、社团与更大社区中持续贡献的人。
+
+### 一句话总结
+
+**Harvard 官方公开想招的，是学术表现顶尖、成长潜力强、个人表达真实，并且已经在课堂外展现影响力与社区贡献能力的学生。**
+
+### Source
+
+- [Harvard College, Application Requirements](https://college.harvard.edu/apply/first-year-applicants/application-requirements)
+- [Harvard Common Data Set 2024-2025](https://oir.harvard.edu/common-data-set/)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：标化成绩与 GPA

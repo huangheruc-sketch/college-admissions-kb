@@ -4,6 +4,47 @@
 
 ---
 
+## Section 0：What UC Berkeley Looks For / 招生目标人群
+
+### 官网直接回答的核心问题
+
+UC Berkeley 本科招生官网没有用一句口号概括标准，但在 **Selection Process / First-Year Requirements / Personal Insight Questions** 中反复强调的是：Berkeley 会以 **comprehensive review** 审视学术成绩、课程挑战度、个人背景与申请者可能为校园带来的贡献。
+
+### UC Berkeley 官方公开偏好的目标人群
+
+结合 UC Berkeley Admissions 官方页面 **Selection Process / First-Year Requirements / PIQ** 与 UC 系统综合审查标准，可以归纳出 Berkeley 明确想招的是以下类型的学生：
+
+1. **完成高水平 college-preparatory 课程并取得强成绩的学生**
+   - Berkeley 会重点看 A-G 课程完成情况、课程难度与成绩表现。
+   - 学术准备仍然是录取审查的基础。
+
+2. **在自身学校与社区环境中充分利用机会的学生**
+   - UC 综合审查长期强调在 available opportunities 的背景下理解学生表现。
+   - 这意味着 Berkeley 不是只看绝对资源，而是看你如何在环境中做到最好。
+
+3. **能通过 PIQ 展现个人特质与成长经历的学生**
+   - 官方要求通过 Personal Insight Questions 补充呈现经历、价值观、责任与反思。
+   - Berkeley 想看到的是具体的人，而不是只有数字的申请表。
+
+4. **已经在课堂外体现领导力、创造力或服务意识的学生**
+   - 综合审查会看 special talents、achievements、leadership、service 与 sustained commitment。
+   - 学校重视实际投入和持续影响。
+
+5. **能够为 Berkeley 的智识与公共性文化作出贡献的学生**
+   - Berkeley 的 review 不只是判断“能不能读”，也在判断“会带来什么”。
+   - 这类学生通常兼具学术实力与公共参与意识。
+
+### 一句话总结
+
+**UC Berkeley 官方公开想招的，是学术准备扎实、在自身环境中把机会用足、能用 PIQ 真实呈现个人成长，并且已展现持续投入与社区贡献潜力的学生。**
+
+### Source
+
+- [UC Berkeley Admissions, Selection Process](https://admissions.berkeley.edu/apply-to-berkeley/application-resources/selection-process/)
+- [UC Berkeley Admissions, Personal Insight Questions](https://admissions.berkeley.edu/apply-to-berkeley/application-resources/personal-insight-questions/)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：申请量 / 录取 / 入学 / Waitlist

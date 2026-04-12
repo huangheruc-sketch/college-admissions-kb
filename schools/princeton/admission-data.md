@@ -4,6 +4,47 @@
 
 ---
 
+## Section 0：What Princeton Looks For / 招生目标人群
+
+### 官网直接回答的核心问题
+
+Princeton 官网没有像 Yale 那样用一句固定标题概括招生标准，但从 **Application Checklist / Standardized Testing / Common Data Set** 可以清楚看出，Princeton 审查的核心是：学生是否具备严谨的学术准备、扎实的写作与课堂表现，以及在不同学术领域中持续成长的能力。
+
+### Princeton 官方公开偏好的目标人群
+
+结合 Princeton Admission 官方页面 **Application Checklist / Standardized Testing / CDS**，可以归纳出 Princeton 明确想招的是以下类型的学生：
+
+1. **在高难度课程中表现突出的学生**
+   - Princeton 要求提交完整成绩单，并建议教师推荐来自高阶核心学科课程。
+   - 这首先对应强课程 rigor 与稳定成绩表现。
+
+2. **有扎实阅读和写作能力的学生**
+   - Princeton 明确要求提交 **Graded Written Paper**。
+   - 这说明学校不仅看分数，也直接看学生真实课堂写作能力。
+
+3. **能在多个核心学科中建立学术可信度的学生**
+   - 官网要求两封来自不同学术领域高阶课程教师的推荐信。
+   - 学校想看到的不是单点强项，而是整体学术成熟度。
+
+4. **在整体申请中呈现清晰个人特质与成长轨迹的学生**
+   - Princeton-specific questions、推荐信和学校报告共同帮助招生官理解学生是谁、如何学习、如何参与社区。
+   - 这属于整体审查的一部分。
+
+5. **能在 Princeton 严格学术环境中持续发展的学生**
+   - 无论是恢复标化要求，还是长期保留写作样本与高阶课程推荐信，官方信号都很一致。
+   - Princeton 想招的是进入校园后能真正适应并继续拔高的人。
+
+### 一句话总结
+
+**Princeton 官方公开想招的，是课程难度高、写作扎实、跨学科学术表现可靠，并且能在严格学术环境中持续成长的学生。**
+
+### Source
+
+- [Princeton Admission, Application Checklist](https://admission.princeton.edu/apply/application-checklist)
+- [Princeton Admission, Standardized Testing](https://admission.princeton.edu/apply/standardized-testing)
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：标化成绩与 GPA
