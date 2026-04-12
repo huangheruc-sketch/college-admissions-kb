@@ -1,0 +1,25 @@
+{
+  "scope": "Cornell Mathematics + Cornell Center for Applied Mathematics affiliated faculty/professors (first verified pass)",
+  "sources": {
+    "mathematics_roster": "https://math.cornell.edu/faculty",
+    "applied_mathematics_roster": "https://cam.cornell.edu/people/"
+  },
+  "counts": {
+    "mathematics": 6,
+    "applied_mathematics": 5,
+    "total": 11
+  },
+  "entries": [
+    {"name":"Tara Holm","department":"Mathematics","education_history":"Ph.D. (2002), Massachusetts Institute of Technology.","work_professional_background":null,"primary_research_areas":"Combinatorics and discrete geometry, geometry, topology","faculty_source_url":"https://math.cornell.edu/tara-holm","roster_title":"Professor","roster_url":"https://math.cornell.edu/faculty"},
+    {"name":"Justin Moore","department":"Mathematics","education_history":"Ph.D. (2000), University of Toronto.","work_professional_background":null,"primary_research_areas":"Logic","faculty_source_url":"https://math.cornell.edu/justin-moore","roster_title":"Professor","roster_url":"https://math.cornell.edu/faculty"},
+    {"name":"Moon Duchin","department":"Mathematics","education_history":"Ph.D. (2005), University of Chicago, Mathematics; B.A. (1998), Harvard University, Mathematics and Women's Studies.","work_professional_background":null,"primary_research_areas":"Applied mathematics","faculty_source_url":"https://math.cornell.edu/moon-duchin","roster_title":"Professor","roster_url":"https://math.cornell.edu/faculty"},
+    {"name":"Steven Strogatz","department":"Mathematics","education_history":"Ph.D. (1986), Harvard University.","work_professional_background":null,"primary_research_areas":"Applied mathematics, analysis, dynamical systems applied to physics, biology, and social science","faculty_source_url":"https://math.cornell.edu/steven-strogatz","roster_title":"Susan and Barton Winokur Distinguished Professor for the Public Understanding of Science and Mathematics, Stephen H. Weiss Presidential Fellow","roster_url":"https://math.cornell.edu/faculty"},
+    {"name":"Edward Swartz","department":"Mathematics","education_history":"B.A. in Mathematics, University of Rochester (1981); M.S. in Mathematics, Yale University (1989); Ph.D. in Mathematics, University of Maryland, College Park (1999).","work_professional_background":null,"primary_research_areas":"Algebra; combinatorics and discrete geometry","faculty_source_url":"https://math.cornell.edu/edward-swartz","roster_title":"Professor","roster_url":"https://math.cornell.edu/faculty"},
+    {"name":"Daniel Halpern-Leistner","department":"Mathematics","education_history":"Ph.D. (2013), University of California, Berkeley.","work_professional_background":null,"primary_research_areas":"Analysis; topology","faculty_source_url":"https://math.cornell.edu/daniel-halpern-leistner","roster_title":"Associate Professor","roster_url":"https://math.cornell.edu/faculty"},
+    {"name":"David Bindel","department":"Applied Mathematics (CAM)","education_history":null,"work_professional_background":null,"primary_research_areas":"Numerical linear algebra; microelectromechanical systems; network tomography; finite element analysis; numerical software design","faculty_source_url":"https://cam.cornell.edu/people/david-bindel/","roster_title":"待补充","roster_url":"https://cam.cornell.edu/people/"},
+    {"name":"Anil Damle","department":"Applied Mathematics (CAM)","education_history":null,"work_professional_background":null,"primary_research_areas":"待补充","faculty_source_url":"https://cam.cornell.edu/people/anil-damle/","roster_title":"待补充","roster_url":"https://cam.cornell.edu/people/"},
+    {"name":"Sarah Dean","department":"Applied Mathematics (CAM)","education_history":null,"work_professional_background":null,"primary_research_areas":"待补充","faculty_source_url":"https://cam.cornell.edu/people/sarah-dean/","roster_title":"待补充","roster_url":"https://cam.cornell.edu/people/"},
+    {"name":"Peter Frazier","department":"Applied Mathematics (CAM)","education_history":null,"work_professional_background":null,"primary_research_areas":"待补充","faculty_source_url":"https://cam.cornell.edu/people/peter-frazier/","roster_title":"待补充","roster_url":"https://cam.cornell.edu/people/"},
+    {"name":"Raaz Dwivedi","department":"Applied Mathematics (CAM)","education_history":null,"work_professional_background":null,"primary_research_areas":"待补充","faculty_source_url":"https://cam.cornell.edu/people/raaz-dwivedi/","roster_title":"待补充","roster_url":"https://cam.cornell.edu/people/"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "UChicago Mathematics faculty/professors with applied-mathematics related entries where officially verifiable (first verified pass)",
+  "sources": {
+    "mathematics_roster": "https://mathematics.uchicago.edu/people/",
+    "mathematics_profiles": "https://mathematics.uchicago.edu/people/profile/"
+  },
+  "counts": {
+    "mathematics": 8,
+    "applied_mathematics_related": 4,
+    "total": 12
+  },
+  "entries": [
+    {"name":"Guillaume Bal","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":"Inverse problems with applications in geophysical and medical imaging; inverse transport theory; partial differential models with random coefficients; uncertainty quantification; wave propagation in heterogeneous environments; topological insulators","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/guillaume-bal/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Carlos Kenig","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":"Analysis and partial differential equations","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/carlos-kenig/","roster_title":"Louis Block Distinguished Service Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Gregory F. Lawler","department":"Mathematics","education_history":"B.A. (1976), University of Virginia; Ph.D. (1979), Princeton University.","work_professional_background":null,"primary_research_areas":"Random walks, Brownian motion and diffusions; statistical physics; self-avoiding random walk; loop-erased random walk; percolation; SLE; Gaussian free field; complex-analysis applications of probability","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/gregory-f-lawler/","roster_title":"George Wells Beadle Distinguished Service Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Luis Silvestre","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":null,"faculty_source_url":"https://mathematics.uchicago.edu/people/profile/luis-silvestre/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Yu Deng","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":null,"faculty_source_url":"https://mathematics.uchicago.edu/people/profile/yu-deng/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Maryanthe Malliaris","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":null,"faculty_source_url":"https://mathematics.uchicago.edu/people/profile/maryanthe-malliaris/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Akhil Mathew","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":null,"faculty_source_url":"https://mathematics.uchicago.edu/people/profile/akhil-mathew/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Jiajie Chen","department":"Mathematics","education_history":null,"work_professional_background":null,"primary_research_areas":null,"faculty_source_url":"https://mathematics.uchicago.edu/people/profile/jiajie-chen/","roster_title":"Assistant Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Guillaume Bal","department":"Applied Mathematics related","education_history":null,"work_professional_background":null,"primary_research_areas":"Inverse problems, imaging, stochastic PDE modeling, and wave propagation","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/guillaume-bal/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Carlos Kenig","department":"Applied Mathematics related","education_history":null,"work_professional_background":null,"primary_research_areas":"Analysis and partial differential equations","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/carlos-kenig/","roster_title":"Louis Block Distinguished Service Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Gregory F. Lawler","department":"Applied Mathematics related","education_history":"B.A. (1976), University of Virginia; Ph.D. (1979), Princeton University.","work_professional_background":null,"primary_research_areas":"Probability and statistical-physics interfaces","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/gregory-f-lawler/","roster_title":"George Wells Beadle Distinguished Service Professor","roster_url":"https://mathematics.uchicago.edu/people/"},
+    {"name":"Luis Silvestre","department":"Applied Mathematics related","education_history":null,"work_professional_background":null,"primary_research_areas":"待补充","faculty_source_url":"https://mathematics.uchicago.edu/people/profile/luis-silvestre/","roster_title":"Professor","roster_url":"https://mathematics.uchicago.edu/people/"}
+  ]
+}
