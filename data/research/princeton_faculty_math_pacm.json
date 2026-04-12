@@ -845,11 +845,11 @@
     {
       "name": "Mark Braverman",
       "department": "Applied & Computational Mathematics (PACM)",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Research Interests: Complexity theory; Algorithms; Game theory with applications to mechanism design; Information theory",
+      "education_history": "Technion 数学与计算机科学学士（2001）；多伦多大学计算机科学博士（2008）",
+      "work_professional_background": "2008至2010年在 Microsoft Research New England 从事博士后研究；2010至2011年任多伦多大学数学系与计算机系助理教授；2011年加入普林斯顿大学任助理教授，2015年起任计算机科学教授",
+      "primary_research_areas": "复杂性理论；算法；博弈论与机制设计；信息论",
       "faculty_source_url": "https://www.pacm.princeton.edu/people/mark-braverman",
-      "roster_title": null,
+      "roster_title": "Professor of Computer Science",
       "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
       "home_department": "Computer Science"
     },

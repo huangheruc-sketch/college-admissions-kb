@@ -591,10 +591,10 @@
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/william-bialek
 
 ### Mark Braverman
-- **Title:** 待补充
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Complexity theory; Algorithms; Game theory with applications to mechanism design; Information theory
+- **Title:** Professor of Computer Science
+- **学习经历（Education）:** Technion 数学与计算机科学学士（2001）；多伦多大学计算机科学博士（2008）
+- **工作经历（Work / Professional Background）:** 2008至2010年在 Microsoft Research New England 从事博士后研究；2010至2011年任多伦多大学数学系与计算机系助理教授；2011年加入普林斯顿大学任助理教授，2015年起任计算机科学教授
+- **主要研究方向（Primary Research Areas）:** 复杂性理论；算法；博弈论与机制设计；信息论
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/mark-braverman
 
 ### Carlos D. Brody

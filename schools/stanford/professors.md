@@ -51,9 +51,9 @@
 
 ### Emmanuel Candès
 - **Title:** Professor of Mathematics and Statistics, Barnum-Simons Chair in Mathematics and Statistics, Professor of Electrical Engineering (by courtesy)
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Harmonic Analysis; High-Dimensional Statistics; Signal Processing
+- **学习经历（Education）:** École Polytechnique 工程师文凭（1993）；斯坦福大学统计学博士（1998）
+- **工作经历（Work / Professional Background）:** 曾任加州理工学院 Ronald and Maxine Linde Professor of Applied and Computational Mathematics；后任斯坦福大学 Barnum-Simons Chair in Mathematics and Statistics、统计系主任（2015至2018）
+- **主要研究方向（Primary Research Areas）:** 计算调和分析；高维统计；信息论；信号处理；数学优化
 - **Source:** https://mathematics.stanford.edu/people/faculty-lecturers ; https://mathematics.stanford.edu/people/emmanuel-candes
 
 ### Gunnar Carlsson
@@ -65,16 +65,16 @@
 
 ### Moses Charikar
 - **Title:** Professor of Computer Science and, by courtesy, of Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** 印度理工学院孟买分校计算机科学与工程学士（1995）；斯坦福大学计算机科学博士（2000）
+- **工作经历（Work / Professional Background）:** 2000至2001年在 Google research group 工作；2001至2015年任普林斯顿大学 faculty；现为斯坦福大学 Donald E. Knuth Professor of Computer Science
+- **主要研究方向（Primary Research Areas）:** 高维数据处理、搜索与索引算法；机器学习与高维统计中的优化算法；离散优化近似算法；有限度量空间低失真嵌入
 - **Source:** https://mathematics.stanford.edu/people/faculty-lecturers ; https://mathematics.stanford.edu/people/moses-charikar
 
 ### Sourav Chatterjee
 - **Title:** Professor of Mathematics and Statistics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** Indian Statistical Institute, Kolkata 统计学学士（2000）、硕士（2002）；斯坦福大学统计学博士（2005）
+- **工作经历（Work / Professional Background）:** 2005至2006年任加州大学伯克利分校 Visiting Neyman Assistant Professor of Statistics；2006至2009年任伯克利统计学助理教授；2009至2011年任伯克利统计学与数学副教授；2009至2013年任纽约大学 Courant Institute 数学副教授；2012至2013年任斯坦福统计与数学访问副教授；2013年起任斯坦福统计与数学教授
+- **主要研究方向（Primary Research Areas）:** 概率论；统计物理方法；随机过程；高维统计
 - **Source:** https://mathematics.stanford.edu/people/faculty-lecturers ; https://mathematics.stanford.edu/people/sourav-chatterjee
 
 ### Otis Chodosh

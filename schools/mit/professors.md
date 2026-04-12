@@ -37,9 +37,9 @@
 
 ### Bazant, Martin
 - **Title:** E.G. Roos Professor Professor of Applied Mathematics Professor of Chemical Engineering
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** 哈佛大学物理学博士（1997）
+- **工作经历（Work / Professional Background）:** 1998年加入 MIT 数学系，2008年加入 MIT 化学工程系；2016至2020年任化学工程系 Executive Officer
+- **主要研究方向（Primary Research Areas）:** 化学物理与材料科学；电化学；电子结构理论与分子动力学；电池与可充电材料的数据驱动设计
 - **Source:** https://math.mit.edu/directory/faculty ; https://math.mit.edu/directory/profile.html?pid=16
 
 ### Berger, Bonnie
@@ -79,9 +79,9 @@
 
 ### Bush, John
 - **Title:** Professor of Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** 多伦多大学物理学学士（1986）、地球物理学硕士（1988）；哈佛大学地球物理学博士（1993）
+- **工作经历（Work / Professional Background）:** 1993至1997年在剑桥大学 DAMTP 从事博士后研究；1998年加入 MIT 应用数学 faculty，2002年升任副教授，2004年获终身教职，2009年升任正教授；现任 Applied Math Laboratory 主任
+- **主要研究方向（Primary Research Areas）:** 流体力学；地球与环境流动；表面张力驱动现象；生物流体力学；流体动力学量子类比
 - **Source:** https://math.mit.edu/directory/faculty ; https://math.mit.edu/directory/profile.html?pid=35
 
 ### Cheng, Hung
@@ -177,9 +177,9 @@
 
 ### Goemans, Michel
 - **Title:** Department Head RSA Professor Professor of Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** UCLouvain 应用数学学士、硕士（1987）；MIT 应用数学博士（1990）
+- **工作经历（Work / Professional Background）:** 1990至1992年任 MIT 应用数学讲师；此后加入 MIT faculty，后任数学系主任（2018起，2017至2018为 interim），并为 MIT CSAIL Theory of Computation Group 成员
+- **主要研究方向（Primary Research Areas）:** 组合优化；算法；近似算法
 - **Source:** https://math.mit.edu/directory/faculty ; https://math.mit.edu/directory/profile.html?pid=84
 
 ### Goldwasser, Shafi
@@ -212,9 +212,9 @@
 
 ### Hosoi, Anette
 - **Title:** Neil and Jane Pappalardo Professor Professor of Mechanical Engineering Professor of Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** 芝加哥大学物理学博士（1997）
+- **工作经历（Work / Professional Background）:** 1998至2000年任 MIT 应用数学讲师；2002年加入 MIT 机械工程系；2010年起在数学系联合任职；并为 Institute for Data, Systems, and Society 核心教师
+- **主要研究方向（Primary Research Areas）:** 自由液面流；表面张力；复杂流体流体力学
 - **Source:** https://math.mit.edu/directory/faculty ; https://math.mit.edu/directory/profile.html?pid=1234
 
 ### Jerison, David

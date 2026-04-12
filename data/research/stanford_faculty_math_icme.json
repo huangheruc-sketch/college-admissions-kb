@@ -69,9 +69,9 @@
     {
       "name": "Emmanuel Candès",
       "department": "Mathematics",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Harmonic Analysis; High-Dimensional Statistics; Signal Processing",
+      "education_history": "École Polytechnique 工程师文凭（1993）；斯坦福大学统计学博士（1998）",
+      "work_professional_background": "曾任加州理工学院 Ronald and Maxine Linde Professor of Applied and Computational Mathematics；后任斯坦福大学 Barnum-Simons Chair in Mathematics and Statistics、统计系主任（2015至2018）",
+      "primary_research_areas": "计算调和分析；高维统计；信息论；信号处理；数学优化",
       "faculty_source_url": "https://mathematics.stanford.edu/people/emmanuel-candes",
       "roster_title": "Professor of Mathematics and Statistics, Barnum-Simons Chair in Mathematics and Statistics, Professor of Electrical Engineering (by courtesy)",
       "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
@@ -89,9 +89,9 @@
     {
       "name": "Moses Charikar",
       "department": "Mathematics",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": null,
+      "education_history": "印度理工学院孟买分校计算机科学与工程学士（1995）；斯坦福大学计算机科学博士（2000）",
+      "work_professional_background": "2000至2001年在 Google research group 工作；2001至2015年任普林斯顿大学 faculty；现为斯坦福大学 Donald E. Knuth Professor of Computer Science",
+      "primary_research_areas": "高维数据处理、搜索与索引算法；机器学习与高维统计中的优化算法；离散优化近似算法；有限度量空间低失真嵌入",
       "faculty_source_url": "https://mathematics.stanford.edu/people/moses-charikar",
       "roster_title": "Professor of Computer Science and, by courtesy, of Mathematics",
       "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
@@ -99,9 +99,9 @@
     {
       "name": "Sourav Chatterjee",
       "department": "Mathematics",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": null,
+      "education_history": "Indian Statistical Institute, Kolkata 统计学学士（2000）、硕士（2002）；斯坦福大学统计学博士（2005）",
+      "work_professional_background": "2005至2006年任加州大学伯克利分校 Visiting Neyman Assistant Professor of Statistics；2006至2009年任伯克利统计学助理教授；2009至2011年任伯克利统计学与数学副教授；2009至2013年任纽约大学 Courant Institute 数学副教授；2012至2013年任斯坦福统计与数学访问副教授；2013年起任斯坦福统计与数学教授",
+      "primary_research_areas": "概率论；统计物理方法；随机过程；高维统计",
       "faculty_source_url": "https://mathematics.stanford.edu/people/sourav-chatterjee",
       "roster_title": "Professor of Mathematics and Statistics",
       "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
