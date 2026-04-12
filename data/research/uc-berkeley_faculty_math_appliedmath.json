@@ -323,8 +323,8 @@
       "name": "Ko Woon Ohm",
       "department": "Mathematics",
       "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Mathematical Analysis",
+      "work_professional_background": "Assistant Teaching Professor, UC Berkeley Department of Mathematics, year appointed 2025.",
+      "primary_research_areas": "Regularity theory of partial differential equations; free boundary problems; Fourier analysis",
       "faculty_source_url": "https://math.berkeley.edu/people/ko-woon-ohm",
       "roster_title": "Assistant Teaching Professor",
       "roster_url": "https://math.berkeley.edu/people/faculty/senate"
@@ -392,9 +392,9 @@
     {
       "name": "James A. Sethian",
       "department": "Applied Mathematics",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Applied Mathematics Mathematical Analysis Geometry/Topology",
+      "education_history": "B.A., Princeton University (1976); M.A. in Mathematics, University of California, Berkeley (1978); Ph.D. in Applied Mathematics, University of California, Berkeley (1982).",
+      "work_professional_background": "NSF Postdoctoral Fellow, Lawrence Berkeley National Laboratory (1982-1984); NSF Postdoctoral Fellow, Courant Institute of Mathematical Sciences, NYU (1984-1985); Assistant Professor, Associate Professor, and Professor of Mathematics at UC Berkeley (1985-present); Senior Scientist and later department head in the Mathematics Department at Lawrence Berkeley National Laboratory (1996-present).",
+      "primary_research_areas": "Applied mathematics, scientific computing, level set methods, partial differential equations, and geometry-driven computation",
       "faculty_source_url": "https://math.berkeley.edu/people/faculty/james-sethian",
       "roster_title": "Professor",
       "roster_url": "https://math.berkeley.edu/people/faculty/senate"
@@ -542,9 +542,9 @@
     {
       "name": "Maciej Zworski",
       "department": "Applied Mathematics",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Mathematical Analysis Applied Mathematics",
+      "education_history": "B.Sc. studies, Imperial College London (1982-1983); S.B. in Mathematics, Massachusetts Institute of Technology (1985); Ph.D. in Mathematics, Massachusetts Institute of Technology (1989).",
+      "work_professional_background": "Benjamin Peirce Lecturer, Harvard University (1989-1992); Associate Professor and then Professor, Johns Hopkins University (1992-1996); Professor, University of Toronto (1995-2000); Professor of Mathematics, UC Berkeley (1998-present).",
+      "primary_research_areas": "Mathematical analysis, spectral theory, scattering resonances, semiclassical analysis, and applications to quantum chaos",
       "faculty_source_url": "https://math.berkeley.edu/people/faculty/maciej-zworski",
       "roster_title": "Professor",
       "roster_url": "https://math.berkeley.edu/people/faculty/senate"

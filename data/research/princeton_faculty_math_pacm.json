@@ -19,9 +19,9 @@
     {
       "name": "Noga Alon",
       "department": "Mathematics",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": null,
+      "education_history": "Ph.D. in Mathematics, Hebrew University of Jerusalem (1983).",
+      "work_professional_background": "Joined Tel Aviv University in 1985, later served as head of the School of Mathematical Sciences (1999-2000); moved to Princeton University in 2018 as Professor of Mathematics; also Baumritter Professor Emeritus of Mathematics and Computer Science at Tel Aviv University.",
+      "primary_research_areas": "Combinatorics, graph theory, combinatorial geometry, combinatorial number theory, and algebraic and probabilistic methods in combinatorics",
       "faculty_source_url": "https://www.math.princeton.edu/people/noga-alon",
       "roster_title": "Professor",
       "roster_url": "https://www.math.princeton.edu/people"
@@ -823,11 +823,11 @@
     {
       "name": "Noga Alon",
       "department": "Applied & Computational Mathematics (PACM)",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Research Interests: Combinatorics, Graph Theory and their applications to Theoretical Computer Science. Combinatorial algorithms and circuit complexity. Combinatorial geometry and Combinatorial number theory. Algebraic and probabilistic methods in Combinatorics.",
+      "education_history": "Ph.D. in Mathematics, Hebrew University of Jerusalem (1983).",
+      "work_professional_background": "Joined Tel Aviv University in 1985, later served as head of the School of Mathematical Sciences (1999-2000); moved to Princeton University in 2018 as Professor of Mathematics; also Baumritter Professor Emeritus of Mathematics and Computer Science at Tel Aviv University.",
+      "primary_research_areas": "Combinatorics, graph theory, combinatorial algorithms and circuit complexity, combinatorial geometry, combinatorial number theory, and algebraic and probabilistic methods in combinatorics",
       "faculty_source_url": "https://www.pacm.princeton.edu/people/noga-alon",
-      "roster_title": null,
+      "roster_title": "Professor",
       "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
       "home_department": "Mathematics"
     },

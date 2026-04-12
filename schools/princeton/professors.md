@@ -16,10 +16,10 @@
 
 ### Noga Alon
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/noga-alon
+- **学习经历（Education）:** Ph.D. in Mathematics, Hebrew University of Jerusalem (1983).
+- **工作经历（Work / Professional Background）:** Joined Tel Aviv University in 1985, later served as head of the School of Mathematical Sciences (1999-2000); moved to Princeton University in 2018 as Professor of Mathematics; also Baumritter Professor Emeritus of Mathematics and Computer Science at Tel Aviv University.
+- **主要研究方向（Primary Research Areas）:** Combinatorics, graph theory, combinatorial geometry, combinatorial number theory, and algebraic and probabilistic methods in combinatorics
+- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/noga-alon ; https://web.math.princeton.edu/~nalon/ ; https://web.math.princeton.edu/~nalon/cvshort.html
 
 ### Lars Becker
 - **Title:** Instructor
@@ -577,11 +577,11 @@
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/michael-aizenman
 
 ### Noga Alon
-- **Title:** 待补充
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Combinatorics, Graph Theory and their applications to Theoretical Computer Science. Combinatorial algorithms and circuit complexity. Combinatorial geometry and Combinatorial number theory. Algebraic and probabilistic methods in Combinatorics.
-- **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/noga-alon
+- **Title:** Professor
+- **学习经历（Education）:** Ph.D. in Mathematics, Hebrew University of Jerusalem (1983).
+- **工作经历（Work / Professional Background）:** Joined Tel Aviv University in 1985, later served as head of the School of Mathematical Sciences (1999-2000); moved to Princeton University in 2018 as Professor of Mathematics; also Baumritter Professor Emeritus of Mathematics and Computer Science at Tel Aviv University.
+- **主要研究方向（Primary Research Areas）:** Combinatorics, graph theory, combinatorial algorithms and circuit complexity, combinatorial geometry, combinatorial number theory, and algebraic and probabilistic methods in combinatorics
+- **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/noga-alon ; https://web.math.princeton.edu/~nalon/ ; https://web.math.princeton.edu/~nalon/cvshort.html
 
 ### William Bialek
 - **Title:** 待补充

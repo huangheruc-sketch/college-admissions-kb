@@ -30,10 +30,10 @@
 
 ### Luis Silvestre
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/luis-silvestre/
+- **学习经历（Education）:** Licenciado en Matemática, Universidad Nacional de La Plata (2000); Ph.D. in Mathematics, University of Texas at Austin (2005).
+- **工作经历（Work / Professional Background）:** Courant Instructor, Courant Institute, New York University (2005-2008); Assistant Professor, Associate Professor, and Professor at the University of Chicago (2008-present).
+- **主要研究方向（Primary Research Areas）:** Partial differential equations, kinetic equations, integro-differential equations, regularity theory, and applied analysis
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/luis-silvestre/ ; http://math.uchicago.edu/~luis/ ; http://math.uchicago.edu/~luis/cv5.pdf
 
 ### Yu Deng
 - **Title:** Professor
@@ -88,7 +88,7 @@
 
 ### Luis Silvestre
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/luis-silvestre/
+- **学习经历（Education）:** Licenciado en Matemática, Universidad Nacional de La Plata (2000); Ph.D. in Mathematics, University of Texas at Austin (2005).
+- **工作经历（Work / Professional Background）:** Courant Instructor, Courant Institute, New York University (2005-2008); Assistant Professor, Associate Professor, and Professor at the University of Chicago (2008-present).
+- **主要研究方向（Primary Research Areas）:** Partial differential equations, kinetic equations, integro-differential equations, regularity theory, and applied analysis
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/luis-silvestre/ ; http://math.uchicago.edu/~luis/ ; http://math.uchicago.edu/~luis/cv5.pdf

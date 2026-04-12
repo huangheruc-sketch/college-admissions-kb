@@ -164,8 +164,8 @@
 ### Ko Woon Ohm
 - **Title:** Assistant Teaching Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Mathematical Analysis
+- **工作经历（Work / Professional Background）:** Assistant Teaching Professor, UC Berkeley Department of Mathematics, year appointed 2025.
+- **主要研究方向（Primary Research Areas）:** Regularity theory of partial differential equations; free boundary problems; Fourier analysis
 - **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/ko-woon-ohm
 
 ### Martin Olsson
@@ -340,10 +340,10 @@
 
 ### James A. Sethian
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Applied Mathematics Mathematical Analysis Geometry/Topology
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/james-sethian
+- **学习经历（Education）:** B.A., Princeton University (1976); M.A. in Mathematics, University of California, Berkeley (1978); Ph.D. in Applied Mathematics, University of California, Berkeley (1982).
+- **工作经历（Work / Professional Background）:** NSF Postdoctoral Fellow, Lawrence Berkeley National Laboratory (1982-1984); NSF Postdoctoral Fellow, Courant Institute of Mathematical Sciences, NYU (1984-1985); Assistant Professor, Associate Professor, and Professor of Mathematics at UC Berkeley (1985-present); Senior Scientist and later department head in the Mathematics Department at Lawrence Berkeley National Laboratory (1996-present).
+- **主要研究方向（Primary Research Areas）:** Applied mathematics, scientific computing, level set methods, partial differential equations, and geometry-driven computation
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/james-sethian ; https://math.berkeley.edu/sites/default/files/sethian_resume_condensed_october_2013.pdf
 
 ### Chris Shannon
 - **Title:** Professor
@@ -382,7 +382,7 @@
 
 ### Maciej Zworski
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Mathematical Analysis Applied Mathematics
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/maciej-zworski
+- **学习经历（Education）:** B.Sc. studies, Imperial College London (1982-1983); S.B. in Mathematics, Massachusetts Institute of Technology (1985); Ph.D. in Mathematics, Massachusetts Institute of Technology (1989).
+- **工作经历（Work / Professional Background）:** Benjamin Peirce Lecturer, Harvard University (1989-1992); Associate Professor and then Professor, Johns Hopkins University (1992-1996); Professor, University of Toronto (1995-2000); Professor of Mathematics, UC Berkeley (1998-present).
+- **主要研究方向（Primary Research Areas）:** Mathematical analysis, spectral theory, scattering resonances, semiclassical analysis, and applications to quantum chaos
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/maciej-zworski ; https://math.berkeley.edu/~zworski/cv.pdf

@@ -37,10 +37,10 @@
 
 ### Elena Giorgi
 - **Title:** Assistant Professor
-- **学习经历（Education）:** Ph.D., Columbia University (2019).
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** General relativity, hyperbolic PDEs, and differential geometry
-- **Source:** https://www.math.columbia.edu/people/faculty-by-rank/ ; https://math.columbia.edu/~egiorgi/
+- **学习经历（Education）:** B.Sc. in Mathematics, Università di Pisa (2013); M.Sc. in Mathematics, Université Paris-Sud (2014); M.Sc. in Mathematical Physics, École Normale Supérieure de Lyon (2015); Ph.D. in Mathematics, Columbia University (2019).
+- **工作经历（Work / Professional Background）:** Postdoctoral Research Associate, Gravity Initiative, Princeton University (2019-2021); Assistant Professor of Mathematics, Columbia University (2021-present).
+- **主要研究方向（Primary Research Areas）:** General relativity, hyperbolic partial differential equations, and differential geometry
+- **Source:** https://www.math.columbia.edu/people/faculty-by-rank/ ; https://math.columbia.edu/~egiorgi/ ; https://www.math.columbia.edu/~egiorgi/CV.pdf
 
 ## Applied Mathematics (6)
 
