@@ -53,11 +53,10 @@
 
 ### Liliana Borcea
 - **Title:** George P. Livanos Professor of Applied Physics and Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Wave propagation in random media; inverse problems for hyperbolic, elliptic and parabolic PDEs; data-driven reduced order modeling; scientific computing
-- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/liliana-borcea
-
+- **学习经历（Education）:** Undergraduate degree in Applied Physics, University of Bucharest; Ph.D. in Scientific Computing and Computational Mathematics, Stanford University.
+- **工作经历（Work / Professional Background）:** George P. Livanos Professor of Applied Physics and Applied Mathematics at Columbia University (starting July 2024); previously Peter Field Collegiate Professor of Mathematics at the University of Michigan (2013-2024) and faculty member in Computational and Applied Mathematics at Rice University (1996-2013), where she was named Noah Harding Professor in 2007; also held a one-year postdoctoral fellowship in Applied Mathematics at Caltech.
+- **主要研究方向（Primary Research Areas）:** Wave propagation in random media with applications to wave-based imaging and free-space optical communications; inverse problems for hyperbolic, elliptic, and parabolic PDEs; data-driven reduced order modeling; scientific computing
+- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/liliana-borcea
 ### Qiang Du
 - **Title:** Fu Foundation Professor of Applied Mathematics
 - **学习经历（Education）:** 待补充
@@ -67,11 +66,10 @@
 
 ### Xuenan Li
 - **Title:** Ju Tang Chu and Wui Ping Chu Assistant Professor of Applied Mathematics in the Department of Applied Physics and Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Calculus of variations; partial differential equations; elasticity theory; mechanical metamaterials
-- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/xuenan-li
-
+- **学习经历（Education）:** B.Sc. in Mathematics and Data Science, University of Michigan (2018); Ph.D. in Mathematics, Courant Institute of Mathematical Sciences, New York University (2023).
+- **工作经历（Work / Professional Background）:** Assistant Professor of Applied Mathematics in Columbia University’s Department of Applied Physics and Applied Mathematics.
+- **主要研究方向（Primary Research Areas）:** Calculus of variations, partial differential equations, elasticity theory, and mechanical metamaterials, particularly their static and dynamic behavior
+- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/xuenan-li
 ### Lorenzo M. Polvani
 - **Title:** Maurice Ewing and J. Lamar Worzel Professor of Geophysics in the Department of Applied Physics and Applied Mathematics
 - **学习经历（Education）:** 待补充
@@ -81,7 +79,7 @@
 
 ### Kui Ren
 - **Title:** Professor of Applied Physics and Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Numerical analysis, scientific computation, applied analysis and partial differential equations, inverse problems and imaging, random graphs and networks, kinetic modeling and simulations
-- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/kui-ren
+- **学习经历（Education）:** B.S., Nanjing University; Ph.D. in Applied Mathematics, Columbia University (2006).
+- **工作经历（Work / Professional Background）:** Professor of Applied Physics and Applied Mathematics at Columbia University; previously L. E. Dickson Instructor at the University of Chicago (2007) and Assistant Professor in Mathematics and ICES at the University of Texas at Austin (from 2008).
+- **主要研究方向（Primary Research Areas）:** Numerical analysis, scientific computation, applied analysis and partial differential equations, inverse problems and imaging, random graphs and networks, and kinetic modeling and simulations
+- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/node/8010

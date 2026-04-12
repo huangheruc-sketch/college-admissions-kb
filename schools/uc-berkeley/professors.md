@@ -270,18 +270,16 @@
 
 ### Jennifer Chayes
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** UC Berkeley Department of Mathematics faculty, year appointed 2021.
-- **主要研究方向（Primary Research Areas）:** Applied Mathematics Probability
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/jennifer-chayes
-
+- **学习经历（Education）:** B.A. in Biology and Physics, Wesleyan University; Ph.D. in Mathematical Physics, Princeton University.
+- **工作经历（Work / Professional Background）:** Associate Provost of the Division of Computing, Data Science, and Society and Dean of the School of Information at UC Berkeley; Professor of EECS, Mathematics, Statistics, and Information at Berkeley; previously Professor of Mathematics at UCLA and worked at Microsoft Research for 23 years, including as Technical Fellow and Managing Director of Microsoft Research New England, New York City, and Montreal.
+- **主要研究方向（Primary Research Areas）:** Probability theory, graph theory, graphons, mathematical statistical physics, machine learning, phase transitions in computer science, and network science
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/jennifer-chayes ; http://jenniferchayes.com/
 ### Steven N. Evans
 - **Title:** Distinguished Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** UC Berkeley Department of Mathematics faculty, year appointed 1987.
-- **主要研究方向（Primary Research Areas）:** Probability Mathematical Analysis Applied Mathematics
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/steven-n-evans
-
+- **工作经历（Work / Professional Background）:** Distinguished Professor at UC Berkeley with appointments in Mathematics and Statistics, year appointed in Mathematics 1987; affiliated with the Center for Computational Biology.
+- **主要研究方向（Primary Research Areas）:** Probability and stochastic processes, random combinatorial structures, superprocesses and other measure-valued processes, probability on algebraic structures, and applications to biodemography, finance, population genetics, phylogenetics, and historical linguistics
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/steven-n-evans ; https://statistics.berkeley.edu/people/steven-evans
 ### Ming Gu
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
@@ -291,11 +289,10 @@
 
 ### Venkatesan Guruswami
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** UC Berkeley Department of Mathematics faculty, year appointed 2022.
-- **主要研究方向（Primary Research Areas）:** Applied Mathematics
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/venkatesan-guruswami
-
+- **学习经历（Education）:** B.Tech., Indian Institute of Technology Madras (1997); Ph.D., Massachusetts Institute of Technology (2001).
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at UC Berkeley since 2022, with appointments in EECS and as Director of the Simons Institute for the Theory of Computing; previously Miller Research Fellow at UC Berkeley and held faculty positions in Computer Science at the University of Washington and Carnegie Mellon University.
+- **主要研究方向（Primary Research Areas）:** Theory of computing, error-correcting codes, combinatorics and discrete mathematics, algebra and computation, approximate optimization, computational complexity, and randomness in computing
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/venkatesan-guruswami ; https://simons.berkeley.edu/people/venkatesan-guruswami ; https://people.eecs.berkeley.edu/~venkatg/
 ### Olga Holtz
 - **Title:** Professor
 - **学习经历（Education）:** 待补充

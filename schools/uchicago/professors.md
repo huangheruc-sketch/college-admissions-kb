@@ -17,10 +17,9 @@
 ### Carlos Kenig
 - **Title:** Louis Block Distinguished Service Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Louis Block Distinguished Service Professor of Mathematics at the University of Chicago.
 - **主要研究方向（Primary Research Areas）:** Analysis and partial differential equations
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/carlos-kenig/
-
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/carlos-kenig/ ; http://math.uchicago.edu/~cek/
 ### Gregory F. Lawler
 - **Title:** George Wells Beadle Distinguished Service Professor
 - **学习经历（Education）:** B.A. (1976), University of Virginia; Ph.D. (1979), Princeton University.
@@ -37,18 +36,16 @@
 
 ### Yu Deng
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/yu-deng/
-
+- **学习经历（Education）:** Ph.D. in Mathematics, Princeton University (2015), under the supervision of Alexandru D. Ionescu.
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at the University of Chicago.
+- **主要研究方向（Primary Research Areas）:** Partial differential equations, probabilistic theory of PDEs, wave turbulence and kinetic theory, statistical physics and quantum field theory, inviscid and Landau damping
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/yu-deng/ ; https://sites.google.com/uchicago.edu/yudeng ; https://sites.google.com/uchicago.edu/yudeng/research
 ### Maryanthe Malliaris
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/maryanthe-malliaris/
-
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at the University of Chicago.
+- **主要研究方向（Primary Research Areas）:** Model theory, in particular the classification of theories
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/maryanthe-malliaris/ ; https://math.uchicago.edu/~mem/
 ### Akhil Mathew
 - **Title:** Professor
 - **学习经历（Education）:** Ph.D. in Mathematics, Harvard University (2017).
@@ -59,7 +56,7 @@
 ### Jiajie Chen
 - **Title:** Assistant Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Assistant Professor of Mathematics at the University of Chicago.
 - **主要研究方向（Primary Research Areas）:** 待补充
 - **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/jiajie-chen/
 
@@ -75,9 +72,9 @@
 ### Carlos Kenig
 - **Title:** Louis Block Distinguished Service Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Louis Block Distinguished Service Professor of Mathematics at the University of Chicago.
 - **主要研究方向（Primary Research Areas）:** Analysis and partial differential equations
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/carlos-kenig/
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/carlos-kenig/ ; http://math.uchicago.edu/~cek/
 
 ### Gregory F. Lawler
 - **Title:** George Wells Beadle Distinguished Service Professor

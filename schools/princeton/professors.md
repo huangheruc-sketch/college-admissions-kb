@@ -10,10 +10,9 @@
 ### Michael Aizenman
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/michael-aizenman
-
+- **工作经历（Work / Professional Background）:** Professor of Mathematics and Applied and Computational Mathematics, Princeton University; also affiliated with Physics through PACM listings.
+- **主要研究方向（Primary Research Areas）:** Mathematical physics, especially mathematical analysis of problems arising in statistical mechanics and quantum field theory
+- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/michael-aizenman ; https://www.pacm.princeton.edu/people/michael-aizenman
 ### Noga Alon
 - **Title:** Professor
 - **学习经历（Education）:** Ph.D. in Mathematics, Hebrew University of Jerusalem (1983).
@@ -73,17 +72,15 @@
 ### Maria Chudnovsky
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Graph Theory
-- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/maria-chudnovsky
-
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at Princeton University and PACM faculty member.
+- **主要研究方向（Primary Research Areas）:** Graph theory, combinatorics, and structural graph theory; also listed in applied mathematics via PACM
+- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/maria-chudnovsky ; https://www.pacm.princeton.edu/people/maria-chudnovsky
 ### Peter Constantin
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Analysis; Mathematical Physics
-- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/peter-constantin
-
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at Princeton University and PACM faculty member.
+- **主要研究方向（Primary Research Areas）:** Analysis, mathematical physics, and applied mathematics
+- **Source:** https://www.math.princeton.edu/people ; https://www.math.princeton.edu/people/peter-constantin ; https://www.pacm.princeton.edu/people/peter-constantin
 ### Mihalis Dafermos
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
@@ -549,12 +546,11 @@
 ## Applied & Computational Mathematics (PACM) (15)
 
 ### Ryan P. Adams
-- **Title:** 待补充
+- **Title:** Professor of Computer Science
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Machine learning, artificial intelligence, and computational statistics, with applications across science and engineering. Probabilistic methods and approximate Bayesian inference.
-- **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/ryan-p-adams
-
+- **工作经历（Work / Professional Background）:** Professor of Computer Science at Princeton University and listed PACM faculty member.
+- **主要研究方向（Primary Research Areas）:** Machine learning, artificial intelligence, and computational statistics, with applications across science and engineering; probabilistic methods and approximate Bayesian inference
+- **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/ryan-p-adams ; https://www.cs.princeton.edu/people/profile/rpa
 ### Amir Ali Ahmadi
 - **Title:** 待补充
 - **学习经历（Education）:** 待补充
@@ -570,10 +566,10 @@
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/yacine-a%C3%AFt-sahalia
 
 ### Michael Aizenman
-- **Title:** 待补充
+- **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Mathematical physics: - Mathematical analysis of issues arising in statistical mechanics and quantum field theory
+- **工作经历（Work / Professional Background）:** Professor of Mathematics and Applied and Computational Mathematics, Princeton University; also affiliated with Physics through PACM listings.
+- **主要研究方向（Primary Research Areas）:** Mathematical physics, especially mathematical analysis of problems arising in statistical mechanics and quantum field theory
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/michael-aizenman
 
 ### Noga Alon
@@ -619,12 +615,11 @@
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/roberto-car
 
 ### Rene Carmona
-- **Title:** 待补充
+- **Title:** Professor of Operations Research and Financial Engineering
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Stochastic Analysis; Mean Field Games & Equilibrium Analysis of Large Stochastic Systems; Statistical Data Analysis; Financial Engineering
+- **工作经历（Work / Professional Background）:** Professor in Operations Research and Financial Engineering at Princeton University and PACM faculty member.
+- **主要研究方向（Primary Research Areas）:** Stochastic analysis, mean field games and equilibrium analysis of large stochastic systems, statistical data analysis, and financial engineering
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/rene-carmona
-
 ### Emily A. Carter
 - **Title:** 待补充
 - **学习经历（Education）:** 待补充
@@ -640,15 +635,15 @@
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/bernard-chazelle
 
 ### Maria Chudnovsky
-- **Title:** 待补充
+- **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Graph theory and combinatorics; Structural graph theory
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at Princeton University and PACM faculty member.
+- **主要研究方向（Primary Research Areas）:** Graph theory, combinatorics, and structural graph theory; also listed in applied mathematics via PACM
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/maria-chudnovsky
 
 ### Peter Constantin
-- **Title:** 待补充
+- **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Analysis; Mathematical physics; Applied mathematics
+- **工作经历（Work / Professional Background）:** Professor of Mathematics at Princeton University and PACM faculty member.
+- **主要研究方向（Primary Research Areas）:** Analysis, mathematical physics, and applied mathematics
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/peter-constantin
