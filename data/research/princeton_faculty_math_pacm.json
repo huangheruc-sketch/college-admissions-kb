@@ -790,11 +790,11 @@
     {
       "name": "Amir Ali Ahmadi",
       "department": "Applied & Computational Mathematics (PACM)",
-      "education_history": null,
-      "work_professional_background": null,
-      "primary_research_areas": "Research Interests: Optimization: algebraic methods in optimization, semidefinite programming, polynomial optimization; Computational aspects of dynamics and control: Lyapunov theory and optimization-based algorithms for robustness and stability analysis; Algorithms and complexity: Computational complexity in numerical optimization, convex relaxations in combinatorial optimization. Applications in systems theory, statistics, robotics, and economics",
+      "education_history": "Ph.D. in Electrical Engineering and Computer Science, Massachusetts Institute of Technology (2011).",
+      "work_professional_background": "Postdoctoral Associate at MIT (2011-2012), working with the Laboratory for Information and Decision Systems and CSAIL/Robot Locomotion Group; Goldstine Fellow at IBM Watson Research Center (2012-2014); Assistant Professor at Princeton University (2014-2019); Professor of Operations Research and Financial Engineering at Princeton University (2019-present); Visiting Research Scientist at Google Brain (2020-2021); Visiting Senior Optimization Fellow at Citadel GQS (2021-2022).",
+      "primary_research_areas": "Optimization: algebraic methods in optimization, semidefinite programming, polynomial optimization; computational aspects of dynamics and control; algorithms and complexity in numerical optimization and convex relaxations, with applications in systems theory, statistics, robotics, and economics",
       "faculty_source_url": "https://www.pacm.princeton.edu/people/amir-ali-ahmadi",
-      "roster_title": null,
+      "roster_title": "Professor of Operations Research and Financial Engineering",
       "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
       "home_department": "Operations Research & Financial Engineering"
     },

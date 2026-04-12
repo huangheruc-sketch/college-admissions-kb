@@ -59,10 +59,10 @@
 - **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/liliana-borcea
 ### Qiang Du
 - **Title:** Fu Foundation Professor of Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **学习经历（Education）:** Degree in Mathematics, University of Science and Technology of China (1983); Ph.D. in Mathematics, Carnegie Mellon University (1988).
+- **工作经历（Work / Professional Background）:** Dickson Instructor, University of Chicago; later held visiting and tenured faculty positions at multiple institutions; Professor of Mathematics at Penn State University (2001-2016), Professor of Materials Science and Engineering at Penn State University (2005-2014), and Verne M. Willaman Professor of Mathematics at Penn State University (2006-2014); Fu Foundation Professor of Applied Mathematics at Columbia University (2014-present), where he also chaired the Applied Mathematics Ph.D. program (2014-2020).
 - **主要研究方向（Primary Research Areas）:** Numerical analysis, mathematical modeling, and scientific computation with applications in physical, biological, materials, data, and information sciences
-- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/qiang-du
+- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/qiang-du ; https://www.apam.columbia.edu/files/seas/content/apam_image/ducvshort25.pdf
 
 ### Xuenan Li
 - **Title:** Ju Tang Chu and Wui Ping Chu Assistant Professor of Applied Mathematics in the Department of Applied Physics and Applied Mathematics
@@ -72,10 +72,10 @@
 - **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/xuenan-li
 ### Lorenzo M. Polvani
 - **Title:** Maurice Ewing and J. Lamar Worzel Professor of Geophysics in the Department of Applied Physics and Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Atmospheric and climate dynamics, geophysical fluid dynamics, numerical methods for weather and climate modeling, planetary atmospheres
-- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/lorenzo-polvani
+- **学习经历（Education）:** Bachelors and Masters degrees in Physics, McGill University; Doctorate in Physical Oceanography, MIT/Woods Hole Joint Program (1988).
+- **工作经历（Work / Professional Background）:** Instructor in Applied Mathematics, MIT (1988-1990); Assistant Professor, Associate Professor, and Professor of Applied Mathematics at Columbia University (1990-present); Professor of Earth and Environmental Sciences at Columbia University (2000-present); Affiliate Scientist, National Center for Atmospheric Research (2004-2023).
+- **主要研究方向（Primary Research Areas）:** Atmospheric and climate dynamics, geophysical fluid dynamics, planetary atmospheres, and climate impacts of anthropogenic forcing and the Montreal Protocol
+- **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/lorenzo-polvani ; https://www.apam.columbia.edu/files/seas/content/apam_image/polvani-cv-2025.pdf
 
 ### Kui Ren
 - **Title:** Professor of Applied Physics and Applied Mathematics

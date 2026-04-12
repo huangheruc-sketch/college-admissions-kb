@@ -302,17 +302,17 @@
 
 ### Lin Lin (林霖)
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** UC Berkeley Department of Mathematics faculty, year appointed 2014.
-- **主要研究方向（Primary Research Areas）:** Applied Mathematics
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/lin-lin
+- **学习经历（Education）:** B.S. in Mathematics, Peking University (2007); Ph.D. in Applied Mathematics, Princeton University (2011).
+- **工作经历（Work / Professional Background）:** Luis W. Alvarez Postdoctoral Fellow, Lawrence Berkeley National Laboratory (2011-2013); Research Scientist, Lawrence Berkeley National Laboratory (2013-2014); Assistant Professor, Associate Professor, and Professor of Mathematics at UC Berkeley (2014-present); concurrent Faculty Scientist and later Senior Faculty Scientist at Lawrence Berkeley National Laboratory; Professor of Chemistry by courtesy at UC Berkeley (2025-present).
+- **主要研究方向（Primary Research Areas）:** Numerical analysis, quantum chemistry, and quantum algorithms for quantum many-body problems
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/lin-lin ; https://math.berkeley.edu/~linlin/ ; https://math.berkeley.edu/~linlin/CV_LinLin.pdf
 
 ### Michael J. Lindsey
 - **Title:** Assistant Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** UC Berkeley Department of Mathematics faculty, year appointed 2022.
-- **主要研究方向（Primary Research Areas）:** Applied Mathematics Mathematical Analysis Probability
-- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/michael-j-lindsey
+- **学习经历（Education）:** B.S. in Mathematics with Honors, Stanford University (2015); Ph.D. in Applied Mathematics, University of California, Berkeley (2019).
+- **工作经历（Work / Professional Background）:** NSF Postdoctoral Fellow, Courant Institute of Mathematical Sciences, New York University (2019-2022); Assistant Professor of Mathematics, UC Berkeley (2022-present); Faculty Scientist, Applied Mathematics and Computational Research Division, Lawrence Berkeley National Laboratory (2023-present).
+- **主要研究方向（Primary Research Areas）:** Numerical analysis, optimization, Monte Carlo methods, and computational methods for quantum many-body problems
+- **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/michael-j-lindsey ; https://quantumtative.github.io/ ; https://quantumtative.github.io/cvLindsey.pdf
 
 ### Per-Olof Persson
 - **Title:** Professor

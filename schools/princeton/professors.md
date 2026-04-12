@@ -552,11 +552,11 @@
 - **主要研究方向（Primary Research Areas）:** Machine learning, artificial intelligence, and computational statistics, with applications across science and engineering; probabilistic methods and approximate Bayesian inference
 - **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/ryan-p-adams ; https://www.cs.princeton.edu/people/profile/rpa
 ### Amir Ali Ahmadi
-- **Title:** 待补充
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Research Interests: Optimization: algebraic methods in optimization, semidefinite programming, polynomial optimization; Computational aspects of dynamics and control: Lyapunov theory and optimization-based algorithms for robustness and stability analysis; Algorithms and complexity: Computational complexity in numerical optimization, convex relaxations in combinatorial optimization. Applications in systems theory, statistics, robotics, and economics
-- **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/amir-ali-ahmadi
+- **Title:** Professor of Operations Research and Financial Engineering
+- **学习经历（Education）:** Ph.D. in Electrical Engineering and Computer Science, Massachusetts Institute of Technology (2011).
+- **工作经历（Work / Professional Background）:** Postdoctoral Associate at MIT (2011-2012), working with the Laboratory for Information and Decision Systems and CSAIL/Robot Locomotion Group; Goldstine Fellow at IBM Watson Research Center (2012-2014); Assistant Professor at Princeton University (2014-2019); Professor of Operations Research and Financial Engineering at Princeton University (2019-present); Visiting Research Scientist at Google Brain (2020-2021); Visiting Senior Optimization Fellow at Citadel GQS (2021-2022).
+- **主要研究方向（Primary Research Areas）:** Optimization: algebraic methods in optimization, semidefinite programming, polynomial optimization; computational aspects of dynamics and control; algorithms and complexity in numerical optimization and convex relaxations, with applications in systems theory, statistics, robotics, and economics
+- **Source:** https://www.pacm.princeton.edu/directory/all-faculty ; https://www.pacm.princeton.edu/people/amir-ali-ahmadi ; http://aaa.princeton.edu/
 
 ### Yacine Aït-Sahalia
 - **Title:** 待补充
