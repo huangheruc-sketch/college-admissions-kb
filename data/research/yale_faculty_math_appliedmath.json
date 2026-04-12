@@ -1,0 +1,435 @@
+{
+  "scope": "Yale Mathematics + Yale Applied Mathematics related faculty/professors only",
+  "sources": {
+    "mathematics_roster": "https://math.yale.edu/people/faculty",
+    "mathematics_research_page": "https://math.yale.edu/graduates/graduate-faculty-and-their-research",
+    "applied_mathematics_roster": "https://applied.math.yale.edu/people/faculty"
+  },
+  "counts": {
+    "mathematics": 20,
+    "applied_mathematics_related": 22,
+    "total": 42
+  },
+  "entries": [
+    {
+      "name": "Jeffrey Brock, Ph.D.",
+      "department": "Mathematics",
+      "education_history": "Ph.D., U.C. Berkeley 1997",
+      "work_professional_background": "William S. Massey Professor of Mathematics, Professor of Statistics & Data Science; Dean, School of Engineering & Applied Science",
+      "primary_research_areas": "Hyperbolic geometry, low dimensional topology, and applications",
+      "faculty_source_url": "https://math.yale.edu/profile/jeffrey-brock",
+      "roster_title": "William S. Massey Professor of Mathematics, Professor of Statistics & Data Science; Dean, School of Engineering & Applied Science",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Ronald Coifman",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Geneva, 1965",
+      "work_professional_background": "Sterling Professor of Mathematics; Professor of Computer Science",
+      "primary_research_areas": "Nonlinear analysis, Scattering theory, Real and complex analysis, Singular integrals, Numerical analysis, Harmonic analysis and Geometry in high dimension Data Analysis",
+      "faculty_source_url": "https://math.yale.edu/profile/ronald-coifman",
+      "roster_title": "Sterling Professor of Mathematics and Professor of Computer Science",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Igor Frenkel",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Yale, 1980",
+      "work_professional_background": "Sol Goldman Family Professor of Mathematics",
+      "primary_research_areas": "Infinite-dimensional algebras, representation theory, applications of Lie theory, mathematical physics",
+      "faculty_source_url": "https://math.yale.edu/profile/igor-frenkel",
+      "roster_title": "Sol Goldman Family Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Alexander Goncharov",
+      "department": "Mathematics",
+      "education_history": "Ph.D., (USSR) 1987",
+      "work_professional_background": "Philip Schuyler Beebe Professor of Mathematics",
+      "primary_research_areas": "Arithmetic Algebraic Geometry: polylogarithms, zeta-functions, periods, Hodge theory, motives, motivic Galois groups, Quantum geometry of moduli spaces, Representation Theory and Mathematical Physics",
+      "faculty_source_url": "https://math.yale.edu/profile/alexander-goncharov",
+      "roster_title": "Philip Schuyler Beebe Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Sebastian Hurtado-Salazar",
+      "department": "Mathematics",
+      "education_history": "Ph.D., University of California Berkeley, 2014",
+      "work_professional_background": "Professor of Mathematics",
+      "primary_research_areas": "Dynamical systems and its applications to geometry and topology. Groups actions on manifolds. Discrete subgroups of Lie groups",
+      "faculty_source_url": "https://math.yale.edu/profile/sebastian-hurtado-salazar",
+      "roster_title": "Professor; Director of Undergraduate Studies",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Richard Kenyon",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Princeton, 1990",
+      "work_professional_background": "Erastus L. DeForest Professor of Mathematics",
+      "primary_research_areas": "Combinatorics, Discrete Geometry, Probability, Statistical Mechanics",
+      "faculty_source_url": "https://math.yale.edu/profile/richard-kenyon",
+      "roster_title": "Erastus L. DeForest Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Ivan Loseu",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Moscow State University, 2007",
+      "work_professional_background": "Professor of Mathematics",
+      "primary_research_areas": "Representation theory and its connections to Algebraic geometry, Geometric representation theory",
+      "faculty_source_url": "https://math.yale.edu/profile/ivan-loseu",
+      "roster_title": "Professor of Mathematics; Director of Graduate Studies",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Yair Minsky",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Princeton University, 1989",
+      "work_professional_background": "Einar Hille Professor of Mathematics",
+      "primary_research_areas": "Kleinian groups, Teichmuller theory, geometric group theory, holomorphic dynamics, differential geometry",
+      "faculty_source_url": "https://math.yale.edu/profile/yair-minsky",
+      "roster_title": "Einar Hille Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Vincent Moncrief",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.yale.edu/profile/vincent-moncrief",
+      "roster_title": "Professor of Physics and of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Andrew Neitzke",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Harvard, 2005",
+      "work_professional_background": "Professor of Mathematics",
+      "primary_research_areas": "Supersymmetric quantum field theory, string theory, enumerative geometry, hyperkahler geometry",
+      "faculty_source_url": "https://math.yale.edu/profile/andrew-neitzke",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Hee Oh",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Yale, 1997",
+      "work_professional_background": "Abraham Robinson Professor of Mathematics",
+      "primary_research_areas": "Homogeneous dynamics, discrete subgroups of Lie groups, Kleinian groups, hyperbolic geometry, and the resulting applications of number theory",
+      "faculty_source_url": "https://math.yale.edu/profile/hee-oh",
+      "roster_title": "Abraham Robinson Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Sam Raskin",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Harvard, 2014",
+      "work_professional_background": "James E. English Professor of Mathematics",
+      "primary_research_areas": "Algebra, Langlands duality, geometric representation theory, algebraic geometry, and homotopy theory",
+      "faculty_source_url": "https://math.yale.edu/profile/sam-raskin",
+      "roster_title": "James E. English Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Vladimir Rokhlin",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Rice, 1983",
+      "work_professional_background": "Arthur K. Watson Professor of Computer Science and Professor of Mathematics",
+      "primary_research_areas": "Numerical scattering theory, elliptic partial differential equations, numerical solution of integral equations",
+      "faculty_source_url": "https://math.yale.edu/profile/vladimir-rokhlin",
+      "roster_title": "Arthur K. Watson Professor of Computer Science and Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Wilhelm Schlag",
+      "department": "Mathematics",
+      "education_history": "Ph.D., Caltech 1996",
+      "work_professional_background": "Phillips Professor of Mathematics; Department Chair",
+      "primary_research_areas": "Spectral Theory, Partial differential evolution equations, harmonic analysis",
+      "faculty_source_url": "https://math.yale.edu/profile/wilhelm-schlag",
+      "roster_title": "Phillips Professor of Mathematics; Chair",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "John Schotland",
+      "department": "Mathematics",
+      "education_history": "M.D., Ph.D., University of Pennsylvania, 1996",
+      "work_professional_background": "Zhao and Ji Professor of Mathematics",
+      "primary_research_areas": "Inverse problems, scattering theory, waves in random media, quantum optics",
+      "faculty_source_url": "https://math.yale.edu/profile/john-schotland",
+      "roster_title": "Zhao and Ji Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Junliang Shen",
+      "department": "Mathematics",
+      "education_history": "Ph.D., ETH Zurich 2018",
+      "work_professional_background": "Associate Professor of Mathematics.",
+      "primary_research_areas": "Algebraic geometry and its connections to topology, enumerative geometry, and mathematical physics",
+      "faculty_source_url": "https://math.yale.edu/profile/junliang-shen",
+      "roster_title": "Associate Professor",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Charles Smart",
+      "department": "Mathematics",
+      "education_history": "Ph.D., UC Berkeley, 2010",
+      "work_professional_background": "Professor of Mathematics",
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.yale.edu/profile/charles-smart",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Dan Spielman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.yale.edu/profile/dan-spielman",
+      "roster_title": "Sterling Professor of Computer Science and Professor of Statistics and Data Science and of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Lu Wang",
+      "department": "Mathematics",
+      "education_history": "Ph.D., MIT, 2011",
+      "work_professional_background": "Professor of Mathematics",
+      "primary_research_areas": "Geometric analysis",
+      "faculty_source_url": "https://math.yale.edu/profile/lu-wang",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "John Wettlaufer",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.yale.edu/profile/john-wettlaufer",
+      "roster_title": "A.M. Bateman Professor of Geophysics, Mathematics and Physics",
+      "roster_url": "https://math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Andrew Barron",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Statistical information theory, probability limit theorems, function estimation, neural networks",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Andrew-Barron",
+      "roster_title": "Professor of Statistics & Data Science; Co-Director of Graduate Studies",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Joseph Chang",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Probability, random walks, sequential analysis, pattern recognition, and machine learning",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Joseph-Chang",
+      "roster_title": "Professor of Statistics & Data Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Ronald Coifman",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Nonlinear Fourier analysis, wavelet theory, numerical analysis and scattering theory. New mathematical tools for efficient computation and transcriptions of physical data, with applications to numerical analysis, feature extraction recognition and denoising",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Ronald-Coifman",
+      "roster_title": "Sterling Professor of Mathematics and Computer Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Thierry Emonet",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Computational Biology",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Thierry-Emonet",
+      "roster_title": "Associate Professor of Molecular, Cellular and Developmental Biology & Physics",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Michael Fischer",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Cryptography and security, distributed computing, algorithms, theory of computing",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Michael-Fischer",
+      "roster_title": "Professor of Computer Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Josephine Hoh",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://applied.math.yale.edu/people/Josephine-Hoh",
+      "roster_title": "Associate Professor of Epidemiology, Ophthalmology and Visual Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Peter Jones",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Real, complex, and Fourier analysis, singular integrals, potential theory, dynamical systems",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Peter-Jones",
+      "roster_title": "James E. English Professor of Mathematics and Applied Mathematics",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Yuval Kluger",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://applied.math.yale.edu/people/Yuval-Kluger",
+      "roster_title": "Professor of Pathology",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Smita Krishnaswamy",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://applied.math.yale.edu/people/Smita-Krishnaswamy",
+      "roster_title": "Assistant Professor of Genetics and Computer Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Boris Landa",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Geometric data analysis, statistical signal processing, data science, machine learning",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Boris-Landa",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Roy Lederman",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://applied.math.yale.edu/people/Roy-Lederman",
+      "roster_title": "Assistant Professor of Statistics and Data Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "David Pollard",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Weak convergence and emperical processes, stochastic processes, asymptotics, semiparamatrices, econometrics",
+      "faculty_source_url": "https://applied.math.yale.edu/people/David-Pollard",
+      "roster_title": "Professor Emeritus of Statistics & Data Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Vladimir Rokhlin",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis-based fast algorithms, randomized algorithms of numerical analysis, partial differential equations, scattering theory, bandlimited functions, approximation theory, harmonic analysis",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Vladimir-Rokhlin",
+      "roster_title": "Arthur K. Watson Professor of Computer Science and Professor of Mathematics; Director of Graduate Studies, Applied Mathematics & Computer Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Martin Schultz",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "High-performance computing, algorithm design, analysis and implementation. Parallel programming environments and parallel architectures, ranging from massively parallel processors to clusters of workstations and PCs as well as P2P solution on the internet",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Martin-Schultz",
+      "roster_title": "Professor Emeritus of Computer Science; Research Professor of Computer Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Mitchell Smooke",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Computational combustion, chemical vapor deposition, numerical solution of ordinary and partial differential equations, large-scale scientific computation",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Mitchell-Smooke",
+      "roster_title": "Strathcona Professor of Mechanical Engineering and Materials Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Daniel Spielman",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis of algorithms and heuristics, error-correcting codes, combinatorial scientific computing, spectral graph theory, and combinatorics",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Daniel-Spielman",
+      "roster_title": "Sterling Professor of Computer Science and Professor of Statistics & Data Science and of Mathematics",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Sekhar Tatikonda",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Communications and networking; information theory; networked control systems; network optimization; and statistical machine learning and inference",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Sekhar-Tatikonda",
+      "roster_title": "Associate Professor of Statistics & Data Science and Director of Undergraduate Studies; Associate Professor of Electrical Engineering",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Van Vu",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Additive and Probabilistic Combinatorics, Random matrices, Concentration",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Van-Vu",
+      "roster_title": "Percey F. Smith Professor of Mathematics and Professor of Statistics & Data Science",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Gunter Wagner",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Evolution of development, evolutionary theory, population genetics theory",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Gunter-Wagner",
+      "roster_title": "Alison Richard Professor Ecology & Evolutionary Biology",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "John Wettlaufer",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Moving boundary problems, geophysics, crystal growth, fluid mechanics, applied mathematics and statistical physics",
+      "faculty_source_url": "https://applied.math.yale.edu/people/John-Wettlaufer",
+      "roster_title": "A. M. Bateman Professor of Geophysics; Professor of Mathematics and of Physics; Director of Undergraduate Studies, Applied Mathematics",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Huibin Zhou",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Asymptotic decision theory, shrinkage estimation, wavelet regression, machine learning, information theory, bioinformatics",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Huibin-Zhou",
+      "roster_title": "Henry Ford II Professor of Statistics & Data Science; Chairman",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    },
+    {
+      "name": "Steven Zucker",
+      "department": "Applied Mathematics and related affiliated faculty",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Computational vision, computational neuroscience, image analysis, robotics",
+      "faculty_source_url": "https://applied.math.yale.edu/people/Steven-Zucker",
+      "roster_title": "David and Lucile Packard Professor of Computer Science and Biomedical Engineering",
+      "roster_url": "https://applied.math.yale.edu/people/faculty"
+    }
+  ]
+}
