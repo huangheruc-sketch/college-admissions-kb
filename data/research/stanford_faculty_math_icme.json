@@ -1,0 +1,800 @@
+{
+  "scope": "Focus: Stanford Mathematics faculty/lecturers and the official Institute for Computational & Mathematical Engineering (ICME) affiliated faculty roster as the closest applied-math equivalent; Priority fields: title, education history, work/professional background, primary research areas",
+  "counts": {
+    "mathematics": 62,
+    "applied_mathematics_related_(icme)": 17,
+    "total": 79
+  },
+  "entries": [
+    {
+      "name": "Mohammed Abouzaid",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/mohammed-abouzaid",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Amol Aggarwal",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/amol-aggarwal",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Lernik Asserian",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/lernik-asserian",
+      "roster_title": "Senior Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Charles Brittenham",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/charles-brittenham",
+      "roster_title": "Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Gregory Brumfiel",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Real algebraic geometry",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/gregory-brumfiel",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Daniel Bump",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Automorphic forms; Lie groups & representations",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/daniel-bump",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Emmanuel Candès",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Harmonic Analysis; High-Dimensional Statistics; Signal Processing",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/emmanuel-candes",
+      "roster_title": "Professor of Mathematics and Statistics, Barnum-Simons Chair in Mathematics and Statistics, Professor of Electrical Engineering (by courtesy)",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Gunnar Carlsson",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic topology; Algebraic K-theory",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/gunnar-carlsson",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Moses Charikar",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/moses-charikar",
+      "roster_title": "Professor of Computer Science and, by courtesy, of Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Sourav Chatterjee",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/sourav-chatterjee",
+      "roster_title": "Professor of Mathematics and Statistics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Otis Chodosh",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/otis-chodosh-0",
+      "roster_title": "Associate Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Ralph Cohen",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/ralph-cohen",
+      "roster_title": "Professor Emeritus Barbara Kimball Browning Professor in the School of Humanities and Sciences",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Brian Conrad",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/brian-conrad",
+      "roster_title": "Director of Undergraduate Studies, Milligan Family University Fellow in Undergraduate Education",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Brian Conrey",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/brian-conrey",
+      "roster_title": "Adjunct Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Amir Dembo",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/amir-dembo",
+      "roster_title": "Marjorie Mhoon Fair Professor in Quantitative Science, Professor of Mathematics and Statistics, Professor of Electrical Engineering (by courtesy)",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Persi Diaconis",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Probability; Combinatorics; Statistics",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/persi-diaconis",
+      "roster_title": "Mary V. Sunseri Professor of Statistics and Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Yakov Eliashberg",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Symplectic Geometry; Topology",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/yakov-eliashberg",
+      "roster_title": "Herald L. and Caroline L. Ritch Professor of Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jacob Fox",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Combinatorics; Probability",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jacob-fox",
+      "roster_title": "Professor, Director of Mathematics Research Center",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Federico Franceschini",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/federico-franceschini",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jeongwan Haah",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jeongwan-haah",
+      "roster_title": "Associate Professor of Physics and, by courtesy, of Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "David Hoffman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/david-hoffman",
+      "roster_title": "Adjunct Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Eleny Ionel",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "differential topology",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/eleny-ionel",
+      "roster_title": "Robert Grimmett Professor in Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Renata Kallosh",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/renata-kallosh",
+      "roster_title": "Professor Emeritus of Physics and, by courtesy, Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Yitzhak Katznelson",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Harmonic Analysis",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/yitzhak-katznelson",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Steven Kerckhoff",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Hyperbolic Structures",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/steven-kerckhoff",
+      "roster_title": "Robert Grimmett Professor in Mathematics, Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Donald Knuth",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/donald-knuth",
+      "roster_title": "Fletcher Jones Professor of Computer Science, Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jakob Kotas",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jakob-kotas",
+      "roster_title": "Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jae Hee Lee",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jae-hee-lee",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jun Li",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jun-li",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jiakai Li",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jiakai-li",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jared Duker Lichtman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jared-duker-lichtman",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Tai-Ping Liu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "PDE",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/tai-ping-liu",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Mark Lucianovic",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Number theory",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/mark-lucianovic",
+      "roster_title": "Senior Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jonathan Luk",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Nonlinear PDE; General Relativity",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jonathan-luk",
+      "roster_title": "Professor, Director of Graduate Studies",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Eugenia Malinnikova",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/eugenia-malinnikova",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Ciprian Manolescu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/ciprian-manolescu",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Rafe Mazzeo",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Differential Geometry; Microlocal Analysis",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/rafe-mazzeo",
+      "roster_title": "Cassius Lamb Kirk Professor of Natural Sciences, Professor of Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "R. James Milgram",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/r-james-milgram",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Joseph Miller",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical Physics",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/joseph-miller",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Andrea Montanari",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/andrea-montanari",
+      "roster_title": "Professor of Mathematics and Statistics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Matthew Nicoletti",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/matthew-nicoletti",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Donald Ornstein",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/donald-ornstein",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "George Papanicolaou",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied &Amp; Computational Mathematics; PDE",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/george-papanicolaou",
+      "roster_title": "Robert Grimmett Professor of Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Sarah Peluse",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analytic Number Theory",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/sarah-peluse-0",
+      "roster_title": "Associate Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Athulya Ram",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/athulya-ram",
+      "roster_title": "Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Lenya Ryzhik",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/lenya-ryzhik",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Richard Schoen",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Differential geometry",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/richard-schoen",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Anastasiia Sharipova",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/anastasiia-sharipova",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Leon Simon",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Differential geometry; PDE",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/leon-simon",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Rick Sommer",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/rick-sommer",
+      "roster_title": "Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Kannan Soundararajan",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/kannan-soundararajan",
+      "roster_title": "Anne T. and Robert M. Bass Professor of the School of Humanities and Sciences",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Richard Taylor",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Automorphic forms; Lie groups & representations",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/richard-taylor",
+      "roster_title": "Barbara Kimball Browning Professor in Humanities & Sciences",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Christine Taylor",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/christine-taylor",
+      "roster_title": "Senior Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Tadashi Tokieda",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/tadashi-tokieda",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Ravi Vakil",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/ravi-vakil",
+      "roster_title": "Robert Grimmett Professor in Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "András Vasy",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Linear PDE; Mathematical scattering theory",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/andras-vasy",
+      "roster_title": "Robert Grimmett Professor in Mathematics",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Jan Vondrák",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/jan-vondrak",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Brian White",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Differential geometry",
+      "faculty_source_url": "https://mathematics.stanford.edu/people/brian-white",
+      "roster_title": "Robert Grimmett Professor of Mathematics, Emeritus",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Wojciech Wieczorek",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/wojciech-wieczorek",
+      "roster_title": "Lecturer",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Lexing Ying",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/lexing-ying",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Zhiyu Zhang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/zhiyu-zhang",
+      "roster_title": "Szegö Assistant Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Xinwen Zhu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://mathematics.stanford.edu/people/xinwen-zhu",
+      "roster_title": "Professor",
+      "roster_url": "https://mathematics.stanford.edu/people/faculty-lecturers"
+    },
+    {
+      "name": "Marco Pavone",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/marco-pavone",
+      "roster_title": "Associate Professor of Aeronautics and Astronautics, Senior Fellow at the Precourt Institute for Energy and Associate Professor, by courtesy, of Electrical Engineering & of Computer Science",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Julia Salzman",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/julia-salzman",
+      "roster_title": "Associate Professor of Biomedical Data Science, of Biochemistry and, by courtesy, of Statistics and of Biology",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Ron Fedkiw",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/ron-fedkiw",
+      "roster_title": "Canon Professor in the School of Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Leonidas Guibas",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/leonidas-guibas",
+      "roster_title": "Paul Pigott Professor of Engineering and Professor, by courtesy, of Electrical Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Pat Hanrahan",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/pat-hanrahan",
+      "roster_title": "Canon Professor in the School of Engineering and Professor of Electrical Engineering, Emeritus",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Doug James",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/doug-james",
+      "roster_title": "LeRa Professor and Professor, by courtesy, of Music",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Mary Wootters",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/mary-wootters",
+      "roster_title": "Associate Professor of Computer Science and of Electrical Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Brad Osgood",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/brad-osgood",
+      "roster_title": "Professor of Electrical Engineering and, by courtesy, in Education",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Arogyaswami Paulraj",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/arogyaswami-paulraj",
+      "roster_title": "Professor (Research) of Electrical Engineering, Emeritus",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Benjamin Van Roy",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/benjamin-van-roy",
+      "roster_title": "Professor of Electrical Engineering, of Management Science and Engineering and, by courtesy, of Computer Science",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Susan Athey",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/susan-athey",
+      "roster_title": "Economics of Technology Professor, Senior Fellow at the Stanford Institute for Economic Policy Research, at the Stanford Institute for Human-Centered AI and Professor, by courtesy, of Economics",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Jose H. Blanchet",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/jose-blanchet",
+      "roster_title": "Professor of Management Science and Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Kay Giesecke",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/kay-giesecke",
+      "roster_title": "Professor of Management Science and Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Peter Glynn",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/peter-glynn",
+      "roster_title": "Thomas W. Ford Professor in the School of Engineering and Professor, by courtesy, of Electrical Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Ashish Goel",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/ashish-goel",
+      "roster_title": "Stanford W. Ascherman, MD Professor in the School of Engineering and Professor, by courtesy, of Computer Science",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Ramesh Johari",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/ramesh-johari",
+      "roster_title": "Professor of Management Science and Engineering and, by courtesy, of Electrical Engineering",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    },
+    {
+      "name": "Walter Murray",
+      "department": "Institute for Computational & Mathematical Engineering (ICME)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://icme.stanford.edu/people/walter-murray",
+      "roster_title": "Professor (Research) of Management Science and Engineering, Emeritus",
+      "roster_url": "https://icme.stanford.edu/people/affiliated-faculty"
+    }
+  ]
+}

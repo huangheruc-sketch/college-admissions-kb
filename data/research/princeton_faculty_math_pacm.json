@@ -1,0 +1,945 @@
+{
+  "scope": "Focus: Princeton Mathematics faculty/professors and the official Program in Applied & Computational Mathematics (PACM) faculty roster; Priority fields: title, education history, work/professional background, primary research areas",
+  "counts": {
+    "mathematics": 77,
+    "applied_&_computational_mathematics_(pacm)": 15,
+    "total": 92
+  },
+  "entries": [
+    {
+      "name": "Michael Aizenman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/michael-aizenman",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Noga Alon",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/noga-alon",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Lars Becker",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/lars-becker",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Manjul Bhargava",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/manjul-bhargava",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Bhargav Bhatt",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/bhargav-bhatt",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Guido Bosco",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/guido-bosco",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Bjoern Bringmann",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/bjoern-bringmann",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Sun-Yung Alice Chang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/sun-yung-alice-chang",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Tatyana Chmutova",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/tatyana-chmutova",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Maria Chudnovsky",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Graph Theory",
+      "faculty_source_url": "https://www.math.princeton.edu/people/maria-chudnovsky",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Peter Constantin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis; Mathematical Physics",
+      "faculty_source_url": "https://www.math.princeton.edu/people/peter-constantin",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Mihalis Dafermos",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical Physics",
+      "faculty_source_url": "https://www.math.princeton.edu/people/mihalis-dafermos",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Ingrid Daubechies",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/ingrid-daubechies",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Camillo De Lellis",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/camillo-de-lellis",
+      "roster_title": "Visiting Lecturer with Rank of Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Zeev Dvir",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Discrete Mathematics",
+      "faculty_source_url": "https://www.math.princeton.edu/people/zeev-dvir",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Weinan E",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Mathematics",
+      "faculty_source_url": "https://www.math.princeton.edu/people/weinan-e",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Louis Esser",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/louis-esser",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Charles Fefferman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/charles-fefferman",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Jonathan Fickenscher",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/jonathan-fickenscher",
+      "roster_title": "Senior Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "David Gabai",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/david-gabai",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Jorge Garza-Vargas",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/jorge-garza-vargas",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Tangli Ge",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/tangli-ge",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Marc A. Gilles",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/marc-gilles",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Robert C. Gunning",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/robert-c-gunning",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Susanna V. Haziot",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/susanna-v-haziot",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Lili He",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/lili-he",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Tongmu He",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/tongmu-he-0",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Helmut H. Hofer",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/helmut-h-hofer",
+      "roster_title": "Visiting Lecturer with Rank of Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Tatiana Howard",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/tatiana-howard",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Wu-Chung Hsiang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/wu-chung-hsiang",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "June Huh",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/june-huh-0",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Alexandru Ionescu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/alexandru-ionescu",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Chenzi Jin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/chenzi-jin",
+      "roster_title": "Veblen Research Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Jennifer M. Johnson",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/jennifer-m-johnson",
+      "roster_title": "University Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Nicholas Katz",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/nicholas-katz",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Kimoi Kemboi",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/kimoi-kemboi",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Sergiu Klainerman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/sergiu-klainerman",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Simon Kochen",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/simon-kochen",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "János Kollár",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/janos-kollar",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Dmitry Krachun",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/dmitry-krachun",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Elliott Lieb",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/elliott-lieb",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Hongyi Liu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/hongyi-liu",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Fernando Codá Marques",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/fernando-coda-marques",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Mark McConnell",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/mark-mcconnell",
+      "roster_title": "Senior Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Anubhav Mukherjee",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/anubhav-mukherjee",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Aaron Naber",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/aaron-naber-0",
+      "roster_title": "Visiting Lecturer with Rank of Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Assaf Naor",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/assaf-naor",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Peter Ozsváth",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/peter-ozsvath",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Sung Gi Park",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/sung-gi-park",
+      "roster_title": "Veblen Research Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Rohil Prasad",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/rohil-prasad",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Paige Randall",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/paige-randall",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Igor Rodnianski",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis",
+      "faculty_source_url": "https://www.math.princeton.edu/people/igor-rodnianski",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Peter Sarnak",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/peter-sarnak",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Will Sawin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/will-sawin",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Shikhin Sethi",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/shikhin-sethi",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Paul Seymour",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/paul-seymour",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Ravi Shankar",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/ravi-shankar",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Jacob Shapiro",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/jacob-shapiro",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "John Sheridan",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/john-sheridan",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Yakov Sinai",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/yakov-sinai",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Amit Singer",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/amit-singer",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Jaydeep Singh",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/jaydeep-singh",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Christopher Skinner",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/christopher-skinner",
+      "roster_title": "Chair, Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Allan Sly",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/allan-sly",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Zoltán Szabó",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/zoltan-szabo",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Gang Tian",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/gang-tian",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Jonathan Tidor",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/jonathan-tidor",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Ramon van Handel",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/ramon-van-handel-0",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Akshay Venkatesh",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/akshay-venkatesh",
+      "roster_title": "Visiting Lecturer with Rank of Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "David Villalobos",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/david-villalobos",
+      "roster_title": "Lecturer",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Joshua Wang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/joshua-wang",
+      "roster_title": "Veblen Research Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Andrew Wiles",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/andrew-wiles",
+      "roster_title": "Professor Emeritus",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Chenyang Xu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/chenyang-xu",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Paul C. Yang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Differential Geometry",
+      "faculty_source_url": "https://www.math.princeton.edu/people/paul-c-yang",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Mingjia Zhang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/mingjia-zhang",
+      "roster_title": "Veblen Research Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Shou-Wu Zhang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/shou-wu-zhang",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Baiqing Zhu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.princeton.edu/people/baiqing-zhu",
+      "roster_title": "Instructor",
+      "roster_url": "https://www.math.princeton.edu/people"
+    },
+    {
+      "name": "Ryan P. Adams",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Machine learning, artificial intelligence, and computational statistics, with applications across science and engineering. Probabilistic methods and approximate Bayesian inference.",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/ryan-p-adams",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Computer Science"
+    },
+    {
+      "name": "Amir Ali Ahmadi",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Optimization: algebraic methods in optimization, semidefinite programming, polynomial optimization; Computational aspects of dynamics and control: Lyapunov theory and optimization-based algorithms for robustness and stability analysis; Algorithms and complexity: Computational complexity in numerical optimization, convex relaxations in combinatorial optimization. Applications in systems theory, statistics, robotics, and economics",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/amir-ali-ahmadi",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Operations Research & Financial Engineering"
+    },
+    {
+      "name": "Yacine Aït-Sahalia",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Financial economics, investments and derivative pricing; Time series econometrics, nonparametric statistics and statistical methods for stochastic processes",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/yacine-a%C3%AFt-sahalia",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Bendheim Center for Finance/Economics"
+    },
+    {
+      "name": "Michael Aizenman",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Mathematical physics: - Mathematical analysis of issues arising in statistical mechanics and quantum field theory",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/michael-aizenman",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Mathematics/Physics"
+    },
+    {
+      "name": "Noga Alon",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Combinatorics, Graph Theory and their applications to Theoretical Computer Science. Combinatorial algorithms and circuit complexity. Combinatorial geometry and Combinatorial number theory. Algebraic and probabilistic methods in Combinatorics.",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/noga-alon",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Mathematics"
+    },
+    {
+      "name": "William Bialek",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Neural coding and computation; Statistical physics and information theory; Information flow in genetic networks",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/william-bialek",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Physics"
+    },
+    {
+      "name": "Mark Braverman",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Complexity theory; Algorithms; Game theory with applications to mechanism design; Information theory",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/mark-braverman",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Computer Science"
+    },
+    {
+      "name": "Carlos D. Brody",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Neurophysiology; Dynamics of neural systems, (both experimental and in neural models)",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/carlos-d-brody",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Neuroscience Institute"
+    },
+    {
+      "name": "Adam Burrows",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: The theory of supernova explosions, with a particular focus on the mechanism of explosion and multi-dimensional radiation/hydrodynamic simulations of collapse dynamics; The theory of the atmospheres, spectra, structure, and evolution of extrasolar giant planets (and of exoplanets in general), and its comparison with data; The theory of brown dwarfs in all their particulars; High-energy astrophysics, with an emphasis on gravitational wave physics, neutrino astrophysics, and gamma- ray line astronomy; Tools and methodologies d",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/adam-burrows",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Astrophysical Sciences"
+    },
+    {
+      "name": "Roberto Car",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Chemical physics and materials science; Electronic structure theory and ab-initio molecular dynamics; Computer modeling and simulation of solids, liquids, disordered systems, and molecular structures; Structural phase transitions and chemical reactions",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/roberto-car",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Chemistry/PRISM"
+    },
+    {
+      "name": "Rene Carmona",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Stochastic Analysis; Mean Field Games & Equilibrium Analysis of Large Stochastic Systems; Statistical Data Analysis; Financial Engineering",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/rene-carmona",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Operations Research & Financial Engineering"
+    },
+    {
+      "name": "Emily A. Carter",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Development and application of quantum mechanical simulation techniques to enable discovery and design of molecules and materials for sustainable energy.",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/emily-carter-0",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Mechanical & Aerospace Engineering and the Andlinger Center for Energy & the Environment"
+    },
+    {
+      "name": "Bernard Chazelle",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Natural algorithms; Multiagent dynamics; Iterated Learning, Evolutionary complexity",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/bernard-chazelle",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Computer Science"
+    },
+    {
+      "name": "Maria Chudnovsky",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Graph theory and combinatorics; Structural graph theory",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/maria-chudnovsky",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Mathematics"
+    },
+    {
+      "name": "Peter Constantin",
+      "department": "Applied & Computational Mathematics (PACM)",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Research Interests: Analysis; Mathematical physics; Applied mathematics",
+      "faculty_source_url": "https://www.pacm.princeton.edu/people/peter-constantin",
+      "roster_title": null,
+      "roster_url": "https://www.pacm.princeton.edu/directory/all-faculty",
+      "home_department": "Mathematics"
+    }
+  ]
+}

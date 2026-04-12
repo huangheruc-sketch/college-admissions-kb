@@ -1,0 +1,769 @@
+{
+  "scope": "Focus: MIT Mathematics faculty/professors, including official Applied Mathematics titles within the MIT Mathematics faculty roster; Closest applied-math equivalent used: MIT Mathematics faculty roster and MIT Mathematics applied research structure (no separate standalone applied-math faculty roster located)",
+  "counts": {
+    "mathematics_/_applied_mathematics_related": 76,
+    "total": 76
+  },
+  "entries": [
+    {
+      "name": "Adler, Amir",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2809",
+      "roster_title": "Visiting Associate Professor",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Artin, Michael",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=9",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Bai, Shaoyun",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2666",
+      "roster_title": "Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Baldwin, John",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2824",
+      "roster_title": "Visiting Professor",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Bazant, Martin",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=16",
+      "roster_title": "E.G. Roos Professor Professor of Applied Mathematics Professor of Chemical Engineering",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Berger, Bonnie",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=20",
+      "roster_title": "Simons Professor Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Bernardi, Olivier",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1163",
+      "roster_title": "Visiting Professor",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Bezrukavnikov, Roman",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=22",
+      "roster_title": "Norbert Wiener Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Borga, Jacopo",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2664",
+      "roster_title": "Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Borodin, Alexei",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1222",
+      "roster_title": "Barton L. Weller (1940) Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Bush, John",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=35",
+      "roster_title": "Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Cheng, Hung",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=42",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Chernoff, Herman",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=43",
+      "roster_title": "Professor Emeritus of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Cohn, Henry",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1224",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Colding, Tobias Holck",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=50",
+      "roster_title": "Cecil and Ida Green Distinguished Professor Professor of Mathematics Pure Mathematics Committee Chair",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Damian, Alexandru",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2792",
+      "roster_title": "Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Demanet, Laurent",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1143",
+      "roster_title": "Professor of Applied Mathematics Professor of Earth, Atmospheric and Planetary Sciences",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Dunkel, Jörn",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1498",
+      "roster_title": "MathWorks Professor Professor of Mathematics Postdoc Officer",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Dyatlov, Semyon",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1581",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Edelman, Alan",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=63",
+      "roster_title": "Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Etingof, Pavel",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=66",
+      "roster_title": "David W. Skinner Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "First, Uriya",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2752",
+      "roster_title": "Visiting Associate Professor",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Freedman, Daniel",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=72",
+      "roster_title": "Professor Emeritus of Applied Mathematics Professor Emeritus of Physics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Garza-Vargas, Jorge",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2788",
+      "roster_title": "Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Goemans, Michel",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=84",
+      "roster_title": "Department Head RSA Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Goldwasser, Shafi",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1088",
+      "roster_title": "Leighton Family Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Guillemin, Victor",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=87",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Guth, Larry",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1461",
+      "roster_title": "Claude E. Shannon (1940) Professor Professor of Mathematics Margaret MacVicar Faculty Fellow",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Hahn, Jeremy",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2073",
+      "roster_title": "Associate Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Hosoi, Anette",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1234",
+      "roster_title": "Neil and Jane Pappalardo Professor Professor of Mechanical Engineering Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Jerison, David",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=112",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Johnson, Steven",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=113",
+      "roster_title": "Professor of Applied Mathematics Professor of Physics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Kac, Victor",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=118",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Kehle, Christoph",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2667",
+      "roster_title": "Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Kelner, Jonathan",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=125",
+      "roster_title": "Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Kim, Ju-Lee",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=132",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Kleiman, Steven",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=134",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Kleitman, Daniel",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=135",
+      "roster_title": "Professor Emeritus of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Lazarus, Arnaud",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2717",
+      "roster_title": "Visiting Associate Professor",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Leighton, Tom",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=144",
+      "roster_title": "Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Logunov, Aleksandr",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2579",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Lu, Lu",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2254",
+      "roster_title": "Visiting Professor",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Lusztig, George",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=164",
+      "roster_title": "Edward A. Abdun-Nur (1924) Professor Emeritus Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Maulik, Davesh",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=177",
+      "roster_title": "Levinson Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Melrose, Richard",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=183",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Miller, Haynes",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=186",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Minicozzi, William",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1464",
+      "roster_title": "Singer Professor Professor of Mathematics Associate Department Head Academic Officer",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Minzer, Dor",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2270",
+      "roster_title": "Cecil and Ida Green Career Development Associate Professor Associate Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Moitra, Ankur",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1502",
+      "roster_title": "Norbert Wiener Professor Professor of Applied Mathematics Director, Statistics and Data Science Center",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Mossel, Elchanan",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1844",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Mrowka, Tomasz",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=192",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Munkres, James",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=194",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Ozuch-Meersseman, Tristan",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2272",
+      "roster_title": "Rockwell International Career Development Assistant Professor Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Parrilo, Pablo",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2129",
+      "roster_title": "Joseph F. and Nancy P. Keithley Professor Professor of Electrical Engineering and Computer Science Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Poonen, Bjorn",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=213",
+      "roster_title": "Distinguished Professor in Science Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Postnikov, Alexander",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=215",
+      "roster_title": "Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Radhakrishnan, Adit",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2758",
+      "roster_title": "Assistant Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Rigollet, Philippe",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1654",
+      "roster_title": "Cecil and Ida Green Distinguished Professor Professor of Mathematics Applied Mathematics Committee Chair",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Rosales, Rodolfo",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=228",
+      "roster_title": "Professor Emeritus of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Seidel, Paul",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=241",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Sheffield, Scott",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=243",
+      "roster_title": "Leighton Family Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Shor, Peter",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=247",
+      "roster_title": "Henry Adams Morss and Henry Adams Morss, Jr. (1934) Professor Professor of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Sipser, Michael",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=251",
+      "roster_title": "Donner Professor Professor of Applied Mathematics Margaret MacVicar Faculty Fellow",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Staffilani, Gigliola",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=262",
+      "roster_title": "Abby Rockefeller Mauzé Professor Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Stanley, Richard",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=263",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Stark, Harold",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=264",
+      "roster_title": "Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Strang, Gilbert",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=266",
+      "roster_title": "MathWorks Professor Emeritus Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Sun, Nike",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1651",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Sweeting, Naomi",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2795",
+      "roster_title": "Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Toomre, Alar",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=277",
+      "roster_title": "Professor Emeritus of Applied Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Urschel, John",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1754",
+      "roster_title": "Class of 1956 Career Development Assistant Professor Assistant Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Vogan, David",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=286",
+      "roster_title": "Norbert Wiener Professor Emeritus Professor Emeritus of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Wainwright, Martin",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=2462",
+      "roster_title": "Cecil H. Green Professor Professor of Electrical Engineering and Computer Science Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Yun, Zhiwei",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1201",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Zhang, Wei",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1998",
+      "roster_title": "Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    },
+    {
+      "name": "Zhao, Yufei",
+      "department": "Mathematics / Applied Mathematics related",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://math.mit.edu/directory/profile.html?pid=1354",
+      "roster_title": "Associate Professor of Mathematics",
+      "roster_url": "https://math.mit.edu/directory/faculty"
+    }
+  ]
+}
