@@ -1,0 +1,553 @@
+{
+  "scope": "UCLA Mathematics and applied-mathematics-related professors only",
+  "sources": {
+    "mathematics_roster": "https://www.math.ucla.edu/people/ladder"
+  },
+  "counts": {
+    "mathematics": 43,
+    "applied_mathematics": 11,
+    "total": 54
+  },
+  "entries": [
+    {
+      "name": "Balmer, Paul",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebra",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/balmer",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Bedrossian, Jacob",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical analysis of both deterministic and stochastic PDEs arising in fluid mechanics and plasma physics.",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/jacob",
+      "roster_title": "Professor & Administrative Vice Chair",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Bernshteyn, Anton",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical logic and Combinatorics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/bernshteyn",
+      "roster_title": "Associate Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Bertozzi, Andrea",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Nonlinear PDE and Data Science",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/bertozzi",
+      "roster_title": "Professor, Mathematics/Mechanical & Aerospace Engineering, The Betsy Wood Knapp Chair for Innovation and Creativity",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Biskup, Marek",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Probability, Mathematical Physics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/biskup",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Blasius, Don",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Automorphic Forms, Number Theory",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/blasius",
+      "roster_title": "Professor & Math/Econ IDP Co-Chair",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Bonk, Mario",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/mbonk",
+      "roster_title": "Professor & Chair",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Chen, Yifan",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied and computational mathematics, applied probability, sampling and generative modeling",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/yifanchen",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Chou, Tom",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical/Computational Biology, Statistical Physics, Soft Condensed Matter Physics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/tchou",
+      "roster_title": "Professor, Computational Medicine/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Conley, William",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Number Theory, Automorphic Forms, Representations of p-adic Groups",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/wconley",
+      "roster_title": "Professor of Teaching",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Cucuringu, Mihai",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Mathematics & Data Science, Quantitative Finance, Machine Learning in Finance, Market Microstructure, Algorithmic & High-frequency Trading, (Graph) Machine Learning, Networks, Applied Statistics, Time Series",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/mihai",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Dhillon, Gurbir",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Representation theory",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/gsd",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Dolecek, Lara",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Coding & Information Theory, Graphical Models & Statistical Inference, and Combinatorial Methods.",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/dolecek",
+      "roster_title": "Professor, Electrical Engineering/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Fletcher, Alyson",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/akfletcher",
+      "roster_title": "Associate Professor, Statistics/CS/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Galashin, Pavel",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic Combinatorics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/galashin",
+      "roster_title": "Associate Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Gangbo, Wilfrid",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Calculus of Variations; Nonlinear Analysis; Partial Differential Equations; Kinetic Theory; Functional Analysis; Fluid Mechanics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/wgangbo",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Gao, Ziyang",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Arithmetic Geometry, Diophantine Geometry, Number Theory",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/ziyang.gao",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Greene, Robert",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Differential Geometry, Several Complex Variables",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/greene",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Hitrik, Michael",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Partial Differential Equations",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/hitrik",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Honda, Ko",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Contact and symplectic geometry, low-dimensional topology, dynamical systems, relations to mathematical physics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/honda",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Jiang, Chenfanfu",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Physics-based simulation, scientific computing, high performance computing, computational mechanics, numerical methods, physical simulations for AI and robotics, machine learning for numerical simulation",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/cffjiang",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Khare, Chandrashekhar",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Galois Representations",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/shekhar",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Killip, Rowan",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/killip",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Kim, Inwon",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Nonlinear Partial Differential Equations",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/ikim",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Li, Ker Chau",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Statistics: Regression, Data Visualization, Survey Sampling, Design",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/kcli",
+      "roster_title": "Professor, Statistics/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Maldague, Dominique",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Fourier restriction theory, harmonic analysis, applications to problems in incidence geometry, combinatorics, and number theory",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/dmal",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Menz, Georg",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Probability, Applied Mathematics, PDE",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/gmenz",
+      "roster_title": "Associate Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Merkurjev, Alexander",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic K-Theory, Algebra",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/merkurev",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Montufar, Guido",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematics, Statistics, Machine Learning, Deep Learning",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/montufar",
+      "roster_title": "Professor, Mathematics & Statistics",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Moraga, Joaquin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic Geometry, Birational Geometry, Toric Geometry, Minimal Model Program, and Singularities",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/jmoraga",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Needell, Deanna",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Compressed Sensing, Randomized Algorithms, Functional Analysis, Computational Mathematics, Probability, Statistics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/deanna",
+      "roster_title": "Professor, Dunn Family Endowed Chair in Data Theory & Executive Director of the Institute for Digital Research and Education (IDRE)",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Neeman, Itay",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical Logic",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/ineeman",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Newman, William",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Mathematics and Computation",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/newman",
+      "roster_title": "Professor, EPSS/Physics & Astronomy/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Osher, Stanley",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Scientific Computing, Machine Learning, Applied Mathematics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/sjo",
+      "roster_title": "Professor, Mathematics/Computer Science/Electrical Engineering/Chemical & Biomolecular Engineering & Director of Special Projects, IPAM",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Ostrovsky, Rafail",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Theory of Computation",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/rostrovs",
+      "roster_title": "Professor, Computer Science/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Pak, Igor",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Combinatorics and Discrete Geometry",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/pak",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Petersen, Peter",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Riemannian Geometry",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/petersen",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Popa, Sorin",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Operator Algebras and the Theory of Type II Factors",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/popa",
+      "roster_title": "Professor & Takesaki Endowed Chair in Operator Algebras",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Porter, Mason",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Mathematics, Nonlinear Systems, Networks, Complex Systems",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/mason",
+      "roster_title": "Professor, Mathematics and Sociology",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Roper, Marcus",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical Modeling; Fluid dynamics; Physical Biology; Asymptotic Methods",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/mroper",
+      "roster_title": "Professor, Mathematics/Computational Medicine & Undergraduate Vice Chair",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Rouquier, Raphael",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Representation theory",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/rouquier",
+      "roster_title": "Professor & Graduate Vice Chair",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Ryu, Ernest",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Applied Mathematics, Deep Learning, Optimization",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/eryu",
+      "roster_title": "Assistant Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Sahai, Amit",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/",
+      "roster_title": "Professor, Computer Science/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Sarkar, Sucharit",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Topology",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/sucharit",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Schaeffer, Hayden",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Mathematical Machine Learning, Nonlinear Differential Equations, Randomization, Applied Probability, and Physical Modeling",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/hayden",
+      "roster_title": "Professor & Director of Applied Mathematics",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Sharifi, Romyar",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic Number Theory",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/sharifi",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Shlyakhtenko, Dimitri",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Operator Algebras",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/shlyakht",
+      "roster_title": "Professor & IPAM Director",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Tao, Terence",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Analysis, Oscillatory Integrals",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/tao",
+      "roster_title": "Professor & The James and Carol Collins Chair in the College of Letters and Sciences",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Totaro, Burt",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic Geometry, Topology, Lie Groups",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/totaro",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Vandenberghe, Lieven",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Optimization in Engineering, Applications in Systems and Control, Circuit Design, and Signal Processing",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/vandenbe",
+      "roster_title": "Professor, Electrical Engineering/Math",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Vese, Luminita",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Image Processing and Computer Vision",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/lvese",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Visan, Monica",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Nonlinear Partial Differential Equations, Harmonic Analysis",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/visan",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Xu, Zhouli",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Algebraic Topology, Stable Homotopy Theory, connections to Algebraic Geometry and Geometric Topology",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/xu",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    },
+    {
+      "name": "Yin, Jun",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": "Probability, Mathematical Physics",
+      "faculty_source_url": "https://www.math.ucla.edu/people/ladder/jyin",
+      "roster_title": "Professor",
+      "roster_url": "https://www.math.ucla.edu/people/ladder"
+    }
+  ]
+}

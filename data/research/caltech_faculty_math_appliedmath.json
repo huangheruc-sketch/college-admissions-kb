@@ -1,0 +1,303 @@
+{
+  "scope": "Caltech Mathematics and Applied and Computational Mathematics related professors only",
+  "sources": {
+    "cms_people": "https://www.cms.caltech.edu/people"
+  },
+  "counts": {
+    "mathematics": 21,
+    "applied_mathematics": 8,
+    "total": 29
+  },
+  "entries": [
+    {
+      "name": "Animashree (Anima) Anandkumar",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/anima",
+      "roster_title": "Bren Professor of Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Adam Blank",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/blank",
+      "roster_title": "Teaching Professor of Computing and Mathematical Sciences; Academic Consultant, First-Year Success Research Institute; Undergraduate Option Representative for Computer Science",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Katherine L. (Katie) Bouman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/klbouman",
+      "roster_title": "Professor of Computing and Mathematical Sciences, Electrical Engineering and Astronomy; Rosenberg Scholar; Investigator, Heritage Medical Research Institute",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Oscar P. Bruno",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/obruno",
+      "roster_title": "Professor of Applied and Computational Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Venkat Chandrasekaran",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/venkatc",
+      "roster_title": "Kiyo and Eiko Tomiyasu Professor of Computing and Mathematical Sciences and Electrical Engineering; Undergraduate Option Representative for Applied and Computational Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Georgia Gkioxari",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/georgia-gkioxari",
+      "roster_title": "Assistant Professor of Computing and Mathematical Sciences and Electrical Engineering; William H. Hurt Scholar",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Babak Hassibi",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/hassibi",
+      "roster_title": "Mose and Lillian S. Bohn Professor of Electrical Engineering and Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Franca Hoffmann",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/franca-hoffmann",
+      "roster_title": "Assistant Professor of Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Thomas Y. Hou",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/hou",
+      "roster_title": "Charles Lee Powell Professor of Applied and Computational Mathematics; Graduate Option Representative for Applied and Computational Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Alexei Kitaev",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/kitaev",
+      "roster_title": "Ronald and Maxine Linde Professor of Theoretical Physics and Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Victoria Kostina",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/vkostina",
+      "roster_title": "Professor of Electrical Engineering and Computing and Mathematical Sciences; Graduate Option Representative for Electrical Engineering",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Steven Low",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/slow",
+      "roster_title": "Frank J. Gilloon Professor of Computing and Mathematical Sciences and Electrical Engineering; Director, Schmidt Academy for Software Engineering",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Urmila Mahadev",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/umahadev",
+      "roster_title": "Assistant Professor of Computing and Mathematical Sciences; Nickerson Scholar",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Matilde Marcolli",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/matilde",
+      "roster_title": "Robert F. Christy Professor of Mathematics and Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Eric V. Mazumdar",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/mazumdar",
+      "roster_title": "Assistant Professor of Computing and Mathematical Sciences and Economics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Dan Meiron",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/dim",
+      "roster_title": "Fletcher Jones Professor of Aeronautics and Applied and Computational Mathematics; Graduate Option Representative for Aeronautics and Space Engineering; Undergraduate Option Representative for Aerospace",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Ethan Ordentlich",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/ordentlich",
+      "roster_title": "Teaching Assistant Professor in Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Houman Owhadi",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/owhadi",
+      "roster_title": "IBM Professor of Applied and Computational Mathematics and Control and Dynamical Systems",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Lior Pachter",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/lpachter",
+      "roster_title": "Bren Professor of Computational Biology and Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Niles A. Pierce",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/niles",
+      "roster_title": "John D. and Catherine T. MacArthur Professor of Applied and Computational Mathematics and Bioengineering; Executive Officer for Biology and Biological Engineering",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Peter Schroeder",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/ps",
+      "roster_title": "Shaler Arthur Hanisch Professor of Computer Science and Applied and Computational Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Andrew Stuart",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/astuart",
+      "roster_title": "Bren Professor of Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Omer Tamuz",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/tamuz",
+      "roster_title": "Professor of Economics and Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Joel A. Tropp",
+      "department": "Applied Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/jtropp",
+      "roster_title": "Steele Family Professor of Applied and Computational Mathematics",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Christopher Umans",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/umans",
+      "roster_title": "Professor of Computer Science; William M. Coughran Jr. Leadership Chair, Department of Computing and Mathematical Sciences; Executive Officer for Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Michael Vanier",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/mvanier",
+      "roster_title": "Teaching Professor of Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Adam Wierman",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/adamw",
+      "roster_title": "Carl F Braun Professor of Computing and Mathematical Sciences; Graduate Option Representative for Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Yisong Yue",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/yyue",
+      "roster_title": "Professor of Computing and Mathematical Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    },
+    {
+      "name": "Konstantin Zuev",
+      "department": "Mathematics",
+      "education_history": null,
+      "work_professional_background": null,
+      "primary_research_areas": null,
+      "faculty_source_url": "https://www.cms.caltech.edu/people/zuev",
+      "roster_title": "Teaching Professor of Computing and Mathematical Sciences; Undergraduate Option Representative for Information and Data Sciences",
+      "roster_url": "https://www.cms.caltech.edu/people"
+    }
+  ]
+}
