@@ -23,9 +23,9 @@
 
 ### Katherine L. (Katie) Bouman
 - **Title:** Professor of Computing and Mathematical Sciences, Electrical Engineering and Astronomy; Rosenberg Scholar; Investigator, Heritage Medical Research Institute
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** B.S., University of Michigan, Ann Arbor, 2011; M.S., Massachusetts Institute of Technology, 2013; Ph.D., Massachusetts Institute of Technology, 2017.
+- **工作经历（Work / Professional Background）:** Visiting Associate at Caltech, 2018-19; Assistant Professor, 2019-24; Associate Professor, 2024-25; Professor, 2025-.
+- **主要研究方向（Primary Research Areas）:** Computational imaging, integrating algorithm and sensor design; signal processing, computer vision, machine learning, and physics for scientific imaging.
 - **Source:** https://www.cms.caltech.edu/people ; https://www.cms.caltech.edu/people/klbouman
 
 ### Georgia Gkioxari
@@ -72,9 +72,9 @@
 
 ### Urmila Mahadev
 - **Title:** Assistant Professor of Computing and Mathematical Sciences; Nickerson Scholar
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** Ph.D., University of California, Berkeley, 2018.
+- **工作经历（Work / Professional Background）:** Visiting Associate, Caltech, 2019-20; Assistant Professor, 2020-.
+- **主要研究方向（Primary Research Areas）:** Cryptographic possibilities of quantum information, including quantum homomorphic encryption and verifiable delegation of quantum computation; theoretical computer science and quantum computing.
 - **Source:** https://www.cms.caltech.edu/people ; https://www.cms.caltech.edu/people/umahadev
 
 ### Matilde Marcolli
@@ -142,9 +142,9 @@
 
 ### Yisong Yue
 - **Title:** Professor of Computing and Mathematical Sciences
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** Ph.D., Cornell University, 2010.
+- **工作经历（Work / Professional Background）:** Assistant Professor, Caltech, 2014-20; Professor, 2020-.
+- **主要研究方向（Primary Research Areas）:** Theory and application of statistical machine learning, especially interactive machine learning and structured machine learning.
 - **Source:** https://www.cms.caltech.edu/people ; https://www.cms.caltech.edu/people/yyue
 
 ### Konstantin Zuev

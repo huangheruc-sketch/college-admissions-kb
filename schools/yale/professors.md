@@ -66,8 +66,8 @@
 ### Vincent Moncrief
 - **Title:** Professor of Physics and of Mathematics
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **工作经历（Work / Professional Background）:** Professor of Physics and of Mathematics.
+- **主要研究方向（Primary Research Areas）:** Relativity; mathematical physics.
 - **Source:** https://math.yale.edu/people/faculty ; https://math.yale.edu/profile/vincent-moncrief
 
 ### Andrew Neitzke
@@ -128,9 +128,9 @@
 
 ### Dan Spielman
 - **Title:** Sterling Professor of Computer Science and Professor of Statistics and Data Science and of Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** B.A. in Mathematics and Computer Science, Yale, 1992; Ph.D. in Applied Mathematics, MIT, 1995.
+- **工作经历（Work / Professional Background）:** NSF Mathematical Sciences Postdoctoral Fellow in the Computer Science Department at UC Berkeley; professor in the Applied Mathematics Department at MIT; moved to Yale in 2005; Sterling Professor of Computer Science and Professor of Statistics and Data Science and of Mathematics.
+- **主要研究方向（Primary Research Areas）:** Design and analysis of algorithms, network science, machine learning, digital communications, and scientific computing.
 - **Source:** https://math.yale.edu/people/faculty ; https://math.yale.edu/profile/dan-spielman
 
 ### Lu Wang
@@ -143,8 +143,8 @@
 ### John Wettlaufer
 - **Title:** A.M. Bateman Professor of Geophysics, Mathematics and Physics
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **工作经历（Work / Professional Background）:** Faculty appointments at the University of Washington, the University of Oxford, Stockholm University, and Yale University; Director of Undergraduate Studies, Applied Mathematics.
+- **主要研究方向（Primary Research Areas）:** Applied mathematics and asymptotic methods; mathematical modeling of physical and biological systems; statistical physics.
 - **Source:** https://math.yale.edu/people/faculty ; https://math.yale.edu/profile/john-wettlaufer
 
 ## Applied Mathematics and Related Affiliated Faculty (22)
@@ -152,14 +152,14 @@
 ### Andrew Barron
 - **Title:** Professor of Statistics & Data Science; Co-Director of Graduate Studies
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Professor of Statistics & Data Science at Yale; Co-Director of Graduate Studies.
 - **主要研究方向（Primary Research Areas）:** Statistical information theory, probability limit theorems, function estimation, neural networks
 - **Source:** https://applied.math.yale.edu/people/faculty ; https://applied.math.yale.edu/people/Andrew-Barron
 
 ### Joseph Chang
 - **Title:** Professor of Statistics & Data Science
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Professor of Statistics & Data Science at Yale.
 - **主要研究方向（Primary Research Areas）:** Probability, random walks, sequential analysis, pattern recognition, and machine learning
 - **Source:** https://applied.math.yale.edu/people/faculty ; https://applied.math.yale.edu/people/Joseph-Chang
 
@@ -208,7 +208,7 @@
 ### Smita Krishnaswamy
 - **Title:** Assistant Professor of Genetics and Computer Science
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Assistant Professor of Genetics and Computer Science at Yale.
 - **主要研究方向（Primary Research Areas）:** 待补充
 - **Source:** https://applied.math.yale.edu/people/faculty ; https://applied.math.yale.edu/people/Smita-Krishnaswamy
 

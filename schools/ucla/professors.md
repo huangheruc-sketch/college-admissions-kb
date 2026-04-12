@@ -51,8 +51,8 @@
 
 ### Chen, Yifan
 - **Title:** Assistant Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **学习经历（Education）:** Ph.D., California Institute of Technology, 2023.
+- **工作经历（Work / Professional Background）:** Assistant Professor of Mathematics, UCLA.
 - **主要研究方向（Primary Research Areas）:** Applied and computational mathematics, applied probability, sampling and generative modeling
 - **Source:** https://www.math.ucla.edu/people/ladder ; https://www.math.ucla.edu/people/ladder/yifanchen
 
@@ -312,8 +312,8 @@
 
 ### Bertozzi, Andrea
 - **Title:** Professor, Mathematics/Mechanical & Aerospace Engineering, The Betsy Wood Knapp Chair for Innovation and Creativity
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **学习经历（Education）:** A.B. in Mathematics, Princeton University, 1987; M.A. in Mathematics, Princeton University, 1988; Ph.D. in Mathematics, Princeton University, 1991.
+- **工作经历（Work / Professional Background）:** Professor of Mathematics and Mechanical & Aerospace Engineering at UCLA; Betsy Wood Knapp Chair for Innovation and Creativity.
 - **主要研究方向（Primary Research Areas）:** Nonlinear PDE and Data Science
 - **Source:** https://www.math.ucla.edu/people/ladder ; https://www.math.ucla.edu/people/ladder/bertozzi
 

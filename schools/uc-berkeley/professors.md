@@ -80,7 +80,7 @@
 ### Vadim Gorin
 - **Title:** Associate Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Associate Professor, UC Berkeley Department of Mathematics.
 - **主要研究方向（Primary Research Areas）:** Probability Algebra
 - **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/vadim-gorin
 
@@ -136,7 +136,7 @@
 ### Amir Mohammadi
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Professor, UC Berkeley Department of Mathematics.
 - **主要研究方向（Primary Research Areas）:** Mathematical Analysis Geometry/Topology Algebra
 - **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/amir-mohammadi
 
@@ -157,7 +157,7 @@
 ### Sung-Jin Oh
 - **Title:** Associate Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Associate Professor, UC Berkeley Department of Mathematics.
 - **主要研究方向（Primary Research Areas）:** Mathematical Analysis
 - **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/sung-jin-oh
 
@@ -185,7 +185,7 @@
 ### Thomas Scanlon
 - **Title:** Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** Professor, UC Berkeley Department of Mathematics.
 - **主要研究方向（Primary Research Areas）:** Mathematical Logic Algebra
 - **Source:** https://math.berkeley.edu/people/faculty/senate ; https://math.berkeley.edu/people/faculty/thomas-scanlon
 
