@@ -4,6 +4,50 @@
 
 ---
 
+## Section 0：What Yale Looks For
+
+### 官网直接回答的两个核心问题
+
+Yale Undergraduate Admissions 在官方页面 **What Yale Looks For** 开宗明义写道，招生审查由两个问题引导：
+
+> **Who is likely to make the most of Yale’s resources?**  
+> **Who will contribute most significantly to the Yale community?**
+
+对应中文可理解为：
+- **谁最有可能最大化利用 Yale 的资源？**
+- **谁会对 Yale 社区作出最重要的贡献？**
+
+这不是第三方解读，而是 Yale 官网直接公开写出的招生判断框架。
+
+### Yale 官方公开偏好的目标人群
+
+结合 Yale Admissions 官方页面 **What Yale Looks For / Requirements / Standardized Testing**，可以归纳出 Yale 明确想招的是以下类型的学生：
+
+1. **学术准备非常强的学生**
+   - Yale 明确要求高强度课程准备、成绩单、推荐信与考试成绩材料。
+   - 在 CDS 中，课程难度、班级排名、Academic GPA 长期被标为 **Very Important**。
+
+2. **能在自身环境里把机会用到极致的学生**
+   - 官网明确采用 **holistic, whole-person review**，并强调 **Applicants are considered within their own context**。
+   - Yale 不要求学生拥有并不存在的资源，而是看学生是否在自己可获得的条件下已经做到了最好。
+
+3. **能真实贡献校园社区的学生**
+   - 官网原文写明：Yale seeks students who **will contribute to our vibrant community**。
+   - 这意味着 Yale 不只看“你有多强”，也看“你会给同学、课堂、校园带来什么”。
+
+4. **不只是高分，而是有立体个性和真实表达的学生**
+   - 官网在 application advice 中明确强调：文书要写真正重要的事，展现独特视角，用自己的声音表达。
+   - 录取因素表中，文书、推荐信、课外活动、Talent / Ability、Character / Personal Qualities 都长期是 **Very Important**。
+
+5. **有成长潜力、能把 Yale 平台转化为长期影响力的学生**
+   - Yale 官网虽不会把“标准答案”写成模板，但其公开表述持续指向同一类人：能充分利用 Yale 资源，并把这种机会转化成更大范围影响的人。
+
+### 一句话总结
+
+**Yale 官方公开想招的，不是“只会拿高分的人”，而是“学术能力极强、在自身环境里已经把机会用到极致、并且能为 Yale 社区带来真实贡献的人”。**
+
+---
+
 ## Section 1：录取核心数据大表
 
 ### 表 1-A：申请量、录取量、入学量、录取率
