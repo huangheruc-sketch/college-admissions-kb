@@ -52,36 +52,36 @@
 ## Applied Mathematics / CAM (5)
 
 ### David Bindel
-- **Title:** 待补充
+- **Title:** Professor of Computer Science, Director for the Center of Applied Math, Associate Dean of DEI Cornell Ann S. Bowers College of Computing and Information Science, Director Simons Collaboration on Hidden Symmetries and Fusion Energy
 - **学习经历（Education）:** 待补充
 - **工作经历（Work / Professional Background）:** 待补充
 - **主要研究方向（Primary Research Areas）:** Numerical linear algebra; microelectromechanical systems; network tomography; finite element analysis; numerical software design
-- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/david-bindel/
+- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/david-bindel/ ; http://www.cs.cornell.edu/~bindel/
 
 ### Anil Damle
-- **Title:** 待补充
+- **Title:** Assistant Professor
 - **学习经历（Education）:** 待补充
 - **工作经历（Work / Professional Background）:** 待补充
 - **主要研究方向（Primary Research Areas）:** 待补充
 - **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/anil-damle/
 
 ### Sarah Dean
-- **Title:** 待补充
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/sarah-dean/
+- **Title:** Assistant Professor
+- **学习经历（Education）:** B.S.E. in Electrical Engineering and Mathematics, University of Pennsylvania (2016); M.S. in Electrical Engineering and Computer Science, University of California, Berkeley (2019); Ph.D. in Electrical Engineering and Computer Science, University of California, Berkeley (2021).
+- **工作经历（Work / Professional Background）:** Assistant Professor, Department of Computer Science, Cornell University (2022-present); Postdoctoral Scholar, University of Washington (2021); Research Intern, Canopy (2019).
+- **主要研究方向（Primary Research Areas）:** Optimization, machine learning, and dynamics in real-world systems; data-driven methods for control and decision-making, with applications including robotics and recommendation systems
+- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/sarah-dean/ ; https://www.engineering.cornell.edu/faculty-directory/sarah-dean ; https://sdean.website/cv.pdf
 
 ### Peter Frazier
-- **Title:** 待补充
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/peter-frazier/
+- **Title:** Eleanor and Howard Morgan Professor of Engineering
+- **学习经历（Education）:** B.S. in Physics and Engineering/Applied Sciences, California Institute of Technology (2000); M.A. in Operations Research and Financial Engineering, Princeton University (2007); Ph.D. in Operations Research and Financial Engineering, Princeton University (2009).
+- **工作经历（Work / Professional Background）:** Worked as a software engineer in industry before graduate study; joined Cornell in 2009 as Assistant Professor in the School of Operations Research and Information Engineering and later became Associate Professor.
+- **主要研究方向（Primary Research Areas）:** Sequential decision-making under uncertainty, optimal learning, and machine learning, with applications in simulation, e-commerce, medicine, and biology
+- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/peter-frazier/ ; https://www.engineering.cornell.edu/faculty-directory/peter-frazier
 
 ### Raaz Dwivedi
-- **Title:** 待补充
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/raaz-dwivedi/
+- **Title:** Assistant Professor
+- **学习经历（Education）:** B.Tech. (Honors) in Electrical Engineering, IIT Bombay (2014); Ph.D. in EECS, University of California, Berkeley (2021).
+- **工作经历（Work / Professional Background）:** Assistant Professor in Operations Research and Information Engineering and Cornell Tech at Cornell University (from Jan 2024); Visiting scholar at Cornell ORIE (Fall 2023); FODSI postdoctoral fellow at Harvard and MIT LIDS (2021-2023); summer researcher at Microsoft Research New England.
+- **主要研究方向（Primary Research Areas）:** Statistical machine learning for personalized decision-making and healthcare applications, spanning causal inference, reinforcement learning, Bayesian inference, random sampling, and high-dimensional statistics
+- **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/raaz-dwivedi/ ; https://www.engineering.cornell.edu/faculty-directory/raaz-dwivedi

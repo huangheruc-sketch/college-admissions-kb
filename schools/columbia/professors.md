@@ -46,9 +46,9 @@
 
 ### Daniel Bienstock
 - **Title:** Liu Family Professor of Industrial Engineering and Operations Research and Professor of Applied Physics and Applied Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** Optimization algorithms and high-performance implementation; applications of optimization to large-scale infrastructure, emergency management, integer programming, and robust optimization
+- **学习经历（Education）:** B.A. in Mathematics, Brandeis University (1982); Ph.D. in Operations Research, Massachusetts Institute of Technology (1985).
+- **工作经历（Work / Professional Background）:** Assistant Professor, Graduate School of Industrial Administration, Carnegie Mellon University (1985-1986); Scientist in combinatorics and optimization research, Bellcore (1986-1989); joined Columbia Engineering in 1989 and later served as Associate Professor and Full Professor in Industrial Engineering and Operations Research, with professor appointments in Applied Physics and Applied Mathematics from 2008.
+- **主要研究方向（Primary Research Areas）:** Optimization, especially discrete, nonlinear, and robust optimization; computational experimentation and applications; vulnerability analysis of power grids
 - **Source:** https://www.apam.columbia.edu/applied-mathematics-faculty ; https://www.apam.columbia.edu/faculty/daniel-bienstock
 
 ### Liliana Borcea

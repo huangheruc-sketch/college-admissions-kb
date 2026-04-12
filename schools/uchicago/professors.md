@@ -9,10 +9,10 @@
 
 ### Guillaume Bal
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **学习经历（Education）:** Diploma, Ecole Polytechnique, Paris (1993); Ph.D. in Applied Mathematics, University of Paris VI (1997).
+- **工作经历（Work / Professional Background）:** Research Associate, Électricité de France (1994-1997); Postdoctoral Research Associate, Stanford University (1997-1999); L.E. Dickson Instructor, University of Chicago (1999-2001); Assistant Professor, Associate Professor, and Professor at Columbia University (2001-2017); Professor at the University of Chicago (2017-present), later Director of CCAM (2023-present).
 - **主要研究方向（Primary Research Areas）:** Inverse problems with applications in geophysical and medical imaging; inverse transport theory; partial differential models with random coefficients; uncertainty quantification; wave propagation in heterogeneous environments; topological insulators
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/guillaume-bal/
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/guillaume-bal/ ; https://galton.uchicago.edu/~guillaumebal/vita.pdf
 
 ### Carlos Kenig
 - **Title:** Louis Block Distinguished Service Professor
@@ -51,10 +51,10 @@
 
 ### Akhil Mathew
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
+- **学习经历（Education）:** Ph.D. in Mathematics, Harvard University (2017).
 - **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/akhil-mathew/
+- **主要研究方向（Primary Research Areas）:** Algebraic topology, especially stable homotopy theory; algebraic K-theory; p-adic arithmetic geometry
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/akhil-mathew/ ; https://math.uchicago.edu/~amathew/
 
 ### Jiajie Chen
 - **Title:** Assistant Professor
@@ -67,10 +67,10 @@
 
 ### Guillaume Bal
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **学习经历（Education）:** Diploma, Ecole Polytechnique, Paris (1993); Ph.D. in Applied Mathematics, University of Paris VI (1997).
+- **工作经历（Work / Professional Background）:** Research Associate, Électricité de France (1994-1997); Postdoctoral Research Associate, Stanford University (1997-1999); L.E. Dickson Instructor, University of Chicago (1999-2001); Assistant Professor, Associate Professor, and Professor at Columbia University (2001-2017); Professor at the University of Chicago (2017-present), later Director of CCAM (2023-present).
 - **主要研究方向（Primary Research Areas）:** Inverse problems, imaging, stochastic PDE modeling, and wave propagation
-- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/guillaume-bal/
+- **Source:** https://mathematics.uchicago.edu/people/ ; https://mathematics.uchicago.edu/people/profile/guillaume-bal/ ; https://galton.uchicago.edu/~guillaumebal/vita.pdf
 
 ### Carlos Kenig
 - **Title:** Louis Block Distinguished Service Professor
