@@ -9,9 +9,9 @@
 
 ### Animashree (Anima) Anandkumar
 - **Title:** Bren Professor of Computing and Mathematical Sciences
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** 印度理工学院马德拉斯校区 B.Tech.；康奈尔大学博士；MIT 博士后。
+- **工作经历（Work / Professional Background）:** 曾任 Amazon Web Services principal scientist、NVIDIA senior director of AI research；现任 Caltech Bren Professor of Computing and Mathematical Sciences。
+- **主要研究方向（Primary Research Areas）:** AI for science；Neural Operators；多尺度物理现象建模；高分辨率天气建模；张量方法；潜变量模型；非凸优化。
 - **Source:** https://www.cms.caltech.edu/people ; https://www.cms.caltech.edu/people/anima
 
 ### Adam Blank

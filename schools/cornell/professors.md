@@ -54,15 +54,15 @@
 ### David Bindel
 - **Title:** Professor of Computer Science, Director for the Center of Applied Math, Associate Dean of DEI Cornell Ann S. Bowers College of Computing and Information Science, Director Simons Collaboration on Hidden Symmetries and Fusion Energy
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **工作经历（Work / Professional Background）:** 康奈尔大学计算机科学教授；Center for Applied Math 主任；NA Digest 编辑。
 - **主要研究方向（Primary Research Areas）:** Numerical linear algebra; microelectromechanical systems; network tomography; finite element analysis; numerical software design
 - **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/david-bindel/ ; http://www.cs.cornell.edu/~bindel/
 
 ### Anil Damle
 - **Title:** Assistant Professor
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **工作经历（Work / Professional Background）:** 康奈尔大学计算机科学 Assistant Professor。
+- **主要研究方向（Primary Research Areas）:** Numerical linear algebra; computational quantum chemistry; spectral clustering; fast algorithms.
 - **Source:** https://cam.cornell.edu/people/ ; https://cam.cornell.edu/people/anil-damle/
 
 ### Sarah Dean

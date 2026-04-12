@@ -207,9 +207,9 @@
 
 ### Smita Krishnaswamy
 - **Title:** Assistant Professor of Genetics and Computer Science
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** Assistant Professor of Genetics and Computer Science at Yale.
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** University of Michigan 计算机科学与工程博士（2008）、硕士（2004）；Kalamazoo College 数学学士（2002）；University of Michigan 学士（2002）；Columbia University 博士后（2015）。
+- **工作经历（Work / Professional Background）:** 耶鲁大学 Genetics 与 Computer Science faculty，隶属 Applied Mathematics Program、Computational Biology Program、Yale Center for Biomedical Data Science 与 Yale Cancer Center。
+- **主要研究方向（Primary Research Areas）:** 高维高通量生物医学数据的机器学习；无监督学习；流形学习；深度学习；非线性降维与可视化；数据几何学习；去噪、插补与特征网络推断；单细胞组学与医学数据分析。
 - **Source:** https://applied.math.yale.edu/people/faculty ; https://applied.math.yale.edu/people/Smita-Krishnaswamy
 
 ### Boris Landa

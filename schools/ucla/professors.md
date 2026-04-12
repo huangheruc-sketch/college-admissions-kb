@@ -16,8 +16,8 @@
 
 ### Bedrossian, Jacob
 - **Title:** Professor & Administrative Vice Chair
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
+- **学习经历（Education）:** 加州大学洛杉矶分校博士（2011）。
+- **工作经历（Work / Professional Background）:** UCLA 数学系 Professor 兼 Administrative Vice Chair。
 - **主要研究方向（Primary Research Areas）:** Mathematical analysis of both deterministic and stochastic PDEs arising in fluid mechanics and plasma physics.
 - **Source:** https://www.math.ucla.edu/people/ladder ; https://www.math.ucla.edu/people/ladder/jacob
 

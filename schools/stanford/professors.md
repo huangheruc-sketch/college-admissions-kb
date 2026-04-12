@@ -9,9 +9,9 @@
 
 ### Mohammed Abouzaid
 - **Title:** Professor
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** 芝加哥大学博士（2007）。
+- **工作经历（Work / Professional Background）:** 博士毕业后首个职位为 MIT Clay Research Fellow；2023年加入斯坦福大学数学系任教授。
+- **主要研究方向（Primary Research Areas）:** 辛几何与拓扑；Floer 理论；辛流形上的结构及其应用。
 - **Source:** https://mathematics.stanford.edu/people/faculty-lecturers ; https://mathematics.stanford.edu/people/mohammed-abouzaid
 
 ### Amol Aggarwal

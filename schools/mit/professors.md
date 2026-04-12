@@ -45,8 +45,8 @@
 ### Berger, Bonnie
 - **Title:** Simons Professor Professor of Applied Mathematics
 - **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **工作经历（Work / Professional Background）:** MIT 应用数学教授，EECS 联合任职；MIT CSAIL Computation and Biology 负责人，并为 Theory of Computation Group 成员。
+- **主要研究方向（Primary Research Areas）:** 计算生物学；结构生物信息学；压缩基因组学；网络推断；基因组隐私；医学基因组学。
 - **Source:** https://math.mit.edu/directory/faculty ; https://math.mit.edu/directory/profile.html?pid=20
 
 ### Bernardi, Olivier
@@ -100,9 +100,9 @@
 
 ### Cohn, Henry
 - **Title:** Professor of Mathematics
-- **学习经历（Education）:** 待补充
-- **工作经历（Work / Professional Background）:** 待补充
-- **主要研究方向（Primary Research Areas）:** 待补充
+- **学习经历（Education）:** MIT 数学学士（1995）；哈佛大学数学博士（2000，导师 Noam Elkies）。
+- **工作经历（Work / Professional Background）:** 2000至2001年任微软研究院 Redmond 理论组博士后；2001至2007年任微软研究院研究员并兼任华盛顿大学 affiliate faculty；2008至2024年任微软研究院 New England 研究员与创始成员之一；2010至2025年任 MIT 数学系兼职教授；2025年起任 MIT 数学系教授。
+- **主要研究方向（Primary Research Areas）:** 离散数学；离散几何；编码理论；密码学；组合数学；计算数论；理论计算机科学。
 - **Source:** https://math.mit.edu/directory/faculty ; https://math.mit.edu/directory/profile.html?pid=1224
 
 ### Colding, Tobias Holck
