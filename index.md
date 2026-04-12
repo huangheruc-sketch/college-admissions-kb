@@ -7,7 +7,8 @@
   <div class="product-chip-row">
     <span class="product-chip">School Hubs</span>
     <span class="product-chip">Admission Data</span>
-    <span class="product-chip">Case Studies</span>
+    <span class="product-chip">Professors</span>
+    <span class="product-chip">Programs & Opportunities</span>
     <span class="product-chip">Source Traceability</span>
     <span class="product-chip">Explorers</span>
   </div>
@@ -38,26 +39,28 @@
 
 ## Schools
 
+<p>当前已覆盖 11 所目标学校，页面逐步形成 School Hub、Fact Sheet、Admission Data、Academic Data、Professors、Case Study 与 Sources 的体系化结构。</p>
+
 <div class="product-entry-grid product-entry-grid-4">
   <a class="product-entry-card" href="/schools/harvard/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Harvard</strong>
-    <p>查看 Harvard 的学校概览、招生数据、公开案例和来源整理。</p>
+    <p>查看 Harvard 的学校概览、招生数据、教授信息、公开案例和来源整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/stanford/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>Stanford</strong>
-    <p>查看 Stanford 的申请概况、案例页面与相关数据整理。</p>
+    <p>查看 Stanford 的申请概况、教授页面与相关数据整理。</p>
   </a>
   <a class="product-entry-card" href="/schools/mit/index.md">
     <div class="product-entry-label">School Hub</div>
     <strong>MIT</strong>
-    <p>查看 MIT 的学校页面、理工科申请案例与招生信息。</p>
+    <p>查看 MIT 的学校页面、教授信息、理工科案例与招生信息。</p>
   </a>
   <a class="product-entry-card" href="/navigation.md">
     <div class="product-entry-label">All Schools</div>
     <strong>全部学校</strong>
-    <p>查看 11 所目标学校的总览入口。</p>
+    <p>查看 11 所目标学校的总览入口与页面体系。</p>
   </a>
 </div>
 
@@ -96,6 +99,24 @@
     <h3>Case Study Explorer</h3>
     <p>按学校、申请周期、方向和来源快速筛选公开案例。</p>
     <p><a href="/explorers/case-study-explorer.md">打开 Case Study Explorer</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">Faculty</div>
+    <h3>Professors Explorer</h3>
+    <p>按学校、院系、状态与研究方向浏览数学及应用数学相关教授。</p>
+    <p><a href="/explorers/professors-explorer.md">打开 Professors Explorer</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">Programs</div>
+    <h3>Summer Programs Explorer</h3>
+    <p>集中浏览暑校项目，支持快速筛选与横向查看。</p>
+    <p><a href="/explorers/summer-programs-explorer.md">打开 Summer Programs Explorer</a></p>
+  </div>
+  <div class="product-route-card">
+    <div class="product-route-step">Opportunities</div>
+    <h3>Volunteering Explorer</h3>
+    <p>集中浏览志愿活动机会，便于快速查找和筛选。</p>
+    <p><a href="/explorers/volunteering-explorer.md">打开 Volunteering Explorer</a></p>
   </div>
 </div>
 
