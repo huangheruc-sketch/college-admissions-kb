@@ -8,8 +8,8 @@
 
 | 阶段 | 时间 |
 |---|---|
-| UC Application 开放 | 8 月 1 日开始填写（系统惯例） |
-| 提交窗口 | 10 月 1 日–12 月 2 日左右（UC 系统年度窗口，具体以当年公告为准） |
+| UC Application 开放 | 8 月 1 日开始填写 |
+| 提交截止 | 通常为 11 月 30 日（以当年官方要求为准） |
 | 录取通知 | 3 月下旬 |
 | 回复截止（SIR） | 5 月 1 日 |
 
@@ -22,12 +22,14 @@
 | 项目 | 要求 |
 |---|---|
 | 申请系统 | UC Application |
-| 成绩记录 | 在 UC 系统中自填 9–12 年级课程与成绩 |
+| 申请板块 | About You、Campuses & Majors、Academic History、Test Scores、Activities & Awards、Scholarships & Programs、Personal Insight |
+| 成绩记录 | 在 UC 系统中自填课程、成绩与相关学术信息；系统会生成 GPA 相关计算 |
 | PIQ | 8 选 4，每题最多 350 词 |
-| 活动/奖项 | 必填相关版块 |
+| 活动/奖项 | 在系统对应版块填写 |
 | 推荐信 | 常规 first-year 申请不要求，也通常不接受 |
 | 面试 | 不提供常规 admission interview |
-| 成绩单 | 申请阶段不收；录取后才提交官方成绩单 |
+| 成绩单 | 申请阶段通常不收；录取后才提交官方成绩单 |
+| 申请费 | 按 UC 校区分别收取，UCLA 适用 UC 系统当年标准 |
 
 ### 学术门槛（A-G）
 
@@ -74,12 +76,20 @@ UCLA / UC first-year applicants 需从 8 道题中选择 4 题回答；每题 **
 
 | 项目 | 政策 |
 |---|---|
-| SAT / ACT | UCLA will not consider SAT or ACT scores for admission or scholarship purposes |
-| 可否提交 | 可提交，但仅可用于最低资格认定或入学后课程分班，不用于录取审理 |
+| SAT / ACT | UC 体系现行为 test-blind，UCLA 不将 SAT / ACT 用于录取审理 |
+| 可否提交 | 即使提交，也不用于录取决定；相关用途以当年官方说明为准 |
 
 ---
 
-## 6. 面试（Interview）
+## 6. 国际学生与语言（International Applicants & English Proficiency）
+
+| 项目 | 要求 |
+|---|---|
+| 国际学生申请 | UCLA 作为 UC 校区之一接受国际申请者 |
+| 身份信息 | 在 UC Application 的 About You / Citizenship & Residency 等版块如实填写国籍、居住与身份信息 |
+| 英语能力证明 | PDF 指南要求在 Test Scores 部分提交 TOEFL 或 UC 认可的英语能力证明；具体接受考试类型与分数要求以当年官方要求为准 |
+
+## 7. 面试（Interview）
 
 | 项目 | 要求 |
 |---|---|
@@ -88,7 +98,7 @@ UCLA / UC first-year applicants 需从 8 道题中选择 4 题回答；每题 **
 
 ---
 
-## 7. 提交后流程（After Submission）
+## 8. 提交后流程（After Submission）
 
 | 阶段 | 说明 |
 |---|---|
@@ -111,6 +121,7 @@ UCLA / UC first-year applicants 需从 8 道题中选择 4 题回答；每题 **
 
 ## Sources
 
-- https://admission.ucla.edu/apply/first-year/first-year-requirements
-- https://admission.ucla.edu/apply/personal-insight-questions
-- https://admission.ucla.edu/apply/first-year/first-year-requirements/application-review-process
+- UCLA 官网：https://admission.ucla.edu/apply/first-year/first-year-requirements
+- UCLA 官网：https://admission.ucla.edu/apply/personal-insight-questions
+- UCLA 官网：https://admission.ucla.edu/apply/first-year/first-year-requirements/application-review-process
+- 补充参考：`/home/openclaw/.openclaw/workspace-home/inbox/helen/uc-hk-application/UC系统指南.pdf`（UC 系统通用申请流程信息，年度政策以官方要求为准）
