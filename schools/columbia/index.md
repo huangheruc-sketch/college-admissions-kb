@@ -5,6 +5,7 @@
 - [Fact Sheet](./fact-sheet.md) — 申请时间表、申请材料、补充文书、推荐信、标化政策、面试政策。
 - [Admission Data](./admission-data.md) — 录取核心数据大表、近年趋势、STEM/SEAS 说明、招生办公室背景。
 - [Sources](./sources.md) — 资料来源索引（如后续维护）。
+- [Professors](./professors.md) — Mathematics 与 Applied Mathematics 教授清单，重点看学习经历、工作经历与研究方向。
 - [Case Study](./case-study.md) — 另页内容。
 
 ## 本页说明

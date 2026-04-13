@@ -2,6 +2,7 @@
 
 - [Fact Sheet](./fact-sheet.md)
 - [Admission Data](./admission-data.md)
+- [Professors](./professors.md) — Mathematics 与 Applied Mathematics 教授清单，重点看学习经历、工作经历与研究方向。
 - [Case Study](./case-study.md)
 - [Sources](./sources.md)
 

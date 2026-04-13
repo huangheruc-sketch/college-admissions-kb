@@ -10,7 +10,7 @@
 - [Admission Data Explorer](./admission-data-explorer.md)
 - [Case Study Explorer](./case-study-explorer.md)
 - [Academic Programs Explorer](./academic-programs-explorer.md) — 按学校、专业、学院/Division、学位类型筛选本科可选专业
-- [Professors Explorer](./professors-explorer.md) — 按学校、院系、教授状态与研究方向可用性筛选教授（首版为 Harvard Math / Applied Math，38 条）
+- [Professors Explorer](./professors-explorer.md) — 按学校、院系、教授状态与研究方向可用性筛选教授（学校页已覆盖 11 所，Explorer 数据当前仍为 Harvard Math / Applied Math 38 条）
 - [Summer Programs Explorer](./summer-programs-explorer.md) — 按年级、地点、截止日期、推荐信要求筛选高中生夏校项目（现已覆盖 330/330 条）
 - [Volunteering Explorer](./volunteering-explorer.md) — 按类别、地点、线上可能性、年级要求筛选志愿活动组织（当前 270/271 条）
 
