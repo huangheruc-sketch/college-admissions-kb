@@ -2,7 +2,7 @@
 
 | Case ID | Class of | 专业 | GPA | SAT/ACT | STEM | 完整度 | 可信度 |
 |---|---|---|---|---|---|---|---|
-| UCLA-PIQ-ANON-01 | 未注明 | 未注明 | 未注明 | 未注明 | 混合 | 中 | PDF 二次整理 |
+| [ucla-piq-anon-01](./cases/ucla-piq-anon-01.md) | 未注明 | 未注明 | 未注明 | 未注明 | 混合 | Partial | Medium |
 
 ## 案例概览
 

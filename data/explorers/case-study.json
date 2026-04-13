@@ -1,29 +1,39 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-10T19:45:00.000000+08:00",
+  "generated_at": "2026-04-13T19:48:38+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
     "wiki/schools/stanford/case-study.md",
     "wiki/schools/stanford/cases/alishaz.md",
-    "wiki/schools/stanford/cases/lr-stanford-ea.md",
     "wiki/schools/stanford/cases/jerry-wei.md",
+    "wiki/schools/stanford/cases/lr-stanford-ea.md",
     "wiki/schools/stanford/cases/luo-spark.md",
     "wiki/schools/mit/case-study.md",
     "wiki/schools/mit/cases/rl-mit-rd.md",
+    "wiki/schools/princeton/case-study.md",
+    "wiki/schools/princeton/cases/jiang-shangnan-rea.md",
+    "wiki/schools/caltech/case-study.md",
+    "wiki/schools/caltech/cases/wang-pinghe.md",
     "wiki/schools/yale/case-study.md",
     "wiki/schools/yale/cases/brian-zhang.md",
-    "wiki/schools/yale/cases/xiong-shenzhen.md",
     "wiki/schools/yale/cases/geng-keystone.md",
     "wiki/schools/yale/cases/hu-swfl.md",
     "wiki/schools/yale/cases/li-swimmer.md",
     "wiki/schools/yale/cases/wang-pinghe.md",
+    "wiki/schools/yale/cases/xiong-shenzhen.md",
+    "wiki/schools/columbia/case-study.md",
+    "wiki/schools/columbia/cases/liu-jiahui.md",
+    "wiki/schools/cornell/case-study.md",
+    "wiki/schools/cornell/cases/dai-yizhi.md",
     "wiki/schools/uc-berkeley/case-study.md",
     "wiki/schools/uc-berkeley/cases/shanghai-robotics.md",
     "wiki/schools/uc-berkeley/cases/shenzhen-bilibili.md",
     "wiki/schools/uchicago/case-study.md",
-    "wiki/schools/uchicago/cases/admit-ai-econ.md"
+    "wiki/schools/uchicago/cases/admit-ai-econ.md",
+    "wiki/schools/ucla/case-study.md",
+    "wiki/schools/ucla/cases/ucla-piq-anon-01.md"
   ],
   "coverage": [
     {
@@ -54,6 +64,24 @@
       "note": "Unchanged from prior build."
     },
     {
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/princeton/case-study",
+      "note": "New school. 1 public REA admit case from People.cn / 留学杂志."
+    },
+    {
+      "school_slug": "caltech",
+      "school": "Caltech",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/caltech/case-study",
+      "note": "New school. 1 cross-admit public case repurposed from existing Yale-source reporting."
+    },
+    {
       "school_slug": "yale",
       "school": "Yale",
       "status": "records_available",
@@ -61,6 +89,24 @@
       "extracted_record_count": 6,
       "source_page": "#/schools/yale/case-study",
       "note": "New school. 6 cases from Business Insider and Tencent News."
+    },
+    {
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/columbia/case-study",
+      "note": "New school. 1 People Daily public admit case with scholarship signal."
+    },
+    {
+      "school_slug": "cornell",
+      "school": "Cornell",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/cornell/case-study",
+      "note": "New school. 1 People.cn public admit case for hotel management."
     },
     {
       "school_slug": "uc-berkeley",
@@ -79,6 +125,15 @@
       "extracted_record_count": 1,
       "source_page": "#/schools/uchicago/case-study",
       "note": "New school. 1 essay-only case from Admit AI."
+    },
+    {
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "status": "records_available",
+      "listed_case_count": 1,
+      "extracted_record_count": 1,
+      "source_page": "#/schools/ucla/case-study",
+      "note": "New school in explorer. 1 anonymized admitted-essay sample from local UCLA PDF source."
     }
   ],
   "records": [
@@ -127,27 +182,6 @@
       ]
     },
     {
-      "case_id": "stanford-lr-stanford-ea",
-      "school_slug": "stanford",
-      "school": "Stanford",
-      "application_cycle": "unknown",
-      "sample_title": "lr-stanford-ea",
-      "intended_major": "Bioinformatics / Comp. Bio.",
-      "gpa": "100/100 W",
-      "test_score": "SAT: 1570",
-      "stem": "是",
-      "result": "listed_as_admit_case",
-      "source_type": "public_case_page",
-      "completeness_score": "Partial",
-      "confidence_level": "Medium",
-      "case_page_path": "#/schools/stanford/cases/lr-stanford-ea",
-      "public_signals": [
-        "Region: East Coast",
-        "Awards: Overall Individual Top 50 — math competition",
-        "Extracurricular: Bioinformatics/AI research under UCLA professor; first-author in Nature Scientific Reports"
-      ]
-    },
-    {
       "case_id": "stanford-jerry-wei",
       "school_slug": "stanford",
       "school": "Stanford",
@@ -168,6 +202,27 @@
         "Awards: Intel ISEF 4th place; Medium AI Top 50 Bloggers",
         "Extracurricular: Dartmouth ML research (2 papers); Computational linguistics political bias detection; Popeyes cashier",
         "Admissions officer: 'One of the best in the REA pool this year'"
+      ]
+    },
+    {
+      "case_id": "stanford-lr-stanford-ea",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "application_cycle": "unknown",
+      "sample_title": "lr-stanford-ea",
+      "intended_major": "Bioinformatics / Comp. Bio.",
+      "gpa": "100/100 W",
+      "test_score": "SAT: 1570",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium",
+      "case_page_path": "#/schools/stanford/cases/lr-stanford-ea",
+      "public_signals": [
+        "Region: East Coast",
+        "Awards: Overall Individual Top 50 — math competition",
+        "Extracurricular: Bioinformatics/AI research under UCLA professor; first-author in Nature Scientific Reports"
       ]
     },
     {
@@ -216,6 +271,50 @@
       ]
     },
     {
+      "case_id": "princeton-jiang-shangnan-rea",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "application_cycle": "~2019",
+      "sample_title": "jiang-shangnan-rea",
+      "intended_major": "—",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/princeton/cases/jiang-shangnan-rea",
+      "public_signals": [
+        "Region: 北京 166中学",
+        "Round: REA",
+        "Public source: People.cn profile explicitly states Princeton REA offer",
+        "Narrative: strong English self-training and self-directed learning"
+      ]
+    },
+    {
+      "case_id": "caltech-wang-pinghe",
+      "school_slug": "caltech",
+      "school": "Caltech",
+      "application_cycle": "2029",
+      "sample_title": "wang-pinghe",
+      "intended_major": "— (STEM)",
+      "gpa": "—",
+      "test_score": "SAT: 1550; TOEFL: 110+",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/caltech/cases/wang-pinghe",
+      "public_signals": [
+        "Region: 上海平和 IB",
+        "Other admits: Yale",
+        "Awards: ISEF Grand Award 1st place + Craig Barrett Innovation Award",
+        "Extracurricular: biomimetic pole-climbing robot research; band guitar; math and ping-pong club leadership"
+      ]
+    },
+    {
       "case_id": "yale-brian-zhang",
       "school_slug": "yale",
       "school": "Yale",
@@ -237,28 +336,6 @@
         "Extracurricular: Founded 'Spanish Meets You' community language program; human visual perception research; spoken word poetry",
         "Essay: Chinese New Year celebration with non-blood-related neighbors in small Brooklyn apartment",
         "Rec letter: 'Second highest score in 20-year teaching career' (Pre-Calculus teacher)"
-      ]
-    },
-    {
-      "case_id": "yale-xiong-shenzhen",
-      "school_slug": "yale",
-      "school": "Yale",
-      "application_cycle": "2029",
-      "sample_title": "xiong-shenzhen",
-      "intended_major": "—",
-      "gpa": "满分",
-      "test_score": "ACT: 36",
-      "stem": "是",
-      "result": "listed_as_admit_case",
-      "source_type": "public_case_page",
-      "completeness_score": "Partial",
-      "confidence_level": "High",
-      "case_page_path": "#/schools/yale/cases/xiong-shenzhen",
-      "public_signals": [
-        "Region: 深圳中学",
-        "Round: EA (only EA admit in Guangdong-Shenzhen region)",
-        "12 AP courses; ACT 36",
-        "Extracurricular: MUN; philosophy research with Yale professor; Microsoft Imagine Cup (Braille camera for blind); Penn social equity summer program"
       ]
     },
     {
@@ -347,6 +424,72 @@
       ]
     },
     {
+      "case_id": "yale-xiong-shenzhen",
+      "school_slug": "yale",
+      "school": "Yale",
+      "application_cycle": "2029",
+      "sample_title": "xiong-shenzhen",
+      "intended_major": "—",
+      "gpa": "满分",
+      "test_score": "ACT: 36",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/yale/cases/xiong-shenzhen",
+      "public_signals": [
+        "Region: 深圳中学",
+        "Round: EA (only EA admit in Guangdong-Shenzhen region)",
+        "12 AP courses; ACT 36",
+        "Extracurricular: MUN; philosophy research with Yale professor; Microsoft Imagine Cup (Braille camera for blind); Penn social equity summer program"
+      ]
+    },
+    {
+      "case_id": "columbia-liu-jiahui",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "application_cycle": "~2017",
+      "sample_title": "liu-jiahui",
+      "intended_major": "理科方向（未披露）",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/columbia/cases/liu-jiahui",
+      "public_signals": [
+        "Region: 成都外国语学校",
+        "Public source: People Daily profile explicitly states Columbia admit",
+        "Scholarship: reported yearly USD 5,450 scholarship",
+        "Other admits: report says 16 overseas offers by 2013-04-03"
+      ]
+    },
+    {
+      "case_id": "cornell-dai-yizhi",
+      "school_slug": "cornell",
+      "school": "Cornell",
+      "application_cycle": "~2019",
+      "sample_title": "dai-yizhi",
+      "intended_major": "Hotel Management",
+      "gpa": "达标水平",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/cornell/cases/dai-yizhi",
+      "public_signals": [
+        "Region: 南京外国语学校",
+        "Public source: People.cn education article explicitly states Cornell hotel management admit",
+        "Extracurricular: hotel internship",
+        "Essay/public theme: umbrella-lending crisis handling during internship"
+      ]
+    },
+    {
       "case_id": "ucb-shanghai-robotics",
       "school_slug": "uc-berkeley",
       "school": "UC Berkeley",
@@ -407,6 +550,27 @@
       "public_signals": [
         "Extracurricular: Speech & Debate (cited Cass Sunstein); nuclear physics history interest",
         "Essay: Why UChicago supplement connecting nuclear history → debate → behavioral economics → Fermi/Sunstein/Thaler at UChicago"
+      ]
+    },
+    {
+      "case_id": "ucla-ucla-piq-anon-01",
+      "school_slug": "ucla",
+      "school": "UCLA",
+      "application_cycle": "unknown",
+      "sample_title": "ucla-piq-anon-01",
+      "intended_major": "未注明",
+      "gpa": "未注明",
+      "test_score": "未注明",
+      "stem": "混合",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium",
+      "case_page_path": "#/schools/ucla/cases/ucla-piq-anon-01",
+      "public_signals": [
+        "Source title explicitly labels it as UCLA successful/admitted essays PDF",
+        "Anonymous sample organized around UCLA/UC PIQ prompts",
+        "Useful mainly as essay-structure sample, not full applicant profile"
       ]
     }
   ]
