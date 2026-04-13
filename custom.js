@@ -1171,7 +1171,7 @@
             <div><strong>${filtered.length}</strong> / ${records.length} 位教授匹配当前条件，当前显示 ${filtered.length ? start + 1 : 0}-${Math.min(start + display.length, filtered.length)} 条</div>
             <div class="explorer-summary-pills">${renderSummaryPills(summaryBits)}</div>
           </div>
-          <div class="linked-note explorer-data-note">当前为第一版 professors explorer，仅接入 Harvard Mathematics + Applied Mathematics 共 ${records.length} 位教授；字段保留 school / school_slug，后续可继续扩展到更多学校。</div>
+          <div class="linked-note explorer-data-note">当前 professors explorer 已接入多学校 professor 数据，共 ${records.length} 位教授，可按 school / department / status / research availability 联动筛选。</div>
           <div class="explorer-results explorer-results-table">${renderProfessorsExplorerResults(display)}</div>
           ${renderExplorerPagination(pageState.page, pageState.totalPages, 'numbered')}
         </section>

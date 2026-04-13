@@ -4,7 +4,7 @@
 
 ## 数据说明
 
-- **数据来源：** `data/research/harvard_faculty_math_appliedmath.json` + [Harvard Professors](../schools/harvard/professors.md)
-- **当前收录：** Harvard Mathematics + Applied Mathematics 共 38 位教授
+- **数据来源：** `data/research/*faculty*.json` + 各学校 `schools/*/professors.md`
+- **当前收录：** 已聚合仓库内 11 所学校教授数据，共 498 条记录
 - **数据文件：** `data/explorers/professors.json`
-- **当前定位：** 学校 Professors 页面已覆盖 11 所目标学校；Explorer 数据当前仍以 Harvard 为种子数据
+- **当前定位：** Professors 页面与 Explorer 已同步接入 11 所学校的现有结构化 faculty 数据
