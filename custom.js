@@ -1,12 +1,13 @@
 (function () {
   const LINKED_DATA_PATH_TEMPLATE = './data/{school}-linked-data.json';
+  const PROFESSORS_DATASET_VERSION = '2026-04-13-0912';
   const EXPLORER_DATASETS = {
     'admission-data': './data/explorers/admission-data.json',
     'case-study': './data/explorers/case-study.json',
     'academic-programs': './data/explorers/academic-programs.json',
     'summer-programs': './data/explorers/summer-programs.json',
     'volunteering': './data/explorers/volunteering.json',
-    'professors': './data/explorers/professors.json'
+    'professors': `./data/explorers/professors.json?v=${PROFESSORS_DATASET_VERSION}`
   };
 
   const jsonCache = new Map();
