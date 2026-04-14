@@ -6,8 +6,10 @@
 | [lr-stanford-ea](./cases/lr-stanford-ea.md) | 年份未知 | Bioinformatics / Comp. Bio. | 100/100 W | SAT 1570 | 是 | Partial | Medium |
 | [jerry-wei](./cases/jerry-wei.md) | 2025 | CS / Computational Linguistics | 4.826 W | SAT 1560 | 是 | Complete | High |
 | [luo-spark](./cases/luo-spark.md) | 2025 | Political Science | — | 无（test-optional） | 否 | Partial | High |
+| [guo-isef-bpv](./cases/guo-isef-bpv.md) | 2026 | Chemical Engineering（待补强） | 未公开 | 未公开 | 是 | Partial | Medium-High |
 
 ## Sources
 - 唯尚留学 × AdmitSee 电子书（HYPS Real Essays & EC List）
 - thespear.org 完整申请材料披露（Jerry Wei）
 - 搜狐 / NSDA 官方采访（罗子鉴）
+- Society for Science / Youth Science Canada 官方公开结果（Vincent Guo / ISEF 案例）

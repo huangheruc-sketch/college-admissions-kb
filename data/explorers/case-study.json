@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-13T19:48:38+08:00",
+  "generated_at": "2026-04-14T23:21:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
@@ -10,6 +10,7 @@
     "wiki/schools/stanford/cases/jerry-wei.md",
     "wiki/schools/stanford/cases/lr-stanford-ea.md",
     "wiki/schools/stanford/cases/luo-spark.md",
+    "wiki/schools/stanford/cases/guo-isef-bpv.md",
     "wiki/schools/mit/case-study.md",
     "wiki/schools/mit/cases/rl-mit-rd.md",
     "wiki/schools/princeton/case-study.md",
@@ -49,10 +50,10 @@
       "school_slug": "stanford",
       "school": "Stanford",
       "status": "records_available",
-      "listed_case_count": 4,
-      "extracted_record_count": 4,
+      "listed_case_count": 5,
+      "extracted_record_count": 5,
       "source_page": "#/schools/stanford/case-study",
-      "note": "Added jerry-wei (Complete/High) and luo-spark (Partial/High)."
+      "note": "Added jerry-wei (Complete/High), luo-spark (Partial/High), and guo-isef-bpv (Partial/Medium-High; ISEF-verified, admission result pending stronger public confirmation)."
     },
     {
       "school_slug": "mit",
@@ -246,6 +247,29 @@
         "Awards: NSDA National 3rd place; Chengdu regional champion ×2",
         "Extracurricular: Debate only — self-described single activity; dual-track gaokao + US application",
         "Notable: No standardized test scores submitted; full scholarship"
+      ]
+    },
+    {
+      "case_id": "stanford-guo-isef-bpv",
+      "school_slug": "stanford",
+      "school": "Stanford",
+      "application_cycle": "2026",
+      "sample_title": "guo-isef-bpv",
+      "intended_major": "Chemical Engineering（待补强）",
+      "gpa": "未公开",
+      "test_score": "未公开",
+      "stem": "是",
+      "result": "candidate_case_with_strong_public_research_signals",
+      "source_type": "official_awards_page + public_school_signals + admission_screenshot_lead",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium-High",
+      "case_page_path": "#/schools/stanford/cases/guo-isef-bpv",
+      "public_signals": [
+        "Region: Vancouver, BC (St. George's School)",
+        "Awards: Regeneron ISEF 2025 Environmental Engineering Third Award",
+        "Project: Dual-Purpose Biological Photovoltaic: Optimizing Power Output and Wastewater Treatment",
+        "Public validation: Society for Science + Youth Science Canada",
+        "Caveat: Stanford / Chemical Engineering currently supported by admission screenshot lead, not yet fully closed by independent public source"
       ]
     },
     {
