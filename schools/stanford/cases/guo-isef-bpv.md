@@ -5,12 +5,12 @@
 | 字段 | 内容 |
 |---|---|
 | Case ID | guo-isef-bpv |
-| 目标学校 / 结果线索 | Stanford University（截图线索，待独立公开源补强） |
+| 目标学校 / 结果线索 | Stanford University |
 | Class of | 2026 |
 | 申请轮次 | 未公开 |
-| 来源类型 | ISEF / Youth Science Canada 官方公开结果 + 学校公开信息 + 录取截图线索 |
+| 来源类型 | ISEF / Youth Science Canada 官方公开结果 + 学校公开信息 + 学校官方 commit 发布信号 |
 | 来源链接 | https://www.societyforscience.org/press-release/regeneron-isef-2025-full-awards/ ; https://youthscience.ca/team-canada-secures-three-prestigious-awards-at-regeneron-isef-2025-in-columbus-ohio/ |
-| 可信度 | High（科研竞赛链） / Medium-Low（Stanford 录取线索） |
+| 可信度 | High（科研竞赛链） / High（学校官方录取发布） |
 | 完整度 | Partial |
 | STEM / Engineering | 是 |
 
@@ -19,7 +19,7 @@
 | 字段 | 内容 |
 |---|---|
 | 匿名标识 / 姓名 | Vincent (Yu Chen) Guo |
-| 专业 | Chemical Engineering（来自录取截图线索，待独立公开源补强） |
+| 专业 | Chemical Engineering |
 | 其他录取学校 | 未公开 |
 | 高中类型 | Independent School (St. George’s School, Vancouver) |
 | 地区 | Vancouver, British Columbia, Canada |
@@ -74,19 +74,19 @@
 - **研究方向鲜明**：不是泛泛“做过科研”，而是围绕环境工程与可持续技术形成相对明确的主题。
 - **项目具有问题导向**：把能源输出优化与废水处理结合，具备真实世界问题意识。
 - **成果层级高**：ISEF / Team Canada / 官方奖项形成高辨识度外部验证。
-- **适合工程叙事**：如果后续 Stanford / Chemical Engineering 录取结果能被独立公开源确认，这会是一个非常典型的“research-oriented ChemE applicant”案例。
+- **适合工程叙事**：结合学校官方录取发布信号与 ISEF 官方成果，这是一条很典型的“research-oriented ChemE applicant”案例。
 
 ## 风险与使用边界（Important caveat）
 
 > 当前最强证据链支持的是：Vincent (Yu Chen) Guo 在 St. George’s School 就读，并以环境工程项目获得 2025 Regeneron ISEF Third Award。  
-> **Stanford University 与 Chemical Engineering 目前来自录取截图线索，尚未通过独立公开网页完全闭环。**  
-> 因此本案例现阶段应作为“高可信科研竞赛画像 + 待补录取结果确认”的案例使用，不宜把 Stanford / Chemical Engineering 当作已完全核实事实进行方法论推断。
+> 同时，基于用户提供的学校官方 commit 发布内容，可将 **Stanford University / Chemical Engineering** 视为可采用的学校官方录取结果信息。  
+> 但除学校官方发布与截图外，我们仍暂未抓到额外第三方公开网页闭环，因此本案例更适合作为“学校官方录取发布 + ISEF 强成果支撑”的公开案例，而不是过度外推完整申请材料。
 
 ## Sources
 - Society for Science, Regeneron ISEF 2025 Full Awards
 - Youth Science Canada, Team Canada secures three prestigious awards at Regeneron ISEF 2025 in Columbus, Ohio
 - Google indexed public snippets for St. George’s School and Scientific Journalism Club
-- User-provided commit / admission screenshot (used only as lead, not sole verification)
+- User-provided school-official commit / admission post screenshot
 
 ---
 [返回 Stanford Case Study](../case-study.md)

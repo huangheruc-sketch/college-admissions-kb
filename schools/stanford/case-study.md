@@ -6,7 +6,7 @@
 | [lr-stanford-ea](./cases/lr-stanford-ea.md) | 年份未知 | Bioinformatics / Comp. Bio. | 100/100 W | SAT 1570 | 是 | Partial | Medium |
 | [jerry-wei](./cases/jerry-wei.md) | 2025 | CS / Computational Linguistics | 4.826 W | SAT 1560 | 是 | Complete | High |
 | [luo-spark](./cases/luo-spark.md) | 2025 | Political Science | — | 无（test-optional） | 否 | Partial | High |
-| [guo-isef-bpv](./cases/guo-isef-bpv.md) | 2026 | Chemical Engineering（待补强） | 未公开 | 未公开 | 是 | Partial | Medium-High |
+| [guo-isef-bpv](./cases/guo-isef-bpv.md) | 2026 | Chemical Engineering | 未公开 | 未公开 | 是 | Partial | High |
 
 ## Sources
 - 唯尚留学 × AdmitSee 电子书（HYPS Real Essays & EC List）

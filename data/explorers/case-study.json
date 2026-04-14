@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-14T23:21:00+08:00",
+  "generated_at": "2026-04-14T23:24:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
@@ -53,7 +53,7 @@
       "listed_case_count": 5,
       "extracted_record_count": 5,
       "source_page": "#/schools/stanford/case-study",
-      "note": "Added jerry-wei (Complete/High), luo-spark (Partial/High), and guo-isef-bpv (Partial/Medium-High; ISEF-verified, admission result pending stronger public confirmation)."
+      "note": "Added jerry-wei (Complete/High), luo-spark (Partial/High), and guo-isef-bpv (Partial/High; school-official Stanford ChemE signal + ISEF official validation)."
     },
     {
       "school_slug": "mit",
@@ -255,21 +255,21 @@
       "school": "Stanford",
       "application_cycle": "2026",
       "sample_title": "guo-isef-bpv",
-      "intended_major": "Chemical Engineering（待补强）",
+      "intended_major": "Chemical Engineering",
       "gpa": "未公开",
       "test_score": "未公开",
       "stem": "是",
-      "result": "candidate_case_with_strong_public_research_signals",
-      "source_type": "official_awards_page + public_school_signals + admission_screenshot_lead",
+      "result": "listed_as_admit_case",
+      "source_type": "official_awards_page + school_official_commit_signal",
       "completeness_score": "Partial",
-      "confidence_level": "Medium-High",
+      "confidence_level": "High",
       "case_page_path": "#/schools/stanford/cases/guo-isef-bpv",
       "public_signals": [
         "Region: Vancouver, BC (St. George's School)",
+        "School-official commit signal: Stanford University, Chemical Engineering",
         "Awards: Regeneron ISEF 2025 Environmental Engineering Third Award",
         "Project: Dual-Purpose Biological Photovoltaic: Optimizing Power Output and Wastewater Treatment",
-        "Public validation: Society for Science + Youth Science Canada",
-        "Caveat: Stanford / Chemical Engineering currently supported by admission screenshot lead, not yet fully closed by independent public source"
+        "Public validation: Society for Science + Youth Science Canada"
       ]
     },
     {
