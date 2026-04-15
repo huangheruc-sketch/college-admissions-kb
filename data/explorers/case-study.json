@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-15T20:55:00+08:00",
+  "generated_at": "2026-04-15T20:58:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
@@ -36,7 +36,9 @@
     "wiki/schools/uchicago/case-study.md",
     "wiki/schools/uchicago/cases/admit-ai-econ.md",
     "wiki/schools/ucla/case-study.md",
-    "wiki/schools/ucla/cases/ucla-piq-anon-01.md"
+    "wiki/schools/ucla/cases/ucla-piq-anon-01.md",
+    "wiki/schools/uchicago/cases/arturo-ballesteros.md",
+    "wiki/schools/uchicago/cases/anthony-alvarez-reyes.md"
   ],
   "coverage": [
     {
@@ -124,10 +126,10 @@
       "school_slug": "uchicago",
       "school": "UChicago",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 3,
+      "extracted_record_count": 3,
       "source_page": "#/schools/uchicago/case-study",
-      "note": "New school. 1 essay-only case from Admit AI."
+      "note": "Updated with 2实名 non-athlete CPS full-scholarship admits from Chicago Sun-Times + UChicago News, plus existing Admit AI essay case."
     },
     {
       "school_slug": "ucla",
@@ -643,6 +645,50 @@
         "Source title explicitly labels it as UCLA successful/admitted essays PDF",
         "Anonymous sample organized around UCLA/UC PIQ prompts",
         "Useful mainly as essay-structure sample, not full applicant profile"
+      ]
+    },
+    {
+      "case_id": "uchicago-arturo-ballesteros",
+      "school_slug": "uchicago",
+      "school": "UChicago",
+      "application_cycle": "2019",
+      "sample_title": "arturo-ballesteros",
+      "intended_major": "Education",
+      "gpa": "—",
+      "test_score": "AP Spanish: perfect score",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/uchicago/cases/arturo-ballesteros",
+      "public_signals": [
+        "Chicago CPS: Back of the Yards College Prep",
+        "First-generation student from Mexican immigrant family",
+        "3-year UChicago Collegiate Scholars Program participant",
+        "AP Spanish perfect score; full-ride scholarship; intended major Education"
+      ]
+    },
+    {
+      "case_id": "uchicago-anthony-alvarez-reyes",
+      "school_slug": "uchicago",
+      "school": "UChicago",
+      "application_cycle": "2021",
+      "sample_title": "anthony-alvarez-reyes",
+      "intended_major": "Biology / Pre-med",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/uchicago/cases/anthony-alvarez-reyes",
+      "public_signals": [
+        "Chicago CPS: Lane Tech College Prep; Little Village background",
+        "First-generation student from Mexican immigrant family",
+        "Full-ride scholarship reported by Chicago Sun-Times",
+        "Applicant narrative tied to sister's pediatric heart surgeries and future goal of becoming a pediatrician"
       ]
     }
   ]
