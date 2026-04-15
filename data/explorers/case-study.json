@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-15T22:31:00+08:00",
+  "generated_at": "2026-04-15T22:29:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/aileen-pineda.md",
@@ -18,6 +18,9 @@
     "wiki/schools/mit/cases/sean-li-primes.md",
     "wiki/schools/princeton/case-study.md",
     "wiki/schools/princeton/cases/jiang-shangnan-rea.md",
+    "wiki/schools/princeton/cases/jocelyne-wijaya.md",
+    "wiki/schools/princeton/cases/lake-liao.md",
+    "wiki/schools/princeton/cases/jasmine-hao.md",
     "wiki/schools/caltech/case-study.md",
     "wiki/schools/caltech/cases/alex-xu.md",
     "wiki/schools/caltech/cases/wang-pinghe.md",
@@ -76,10 +79,10 @@
       "school_slug": "princeton",
       "school": "Princeton",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 4,
+      "extracted_record_count": 4,
       "source_page": "#/schools/princeton/case-study",
-      "note": "New school. 1 public REA admit case from People.cn / 留学杂志."
+      "note": "Updated with 3 official Princeton Admission实名 non-athlete student-story cases (Jasmine Hao, Jocelyne Wijaya, Lake Liao), plus existing public REA admit case."
     },
     {
       "school_slug": "caltech",
@@ -369,6 +372,72 @@
         "Other admits: Johns Hopkins, UC Berkeley",
         "Awards: A-rated fencer student-athlete",
         "Extracurricular: Fencing data tracking app on Apple App Store"
+      ]
+    },
+    {
+      "case_id": "princeton-jasmine-hao",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "application_cycle": "2022 entry cycle (class of 2026)",
+      "sample_title": "jasmine-hao",
+      "intended_major": "Molecular Biology",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_story",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/princeton/cases/jasmine-hao",
+      "public_signals": [
+        "Region: Edmonton, Alberta, Canada",
+        "Official Princeton Admission blogger profile lists Class of 2026 and Molecular Biology",
+        "Research: Nelson Lab work on diet and breast cancer cell growth",
+        "Non-athlete narrative: pre-med + EMT + dance + study abroad at ETH Zürich"
+      ]
+    },
+    {
+      "case_id": "princeton-jocelyne-wijaya",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "application_cycle": "2022 entry cycle (class of 2026)",
+      "sample_title": "jocelyne-wijaya",
+      "intended_major": "Politics",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_story",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/princeton/cases/jocelyne-wijaya",
+      "public_signals": [
+        "Region: Los Angeles, CA",
+        "Official Princeton Admission blogger profile lists Class of 2026 and Politics",
+        "Campus roles: Matriculate, Scholars of Finance, Office of Innovation, library jobs",
+        "Research: Politics junior paper on race and voter perception"
+      ]
+    },
+    {
+      "case_id": "princeton-lake-liao",
+      "school_slug": "princeton",
+      "school": "Princeton",
+      "application_cycle": "2023 entry cycle (class of 2027)",
+      "sample_title": "lake-liao",
+      "intended_major": "Prospective Philosophy",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_story",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/princeton/cases/lake-liao",
+      "public_signals": [
+        "Region: Troy, Michigan",
+        "Official Princeton Admission blogger profile lists Class of 2027 and prospective Philosophy",
+        "Application reflection explicitly looks back on his 2022 college application struggles",
+        "Non-athlete narrative centered on humanities interests and community contribution"
       ]
     },
     {

@@ -22,7 +22,15 @@
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
-| *(暂无案例)* | | | |
+| source-princeton-2026-008 | Jasmine Hao official profile / class year / major / Canada background / Nelson Lab / EMT / ETH Zürich abroad | Princeton Admission — Jasmine Hao | [Open](https://admission.princeton.edu/blogs/blogger-profile/jasmine-hao) |
+| source-princeton-2026-009 | Jasmine Hao first-person application-research narrative / enrolled-student signal / Princeton fit clues | Princeton Admission Blog — How to Research a University | [Open](https://admission.princeton.edu/blogs/how-research-university) |
+| source-princeton-2026-010 | Lake Liao official profile / class year / prospective Philosophy / Michigan background | Princeton Admission — Lake Liao | [Open](https://admission.princeton.edu/blogs/blogger-profile/lake-liao) |
+| source-princeton-2026-011 | Lake Liao first-person college-application reflections / humanities-oriented fit narrative | Princeton Admission Blog — On Applying to College... | [Open](https://admission.princeton.edu/blogs/applying-college) |
+| source-princeton-2026-012 | Jocelyne Wijaya official profile / class year / Politics / LA background / campus involvement | Princeton Admission — Jocelyne Wijaya | [Open](https://admission.princeton.edu/blogs/blogger-profile/jocelyne-wijaya) |
+| source-princeton-2026-013 | Jocelyne Wijaya first-person decision-season / admitted-student transition narrative | Princeton Admission Blog — Just trust me, you'll be fine | [Open](https://admission.princeton.edu/blogs/just-trust-me-youll-be-fine) |
+| source-princeton-2026-014 | Jocelyne Wijaya campus jobs / library work / communications intern / admissions blogger details | Princeton Admission Blog — A Little Bit of Everything: Campus Jobs | [Open](https://admission.princeton.edu/blogs/little-bit-everything-campus-jobs) |
+| source-princeton-2026-015 | Jocelyne Wijaya Politics junior paper / advisor / race and voter perception research details | Princeton Admission Blog — The (Politics) Junior Paper: the What, How, and When | [Open](https://admission.princeton.edu/blogs/politics-junior-paper-what-how-and-when) |
+| source-princeton-2026-016 | 蒋尚男 Princeton REA 录取报道 | 人民网教育 — 蒋尚男 | [Open](http://edu.people.com.cn/n/2014/0507/c1053-24985308.html) |
 
 ## Academic Data Sources
 <a id="academic-data-sources"></a>
