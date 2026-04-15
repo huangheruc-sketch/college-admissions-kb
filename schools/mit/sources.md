@@ -24,6 +24,9 @@
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
 | source-mit-2026-009 | rl-mit-rd 案例 | 案例素材采集中 | *(来源待补充)* |
+| source-mit-2026-010 | sean-li-primes 案例（MIT 本人页 / 研究经历） | About \| Sean Li - MIT | [Open](https://www.mit.edu/~seanjli/) |
+| source-mit-2026-011 | sean-li-primes 案例（高中 / 奖项 / 将赴 MIT） | 2021 Davidson Fellow - Sean Li | [Open](https://www.davidsongifted.org/gifted-programs/fellows-scholarship/fellows/current-and-past-fellows/2021-fellows/sean-li/) |
+| source-mit-2026-012 | sean-li-primes 案例（MIT 官方二次验证） | Eleven years and counting with MIT PRIMES | [Open](https://science.mit.edu/eleven-years-and-counting-primes/) |
 
 ## Academic Data Sources
 <a id="academic-data-sources"></a>
@@ -39,4 +42,3 @@
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)
 - [Generated Case Study](./case-study.generated.md)
-

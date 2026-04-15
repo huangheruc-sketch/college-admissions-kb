@@ -13,6 +13,7 @@
     "wiki/schools/stanford/cases/guo-isef-bpv.md",
     "wiki/schools/mit/case-study.md",
     "wiki/schools/mit/cases/rl-mit-rd.md",
+    "wiki/schools/mit/cases/sean-li-primes.md",
     "wiki/schools/princeton/case-study.md",
     "wiki/schools/princeton/cases/jiang-shangnan-rea.md",
     "wiki/schools/caltech/case-study.md",
@@ -59,10 +60,10 @@
       "school_slug": "mit",
       "school": "MIT",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 2,
+      "extracted_record_count": 2,
       "source_page": "#/schools/mit/case-study",
-      "note": "Unchanged from prior build."
+      "note": "Updated with Sean Li official-source non-athlete case (MIT personal page + Davidson Fellow + MIT Science article)."
     },
     {
       "school_slug": "princeton",
@@ -270,6 +271,29 @@
         "Awards: Regeneron ISEF 2025 Environmental Engineering Third Award",
         "Project: Dual-Purpose Biological Photovoltaic: Optimizing Power Output and Wastewater Treatment",
         "Public validation: Society for Science + Youth Science Canada"
+      ]
+    },
+    {
+      "case_id": "mit-sean-li-primes",
+      "school_slug": "mit",
+      "school": "MIT",
+      "application_cycle": "2026",
+      "sample_title": "sean-li-primes",
+      "intended_major": "Mathematics",
+      "gpa": "未公开",
+      "test_score": "未公开",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "student_official_page + external_official_award + mit_official_article",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/mit/cases/sean-li-primes",
+      "public_signals": [
+        "Region: Danville, California (Monte Vista High School)",
+        "MIT-attendance signal: Davidson Fellow page says he would attend MIT as a prospective math major",
+        "MIT-official validation: MIT Science article names Sean Li and MIT class of 2026",
+        "Core strength: MIT PRIMES-USA math research under Tanya Khovanova",
+        "Non-athlete narrative: math competitions, research, outreach, and education"
       ]
     },
     {
