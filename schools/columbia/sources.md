@@ -27,7 +27,10 @@
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
-| *(暂无案例)* | | | |
+| source-columbia-2026-013 | Renata M. Columbia current student / Class of 2029 profile / Sustainable Development / identity-value narrative | First-Year Class Profile — Columbia Undergraduate Admissions | [Open](https://undergrad.admissions.columbia.edu/apply/process/class-profile) |
+| source-columbia-2026-014 | Renata M. official student profile / Brownsville, TX / Sustainable Development | Renata M — Columbia Undergraduate Admissions | [Open](https://undergrad.admissions.columbia.edu/students/renata-m) |
+| source-columbia-2026-015 | Anand C. current student quote / Human Rights + NYC narrative | Meet Our Students — Columbia Undergraduate Admissions | [Open](https://undergrad.admissions.columbia.edu/life/community/students-faculty/students) |
+| source-columbia-2026-016 | Anand C. official student profile / Rockville, MD / major+minor | Anand C — Columbia Undergraduate Admissions | [Open](https://undergrad.admissions.columbia.edu/students/anand-c) |
 
 ## Academic Data Sources
 <a id="academic-data-sources"></a>

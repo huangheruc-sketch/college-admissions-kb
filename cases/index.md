@@ -19,6 +19,7 @@ updated_at: 2026-04-09
 - [Stanford Case Study](../schools/stanford/case-study.md)
 - [Princeton Case Study](../schools/princeton/case-study.md)
 - [Yale Case Study](../schools/yale/case-study.md)
+- [Columbia Case Study](../schools/columbia/case-study.md)
 - [Cornell Case Study](../schools/cornell/case-study.md)
 - [UC Berkeley Case Study](../schools/uc-berkeley/case-study.md)
 - [UChicago Case Study](../schools/uchicago/case-study.md)

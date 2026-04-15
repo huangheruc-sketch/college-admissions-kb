@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-15T22:29:00+08:00",
+  "generated_at": "2026-04-15T22:32:04+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/aileen-pineda.md",
@@ -33,11 +33,15 @@
     "wiki/schools/yale/cases/xiong-shenzhen.md",
     "wiki/schools/columbia/case-study.md",
     "wiki/schools/columbia/cases/liu-jiahui.md",
+    "wiki/schools/columbia/cases/anand-c.md",
+    "wiki/schools/columbia/cases/renata-m.md",
     "wiki/schools/cornell/case-study.md",
     "wiki/schools/cornell/cases/dai-yizhi.md",
     "wiki/schools/cornell/cases/matthew-norman-ariztia.md",
     "wiki/schools/cornell/cases/jonna-crocker.md",
     "wiki/schools/uc-berkeley/case-study.md",
+    "wiki/schools/uc-berkeley/cases/nikita-bahadur.md",
+    "wiki/schools/uc-berkeley/cases/jason-wang-youtube.md",
     "wiki/schools/uc-berkeley/cases/shanghai-robotics.md",
     "wiki/schools/uc-berkeley/cases/shenzhen-bilibili.md",
     "wiki/schools/uchicago/case-study.md",
@@ -106,10 +110,10 @@
       "school_slug": "columbia",
       "school": "Columbia",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 3,
+      "extracted_record_count": 3,
       "source_page": "#/schools/columbia/case-study",
-      "note": "New school. 1 People Daily public admit case with scholarship signal."
+      "note": "Updated with 2 official Columbia Undergraduate Admissions current-student profile cases (Renata M. and Anand C.), plus existing People Daily admit case."
     },
     {
       "school_slug": "cornell",
@@ -124,10 +128,10 @@
       "school_slug": "uc-berkeley",
       "school": "UC Berkeley",
       "status": "records_available",
-      "listed_case_count": 2,
-      "extracted_record_count": 2,
+      "listed_case_count": 4,
+      "extracted_record_count": 4,
       "source_page": "#/schools/uc-berkeley/case-study",
-      "note": "New school. 2 cases from 163.com and liuxue315.cn."
+      "note": "Updated with 1 official Berkeley non-athlete student-story case (Nikita Bahadur) and 1 student-public-video case cross-validated by Berkeley in-school videos (Jason Wang), plus 2 prior third-party cases."
     },
     {
       "school_slug": "uchicago",
@@ -639,6 +643,50 @@
       ]
     },
     {
+      "case_id": "columbia-renata-m",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "application_cycle": "2029",
+      "sample_title": "renata-m",
+      "intended_major": "Sustainable Development",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "official_class_profile + official_student_profile",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/columbia/cases/renata-m",
+      "public_signals": [
+        "Official Columbia Undergraduate Admissions Class of 2029 Profile names Renata M. with hometown Brownsville, TX and major Sustainable Development",
+        "Official Columbia student profile page matches the same student identity and major",
+        "Core narrative: identity, values, and New York City multicultural environment as Columbia fit",
+        "Non-athlete official-source case"
+      ]
+    },
+    {
+      "case_id": "columbia-anand-c",
+      "school_slug": "columbia",
+      "school": "Columbia",
+      "application_cycle": "unknown",
+      "sample_title": "anand-c",
+      "intended_major": "Human Rights, Ethnicity and Race Studies",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_story + official_student_profile",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/columbia/cases/anand-c",
+      "public_signals": [
+        "Official Columbia Undergraduate Admissions Meet Our Students page names Anand C. with hometown Rockville, MD and a first-person Columbia quote",
+        "Official Columbia student profile page matches the same identity, major, and minor",
+        "Core narrative: New York City as a real-world creative and social-impact learning environment",
+        "Non-athlete official-source current-student case"
+      ]
+    },
+    {
       "case_id": "columbia-liu-jiahui",
       "school_slug": "columbia",
       "school": "Columbia",
@@ -724,6 +772,50 @@
         "Region: Atlanta, Georgia",
         "College: CALS; major: Plant Sciences",
         "Core narrative: chose Cornell after searching for the best plant science program and valuing a small major inside a large university"
+      ]
+    },
+    {
+      "case_id": "ucb-nikita-bahadur",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "application_cycle": "2021",
+      "sample_title": "nikita-bahadur",
+      "intended_major": "Molecular Environmental Biology",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/uc-berkeley/cases/nikita-bahadur",
+      "public_signals": [
+        "Official Berkeley student spotlight",
+        "Why Berkeley: unique Molecular Environmental Biology program in Rausser College",
+        "High school Climate Corps internships; lobbying, activism, marches",
+        "Berkeley research path: multiple labs, honors thesis, Mo’orea field research"
+      ]
+    },
+    {
+      "case_id": "ucb-jason-wang-youtube",
+      "school_slug": "uc-berkeley",
+      "school": "UC Berkeley",
+      "application_cycle": "2022",
+      "sample_title": "jason-wang-youtube",
+      "intended_major": "Business",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "public_case_page",
+      "completeness_score": "Partial",
+      "confidence_level": "Medium-High",
+      "case_page_path": "#/schools/uc-berkeley/cases/jason-wang-youtube",
+      "public_signals": [
+        "Student-public-video case",
+        "Public signals: stats/extracurricular breakdown + reading UC essays that got him into Berkeley",
+        "Cross-validation: Freshman Edge start + David Blackwell Hall dorm tour confirm actual Berkeley enrollment",
+        "Other admits mentioned publicly include Michigan Ross, NYU, Rice, UIUC, Washington and multiple UCs"
       ]
     },
     {
