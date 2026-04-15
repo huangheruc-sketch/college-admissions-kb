@@ -83,9 +83,50 @@ Princeton 使用 **"concentration"** 而非 "major"。提供约 **36 个 departm
 
 ---
 
-## Section 3：学位授予趋势
+## Section 3：Princeton 值得额外关注的特色本科项目（适合 non-athlete 申请叙事）
 
-### 表 3-A：Princeton 本科学位授予量（近 5 年）
+> 这一节不替代上面的完整 concentration 列表，而是补充说明：如果从申请定位角度看，Princeton 有哪些**更能体现学术兴趣、独立研究能力、跨学科思考和问题意识**的本科项目，值得申请者额外关注。
+
+### 1. School of Public and International Affairs (SPIA)
+- Princeton 的 SPIA 是本科阶段辨识度极高的公共事务项目之一，天然连接政治、经济、历史、政策分析与全球议题。
+- 对申请者的意义在于，它很适合把“公共问题意识 + 写作分析能力 + 长期社会关注”组织成一条完整主线。
+- 对 non-athlete 申请叙事来说，这类项目能帮助学生把兴趣落到具体议题，而不只是泛泛地说自己“关心社会”。
+
+### 2. Operations Research and Financial Engineering (ORFE)
+- ORFE 是 Princeton 很有代表性的定量交叉项目，把数学、统计、优化、计算与现实决策问题放在同一个框架里。
+- 它特别适合那些擅长数理思维、但不想把自己写成“只会刷题或竞赛”的学生。
+- 从申请定位上看，这类项目很适合承接数据分析、建模、系统思考、风险判断等 non-athlete 优势叙事。
+
+### 3. Computer Science（尤其 A.B. 路径）
+- Princeton 的 Computer Science 不仅是热门专业，也提供 A.B. 与 B.S.E. 两条不同风格的本科路径。
+- 其中 A.B. 路径对很多申请者尤其有参考意义，因为它允许学生把计算思维与人文、社科、自然科学兴趣结合，而不必把自己限定成纯工程型画像。
+- 这类设置很适合作为网站里的示例，说明顶尖大学欢迎的是“能把技术放进更大问题框架里”的学生，而不只是技术标签本身。
+
+### 4. Neuroscience
+- Princeton 的 Neuroscience 很能代表学校把科学研究、本科 independent work 和长期学术投入结合起来的风格。
+- 它适合用来承接脑科学、心理、认知、健康、生物实验等方向的申请故事，也容易和阅读、研究、实验室兴趣形成闭环。
+- 对 non-athlete 路径而言，这类项目能强化“研究潜力”和“持续探索能力”，而不是单点成就。
+
+### 5. History
+- History 在 Princeton 并不是最“热门”的职业导向专业，但它很能体现这所学校重视深度阅读、问题定义、原始材料分析与独立写作训练的学术传统。
+- 对申请者来说，它提醒我们：Princeton 看重的并不只是热门赛道，也包括那些能长期追问复杂问题、能把思考写深的学生。
+- 这类项目适合放在页面里提示用户，non-athlete 申请叙事完全可以建立在扎实的人文学术能力之上。
+
+### 这部分信息对申请者意味着什么
+
+如果把 Princeton 的本科项目放到申请语境里看，学校明显不仅欢迎传统意义上的高分申请者，也欢迎以下几类 non-athlete 画像：
+- **有明确问题意识的学生**，能解释自己长期在追什么问题
+- **能把学术兴趣与现实议题连接起来的学生**，尤其是公共事务、技术应用、科学研究这几条线
+- **有独立研究潜力的学生**，适合 Princeton 强调 Junior Paper / Senior Thesis 的培养方式
+- **有跨学科整合能力的学生**，能够把数理、写作、社会观察或研究兴趣组织成一条自洽路径
+
+因此，这一页补充这些项目的目的，不是让学生机械“对号入座”，而是帮助他们理解：**Princeton 的本科培养方式，本身就非常适合有学术驱动力、研究气质和清晰方向感的 non-athlete 申请者。**
+
+---
+
+## Section 4：学位授予趋势
+
+### 表 4-A：Princeton 本科学位授予量（近 5 年）
 
 | 学年 | A.B. | B.S.E. | 合计 |
 |---|---|---|---|
@@ -97,7 +138,7 @@ Princeton 使用 **"concentration"** 而非 "major"。提供约 **36 个 departm
 
 > **数据来源：** Princeton Institutional Research。B.S.E. 占比约 28-30%，稳中有升。
 
-### 表 3-B：Top 10 Concentration（AY 2022-23 估算）
+### 表 4-B：Top 10 Concentration（AY 2022-23 估算）
 
 | 排名 | Concentration | 估算毕业人数 |
 |---|---|---|
@@ -116,9 +157,9 @@ Princeton 使用 **"concentration"** 而非 "major"。提供约 **36 个 departm
 
 ---
 
-## Section 4：全校学位授予总览
+## Section 5：全校学位授予总览
 
-### 表 4-A：Princeton 全校学位授予（AY 2022-23）
+### 表 5-A：Princeton 全校学位授予（AY 2022-23）
 
 | 学位层级 | 授予量 |
 |---|---|
@@ -131,7 +172,7 @@ Princeton 使用 **"concentration"** 而非 "major"。提供约 **36 个 departm
 
 ---
 
-## Section 5：本科学术体制说明
+## Section 6：本科学术体制说明
 
 ### Concentration 选择机制
 - **无专业录取：** 所有本科生统一录取，入学后自由选择。
