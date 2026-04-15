@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-14T23:24:00+08:00",
+  "generated_at": "2026-04-15T20:55:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
@@ -17,6 +17,7 @@
     "wiki/schools/princeton/case-study.md",
     "wiki/schools/princeton/cases/jiang-shangnan-rea.md",
     "wiki/schools/caltech/case-study.md",
+    "wiki/schools/caltech/cases/alex-xu.md",
     "wiki/schools/caltech/cases/wang-pinghe.md",
     "wiki/schools/yale/case-study.md",
     "wiki/schools/yale/cases/brian-zhang.md",
@@ -78,10 +79,10 @@
       "school_slug": "caltech",
       "school": "Caltech",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 2,
+      "extracted_record_count": 2,
       "source_page": "#/schools/caltech/case-study",
-      "note": "New school. 1 cross-admit public case repurposed from existing Yale-source reporting."
+      "note": "Added alex-xu (Partial/High) from Caltech official admitted-student profile cross-validated by the student's public YouTube lab video; plus existing wang-pinghe cross-admit case."
     },
     {
       "school_slug": "yale",
@@ -338,6 +339,29 @@
         "Round: REA",
         "Public source: People.cn profile explicitly states Princeton REA offer",
         "Narrative: strong English self-training and self-directed learning"
+      ]
+    },
+    {
+      "case_id": "caltech-alex-xu",
+      "school_slug": "caltech",
+      "school": "Caltech",
+      "application_cycle": "2028",
+      "sample_title": "alex-xu",
+      "intended_major": "— (chemistry / experimental STEM interest)",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "official_admitted_student_profile + student_public_video",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/caltech/cases/alex-xu",
+      "public_signals": [
+        "Region: San Diego, California",
+        "Official Caltech admitted-student profile explicitly names Alex Xu in the incoming class",
+        "Project: built a chemistry lab setup and fume hood from scratch in his garage",
+        "Cross-verification: student's public YouTube upload 'Alex Xu Lab Video' matches the project described by Caltech",
+        "Non-athlete path: maker/experimental chemistry interest, Science Olympiad exposure, birding/film side interests"
       ]
     },
     {

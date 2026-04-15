@@ -23,7 +23,8 @@
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
-| *(暂无案例)* | | | |
+| source-caltech-2026-030 | Alex Xu admit signal / 地区 / 项目摘要 | Caltech News — Caltech Congratulates 315 Admitted Students | [Open](https://www.caltech.edu/about/news/caltech-congratulates-315-admitted-students) |
+| source-caltech-2026-031 | Alex Xu 本人公开项目视频 | YouTube — Alex Xu Lab Video | [Open](https://www.youtube.com/watch?v=Xka2hBrZ1Z4) |
 
 ## Academic Data Sources
 <a id="academic-data-sources"></a>
@@ -39,4 +40,3 @@
 - [Generated Fact Sheet](./fact-sheet.generated.md)
 - [Generated Admission Data](./admission-data.generated.md)
 - [Generated Case Study](./case-study.generated.md)
-
