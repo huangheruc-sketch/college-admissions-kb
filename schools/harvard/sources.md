@@ -30,6 +30,8 @@
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
+| source-harvard-2026-013 | aileen-pineda | Aileen | [Open](https://college.harvard.edu/aileen) |
+| source-harvard-2026-014 | secquoia | Secquoia | [Open](https://college.harvard.edu/secquoia) |
 | source-harvard-2026-008 | 2026001-Claire | 10 Successful Harvard Essays \| 2025 | [Open](https://business.thecrimson.com/10-successful-harvard-essays-2025) |
 | source-harvard-2026-004 | 2026002-Anonymous | Shemmassian College Essay Examples (Harvard examples included) | [Open](https://www.shemmassianconsulting.com/blog/college-essay-examples) |
 

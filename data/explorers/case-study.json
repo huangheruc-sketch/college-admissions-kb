@@ -1,9 +1,11 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-15T21:08:00+08:00",
+  "generated_at": "2026-04-15T22:31:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
+    "wiki/schools/harvard/cases/aileen-pineda.md",
+    "wiki/schools/harvard/cases/secquoia.md",
     "wiki/schools/harvard/cases/mrhenry.md",
     "wiki/schools/stanford/case-study.md",
     "wiki/schools/stanford/cases/alishaz.md",
@@ -47,10 +49,10 @@
       "school_slug": "harvard",
       "school": "Harvard",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 3,
+      "extracted_record_count": 3,
       "source_page": "#/schools/harvard/case-study",
-      "note": "Unchanged from prior build."
+      "note": "Updated with 2 Harvard College official non-athlete student-profile cases (Aileen Pineda and Secquoia), both with clear current-student identity, Harvard affiliation, and application-narrative signals."
     },
     {
       "school_slug": "stanford",
@@ -144,6 +146,52 @@
     }
   ],
   "records": [
+    {
+      "case_id": "harvard-aileen-pineda",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "application_cycle": "2027",
+      "sample_title": "aileen-pineda",
+      "intended_major": "Computer Science and Government",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "混合",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_profile",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/harvard/cases/aileen-pineda",
+      "public_signals": [
+        "Official Harvard College student profile with full name and Class of 2027",
+        "Region: small-town Arkansas",
+        "Profile explicitly states first-generation, low-income, Hispanic background",
+        "Application signal: says she worked hard on passions in high school and showcased them throughout her application",
+        "Non-athlete narrative: CS + Government, Model UN, HCS, WiCS, and on-campus work"
+      ]
+    },
+    {
+      "case_id": "harvard-secquoia",
+      "school_slug": "harvard",
+      "school": "Harvard",
+      "application_cycle": "2027",
+      "sample_title": "secquoia",
+      "intended_major": "Chemistry (pre-med)",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_profile",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/harvard/cases/secquoia",
+      "public_signals": [
+        "Official Harvard College student profile with name and Class of 2027",
+        "Region: Wisconsin",
+        "Profile explicitly states Native American, first-generation, low-income background",
+        "Core narrative: lacked college resources in high school and now serves as Recruitment Ambassador to support similar students",
+        "Non-athlete path clear; lacrosse appears only as club involvement, not recruited-athlete evidence"
+      ]
+    },
     {
       "case_id": "harvard-mrhenry",
       "school_slug": "harvard",
