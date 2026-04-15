@@ -29,7 +29,8 @@
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
-| *(暂无案例)* | | | |
+| source-ucb-case-001 | Nikita Bahadur 官方 Berkeley student spotlight / 选校与研究路径 | Student Spotlight: Nikita Bahadur | [Open](https://nature.berkeley.edu/news/2025/05/student-spotlight-nikita-bahadur) |
+| source-ucb-case-002 | Jason Wang 学生本人公开视频检索页（录取拆解 / UC essays / Freshman Edge / dorm tour 交叉验证） | YouTube search results for Jason Wang + UC Berkeley | [Open](https://www.youtube.com/results?search_query=%22Jason+Wang%22+%22UC+Berkeley%22) |
 
 ## Academic Data Sources
 <a id="academic-data-sources"></a>
