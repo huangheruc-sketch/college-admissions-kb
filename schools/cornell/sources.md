@@ -22,7 +22,9 @@
 <a id="case-study-sources"></a>
 | Source ID | Supports | Title | Link |
 |---|---|---|---|
-| *(暂无案例)* | | | |
+| source-cornell-2026-008 | Jonna Crocker official student story / graduation year / business + healthcare narrative / direct acceptance-letter signal | Cornell Admissions — Jonna Crocker | [Open](https://admissions.cornell.edu/community/student-stories/jonna-crocker) |
+| source-cornell-2026-009 | Matthew Norman-Ariztía official student story / graduation year / plant sciences fit narrative / Atlanta background | Cornell Admissions — Matthew Norman-Ariztía | [Open](https://admissions.cornell.edu/community/student-stories/matthew-norman-ariztia) |
+| source-cornell-2026-010 | 戴易之 Cornell 酒店管理录取报道 | 人民网教育 — 戴易之获 Cornell 酒店管理专业录取 | [Open](http://edu.people.com.cn/n/2015/0410/c1053-26825736.html) |
 
 ## Academic Data Sources
 <a id="academic-data-sources"></a>

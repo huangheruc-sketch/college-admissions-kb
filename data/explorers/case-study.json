@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "case-study-explorer",
-  "generated_at": "2026-04-15T20:58:00+08:00",
+  "generated_at": "2026-04-15T21:08:00+08:00",
   "generated_from": [
     "wiki/schools/harvard/case-study.md",
     "wiki/schools/harvard/cases/mrhenry.md",
@@ -30,6 +30,8 @@
     "wiki/schools/columbia/cases/liu-jiahui.md",
     "wiki/schools/cornell/case-study.md",
     "wiki/schools/cornell/cases/dai-yizhi.md",
+    "wiki/schools/cornell/cases/matthew-norman-ariztia.md",
+    "wiki/schools/cornell/cases/jonna-crocker.md",
     "wiki/schools/uc-berkeley/case-study.md",
     "wiki/schools/uc-berkeley/cases/shanghai-robotics.md",
     "wiki/schools/uc-berkeley/cases/shenzhen-bilibili.md",
@@ -108,10 +110,10 @@
       "school_slug": "cornell",
       "school": "Cornell",
       "status": "records_available",
-      "listed_case_count": 1,
-      "extracted_record_count": 1,
+      "listed_case_count": 3,
+      "extracted_record_count": 3,
       "source_page": "#/schools/cornell/case-study",
-      "note": "New school. 1 People.cn public admit case for hotel management."
+      "note": "Updated with 2 official Cornell Admissions non-athlete student-story cases (Jonna Crocker and Matthew Norman-Ariztia), plus existing People.cn hotel management admit case."
     },
     {
       "school_slug": "uc-berkeley",
@@ -561,6 +563,50 @@
         "Public source: People.cn education article explicitly states Cornell hotel management admit",
         "Extracurricular: hotel internship",
         "Essay/public theme: umbrella-lending crisis handling during internship"
+      ]
+    },
+    {
+      "case_id": "cornell-jonna-crocker",
+      "school_slug": "cornell",
+      "school": "Cornell",
+      "application_cycle": "2026",
+      "sample_title": "jonna-crocker",
+      "intended_major": "Applied Economics and Management",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "否",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_story",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/cornell/cases/jonna-crocker",
+      "public_signals": [
+        "Official Cornell Admissions student story with full name and graduation year 2026",
+        "College: Cornell SC Johnson College of Business (Dyson School)",
+        "Core narrative: family-founded rare disease nonprofit shaped business + healthcare fit",
+        "Direct admit signal: student says she knew Cornell was home when she received her acceptance letter"
+      ]
+    },
+    {
+      "case_id": "cornell-matthew-norman-ariztia",
+      "school_slug": "cornell",
+      "school": "Cornell",
+      "application_cycle": "2025",
+      "sample_title": "matthew-norman-ariztia",
+      "intended_major": "Plant Sciences",
+      "gpa": "—",
+      "test_score": "—",
+      "stem": "是",
+      "result": "listed_as_admit_case",
+      "source_type": "official_student_story",
+      "completeness_score": "Partial",
+      "confidence_level": "High",
+      "case_page_path": "#/schools/cornell/cases/matthew-norman-ariztia",
+      "public_signals": [
+        "Official Cornell Admissions student story with full name and graduation year 2025",
+        "Region: Atlanta, Georgia",
+        "College: CALS; major: Plant Sciences",
+        "Core narrative: chose Cornell after searching for the best plant science program and valuing a small major inside a large university"
       ]
     },
     {
